@@ -1,5 +1,6 @@
 ---
 title: "The 23rd Cohort of the World Merge Competition"
+type: handout
 audience: players
 spoiler_free: true
 updated: 2026-08-01

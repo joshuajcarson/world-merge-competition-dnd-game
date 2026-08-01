@@ -7,5 +7,5 @@ permalink: /sessions/
 <h1>Sessions</h1>
 <p class="lede">What happened, in the order it happened to you.</p>
 
-{%- assign sessions = site.pages | where_exp: "p", "p.type == 'session' and p.player_known == true" | sort: "session_number" | reverse -%}
+{%- assign sessions = site.pages | where: "player_known", true | where: "type", "session" | sort: "session_number" | reverse -%}
 {% include entry-list.html pages=sessions empty="No sessions have aired yet. The opening smash off is still to come." %}

@@ -34,7 +34,7 @@ title: Home
 
 <section>
   <h2>Latest session</h2>
-  {%- assign sessions = site.pages | where_exp: "p", "p.type == 'session' and p.player_known == true" | sort: "session_number" | reverse -%}
+  {%- assign sessions = site.pages | where: "player_known", true | where: "type", "session" | sort: "session_number" | reverse -%}
   {%- assign latest = sessions | slice: 0, 1 -%}
   {% include entry-list.html pages=latest empty="No sessions have aired yet." %}
 </section>
