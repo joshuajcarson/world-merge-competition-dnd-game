@@ -8,15 +8,19 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 
 ## NPCs
 
+- [Halric Ammakyl](npcs/halric-ammakyl.md) — displaced northern noble running Scornubel's muster tables; the Faerun side's first-contact figure. *(stub)*
 - [Suzanne Somers](npcs/suzanne-somers.md) — television actress, in person at the ThighMaster demo the night the worlds merge. *(stub)*
 
 ## Places
 
+- [Baldur's Gate](places/baldurs-gate.md) — the great port at the Chionthar's mouth, taken intact by the dragon cult. *(stub)*
 - [Briarwood Mall](places/briarwood-mall.md) — Bellcross, Texas, November 5th, 1992; the campaign's starting location and Session 0 table.
+- [Scornubel](places/scornubel.md) — the caravan city mid-muster as Tiamat's cult moves inland; lands near Briarwood when the worlds merge.
 
 ## Factions
 
-*(None yet.)*
+- [The Coster Council](factions/coster-council.md) — the merchants who own Scornubel and are buying it a wall out of other people's bodies. *(stub)*
+- [Cult of Tiamat](factions/cult-of-tiamat.md) — the dragon cult that won; holds the Sword Coast and is pushing up the Chionthar. *(stub)*
 
 ## Lore
 
