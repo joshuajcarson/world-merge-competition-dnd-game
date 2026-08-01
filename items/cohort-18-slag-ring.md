@@ -2,6 +2,7 @@
 name: "Cohort 18 Slag Ring"
 title: "Cohort 18 Slag Ring"
 slug: cohort-18-slag-ring
+type: item
 rarity: Rare
 item_type: ring
 attunement: "Requires Attunement"

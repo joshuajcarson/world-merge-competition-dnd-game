@@ -9,7 +9,7 @@ All notes share a common frontmatter core, matching the contract in `items/READM
 | `name` | string | Display name / session title. |
 | `title` | string | Same string as `name`. Jekyll reserves `name` for the filename, so the site reads `title`. |
 | `slug` | string | Matches the filename (without `NN-` prefix for sessions). |
-| `type` | enum | `session`, `npc`, `place`, `faction`, `lore`. |
+| `type` | enum | `session`, `npc`, `place`, `faction`, `lore`, `handout`. Required — the site's index pages filter on it, so an entry without it renders nowhere. |
 | `origin` | enum | `faerun`, `tiamat`, `aether`, `earth`, `administration`, `unknown`, `merged`. Use `merged` for anything native to the combined world. |
 | `tags` | list | Free-form, for filtering. |
 | `created` | date | `YYYY-MM-DD`. |

@@ -7,7 +7,7 @@ permalink: /items/
 <h1>Items</h1>
 <p class="lede">What you've found, and what it turned out to do.</p>
 
-{%- assign items = site.pages | where_exp: "p", "p.item_type and p.player_known == true" -%}
+{%- assign items = site.pages | where: "player_known", true | where: "type", "item" -%}
 
 {%- assign order = "Artifact,Legendary,Very Rare,Rare,Uncommon,Common" | split: "," -%}
 {%- for rarity in order -%}

@@ -2,6 +2,7 @@
 name: "Item Name"
 title: "Item Name"
 slug: item-name
+type: item
 rarity: Common | Uncommon | Rare | Very Rare | Legendary | Artifact
 item_type: weapon | armor | wondrous | potion | scroll | ring | rod | staff | wand
 attunement: false            # or: "Requires Attunement" / "Requires Attunement by a Wizard"

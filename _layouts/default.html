@@ -3,9 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  {%- comment -%}
+    An entry that hasn't been cleared must not leak its name through the
+    browser tab either — the body gate in _layouts/entry.html isn't enough
+    on its own.
+  {%- endcomment -%}
+  {%- comment -%}
+    Keyed on layout, not entry_kind: the index pages sit inside items/,
+    sessions/ and world/, so they inherit entry_kind from the path defaults
+    in _config.yml even though they override the layout.
+  {%- endcomment -%}
+  {%- if page.layout == 'entry' and page.player_known != true -%}
+    <title>Signal Withheld · {{ site.title }}</title>
+  {%- else -%}
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  {%- endif -%}
   <meta name="description" content="{{ page.description | default: site.description | strip_newlines }}">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {%- comment -%}
+    Named cohort.css, not style.css: jekyll-theme-primer (the GitHub Pages
+    default when no theme is set) ships assets/css/style.scss, which compiles
+    to the same path and silently overwrites ours.
+  {%- endcomment -%}
+  <link rel="stylesheet" href="{{ '/assets/css/cohort.css' | relative_url }}">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='13'>📡</text></svg>">
 </head>
 <body>

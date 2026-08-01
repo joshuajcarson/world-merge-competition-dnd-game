@@ -18,6 +18,7 @@ Every file carries the frontmatter contract below so the GitHub Pages site can i
 | `name` | string | Display name. |
 | `title` | string | Same string as `name`. Jekyll reserves `name` for the filename, so the site reads `title`. |
 | `slug` | string | Must match the filename. Lowercase, hyphenated. |
+| `type` | string | Always `item`. This is what the site's index pages filter on — an entry without it renders nowhere. |
 | `rarity` | enum | `Common`, `Uncommon`, `Rare`, `Very Rare`, `Legendary`, `Artifact`. |
 | `item_type` | enum | `weapon`, `armor`, `wondrous`, `potion`, `scroll`, `ring`, `rod`, `staff`, `wand`. |
 | `attunement` | `false` or string | The full attunement clause when true, e.g. `"Requires Attunement by a Cleric"`. |
