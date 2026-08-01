@@ -1,0 +1,52 @@
+title: The 23rd Cohort
+tagline: World Merge Competition — Player Field Guide
+description: >-
+  Four worlds, one planet, 100,000 channels watching. Everything the contestants
+  are allowed to know.
+lang: en
+
+# Set for a project site at https://<user>.github.io/world-merge-competition-dnd-game/
+# If you ever serve this from a user/org site or a custom domain, set baseurl to "".
+# Local preview then lives at http://localhost:4000/world-merge-competition-dnd-game/
+baseurl: "/world-merge-competition-dnd-game"
+url: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# DM-side material and repo-browser navigation never build into the public site.
+exclude:
+  - .claude/
+  - LICENSE
+  - README.md
+  - items/README.md
+  - sessions/README.md
+  - world/README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
+# Layouts are assigned by path so note files never need a `layout:` field.
+# A page's own front matter still wins, which is how the index pages opt out.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "items"
+    values:
+      layout: entry
+      entry_kind: item
+  - scope:
+      path: "sessions"
+    values:
+      layout: entry
+      entry_kind: session
+  - scope:
+      path: "world"
+    values:
+      layout: entry
+      entry_kind: note
