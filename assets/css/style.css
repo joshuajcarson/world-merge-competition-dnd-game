@@ -1,0 +1,205 @@
+/* The 23rd Cohort — broadcast field guide
+   Self-contained, no external fonts or assets. Light and dark both supported. */
+
+:root {
+  --bg: #f6f4ef;
+  --bg-raised: #fffdf8;
+  --ink: #1d1b16;
+  --ink-soft: #57524a;
+  --line: #ded8cc;
+  --accent: #8c2f39;
+  --accent-ink: #ffffff;
+  --tag-bg: #ebe5d9;
+  --tag-ink: #4a453c;
+  --focus: #1a5fb4;
+  --radius: 10px;
+  --wrap: 46rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14131a;
+    --bg-raised: #1d1c25;
+    --ink: #ece9e3;
+    --ink-soft: #a9a49a;
+    --line: #322f3c;
+    --accent: #e0555f;
+    --accent-ink: #14131a;
+    --tag-bg: #272531;
+    --tag-ink: #b8b2a7;
+    --focus: #7db3ff;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 1rem/1.65 ui-serif, Georgia, "Iowan Old Style", "Times New Roman", serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+.wrap {
+  width: 100%;
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 3px; }
+
+.skip {
+  position: absolute; left: -9999px;
+  background: var(--accent); color: var(--accent-ink);
+  padding: .6rem 1rem; border-radius: 0 0 var(--radius) 0;
+}
+.skip:focus { left: 0; top: 0; z-index: 10; }
+
+/* ---------- header / footer ---------- */
+
+.site-header {
+  border-bottom: 1px solid var(--line);
+  background: var(--bg-raised);
+}
+.site-header .wrap {
+  display: flex; flex-wrap: wrap; gap: .75rem 1.5rem;
+  align-items: center; justify-content: space-between;
+  padding-top: .9rem; padding-bottom: .9rem;
+}
+.brand {
+  display: flex; align-items: center; gap: .6rem;
+  color: var(--ink); text-decoration: none;
+}
+.brand-mark { font-size: 1.5rem; line-height: 1; }
+.brand strong { display: block; font-size: 1.05rem; letter-spacing: .01em; }
+.brand em {
+  display: block; font-style: normal; font-size: .78rem;
+  color: var(--ink-soft); text-transform: uppercase; letter-spacing: .08em;
+}
+.site-header nav { display: flex; gap: 1.1rem; font-size: .95rem; }
+.site-header nav a { color: var(--ink-soft); text-decoration: none; }
+.site-header nav a:hover { color: var(--accent); text-decoration: underline; }
+
+main { padding: 2.5rem 1.25rem 4rem; }
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  color: var(--ink-soft);
+  font-size: .85rem;
+}
+.site-footer .wrap { padding-top: 1.25rem; padding-bottom: 2rem; }
+
+/* ---------- typography ---------- */
+
+h1, h2, h3 { line-height: 1.2; letter-spacing: -0.01em; }
+h1 { font-size: clamp(1.85rem, 1.3rem + 2vw, 2.5rem); margin: 0 0 .5rem; }
+h2 {
+  font-size: 1.3rem; margin: 2.5rem 0 .75rem;
+  padding-bottom: .3rem; border-bottom: 1px solid var(--line);
+}
+h3 { font-size: 1.05rem; margin: 0 0 .35rem; }
+
+.lede { font-size: 1.1rem; color: var(--ink-soft); margin-top: 0; }
+.kicker {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: .72rem; text-transform: uppercase; letter-spacing: .16em;
+  color: var(--accent); margin: 0 0 .5rem;
+}
+.fineprint { color: var(--ink-soft); font-size: .85rem; margin-top: 3rem; }
+.empty { color: var(--ink-soft); font-style: italic; }
+
+blockquote {
+  margin: 1.5rem 0; padding: .25rem 0 .25rem 1.1rem;
+  border-left: 3px solid var(--accent); color: var(--ink-soft);
+}
+
+hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
+
+img { max-width: 100%; height: auto; }
+
+pre {
+  overflow-x: auto; padding: 1rem;
+  background: var(--bg-raised); border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .9em; }
+
+.table-scroll, .entry table { display: block; overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; }
+th, td { text-align: left; padding: .5rem .7rem; border-bottom: 1px solid var(--line); }
+
+/* ---------- hero + tiles ---------- */
+
+.hero { margin-bottom: 1rem; }
+.button {
+  display: inline-block; margin-top: .5rem;
+  background: var(--accent); color: var(--accent-ink);
+  padding: .6rem 1.1rem; border-radius: var(--radius);
+  text-decoration: none; font-size: .95rem;
+}
+.button:hover { filter: brightness(1.08); text-decoration: none; }
+
+.tiles {
+  display: grid; gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+}
+.tile {
+  display: block; padding: 1.1rem;
+  background: var(--bg-raised); border: 1px solid var(--line);
+  border-radius: var(--radius); text-decoration: none; color: var(--ink);
+}
+.tile:hover { border-color: var(--accent); }
+.tile p { margin: 0; color: var(--ink-soft); font-size: .9rem; }
+
+/* ---------- card lists ---------- */
+
+.cards { list-style: none; margin: 0; padding: 0; display: grid; gap: .75rem; }
+.card {
+  padding: .9rem 1rem;
+  background: var(--bg-raised); border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.card a { text-decoration: none; color: var(--ink); }
+.card a:hover h3 { color: var(--accent); text-decoration: underline; }
+.card .num {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color: var(--ink-soft); font-size: .85em;
+}
+.card .meta { margin: .4rem 0 0; }
+
+/* ---------- tags ---------- */
+
+.meta { display: flex; flex-wrap: wrap; gap: .35rem; margin: 0 0 1.5rem; }
+.tag {
+  display: inline-block;
+  background: var(--tag-bg); color: var(--tag-ink);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: .7rem; text-transform: uppercase; letter-spacing: .07em;
+  padding: .2rem .5rem; border-radius: 999px; white-space: nowrap;
+}
+.tag.rarity { color: var(--accent-ink); background: var(--ink-soft); }
+.tag.rarity.uncommon    { background: #2f7a4f; color: #fff; }
+.tag.rarity.rare        { background: #1f5fa8; color: #fff; }
+.tag.rarity.very-rare   { background: #6b3fa0; color: #fff; }
+.tag.rarity.legendary   { background: #b3711b; color: #fff; }
+.tag.rarity.artifact    { background: var(--accent); color: var(--accent-ink); }
+.tag.stub { background: transparent; border: 1px dashed var(--line); }
+
+/* ---------- entry pages ---------- */
+
+.entry h1 { margin-bottom: .75rem; }
+.entry > .meta { margin-bottom: 1.75rem; }
+.entry em:first-child { color: var(--ink-soft); }
+
+.withheld {
+  border: 1px dashed var(--line); border-radius: var(--radius);
+  padding: 2rem; text-align: center;
+}
+.withheld h1 { font-size: 1.4rem; }
+.withheld p { color: var(--ink-soft); max-width: 34rem; margin: 0 auto .75rem; }
+
+.backlink { margin-top: 3rem; font-size: .9rem; }

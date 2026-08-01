@@ -1,0 +1,28 @@
+---
+layout: default
+title: The World
+permalink: /world/
+---
+
+<h1>The World</h1>
+<p class="lede">Everything the contestants are allowed to know.</p>
+
+<h2>Handouts</h2>
+{%- assign handouts = site.pages | where_exp: "p", "p.type == nil and p.audience == 'players' and p.player_known == true" -%}
+{% include entry-list.html pages=handouts empty="No handouts released." %}
+
+<h2>People</h2>
+{%- assign npcs = site.pages | where_exp: "p", "p.type == 'npc' and p.player_known == true" | sort: "title" -%}
+{% include entry-list.html pages=npcs empty="You haven't met anyone worth writing down. Yet." %}
+
+<h2>Places</h2>
+{%- assign places = site.pages | where_exp: "p", "p.type == 'place' and p.player_known == true" | sort: "title" -%}
+{% include entry-list.html pages=places empty="Nowhere charted." %}
+
+<h2>Factions</h2>
+{%- assign factions = site.pages | where_exp: "p", "p.type == 'faction' and p.player_known == true" | sort: "title" -%}
+{% include entry-list.html pages=factions empty="No powers identified." %}
+
+<h2>Lore</h2>
+{%- assign lore = site.pages | where_exp: "p", "p.type == 'lore' and p.player_known == true" | sort: "title" -%}
+{% include entry-list.html pages=lore empty="Nothing understood well enough to write down." %}

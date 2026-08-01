@@ -1,0 +1,32 @@
+{%- comment -%}
+Card list for a set of pages.
+  include.pages  — already filtered to player_known == true
+  include.empty  — message shown when the set is empty
+{%- endcomment -%}
+
+{%- if include.pages and include.pages.size > 0 -%}
+<ul class="cards">
+  {%- for p in include.pages -%}
+  <li class="card">
+    <a href="{{ p.url | relative_url }}">
+      <h3>
+        {%- if p.session_number %}<span class="num">{{ p.session_number }}</span> {% endif -%}
+        {{ p.title | default: p.slug }}
+      </h3>
+    </a>
+    <p class="meta">
+      {%- if p.rarity %}<span class="tag rarity {{ p.rarity | slugify }}">{{ p.rarity }}</span>{% endif -%}
+      {%- if p.item_type %}<span class="tag">{{ p.item_type }}</span>{% endif -%}
+      {%- if p.role %}<span class="tag">{{ p.role }}</span>{% endif -%}
+      {%- if p.settlement_type %}<span class="tag">{{ p.settlement_type }}</span>{% endif -%}
+      {%- if p.scope %}<span class="tag">{{ p.scope }}</span>{% endif -%}
+      {%- if p.origin and p.origin != 'unknown' %}<span class="tag origin {{ p.origin }}">{{ p.origin }}</span>{% endif -%}
+      {%- if p.played %}<span class="tag date">{{ p.played | date: "%b %-d, %Y" }}</span>{% endif -%}
+      {%- if p.needs_detail %}<span class="tag stub">Fragmentary</span>{% endif -%}
+    </p>
+  </li>
+  {%- endfor -%}
+</ul>
+{%- else -%}
+<p class="empty">{{ include.empty | default: "Nothing has been cleared for broadcast yet." }}</p>
+{%- endif -%}
