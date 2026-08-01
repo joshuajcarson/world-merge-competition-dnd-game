@@ -8,11 +8,11 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 
 ## NPCs
 
-*(None yet.)*
+- [Suzanne Somers](npcs/suzanne-somers.md) — television actress, in person at the ThighMaster demo the night the worlds merge. *(stub)*
 
 ## Places
 
-*(None yet.)*
+- [Briarwood Mall](places/briarwood-mall.md) — Bellcross, Texas, November 5th, 1992; the campaign's starting location and Session 0 table.
 
 ## Factions
 
