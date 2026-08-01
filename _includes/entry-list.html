@@ -1,13 +1,20 @@
 {%- comment -%}
 Card list for a set of pages.
-  include.pages  — already filtered to player_known == true
-  include.empty  — message shown when the set is empty
+  include.pages  — may include withheld pages; this include sorts that out
+  include.empty  — message shown when nothing in the set is cleared
+
+Callers pass their whole set, cleared or not. A withheld page's card carries the
+.dm-only class, so players never see it and the ?dm=1 view does. When nothing in
+the set is cleared, the empty message is marked .public-only so a DM isn't told
+"nothing here" directly above a list of things.
 {%- endcomment -%}
+
+{%- assign cleared = include.pages | where: "player_known", true -%}
 
 {%- if include.pages and include.pages.size > 0 -%}
 <ul class="cards">
   {%- for p in include.pages -%}
-  <li class="card">
+  <li class="card{% unless p.player_known == true %} dm-only{% endunless %}">
     <a href="{{ p.url | relative_url }}">
       <h3>
         {%- if p.session_number %}<span class="num">{{ p.session_number }}</span> {% endif -%}
@@ -15,6 +22,7 @@ Card list for a set of pages.
       </h3>
     </a>
     <p class="meta">
+      {%- unless p.player_known == true %}<span class="tag stub">Not cleared</span>{% endunless -%}
       {%- if p.rarity %}<span class="tag rarity {{ p.rarity | slugify }}">{{ p.rarity }}</span>{% endif -%}
       {%- if p.item_type %}<span class="tag">{{ p.item_type }}</span>{% endif -%}
       {%- if p.role %}<span class="tag">{{ p.role }}</span>{% endif -%}
@@ -27,6 +35,8 @@ Card list for a set of pages.
   </li>
   {%- endfor -%}
 </ul>
-{%- else -%}
-<p class="empty">{{ include.empty | default: "Nothing has been cleared for broadcast yet." }}</p>
+{%- endif -%}
+
+{%- if cleared.size == 0 -%}
+<p class="empty public-only">{{ include.empty | default: "Nothing has been cleared for broadcast yet." }}</p>
 {%- endif -%}

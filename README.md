@@ -25,8 +25,24 @@ DM tooling lives in `.claude/skills/`.
 ## Conventions
 
 Every note and item carries `player_known` in its frontmatter. It is `false` on
-creation and is the gate that controls what a future GitHub Pages site shows to
-players. `## DM Only` sections are never rendered to that site.
+creation and is the gate that controls what the GitHub Pages site shows to
+players. `## DM Only` sections are hidden from the player view of that site.
 
 Note that this is a public repository: `player_known` and `## DM Only` control
-what the *site* renders, not who can read the raw files here.
+what the *site* shows, not who can read the raw files here.
+
+## DM view of the site
+
+Add `?dm=1` to any page URL to reveal every `## DM Only` section and every entry
+`player_known: false` withholds:
+
+    https://<user>.github.io/world-merge-competition-dnd-game/world/?dm=1
+
+The setting sticks for that browser tab, so links keep working without the
+param, and it clears when the tab closes. `?dm=0` — or the "Back to player view"
+link in the banner — returns to the player view immediately.
+
+It is a display switch, not a lock: on a static site the DM text is in the HTML
+that every visitor downloads, so a player who views source can read it. Same
+posture as the public repo. Use it for "not at the table right now", not for
+"players must never see this".

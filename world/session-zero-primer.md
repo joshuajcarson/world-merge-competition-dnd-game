@@ -26,7 +26,7 @@ The birdman Pedro quickly starts to speak over the orc before she can continue. 
 ## DM Only — Tone Cues
 
 *Distilled from the primer above for use by the DM tooling. Not part of the player
-handout: the site strips every `## DM ...` section before rendering.*
+handout: the site hides every `## DM ...` section from the player view.*
 
 - **Genre collision, played straight.** Cosmic reality television wrapped around real survival stakes. The broadcast is glib; the dying is not. Items can be funny in framing and grim in substance.
 - **Four source worlds, four material vocabularies.** Tag an item's origin — it's the setting's most distinctive flavor lever:
