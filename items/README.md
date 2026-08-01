@@ -5,6 +5,7 @@ Generated magic items, one file per item, named `<slug>.md`. Written by the `mag
 ## Entries
 
 - [Cohort 18 Slag Ring](cohort-18-slag-ring.md) — Rare ring; salvage from the merge the Administration lost.
+- [Mall Security Keyring](mall-security-keyring.md) — Uncommon wondrous item; a night guard's keys that lock any door for eight hours.
 
 ---
 
