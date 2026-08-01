@@ -1,0 +1,16 @@
+{%- comment -%}
+Tag row for a single entry page. Pulled out of _layouts/entry.html because the
+player view and the DM view of a withheld record both need it.
+{%- endcomment -%}
+<p class="meta">
+  {%- if include.withheld %}<span class="tag stub">Not cleared for players</span>{% endif -%}
+  {%- if page.session_number %}<span class="tag num">Session {{ page.session_number }}</span>{% endif -%}
+  {%- if page.rarity %}<span class="tag rarity {{ page.rarity | slugify }}">{{ page.rarity }}</span>{% endif -%}
+  {%- if page.item_type %}<span class="tag">{{ page.item_type }}</span>{% endif -%}
+  {%- if page.type and page.type != 'session' %}<span class="tag">{{ page.type }}</span>{% endif -%}
+  {%- if page.origin and page.origin != 'unknown' %}<span class="tag origin {{ page.origin }}">{{ page.origin }}</span>{% endif -%}
+  {%- if page.status %}<span class="tag">{{ page.status }}</span>{% endif -%}
+  {%- if page.played %}<span class="tag date">Played {{ page.played | date: "%B %-d, %Y" }}</span>{% endif -%}
+  {%- if page.attunement %}<span class="tag">{{ page.attunement }}</span>{% endif -%}
+  {%- if page.needs_detail %}<span class="tag stub">Fragmentary</span>{% endif -%}
+</p>

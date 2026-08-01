@@ -4,45 +4,60 @@ layout: default
 {%- comment -%}
 Renders one item, session note, or world note.
 
-Two gates, both deliberate:
-  1. player_known must be true, or the body is withheld entirely.
+Two gates, both keyed on the same rules as before:
+  1. player_known must be true, or the body is withheld.
   2. Any h2 whose slug starts with "dm-" — "## DM Only", "## DM Notes",
-     "## DM Only — Tone Cues" — and everything after it is cut. Content is
-     already HTML here, so we split on the generated heading id and keep only
-     what precedes it. One rule, so a new DM section can never leak by being
-     worded slightly differently.
+     "## DM Only — Tone Cues" — and everything after it is DM material.
+     Content is already HTML here, so we split on the generated heading id.
+     One rule, so a new DM section can never leak by being worded slightly
+     differently.
+
+Both gates now have a DM side: the withheld body and the DM sections are
+emitted inside .dm-only wrappers, which the ?dm=1 view set up in
+_layouts/default.html reveals. That markup ships to every browser and is
+readable in view source — this gate is presentation, not secrecy.
 {%- endcomment -%}
 
-{%- assign cut = content | split: '<h2 id="dm-' -%}
-{%- assign visible = cut[0] -%}
+{%- assign chunks = content | split: '<h2 id="dm-' -%}
+{%- assign visible = chunks[0] -%}
 
 {% if page.player_known == true %}
 
   <article class="entry">
-    <p class="meta">
-      {%- if page.session_number %}<span class="tag num">Session {{ page.session_number }}</span>{% endif -%}
-      {%- if page.rarity %}<span class="tag rarity {{ page.rarity | slugify }}">{{ page.rarity }}</span>{% endif -%}
-      {%- if page.item_type %}<span class="tag">{{ page.item_type }}</span>{% endif -%}
-      {%- if page.type and page.type != 'session' %}<span class="tag">{{ page.type }}</span>{% endif -%}
-      {%- if page.origin and page.origin != 'unknown' %}<span class="tag origin {{ page.origin }}">{{ page.origin }}</span>{% endif -%}
-      {%- if page.status %}<span class="tag">{{ page.status }}</span>{% endif -%}
-      {%- if page.played %}<span class="tag date">Played {{ page.played | date: "%B %-d, %Y" }}</span>{% endif -%}
-      {%- if page.attunement %}<span class="tag">{{ page.attunement }}</span>{% endif -%}
-      {%- if page.needs_detail %}<span class="tag stub">Fragmentary</span>{% endif -%}
-    </p>
+    {% include entry-meta.html %}
 
     {{ visible }}
+
+    {%- if chunks.size > 1 -%}
+      <div class="dm-only dm-block">
+        <p class="dm-label">DM only — hidden from players</p>
+        {%- for chunk in chunks offset: 1 -%}<h2 id="dm-{{ chunk }}{%- endfor -%}
+      </div>
+    {%- endif -%}
   </article>
 
 {% else %}
 
-  <article class="entry withheld">
+  <article class="entry withheld public-only">
     <h1>Signal Withheld</h1>
     <p>
       The Administration has not cleared this record for contestant viewing.
       Nothing here is missing — it simply has not happened to you yet.
     </p>
     <p class="meta"><span class="tag stub">Not yet revealed</span></p>
+  </article>
+
+  <article class="entry dm-only">
+    {% include entry-meta.html withheld=true %}
+
+    {{ visible }}
+
+    {%- if chunks.size > 1 -%}
+      <div class="dm-block">
+        <p class="dm-label">DM only — hidden from players</p>
+        {%- for chunk in chunks offset: 1 -%}<h2 id="dm-{{ chunk }}{%- endfor -%}
+      </div>
+    {%- endif -%}
   </article>
 
 {% endif %}

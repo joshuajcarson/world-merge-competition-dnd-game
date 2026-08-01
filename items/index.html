@@ -7,17 +7,26 @@ permalink: /items/
 <h1>Items</h1>
 <p class="lede">What you've found, and what it turned out to do.</p>
 
-{%- assign items = site.pages | where: "player_known", true | where: "type", "item" -%}
+{%- comment -%}
+  Unfiltered on player_known: _includes/entry-list.html hides the entries that
+  aren't cleared, and shows them in the ?dm=1 view. A rarity heading whose whole
+  group is withheld has to hide with it, hence the .dm-only wrapper.
+{%- endcomment -%}
+{%- assign items = site.pages | where: "type", "item" -%}
+{%- assign cleared = items | where: "player_known", true -%}
 
 {%- assign order = "Artifact,Legendary,Very Rare,Rare,Uncommon,Common" | split: "," -%}
 {%- for rarity in order -%}
   {%- assign group = items | where: "rarity", rarity -%}
+  {%- assign group_cleared = group | where: "player_known", true -%}
   {%- if group.size > 0 %}
+<section{% if group_cleared.size == 0 %} class="dm-only"{% endif %}>
 <h2>{{ rarity }}</h2>
 {% include entry-list.html pages=group %}
+</section>
   {%- endif -%}
 {%- endfor -%}
 
-{%- if items.size == 0 %}
-<p class="empty">Nothing recovered yet — or nothing the Administration will admit you recovered.</p>
+{%- if cleared.size == 0 %}
+<p class="empty public-only">Nothing recovered yet — or nothing the Administration will admit you recovered.</p>
 {%- endif -%}

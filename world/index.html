@@ -11,25 +11,28 @@ permalink: /world/
   Chained `where` filters only — no `where_exp`. Its expression parser is
   fragile about nil and multi-clause conditions, and a syntax error there
   fails the whole GitHub Pages build.
+
+  The player_known filter lives in _includes/entry-list.html now, so that
+  withheld entries can still surface in the ?dm=1 view.
 {%- endcomment -%}
-{%- assign cleared = site.pages | where: "player_known", true -%}
+{%- assign entries = site.pages -%}
 
 <h2>Handouts</h2>
-{%- assign handouts = cleared | where: "type", "handout" -%}
+{%- assign handouts = entries | where: "type", "handout" -%}
 {% include entry-list.html pages=handouts empty="No handouts released." %}
 
 <h2>People</h2>
-{%- assign npcs = cleared | where: "type", "npc" | sort: "title" -%}
+{%- assign npcs = entries | where: "type", "npc" | sort: "title" -%}
 {% include entry-list.html pages=npcs empty="You haven't met anyone worth writing down. Yet." %}
 
 <h2>Places</h2>
-{%- assign places = cleared | where: "type", "place" | sort: "title" -%}
+{%- assign places = entries | where: "type", "place" | sort: "title" -%}
 {% include entry-list.html pages=places empty="Nowhere charted." %}
 
 <h2>Factions</h2>
-{%- assign factions = cleared | where: "type", "faction" | sort: "title" -%}
+{%- assign factions = entries | where: "type", "faction" | sort: "title" -%}
 {% include entry-list.html pages=factions empty="No powers identified." %}
 
 <h2>Lore</h2>
-{%- assign lore = cleared | where: "type", "lore" | sort: "title" -%}
+{%- assign lore = entries | where: "type", "lore" | sort: "title" -%}
 {% include entry-list.html pages=lore empty="Nothing understood well enough to write down." %}

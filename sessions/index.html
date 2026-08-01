@@ -7,5 +7,9 @@ permalink: /sessions/
 <h1>Sessions</h1>
 <p class="lede">What happened, in the order it happened to you.</p>
 
-{%- assign sessions = site.pages | where: "player_known", true | where: "type", "session" | sort: "session_number" | reverse -%}
+{%- comment -%}
+  Unfiltered on player_known: _includes/entry-list.html hides the entries that
+  aren't cleared, and shows them in the ?dm=1 view.
+{%- endcomment -%}
+{%- assign sessions = site.pages | where: "type", "session" | sort: "session_number" | reverse -%}
 {% include entry-list.html pages=sessions empty="No sessions have aired yet. The opening smash off is still to come." %}

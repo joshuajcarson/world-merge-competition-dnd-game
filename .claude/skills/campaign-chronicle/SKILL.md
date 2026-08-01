@@ -36,7 +36,7 @@ Check `sessions/` for the highest existing `NN`. Next session is `NN+1` unless t
 
 Use `assets/session-note-template.md` or `assets/lore-note-template.md`.
 
-Every note has a player-facing body and a `## DM Only` section. The split is load-bearing: the site cuts every `## DM ...` heading and everything after it, so **the DM section must always be last in the file**. When in doubt about which side something belongs on, put it in `## DM Only` — over-hiding is recoverable at the table, under-hiding is not.
+Every note has a player-facing body and a `## DM Only` section. The split is load-bearing: the site splits the page at the first `## DM ...` heading and hides that heading and everything after it from the player view, so **the DM section must always be last in the file**. When in doubt about which side something belongs on, put it in `## DM Only` — over-hiding is recoverable at the table, under-hiding is not.
 
 Set `title` to the same string as `name`. Jekyll reserves `name` for the filename, so `title` is what the site actually displays.
 

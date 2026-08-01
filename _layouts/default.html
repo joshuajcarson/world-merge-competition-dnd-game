@@ -1,5 +1,9 @@
 <!doctype html>
-<html lang="{{ site.lang | default: 'en' }}">
+{%- comment -%}
+  data-dm-title carries the real name of a withheld entry so the DM view can
+  restore it in the tab. It only exists on pages the player gate would hide.
+{%- endcomment -%}
+<html lang="{{ site.lang | default: 'en' }}"{% if page.layout == 'entry' and page.player_known != true %} data-dm-title="{{ page.title | default: page.name | xml_escape }}"{% endif %}>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,9 +30,52 @@
   {%- endcomment -%}
   <link rel="stylesheet" href="{{ '/assets/css/cohort.css' | relative_url }}">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='13'>📡</text></svg>">
+  {%- comment -%}
+    DM view. Add ?dm=1 to any URL to reveal every "## DM ..." section and every
+    record the player gate withholds; ?dm=0 turns it back off. The choice is
+    remembered in sessionStorage so ordinary links keep working without dragging
+    the param along, and it dies with the browser tab — a player borrowing the
+    laptop later gets the player view.
+
+    This runs in <head>, before the body paints, so DM material never flashes on
+    a player's screen. Everything it reveals is present in the HTML either way:
+    this hides notes from players, it does not keep secrets from anyone who opens
+    view source.
+  {%- endcomment -%}
+  <script>
+    (function () {
+      var KEY = 'cohort-dm-view';
+      var root = document.documentElement;
+      try {
+        var asked = new URLSearchParams(window.location.search).get('dm');
+        if (asked !== null) {
+          if (asked === '0' || asked === 'off' || asked === 'false') {
+            sessionStorage.removeItem(KEY);
+          } else {
+            sessionStorage.setItem(KEY, '1');
+          }
+        }
+        if (sessionStorage.getItem(KEY) !== '1') return;
+      } catch (e) {
+        // Private-mode storage failures shouldn't strand a DM mid-session:
+        // fall back to honouring the param for this page only.
+        if (!/[?&]dm=(1|on|true)\b/.test(window.location.search)) return;
+      }
+      root.setAttribute('data-dm', 'on');
+      var hidden = root.getAttribute('data-dm-title');
+      if (hidden) { document.title = hidden + ' · ' + {{ site.title | jsonify }}; }
+    })();
+  </script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
+
+  <div class="dm-banner dm-only">
+    <div class="wrap">
+      <span><strong>DM view</strong> — withheld records and every DM Only section are showing.</span>
+      <a href="?dm=0">Back to player view</a>
+    </div>
+  </div>
 
   <header class="site-header">
     <div class="wrap">
