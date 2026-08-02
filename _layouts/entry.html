@@ -67,6 +67,8 @@ readable in view source — this gate is presentation, not secrecy.
     <a href="{{ '/items/' | relative_url }}">← All items</a>
   {%- elsif page.entry_kind == 'session' -%}
     <a href="{{ '/sessions/' | relative_url }}">← All sessions</a>
+  {%- elsif page.entry_kind == 'encounter' -%}
+    <a href="{{ '/encounters/' | relative_url }}">← All encounters</a>
   {%- else -%}
     <a href="{{ '/world/' | relative_url }}">← The World</a>
   {%- endif -%}

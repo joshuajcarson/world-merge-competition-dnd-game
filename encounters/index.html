@@ -1,0 +1,17 @@
+---
+layout: default
+title: Encounters
+permalink: /encounters/
+---
+
+<h1>Encounters</h1>
+<p class="lede">Set pieces the DM has built. Prep material, not broadcast content.</p>
+
+{%- comment -%}
+  Unfiltered on player_known: _includes/entry-list.html hides the entries that
+  aren't cleared, and shows them in the ?dm=1 view. Encounter files are
+  player_known: false permanently by design (see .claude/skills/encounter-weaver),
+  so this whole index is normally DM-only.
+{%- endcomment -%}
+{%- assign encounters = site.pages | where: "type", "encounter" | sort: "title" -%}
+{% include entry-list.html pages=encounters empty="Nothing prepped yet." %}

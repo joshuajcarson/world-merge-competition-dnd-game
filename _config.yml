@@ -24,6 +24,7 @@ exclude:
   - items/README.md
   - sessions/README.md
   - world/README.md
+  - encounters/README.md
   - Gemfile
   - Gemfile.lock
   - vendor/
@@ -50,3 +51,8 @@ defaults:
     values:
       layout: entry
       entry_kind: note
+  - scope:
+      path: "encounters"
+    values:
+      layout: entry
+      entry_kind: encounter
