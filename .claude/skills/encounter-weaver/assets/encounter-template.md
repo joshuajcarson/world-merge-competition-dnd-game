@@ -41,6 +41,30 @@ it now can.
 One `###` subsection per node. Keep the outline skimmable — a DM should be
 able to run this cold at the table without rereading prose.
 
+The shape of the whole scene, endings included — see
+`references/mermaid-diagram.md` for shape conventions and, critically, why
+the `{% raw %}`/`{% endraw %}` wrapper below is required on this site and
+must not be dropped:
+
+{% raw %}
+```mermaid
+flowchart TD
+    A["A · Node Name"]
+    B[["B · Node Name (combat-live)"]]
+    C{{"C · Hard Trigger Name"}}
+
+    EndName(["Ending: Name"])
+
+    A -->|"approach or outcome"| B
+    B -->|"approach or outcome"| C
+    C --> EndName
+```
+{% endraw %}
+
+Legend (adjust to whatever shapes the diagram actually uses): rectangle =
+ordinary node, subroutine box = combat is live here, hexagon = a hard
+DM-triggered beat rather than a rolled outcome, stadium = an ending.
+
 ### Node A — [Name]
 
 **Situation:** what the party is looking at / dealing with right now.

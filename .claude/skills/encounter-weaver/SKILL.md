@@ -49,6 +49,8 @@ Follow `assets/encounter-template.md` for file structure. The shape to aim for:
 
 Resist the urge to make this a flowchart the party can "solve." The point isn't one correct path — it's a set of honest situations where different tools (skills, spells, combat, cleverness) plausibly work, and the DM adjudicates what the players actually try.
 
+Every encounter also gets a **Mermaid diagram** of this node graph — draw one by default, not only when asked. A DM scanning the file cold should be able to see the whole shape of the scene as a picture before reading a single node's prose. Read `references/mermaid-diagram.md` before drawing it: it covers shape conventions (so combat-live nodes, hard triggers, and endings read differently at a glance) and, importantly, a Jekyll/Liquid quirk of this site that will silently corrupt the diagram on the published page if you skip it — that reference explains exactly what to do about it and why it's not optional.
+
 ### 7. Read the setting's tone
 
 If this encounter is set in the campaign world (not a one-off outside it), read `world/session-zero-primer.md`'s `## DM Only — Tone Cues` section, and read any linked location/NPC files (e.g. a mall's place file) so the encounter's specific beats — what's in the maintenance closet, who's in the food court — match established canon rather than contradicting it.
@@ -72,3 +74,4 @@ Show the node graph in your response (a compact outline is enough — the file h
 - No enemy stats or fight difficulty before the party's tier is known.
 - Don't contradict established world/location/NPC files. If the scene uses a place or NPC that already has a file, read it and build around what's already true, not what would be more convenient.
 - Big, dramatic mid-scene events (a merge event, a building collapse, a betrayal) belong to the user's story — don't invent one to fill a gap unless asked. If they haven't given you an escalation trigger, ask rather than inventing the campaign's next major beat yourself.
+- Every encounter file ships with a Mermaid node-graph diagram wrapped in `{% raw %}`/`{% endraw %}` — this is the default, not something to add only if the user asks for one. Skipping the raw wrapper doesn't fail loudly; it produces a diagram that looks fine in the markdown file and breaks silently on the published site (see `references/mermaid-diagram.md`).
