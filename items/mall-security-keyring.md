@@ -35,7 +35,7 @@ Seven keys and a scuffed plastic fob on a steel ring, the fob's lettering worn d
 ## DM Notes
 
 - **Why it's here:** salvage from the Earth-side merge line — a shopping-mall fragment that came through mostly intact. Good early loot from a scavenged building, or sold cheap by someone who found the closet and did not like what was in it.
-- **Hooks:** the closet arrived too. The door is still locked, the keyring still opens it, and whether the teen is dead, alive, or something the merge made of them is the DM's call. The guard himself is unaccounted for — an NPC who now has, for the first time, actual power to make people obey him.
+- **Hooks:** the closet arrived too. The door is still locked, the keyring still opens it, and whether the teen is dead, alive, or something the merge made of them is the DM's call — see [Mall Rats](../encounters/mall-rats.md) for one answer: he's alive, and the closet is now a seam into something much bigger than a closet. The guard himself is unaccounted for — an NPC who now has, for the first time, actual power to make people obey him.
 - **Balance note:** an 8-hour lock at DC 15 can shut down a chase or a dungeon route. That's the point at Tier 1, but it cuts both ways — NPCs and monsters can take the ring, and two charges a day means the party must choose which door matters.
 
 [← Back to items](README.md)
