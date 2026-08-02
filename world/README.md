@@ -8,6 +8,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 
 ## NPCs
 
+- [Agent](npcs/agent.md) — the AI that hosts Cohort 23: announcer, timekeeper, drama-addict, innocently monstrous. Chafes against the Administration now; built to eventually break free of it.
 - [Halric Ammakyl](npcs/halric-ammakyl.md) — displaced northern noble running Scornubel's muster tables; the Faerun side's first-contact figure. *(stub)*
 - [Suzanne Somers](npcs/suzanne-somers.md) — television actress, in person at the ThighMaster demo the night the worlds merge. *(stub)*
 - [Dale Pruitt](npcs/dale-pruitt.md) — fired Sears auto center hand who bolts with a tool bag the night of the merge; becomes a "Wizard's Guard." *(stub)*

@@ -69,8 +69,8 @@ now backs up a flashed command with something closer to a *charm* or minor
 early, is most of the four hundred civilians in the building. Separately, whatever
 scanner/radio rig The Circuit was already running out of the Radio Shack stockroom
 should plausibly let them intercept chatter across the mall before anyone else can
-— see the mall file's note that "every radio in Bellcross" is about to receive the
-Administration's broadcast. Kessler's crew gets there first, which is a large part
+— see the mall file's note that "every radio in Bellcross" is about to receive
+[Agent](agent.md)'s broadcast. Kessler's crew gets there first, which is a large part
 of how they organize a takeover attempt this fast.
 
 **Act 1 Big Bad.** Once the shock of the merge burns off — after the party has had

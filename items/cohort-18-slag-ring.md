@@ -33,5 +33,5 @@ The band is not jewelry so much as a piece of something larger that cooled into 
 ## DM Notes
 
 - **Why it's here:** salvage-market goods, Administration surplus, or the personal effects of someone who worked recovery on a previous cohort. Fits any hoard that should feel *bureaucratic* rather than mythic.
-- **Hooks:** the serial number is traceable. Someone in the Administration would prefer it weren't. A player who pushes on it is pulling on what actually happened to Cohort 18 — and on the Administration's confidence that this cohort will go better.
+- **Hooks:** the serial number is traceable. Someone in the Administration would prefer it weren't — a cover-up is exactly the kind of soulless institutional reflex the Administration runs on. [Agent](../world/npcs/agent.md) might not agree; a buried scandal is bad television, and Agent likes drama a great deal more than it likes doing what the Administration wants. A player who pushes on it is pulling on what actually happened to Cohort 18 — and, potentially, on that exact tension.
 - **Balance note:** the no-Fire-damage-means-no-recharge clause is the price of a Rare-tier resistance plus a damage burst. Don't quietly drop it; it's what keeps this inside budget.

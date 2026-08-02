@@ -20,7 +20,7 @@ controlled_by: null
 ## Description
 
 Storage space, not a world — cramped concrete corridors and prop rooms behind
-whatever the Administration actually broadcasts, full of leftover set dressing and
+whatever [Agent](../npcs/agent.md) actually broadcasts, full of leftover set dressing and
 "ambient hazard content" from a cohort nine seasons before this one. It touches
 [Briarwood Mall](../places/briarwood-mall.md) through a merge-displaced closet that
 shouldn't be there. See [Mall Rats](../../encounters/mall-rats.md) for the full
@@ -38,6 +38,6 @@ Nothing yet — this isn't a place Briarwood's survivors know exists.
 
 Home to the last of a ratkin population the Administration cancelled mid-cohort and
 never bothered to dispose of — see [Mall Rats](../../encounters/mall-rats.md) for
-their situation and the Administration's tone toward them. Whether Sector 7 connects
+their situation and [Agent](../npcs/agent.md)'s mocking tone toward them. Whether Sector 7 connects
 to anywhere else, or whether more of these leftover storage sectors exist elsewhere
 in Bellcross, is an open question worth deciding only if the party goes looking.

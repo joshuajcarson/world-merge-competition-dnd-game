@@ -179,7 +179,10 @@ building against it.
 
 *Flavor:* Every round this runs long is a round Briarwood's stores lose window glass,
 kiosks get flattened, and somebody who didn't get clear in time is in the wrong
-square when the creature swings.
+square when the creature swings. If a monitor or speaker is in earshot, this is
+a good spot for [Agent](../world/npcs/agent.md) to cut in unprompted, thrilled —
+*"OH, that's a GOOD one—"* — narrating for the feed, not talking to the party,
+and not remotely bothered that they can hear it.
 
 **Approaches:**
 - *Fight it directly* — standard combat resolution (see Combat Notes for sizing).
@@ -316,17 +319,17 @@ instant choice between blocking its path and clearing people out of it.
   it — and bystander harm across the scene was kept low. This is the best "read"
   a table can get without a kill: competent, controlled, and visibly more
   concerned with the four hundred people in the building than with finishing the
-  monster. Feeds the Administration Reward's warmest framing.
+  monster. Feeds Agent's warmest framing in the Administration Reward scene below.
 - **Ending: Slain.** The party kills it outright, either in Node D before it broke
   or by cornering it in Node F. Dramatic and final. How this reads (heroic vs.
   frightening) depends entirely on how the fight went — a clean kill with low
   collateral plays as competence; a kill that came with wrecked storefronts and
-  bystander casualties plays as exactly the kind of thing the Administration finds
-  *very watchable* for less flattering reasons.
+  bystander casualties plays as exactly the kind of thing [Agent](../world/npcs/agent.md)
+  finds *very watchable* for less flattering reasons.
 - **Ending: Contained.** The rare best-case: the party corners it and finds a way
   to stop it without killing it (a trap, a restraint, a surrender it can't refuse).
   Sets up a genuine hook — a live Aether creature in the party's hands is valuable,
-  dangerous, and exactly the kind of asset the Administration will want back.
+  dangerous, and exactly the kind of asset Agent will want back for a rematch.
 - **Ending: Cornered and Killed.** The party traps it at Node F with no de-escalation
   attempted or available, and finishes it there. Mechanically similar to Slain, but
   worth noting separately if the party's read at the table was aggressive — pure
@@ -337,7 +340,7 @@ instant choice between blocking its path and clearing people out of it.
   way — broken storefronts, hurt or dead bystanders, real property damage. Not a
   failure state; it's the honest outcome of a fight this far above the party's
   weight class run badly or unluckily. Sets up a rematch and a harder conversation
-  with however Bellcross — or the Administration — reacts to the damage.
+  with however Bellcross — or Agent — reacts to the damage.
 
 ## Reputation & Broadcast
 
@@ -345,12 +348,13 @@ Track loosely, not with hard points: how often did the party choose to protect a
 bystander over pressing an advantage (Nodes C, D, F)? Did they let a beaten,
 fleeing animal go, or fight it to the last regardless of who was still nearby? Did
 they cause a storefront collapse or a stampede on their own initiative rather than
-the creature's? This campaign's Administration broadcasts everything — a party that
-visibly prioritized the crowd reads to a hundred thousand channels as **competent,
-controlled warriors**; a party that plowed through bystanders to get their kill
-reads as **dangerous**, and both readings follow them into future sessions. Neither
-is a wrong way to play the scene — the encounter is built to make the difference
-visible, not to punish one choice mechanically.
+the creature's? [Agent](../world/npcs/agent.md) is watching all of it and broadcasting
+everything, gleeful either way — a party that visibly prioritized the crowd reads
+to a hundred thousand channels as **competent, controlled warriors**; a party
+that plowed through bystanders to get their kill reads as **dangerous**, and
+both readings follow them into future sessions. Neither is a wrong way to play
+the scene — the encounter is built to make the difference visible, not to
+punish one choice mechanically.
 
 ## Complication Bank
 
@@ -395,15 +399,17 @@ visible, not to punish one choice mechanically.
 
 ## Administration Reward
 
-However the scene resolves, the Administration makes contact within the hour — a
-production assistant, or the feathered host himself if the table's night has been
-good TV, cutting through whatever's left of the crowd with a camera crew in tow.
-The party is handed a single item on camera, sourced directly from what the
+However the scene resolves, [Agent](../world/npcs/agent.md) decides within the hour
+that this deserves a live moment — cutting in over every screen and speaker in
+earshot before a production assistant, or Pedro himself if the table's night has
+been good TV, physically shows up with a camera crew to make it official. The
+party is handed a single item on camera, sourced directly from what the
 Cindercrest left behind. See [Cindercrest Commendation Fang](../items/cindercrest-commendation-fang.md)
 for the full write-up — its flavor text references this fight specifically, and the
-tone the Administration frames it with (rising stars vs. a liability worth watching)
-should track whatever read the table earned in the Reputation & Broadcast section
-above.
+tone Agent frames it with (rising stars vs. a liability worth watching) should
+track whatever read the table earned in the Reputation & Broadcast section above.
+The Administration's only visible role in the moment is the branded resin the
+fang gets mounted on — standardized, serial-numbered, entirely uninterested.
 
 ---
 

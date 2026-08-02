@@ -49,19 +49,20 @@ something nearby is about to make the same mistake the Cindercrest's prey did.
 
 ## DM Notes
 
-- **Why it's here:** the Administration's reward from
+- **Why it's here:** [Agent](../world/npcs/agent.md)'s reward from
   [Aether Breach at Briarwood](../encounters/aether-breach-at-briarwood.md) — handed
   over on camera regardless of how the fight actually went, but the language on the
-  accompanying broadcast segment (and the tone the production assistant or the
-  feathered host uses in person) should reflect the table's Reputation & Broadcast
+  accompanying broadcast segment (and the tone the production assistant or Pedro
+  uses in person, speaking for Agent) should reflect the table's Reputation & Broadcast
   read from that encounter: "rising stars" framing for a low-collateral, controlled
   fight, or a more clinical "asset worth monitoring" framing if the party plowed
-  through bystanders to get it.
+  through bystanders to get it. The resin disc itself is pure Administration —
+  standardized, serial-numbered, entirely unmoved by any of it.
 - **Hooks:** the Cindercrest itself may still be alive and loose somewhere in or
   around Bellcross if the encounter ended in **It Got Away** — this item's Run It
   to Ground property is a built-in rematch hook, not flavor text. If the encounter
-  ended in **Contained** instead, the fang came from a live specimen, which the
-  Administration would very much like back.
+  ended in **Contained** instead, the fang came from a live specimen, which Agent
+  would very much like back for a rematch.
 - **Balance note:** Run It to Ground only tracks creatures the party has personally
   seen flee while hurt — it isn't a general tracking spell, and it shouldn't be
   reflavored into one. Early Warning is a reactive, once-per-trigger read on danger,

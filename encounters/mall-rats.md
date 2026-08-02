@@ -40,8 +40,8 @@ past Node A needs to change.
 ## Escalation Trigger(s)
 
 **Node B is a hard, scripted trigger, not a rolled one.** The instant the party is a
-few steps past the threshold, Administration signage and a PA system wake up and
-flag them — the ratkin garrison is alerted from this point forward, and every node
+few steps past the threshold, cold Administration signage and [Agent](../world/npcs/agent.md)'s
+voice over the PA both wake up and flag them — the ratkin garrison is alerted from this point forward, and every node
 from C onward can go loud without further warning. Talking, sneaking, and bargaining
 remain legitimate plays throughout; the trigger only means the ratkin now know
 someone's in the building and are watching for them.
@@ -140,11 +140,14 @@ scent, a sound) can just as easily go the other way, back into Briarwood.
 threshold — not rolled. The space opens into a cramped concrete backstage: exposed
 conduit, dead monitors, and one wall of Administration signage that flickers on as
 they pass it. Cold, bureaucratic text scrolls past: **"COHORT 14 · VERMINFOLK ·
-CONTESTANT STATUS REVOKED · RECLASSIFIED: AMBIENT HAZARD CONTENT."** A PA crackles
-to life mid-sentence: *"—unidentified biologics detected in Sector 7. Residents,
-please continue your assigned function. Bonus round eligibility confirmed for
-Cohort 23 wildcard contestants: clear to exit before sector lockdown for
-commendation credit. Try to make this interesting."*
+CONTESTANT STATUS REVOKED · RECLASSIFIED: AMBIENT HAZARD CONTENT."** That part's
+the Administration — flat, soulless, exactly as interested in the ratkin as a
+filing cabinet. Then a PA crackles to life mid-sentence, and this part has a
+personality: *"—ooh, unidentified biologics in Sector 7! Residents, please
+continue your assigned function, this is [Agent](../world/npcs/agent.md) speaking. Bonus round
+eligibility confirmed for Cohort 23 wildcard contestants: clear to exit before
+sector lockdown for commendation credit. Try to make this interesting, would
+you? For me?"*
 
 **This is the trigger.** The garrison is alerted from this instant. Nothing forces
 combat immediately — the ratkin have to actually find the party — but every node
@@ -160,6 +163,9 @@ from here on can go loud without further warning, and the Administration Clock
   cohorts — and picks up that something *else* is going on: a second alert is
   scrolling underneath about "unauthorized signal bleed, Sector 7, unresolved,"
   which is the Administration's real reason for the coming purge (see Node G).
+  (DM's private read, no need to surface it: Agent almost certainly let that
+  bleed run longer than it should have — bad TV doesn't hold Agent's interest,
+  but a desperate, unscheduled broadcast stunt very much does.)
   Failure: no information, no cost — this is a DC 10 for a reason.
 - *Listen for the drag marks' owner* — DC 10 (Perception). Success: a faint,
   distant sound — a skateboard wheel scraping concrete, or crying, hard to tell —
@@ -213,7 +219,9 @@ cornered.
   already shown mercy this scene). Success: Pinch talks. He's been sneaking food to
   "the furless pup" for weeks — he's been feeding Corey — but Gnashwhisker found
   out today and took him to the broadcast chamber to use as proof of "relevance"
-  for the Administration. Pinch gives a real bearing on Node F and, DM's call,
+  for [Agent](../world/npcs/agent.md) — the Administration already closed Cohort 14's
+  file, but Agent is the one who decides what's worth airing, and Gnashwhisker
+  still believes that's a door worth begging at. Pinch gives a real bearing on Node F and, DM's call,
   knowledge that shaves the checkpoint fight down (see Node E).
   Failure: Pinch bolts deeper into the nook and hides; no information, but he
   doesn't raise an alarm either — he's not brave enough to.
@@ -268,10 +276,11 @@ Administration Clock even on a clean win.
 
 **Situation:** A repurposed backstage broadcast booth — a dead camera rig, cables,
 one working monitor. **Gnashwhisker the Uncancelled**, the sector's ratkin mage, has
-[Corey](../world/npcs/corey-blevins.md) rigged in front of it mid-plea to whatever's
-still listening: proof, he insists, that Cohort 14 is still worth broadcasting. He
-does not initially register the party as a threat so much as an interruption — and
-if Ironquill fled Node E, he may already be here.
+[Corey](../world/npcs/corey-blevins.md) rigged in front of it mid-plea, addressed
+directly to [Agent](../world/npcs/agent.md) by name: proof, he insists, that Cohort
+14 is still worth broadcasting. He does not initially register the party as a
+threat so much as an interruption — and if Ironquill fled Node E, he may already
+be here.
 
 **Approaches:**
 - *Fight* — combat resolution, with a real constraint: Corey is in the room.
@@ -304,9 +313,12 @@ know yet (see Reputation & Broadcast, below).
 
 **Situation:** This node fires the instant Node F resolves in any fashion, or the
 instant the Administration Clock hits 5 ticks (see below) — not rolled, not
-delayed. The PA cuts back in, flat: *"Unauthorized broadcast terminated. Sector 7
-scheduled for immediate reseal. Evacuate or don't; ratings are ratings."* Lights
-along the corridor start failing in sequence, moving toward the party's position.
+delayed. A cold, automated Administration tone cuts in first — *"Unauthorized
+broadcast terminated. Sector 7 scheduled for immediate reseal."* — and then
+[Agent](../world/npcs/agent.md) talks right over it, delighted rather than
+alarmed: *"And THAT'S your reseal warning, folks — evacuate or don't, ratings
+are ratings, this one's really coming together!"* Lights along the corridor
+start failing in sequence, moving toward the party's position.
 
 Nothing is decided by the players here — it's the pivot into Node H. Give them one
 beat to react (grab Corey, grab Pinch if he's with them, move) before the finale
@@ -349,10 +361,10 @@ take a risk on someone else's behalf.
 ## Endings
 
 - **Ending: Clean Sweep, Bonus Round.** Corey's out, the sector's sealed behind
-  them, and they beat the Administration's own clock doing it. The PA congratulates
-  them in the same flat, faintly insulting register it used on the ratkin —
-  "Cohort 23 wildcards: acceptable pacing" — and cuts a bonus commendation their
-  way. Treat this as a hook for a follow-up `magic-item-forge` reward rather than
+  them, and they beat the clock doing it. [Agent](../world/npcs/agent.md) comes on
+  gushing, genuinely thrilled and a little too loud — "Cohort 23 wildcards,
+  that's PACING, folks!" — and cuts a bonus commendation their way on the spot.
+  Treat this as a hook for a follow-up `magic-item-forge` reward rather than
   something this file stats out.
 - **Ending: Out, No Bonus.** Same rescue, same escape, but the Clock maxed out —
   they make it through the seam as it's closing, no bonus, and Sector 7 is sealed
@@ -380,7 +392,10 @@ take a risk on someone else's behalf.
 
 ## Administration Clock
 
-Track a simple clock from 0. It ticks +1 whenever:
+The clock and the purge behind it are Administration infrastructure — silent
+and mechanical. [Agent](../world/npcs/agent.md) doesn't run it, but it narrates over
+it, because a silent countdown isn't good television. Track a simple clock
+from 0. It ticks +1 whenever:
 - The party fails an approach roll at any node from C onward.
 - A fight runs long — more than a couple of extra rounds past the first exchange
   at any combat-live node.
@@ -394,9 +409,10 @@ ticks, Node G still fires the moment Node F resolves — the Clock mostly determ
 
 ## Complication Bank
 
-- **The signage keeps talking.** The Administration's "reclassified" announcement
-  repeats throughout, getting pettier each time — usable as ambient color, cover
-  noise for a Stealth attempt, or a way to needle a ratkin NPC's morale.
+- **The signage keeps talking.** The Administration's cold "reclassified" text
+  repeats throughout, and [Agent](../world/npcs/agent.md) keeps talking over it,
+  getting more editorial each time — usable as ambient color, cover noise for
+  a Stealth attempt, or a way to needle a ratkin NPC's morale.
 - **Set dressing everywhere.** Retired cohort props — mascot heads, standees,
   broken rigs — are improvised cover, improvised weapons, or a grim reminder (for
   a party paying attention) of what happens to a "discontinued" contestant race.
@@ -454,9 +470,10 @@ Briarwood's ordinary encounters are, just by a smaller, meaner audience.
 Cross-reference with how the table handled [Aether Breach at Briarwood](aether-breach-at-briarwood.md)
 if that's already happened: a party that shows Pinch or Gnashwhisker any mercy
 plays as a genuinely different story than one that clears the sector like vermin
-extermination, and the Administration's own dismissive framing of the ratkin
-("try to make this interesting") is there specifically so the party can push back
-against it or lean into it.
+extermination, and [Agent](../world/npcs/agent.md)'s own dismissive framing of the
+ratkin ("try to make this interesting") is there specifically so the party can
+push back against it or lean into it — the ratkin are cattle to Agent, not
+villains, and Agent has no idea that's the more damning read.
 
 ---
 
