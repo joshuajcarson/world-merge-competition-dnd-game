@@ -82,8 +82,7 @@ flowchart TD
     C["C · ThighMaster Line"]
     D["D · Food Court"]
     E["E · Back-of-House"]
-    F{{"F · THE WORLD MERGE EVENT
-    (DM-triggered, never rolled)"}}
+    F{{"F · THE WORLD MERGE EVENT<br/>(DM-triggered, never rolled)"}}
     G[["G · Confrontation"]]
     H[["H · If It Goes Loud"]]
 
