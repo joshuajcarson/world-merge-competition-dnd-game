@@ -90,6 +90,7 @@
         <a href="{{ '/world/' | relative_url }}">The World</a>
         <a href="{{ '/sessions/' | relative_url }}">Sessions</a>
         <a href="{{ '/items/' | relative_url }}">Items</a>
+        <a href="{{ '/encounters/' | relative_url }}">Encounters</a>
       </nav>
     </div>
   </header>
@@ -103,5 +104,35 @@
       <p>Broadcast feed for the 23rd Cohort. Contestant-visible material only.</p>
     </div>
   </footer>
+
+  {%- comment -%}
+    Mermaid diagrams. Kramdown/GFM turns a ```mermaid fenced block into
+    <pre><code class="language-mermaid">...</code></pre>; Mermaid's own JS
+    only looks for elements carrying a "mermaid" class, so this reshapes each
+    block into what it expects and hands it off. Loaded from a CDN only on
+    pages that actually contain one, so ordinary notes don't pay for it.
+    Reads the visitor's colour scheme once at load — this site doesn't have a
+    live light/dark toggle, so there's nothing to react to after that.
+  {%- endcomment -%}
+  {%- if content contains 'language-mermaid' -%}
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+
+    var dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    mermaid.initialize({ startOnLoad: false, theme: dark ? 'dark' : 'default', securityLevel: 'strict' });
+
+    var blocks = document.querySelectorAll('pre > code.language-mermaid');
+    blocks.forEach(function (code, i) {
+      var pre = code.parentElement;
+      var container = document.createElement('div');
+      container.className = 'mermaid';
+      container.id = 'mermaid-diagram-' + i;
+      container.textContent = code.textContent;
+      pre.replaceWith(container);
+    });
+
+    if (blocks.length) { mermaid.run({ querySelector: '.mermaid' }); }
+  </script>
+  {%- endif -%}
 </body>
 </html>

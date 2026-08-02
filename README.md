@@ -12,6 +12,7 @@ Administration hasn't revealed — are smashed together for the entertainment of
 - [The World](world/README.md) — the Session 0 primer, NPCs, places, factions, and lore.
 - [Sessions](sessions/README.md) — session notes and recaps.
 - [Items](items/README.md) — magic items and the frontmatter contract they follow.
+- [Encounters](encounters/README.md) — extended encounters blending skill challenges and combat.
 
 ## Skills
 
@@ -21,6 +22,7 @@ DM tooling lives in `.claude/skills/`.
 |---|---|
 | `magic-item-forge` | Drafts 5.5e magic items at a chosen rarity with setting-appropriate flavor. |
 | `campaign-chronicle` | Captures or drafts session notes and world notes, cross-linked and indexed. |
+| `encounter-weaver` | Designs extended encounters that branch between skill challenges and combat. |
 
 ## Conventions
 

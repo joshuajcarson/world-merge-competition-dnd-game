@@ -10,6 +10,8 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 
 - [Halric Ammakyl](npcs/halric-ammakyl.md) — displaced northern noble running Scornubel's muster tables; the Faerun side's first-contact figure. *(stub)*
 - [Suzanne Somers](npcs/suzanne-somers.md) — television actress, in person at the ThighMaster demo the night the worlds merge. *(stub)*
+- [Dale Pruitt](npcs/dale-pruitt.md) — fired Sears auto center hand who bolts with a tool bag the night of the merge; becomes a "Wizard's Guard." *(stub)*
+- [Renee Castillo](npcs/renee-castillo.md) — Dale's girlfriend, running alongside him; becomes a "Gunslinging Wizard." *(stub)*
 
 ## Places
 

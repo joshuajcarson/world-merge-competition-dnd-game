@@ -128,6 +128,13 @@ pre {
 }
 code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .9em; }
 
+.mermaid {
+  overflow-x: auto; display: block; padding: 1rem;
+  background: var(--bg-raised); border: 1px solid var(--line);
+  border-radius: var(--radius); margin: 1.5rem 0;
+}
+.mermaid svg { max-width: 100%; }
+
 .table-scroll, .entry table { display: block; overflow-x: auto; }
 table { border-collapse: collapse; width: 100%; }
 th, td { text-align: left; padding: .5rem .7rem; border-bottom: 1px solid var(--line); }
