@@ -7,6 +7,7 @@ the `encounter-weaver` skill.
 ## Entries
 
 - [Chase Through the Grand Opening](chase-through-the-grand-opening.md) — Session 0 chase through Briarwood Mall's grand opening that runs straight into the World Merge Event.
+- [Aether Breach at Briarwood](aether-breach-at-briarwood.md) — a wounded, high-CR Aether predator breaks into the mall; the level 1 party must fight, herd, or scare it off before it flees.
 
 ---
 
