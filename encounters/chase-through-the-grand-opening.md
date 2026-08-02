@@ -75,6 +75,7 @@ compress or stretch to hit the Merge at the right pacing.
 
 The shape of the whole scene, endings included:
 
+{% raw %}
 ```mermaid
 flowchart TD
     A["A · The Bay Door"]
@@ -114,6 +115,7 @@ flowchart TD
     H -->|"offer an out mid-fight, DC 10"| EndFled
     H -->|"corner them / press the fight"| EndCaptured
 ```
+{% endraw %}
 
 Hexagon = the one beat that isn't a die roll. Double-bordered boxes = combat is
 live. Rounded ends = where a table can actually stop. The dotted lines into Node
