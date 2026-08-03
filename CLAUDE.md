@@ -4,12 +4,16 @@ Guidance for Claude Code when working in this repository.
 
 ## Git workflow
 
-- Never commit directly to `main`. Every change — including work done by a skill
+- Never commit directly to `main`. All work — including work done by a skill
   (`campaign-chronicle`, `encounter-weaver`, `magic-item-forge`, etc.) — goes on
-  its own new branch, created off the latest `main`.
-- Name the branch after the content being added or changed, not after the
-  session or a generic label. Examples: `agent-npc`, `mall-rats-encounter`,
-  `bellcross-drug-faction`.
-- Open a pull request from that branch into `main`, then merge it.
-- Delete the branch (remote and local) once its PR has merged. A branch with
-  no unmerged commits ahead of `main` shouldn't stick around.
+  a single shared branch named `claude-code`.
+- Before starting a new round of changes, make sure `claude-code` is current:
+  if the last PR from it has already merged into `main`, reset the branch
+  from the latest `main` instead of stacking new work on old merged history
+  (`git fetch origin main && git checkout -B claude-code origin/main`). If it
+  hasn't merged yet, keep committing onto it as-is.
+- Commit changes onto `claude-code` and push.
+- Open a pull request from `claude-code` into `main`, then merge it.
+- Do not delete `claude-code` after merging — it's reused for the next round
+  of changes. The flow repeats: request comes in, changes land on
+  `claude-code`, PR merges into `main`, branch resets for next time.
