@@ -8,7 +8,7 @@ tags: [faerun, scornubel, refugees, mercenaries, coster-council, pre-merge, hand
 created: 2026-08-03
 updated: 2026-08-03
 source: campaign-chronicle
-player_known: false
+player_known: true
 ---
 
 # Deputy Registrar's Log — Scornubel
@@ -113,15 +113,14 @@ expect to.
 
 — *M. Ashgrove, Deputy Registrar*
 
-## What the Party Knows
-
-Exactly what's written above and nothing more — the party has no context yet for
-what a door that grows out of a wall, or an empty lot that grows a locked,
-windowless building overnight, might mean. That recognition only arrives in
-hindsight, once the party has met [Briarwood Mall](../places/briarwood-mall.md)'s
-own extra janitor's closet on their own side of the line.
-
 ## DM Only
+
+**What the party knows.** Exactly what's written above and nothing more — the
+party has no context yet for what a door that grows out of a wall, or an empty
+lot that grows a locked, windowless building overnight, might mean. That
+recognition only arrives in hindsight, once the party has met
+[Briarwood Mall](../places/briarwood-mall.md)'s own extra janitor's closet on
+their own side of the line.
 
 **Timeline.** Written days before the merge event described in the [Session 0
 primer](../session-zero-primer.md), continuing the crisis snapshot in
