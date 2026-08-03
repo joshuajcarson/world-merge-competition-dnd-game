@@ -6,7 +6,7 @@ type: place
 origin: faerun
 tags: [faerun, western-heartlands, caravan-city, city, tiamat, refugees, muster, call-to-arms]
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-08-03
 source: campaign-chronicle
 player_known: true
 region: "The Western Heartlands, at the confluence of the River Chionthar and the Reaching Stream"
@@ -37,6 +37,7 @@ Which is to say: if you can hold a weapon, Scornubel has been calling your name 
 ## Notable Locations
 
 - **The Council Yard** — the old caravan-assembly ground, now the muster field. Tables under awnings, a Council clerk with a ledger, a paymaster's strongbox under guard, and a line that starts before dawn. Contracts are read aloud because half the line cannot read. This is where the party is hired.
+- **The Council Hall** — the stone records building behind the Yard, where the Coster Council keeps its charters, contracts, and the refugee rolls. The driest, most defensible structure in the city, and lately the site of something nobody official wants to put a name to — see [Miriel Ashgrove](../npcs/miriel-ashgrove.md)'s log.
 - **The Broadsheet Post** — the notice pillar at the yard's mouth, papered in muster bills, bounties on cultists, missing-kin notices from the coast, and free-company recruitment sheets undercutting each other by the hour. The single best place in the city to hang a hook.
 - **The Wagon-Yards** — Scornubel's real substance: acres of ox-pens, wheelwrights, cooperages, and coster warehouses along the Chionthar's north bank, most of them now half-emptied of goods and full of sleeping refugees instead.
 - **The Tent City** — the sprawl west toward the Reaching Stream ford. Coast refugees, no sanitation, no law but what the costers' hired men enforce, and a fever going through it that nobody has named yet. Rumor runs faster here than anywhere in the Heartlands.
@@ -63,4 +64,5 @@ Nothing. The party are Earth civilians who were in [Briarwood Mall](briarwood-ma
 - **[Halric Ammakyl](../npcs/halric-ammakyl.md)** is your first-contact figure, not a patron. He was running the muster tables when the sky changed, he is the man at the front of the Faerun side who can be reasoned with, and he is the reason the first meeting is a conversation instead of a massacre. Whether he stays that reasonable depends on how the party handles hour one.
 - **Broadcast layer.** A magicless mall of four hundred civilians dropped beside a mustered fantasy army is *precisely* the matchup [Agent](../npcs/agent.md) builds cohorts around, and the placement is not an accident — Agent timed this collision on purpose, the same way it times every fragment landing. Play it as an accident anyway. Nobody on either side of the line should suspect they were positioned until much later.
 - **Distance is a dial you set once.** How far is the mall from the Council Yard — a hundred yards of parking lot, or a day's walk with unknown ground between? Close means contact in Session 1 and no time to prepare; far means the party gets a few sessions of scavenging Briarwood before the horizon acquires torches. Both are good. Pick before Session 1 and don't waffle, because the answer determines the entire shape of the first arc.
+- **The architectural bleed-through starts here, pre-merge.** Days before the merge itself, the Council Hall gains doors it never had and a sealed, windowless building appears overnight on Coopers' Row — see [Miriel Ashgrove](../npcs/miriel-ashgrove.md)'s log, [Deputy Registrar's Log — Scornubel](../lore/deputy-registrars-log-scornubel.md). This is the same phenomenon as [Briarwood's extra janitor's closet](briarwood-mall.md), running on both sides of the eventual merge line before the main event — Administration backstage leaking through on Agent's schedule, not the merge's. Use it as a clue players can connect only after they've found the mall's own extra closet.
 - **Open question:** what does Scornubel think Briarwood *is*? A city that spent a month expecting the dragons, then had reality torn open, is now looking at a windowless slab full of light, humming, and unarmed people. Read as a fortress, it gets stormed. Read as a divine sign, it gets pilgrims. Read as a warehouse, it gets looted. That single interpretation is the campaign's opening move and it belongs to the DM.

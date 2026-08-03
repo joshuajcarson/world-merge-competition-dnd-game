@@ -17,6 +17,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Sonny Trujillo](npcs/sonny-trujillo.md) — The Circuit's Radio Shack lieutenant: comms and countersurveillance. *(stub)*
 - [Patrice Odum](npcs/patrice-odum.md) — The Circuit's Orange Julius lieutenant: cash and product. *(stub)*
 - [Corey Blevins](npcs/corey-blevins.md) — Westfield Mall kid locked in a closet the night of the merge; found again as a hostage in [Mall Rats](../encounters/mall-rats.md). *(stub)*
+- [Miriel Ashgrove](npcs/miriel-ashgrove.md) — half-elf Deputy Registrar at Scornubel's Council Yard, holding the refugee rolls together against her own Council's mercenaries.
 
 ## Places
 
@@ -33,7 +34,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 
 ## Lore
 
-*(None yet.)*
+- [Deputy Registrar's Log — Scornubel](lore/deputy-registrars-log-scornubel.md) — a found-document handout: [Miriel Ashgrove](npcs/miriel-ashgrove.md)'s pre-merge journal, overwhelmed by refugees and mercenaries, ending on the first sign of the merge bleeding through Scornubel's architecture.
 
 ---
 

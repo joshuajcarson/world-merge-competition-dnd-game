@@ -6,7 +6,7 @@ type: faction
 origin: faerun
 tags: [faerun, scornubel, merchants, costers, patrons]
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-08-03
 source: campaign-chronicle
 player_known: false
 needs_detail: true
@@ -27,6 +27,8 @@ hiring every sellsword who will come.
 ## Goals
 
 ## Notable Members
+
+- [Miriel Ashgrove](../npcs/miriel-ashgrove.md) — half-elf Deputy Registrar keeping the refugee rolls, and increasingly the only person checking the Council's mercenary contracts against what's actually happening in the tent city.
 
 ## What the Party Knows
 

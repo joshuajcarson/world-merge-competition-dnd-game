@@ -6,7 +6,7 @@ type: place
 origin: administration
 tags: [administration, mall-rats, ratkin, cohort-14, briarwood-mall, dungeon]
 created: 2026-08-02
-updated: 2026-08-02
+updated: 2026-08-03
 source: encounter-weaver
 player_known: false
 needs_detail: true
@@ -41,3 +41,9 @@ never bothered to dispose of — see [Mall Rats](../../encounters/mall-rats.md) 
 their situation and [Agent](../npcs/agent.md)'s mocking tone toward them. Whether Sector 7 connects
 to anywhere else, or whether more of these leftover storage sectors exist elsewhere
 in Bellcross, is an open question worth deciding only if the party goes looking.
+
+The same bleed-through happens pre-merge on the Faerun side: see
+[Deputy Registrar's Log — Scornubel](../lore/deputy-registrars-log-scornubel.md) for
+unexplained new doors and a sealed building appearing in Scornubel days before the
+merge itself. Whether that Faerun-side anomaly connects to this same sector is
+undecided — pick an answer only if the party pursues it from both ends.
