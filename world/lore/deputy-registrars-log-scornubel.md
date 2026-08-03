@@ -13,10 +13,6 @@ player_known: true
 
 # Deputy Registrar's Log — Scornubel
 
-> A found document. Hand it to the players as a recovered page — looted off a body,
-> left behind at an abandoned registry table, or produced by [Miriel Ashgrove](../npcs/miriel-ashgrove.md)
-> herself if she survives to be met in person.
-
 **6th of Marpenoth. Written by rushlight — the good candles went to the fever tents.**
 
 I told Warden Ammakyl this morning that if one more free company tries to charge a
