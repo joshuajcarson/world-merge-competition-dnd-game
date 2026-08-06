@@ -71,6 +71,11 @@ statblock the scene calls for — the trait is what makes a Fulgurite a Fulgurit
 not its base combat stats. See individual entries under Notable Examples for
 specific tiers once they exist.
 
+**As loot:** see the [Fulgurite Splinter](../../items/fulgurite-splinter.md) —
+a single-use item cut from a spent Fulgurite that lets whoever crushes it
+trigger one Overcharge effect themselves. A grim, plausible drop from any
+encounter here where a Fulgurite doesn't walk away.
+
 ## Notable Examples
 
 - [Priya Anand](../npcs/priya-anand.md) — "the Conductor," a former air-traffic
