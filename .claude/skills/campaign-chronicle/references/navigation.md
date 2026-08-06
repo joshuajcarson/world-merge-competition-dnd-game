@@ -11,7 +11,8 @@ README.md                      <- root
 │   ├── npcs/      (listed in world/README.md)
 │   ├── places/    (listed in world/README.md)
 │   ├── factions/  (listed in world/README.md)
-│   └── lore/      (listed in world/README.md)
+│   ├── lore/      (listed in world/README.md)
+│   └── races/     (listed in world/README.md)
 ├── sessions/README.md         <- session index
 │   └── NN-slug.md
 └── items/README.md            <- item index
