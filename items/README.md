@@ -8,6 +8,9 @@ Generated magic items, one file per item, named `<slug>.md`. Written by the `mag
 - [Mall Security Keyring](mall-security-keyring.md) — Uncommon wondrous item; a night guard's keys that lock any door for eight hours.
 - [Cindercrest Commendation Fang](cindercrest-commendation-fang.md) — Uncommon wondrous item; Agent's on-camera reward fang, warns of danger and can track a fled beast.
 - [Fulgurite Splinter](fulgurite-splinter.md) — Uncommon wondrous item; single-use, cut from a spent Fulgurite, crush it to release one Overcharge effect.
+- [Protein Shake](protein-shake.md) — Common potion; a GNC shelf item, single-use, heals 2d4+2.
+- [Ginsu Knife](ginsu-knife.md) — Common weapon; an As Seen On TV display unit, single-use, one devastating cut.
+- [Mood Ring](mood-ring.md) — Common ring; a Spencer Gifts spinner-rack find, single-use, forces one honest answer.
 
 ---
 
