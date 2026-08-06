@@ -22,6 +22,9 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Grinder](npcs/grinder.md) — a captive Fulgurite shock-trooper for the Ashvein Company's duergar; a held-in-reserve Agent hook for a surprise arrival near Briarwood Mall.
 - [The Chorus](npcs/the-chorus.md) — several people fused into one body by the same strike that made other Fulgurites; a solo-boss encounter.
 - [Brenda Hollis](npcs/brenda-hollis.md) — private contract security working the ThighMaster signing; sharp-eyed, lazy, and unwilling to be the one who reports anything. *(stub)*
+- [The Landlady](npcs/the-landlady.md) — a Warrenwright Broodqueen, colony matriarch and remote trigger for her warren's Release. *(stub)*
+- [The Sapper](npcs/the-sapper.md) — a Warrenwright worker displaced onto Faerun's side of the merge, holding a stretch of riverbank. *(stub)*
+- [The Pit Boss](npcs/the-pit-boss.md) — a Warrenwright scout gone feral inside an Earth casino's wiring. *(stub)*
 
 ## Places
 
@@ -45,6 +48,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 ## Races
 
 - [Fulgurites](races/fulgurites.md) — a separate Earth fragment merged into Faerun's Underdark; ordinary people fried by faerzress exposure into a feral, involuntarily-dangerous population.
+- [Warrenwrights](races/warrenwrights.md) — Aether-native beaver/prairie-dog colony builders that ground ambient energy through terraforming, wherever the merge drops them.
 
 ---
 
