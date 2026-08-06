@@ -9,7 +9,7 @@ All notes share a common frontmatter core, matching the contract in `items/READM
 | `name` | string | Display name / session title. |
 | `title` | string | Same string as `name`. Jekyll reserves `name` for the filename, so the site reads `title`. |
 | `slug` | string | Matches the filename (without `NN-` prefix for sessions). |
-| `type` | enum | `session`, `npc`, `place`, `faction`, `lore`, `handout`. Required — the site's index pages filter on it, so an entry without it renders nowhere. |
+| `type` | enum | `session`, `npc`, `place`, `faction`, `lore`, `handout`, `race`. Required — the site's index pages filter on it, so an entry without it renders nowhere. |
 | `origin` | enum | `faerun`, `tiamat`, `aether`, `earth`, `administration`, `unknown`, `merged`. Use `merged` for anything native to the combined world. |
 | `tags` | list | Free-form, for filtering. |
 | `created` | date | `YYYY-MM-DD`. |
@@ -91,6 +91,20 @@ Path: `world/lore/slug.md`
 For concepts, events, and rules of the world that aren't a person, place, or group — the merge itself, aether, the Administration's procedures, previous cohorts, the fate of a god.
 
 Sections: `## Overview`, `## What the Party Knows`, `## DM Only`.
+
+---
+
+## Race
+
+Path: `world/races/slug.md`
+
+For a monster race or people-group meant to be reused across multiple encounters and NPCs — a Monster Manual-style entry, not a single creature. Modeled on the shared-lore + specific-examples shape of a Manual's "Goblins" or "Orcs" entry: the race file carries what's true of the whole population, and 2+ separate NPC files (linked from it) carry the specific, nameable individuals a table actually meets.
+
+Extra fields: `origin_species` (string — what they were before whatever changed them, e.g. `"Earth human"`), `challenge_band` (string, optional — a rough tier/CR range for reskinning guidance, e.g. `"CR 1/8-2, kobold/goblin tier"`; omit if not yet decided).
+
+Sections: `## Description` (what they are, how they came to be this — a race's most interesting fact in this setting is usually the specific catastrophe or merge event that made them), `## Racial Trait` (the shared mechanical hook every member of the race gets, written narratively enough to reskin onto any tier-appropriate base statblock — not a full stat block itself), `## Notable Examples` (bulleted, linked to the individual NPC files that give the race faces — at least two, per a Manual's usual "the rank and file" plus "the named variant/leader" split), `## What the Party Knows`, `## DM Only`.
+
+An NPC that belongs to one of these races still lives at `world/npcs/slug.md` under the normal NPC contract — set its `species` field to the race's name and link back to the race file in prose. The race file doesn't need a new NPC-contract field for this; a prose link both directions is enough to keep it navigable.
 
 ---
 

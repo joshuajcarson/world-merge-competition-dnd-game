@@ -36,6 +36,10 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 
 - [Deputy Registrar's Log — Scornubel](lore/deputy-registrars-log-scornubel.md) — a found-document handout: [Miriel Ashgrove](npcs/miriel-ashgrove.md)'s pre-merge journal, overwhelmed by refugees and mercenaries, ending on the first sign of the merge bleeding through Scornubel's architecture.
 
+## Races
+
+- [Fulgurites](races/fulgurites.md) — a separate Earth fragment merged into Faerun's Underdark; ordinary people fried by faerzress exposure into a feral, involuntarily-dangerous population. *(stub — no named examples yet)*
+
 ---
 
 Entries marked *(stub)* have frontmatter and a one-line description but need detail.
