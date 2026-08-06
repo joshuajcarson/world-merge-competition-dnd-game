@@ -9,7 +9,6 @@ created: 2026-08-06
 updated: 2026-08-06
 source: campaign-chronicle
 player_known: false
-needs_detail: true
 origin_species: "Earth human"
 ---
 
@@ -74,9 +73,20 @@ specific tiers once they exist.
 
 ## Notable Examples
 
-*(None yet — the first named individuals are the next thing to build. Per this
-type's convention, this race entry should end up linking at least two: ordinary
-stock plus a named variant or leader figure.)*
+- [Priya Anand](../npcs/priya-anand.md) — "the Conductor," a former air-traffic
+  controller who kept most of her mind and now leads by force of will; can
+  trigger other Fulgurites' Overcharge on command, without them needing to be
+  bloodied first.
+- [Grinder](../npcs/grinder.md) — a captive shock-trooper for the
+  [Ashvein Company](../factions/ashvein-company.md), a duergar raiding band
+  that has learned to pre-trigger his Overcharge before sending him in. Held
+  in reserve as an [Agent](../npcs/agent.md)-triggered surprise arrival near
+  [Briarwood Mall](../places/briarwood-mall.md) if the campaign needs a
+  ratings-driven escalation.
+- [The Chorus](../npcs/the-chorus.md) — several people fused into one body by
+  the same strike that made everyone else an individual Fulgurite. A
+  solo-boss-tier encounter built around Compound Overcharge: a fresh discharge
+  every time it crosses a quarter of its max HP instead of just once.
 
 ## What the Party Knows
 

@@ -18,6 +18,9 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Patrice Odum](npcs/patrice-odum.md) — The Circuit's Orange Julius lieutenant: cash and product. *(stub)*
 - [Corey Blevins](npcs/corey-blevins.md) — Westfield Mall kid locked in a closet the night of the merge; found again as a hostage in [Mall Rats](../encounters/mall-rats.md). *(stub)*
 - [Miriel Ashgrove](npcs/miriel-ashgrove.md) — half-elf Deputy Registrar at Scornubel's Council Yard, holding the refugee rolls together against her own Council's mercenaries.
+- [Priya Anand](npcs/priya-anand.md) — "the Conductor," a former air-traffic controller and the closest thing the Underdark's Fulgurite bands have to a leader.
+- [Grinder](npcs/grinder.md) — a captive Fulgurite shock-trooper for the Ashvein Company's duergar; a held-in-reserve Agent hook for a surprise arrival near Briarwood Mall.
+- [The Chorus](npcs/the-chorus.md) — several people fused into one body by the same strike that made other Fulgurites; a solo-boss encounter.
 
 ## Places
 
@@ -31,6 +34,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [The Coster Council](factions/coster-council.md) — the merchants who own Scornubel and are buying it a wall out of other people's bodies. *(stub)*
 - [Cult of Tiamat](factions/cult-of-tiamat.md) — the dragon cult that won; holds the Sword Coast and is pushing up the Chionthar. *(stub)*
 - [The Circuit](factions/the-circuit.md) — Bellcross's drug trade, run out of the mall's Radio Shack and Orange Julius by a DEA agent using his badge as cover; the campaign's Act 1 primary antagonist.
+- [The Ashvein Company](factions/ashvein-company.md) — an Underdark duergar raiding band that captured and weaponized a Fulgurite shock-trooper. *(stub)*
 
 ## Lore
 
@@ -38,7 +42,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 
 ## Races
 
-- [Fulgurites](races/fulgurites.md) — a separate Earth fragment merged into Faerun's Underdark; ordinary people fried by faerzress exposure into a feral, involuntarily-dangerous population. *(stub — no named examples yet)*
+- [Fulgurites](races/fulgurites.md) — a separate Earth fragment merged into Faerun's Underdark; ordinary people fried by faerzress exposure into a feral, involuntarily-dangerous population.
 
 ---
 
