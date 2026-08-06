@@ -99,6 +99,14 @@ Exact timing and trigger are the DM's call, deliberately left open here — see
 the encounter-weaver guardrail against pre-deciding a campaign's next major
 beat. When it happens, it's a good candidate for its own encounter file.
 
+**A ready-made drama lever, not a scheduled beat.** [Grinder](grinder.md) — a
+captive [Fulgurite](../races/fulgurites.md) shock-trooper for an Underdark
+duergar band — is written specifically to be teleported to
+[Briarwood Mall](../places/briarwood-mall.md) by Agent if a session runs quiet
+and the ratings need a jolt. Keep it in reserve rather than planning around it;
+it exists so a DM has something to pull if the campaign needs one, not as a
+beat that has to happen.
+
 **Not Pedro.** The feathered host, the orc, and the ooze from the
 [Session 0 primer](../session-zero-primer.md) are the on-camera talent —
 audience-facing personalities the *viewers* watch, occasionally sent in person
