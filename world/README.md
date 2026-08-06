@@ -21,6 +21,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Priya Anand](npcs/priya-anand.md) — "the Conductor," a former air-traffic controller and the closest thing the Underdark's Fulgurite bands have to a leader.
 - [Grinder](npcs/grinder.md) — a captive Fulgurite shock-trooper for the Ashvein Company's duergar; a held-in-reserve Agent hook for a surprise arrival near Briarwood Mall.
 - [The Chorus](npcs/the-chorus.md) — several people fused into one body by the same strike that made other Fulgurites; a solo-boss encounter.
+- [Brenda Hollis](npcs/brenda-hollis.md) — private contract security working the ThighMaster signing; sharp-eyed, lazy, and unwilling to be the one who reports anything. *(stub)*
 
 ## Places
 
@@ -39,6 +40,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 ## Lore
 
 - [Deputy Registrar's Log — Scornubel](lore/deputy-registrars-log-scornubel.md) — a found-document handout: [Miriel Ashgrove](npcs/miriel-ashgrove.md)'s pre-merge journal, overwhelmed by refugees and mercenaries, ending on the first sign of the merge bleeding through Scornubel's architecture.
+- [Private Security Log — Briarwood Mall](lore/private-security-log-briarwood-mall.md) — [Brenda Hollis](npcs/brenda-hollis.md)'s shift log from the ThighMaster signing: lazy, funny, class-conscious, and one paragraph away from noticing the mall's extra closet before anyone else does.
 
 ## Races
 
