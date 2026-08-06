@@ -8,7 +8,7 @@ tags: [earth, briarwood-mall, session-zero, security, pre-merge, handout, foresh
 created: 2026-08-06
 updated: 2026-08-06
 source: campaign-chronicle
-player_known: false
+player_known: true
 ---
 
 # Private Security Log — Briarwood Mall
