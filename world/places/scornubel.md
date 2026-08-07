@@ -43,7 +43,7 @@ Which is to say: if you can hold a weapon, Scornubel has been calling your name 
 - **The Tent City** — the sprawl west toward the Reaching Stream ford. Coast refugees, no sanitation, no law but what the costers' hired men enforce, and a fever going through it that nobody has named yet. Rumor runs faster here than anywhere in the Heartlands.
 - **The Dawnpost** — the river watch: a timber tower and a chain-boom at the bend downstream, manned around the clock by volunteers who watch the fog for wings. Two false alarms so far. The bell can be heard in the whole city.
 - **The Palisade Works** — the unfinished earthwork and stake wall on the river side. Trenches, tar-pots, and press-ganged labor. It stops men. It does not stop a dragon and every laborer on it knows that.
-- **The Shrine Row** — a stretch of the caravan road grown thick with travelers' shrines, now doing the best business in the city: Tempus, Tymora, Helm, Lathander, and a dozen roadside gods with no temple anywhere. Militant orders are recruiting off the same street the sellswords are.
+- **The Shrine Row** — a stretch of the caravan road grown thick with travelers' shrines, now doing the best business in the city: Tempus, Tymora, Helm, Lathander, and a dozen roadside gods with no temple anywhere. Militant orders are recruiting off the same street the sellswords are. Cheap devotional stock is sold here by the handful — see [Tymora's Last Copper](../../items/tymoras-last-copper.md) for a plausible find.
 - **The Deep Cellars** — the old cold-storage vaults under the coster warehouses, dug for grain and now quietly being surveyed as the place the city hides when the sky opens.
 
 ## What the Party Knows
