@@ -25,6 +25,8 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [The Landlady](npcs/the-landlady.md) — a Warrenwright Broodqueen, colony matriarch and remote trigger for her warren's Release. *(stub)*
 - [The Sapper](npcs/the-sapper.md) — a Warrenwright worker displaced onto Faerun's side of the merge, holding a stretch of riverbank. *(stub)*
 - [The Pit Boss](npcs/the-pit-boss.md) — a Warrenwright scout gone feral inside an Earth casino's wiring. *(stub)*
+- [Rosalind Voss](npcs/rosalind-voss.md) — Bellcross parks-department worker turned Swanfolk; first-contact figure for the Drowned Chantry. *(stub)*
+- [Sister Maerwyn](npcs/sister-maerwyn.md) — swanmay novice caught mid-shift, guardian of the Drowned Chantry's reflecting pool. *(stub)*
 
 ## Places
 
@@ -32,6 +34,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Briarwood Mall](places/briarwood-mall.md) — Bellcross, Texas, November 5th, 1992; the campaign's starting location and Session 0 table.
 - [Scornubel](places/scornubel.md) — the caravan city mid-muster as Tiamat's cult moves inland; lands near Briarwood when the worlds merge.
 - [Sector 7 (Cohort 14 Holding)](places/cohort-14-holding-sector.md) — Administration storage space behind a merge-displaced Briarwood closet; setting of [Mall Rats](../encounters/mall-rats.md). *(stub)*
+- [The Drowned Chantry](places/drowned-chantry.md) — a Faerun shrine to Eldath fused with a Bellcross park lake, in the unclaimed ground between Scornubel and Briarwood; home to the Swanfolk. *(stub)*
 
 ## Factions
 
@@ -49,6 +52,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 
 - [Fulgurites](races/fulgurites.md) — a separate Earth fragment merged into Faerun's Underdark; ordinary people fried by faerzress exposure into a feral, involuntarily-dangerous population.
 - [Warrenwrights](races/warrenwrights.md) — Aether-native beaver/prairie-dog colony builders that ground ambient energy through terraforming, wherever the merge drops them.
+- [Swanfolk](races/swanfolk.md) — Faerun swanmays fused mid-transformation with a Bellcross park's ordinary swans; territorial guardians of the Drowned Chantry.
 
 ---
 
