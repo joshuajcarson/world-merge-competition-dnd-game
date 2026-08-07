@@ -61,3 +61,7 @@ recoverable.
 of that pool — Eldath's own attention, a fragment of the original ritual, a
 plain body under the feathers — is deliberately unset. Decide only if a
 table pursues it that far.
+
+See [Swan Song](../../encounters/swan-song.md) Node F for her staged
+encounter, including the calm-her-down approach that keeps this question
+open versus the ending where it doesn't.

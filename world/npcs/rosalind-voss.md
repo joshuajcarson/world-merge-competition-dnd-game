@@ -44,7 +44,8 @@ what [Halric Ammakyl](halric-ammakyl.md) does for
 meeting a conversation instead of a wipe, if the party gives her the chance.
 She can't speak, but she can be read — Insight, not Persuasion, is the
 relevant check for whether the party notices she's stalling rather than
-attacking.
+attacking. See [Swan Song](../../encounters/swan-song.md) Node B for her
+staged appearance.
 
 **What she wants.** Nothing coherent enough to negotiate over. She wants
 people to leave the water alone, the way she wanted rowdy teenagers to leave
