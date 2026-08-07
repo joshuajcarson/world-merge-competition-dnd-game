@@ -41,7 +41,7 @@ The line for it starts forming outside Chess King around four. Mall security has
 - **The "As Seen On TV" store, lower level, near the fountain** — site of tonight's grand opening. Folding chairs, a low riser stage, a card table stacked with ThighMasters, and a banner that has one corner sagging.
 - **The fountain court** — a two-story open well with a tile fountain, benches, and pennies. Everything in the building is navigated by reference to it.
 - **The food court, upper level** — Sbarro, Orange Julius, Hot Dog on a Stick, Chick-fil-A, Cinnabon. Bolted-down tables. One tray-return nobody uses.
-- **Aladdin's Castle arcade** — dark, loud, sticky carpet, *Street Fighter II* cabinet with a permanent crowd.
+- **Aladdin's Castle arcade** — dark, loud, sticky carpet, *Street Fighter II* cabinet with a permanent crowd. The token hopper is a plausible source for an [Arcade Continue Token](../../items/arcade-continue-token.md).
 - **Anchors** — Dillard's and JCPenney at the ends, Sears on the west wing (auto center out back, tire bay, roll-up doors), Montgomery Ward on the east.
 - **The rest of the promenade** — Sam Goody, Waldenbooks, Spencer Gifts, Contempo Casuals, Merry-Go-Round, Foot Locker, KB Toys, Suncoast Motion Picture Company, Claire's, Piercing Pagoda, GNC, Radio Shack, Sunglass Hut, Thom McAn, a Payless, a Hallmark, and a photo booth outside the restrooms that eats quarters.
 - **Back-of-house** — the service corridor ringing the building: loading dock, dumpster bay, the security office with its bank of black-and-white monitors, the mechanical room, and the janitor's closets, one per wing.

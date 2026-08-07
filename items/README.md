@@ -11,6 +11,10 @@ Generated magic items, one file per item, named `<slug>.md`. Written by the `mag
 - [Protein Shake](protein-shake.md) — Common potion; a GNC shelf item, single-use, heals 2d4+2.
 - [Ginsu Knife](ginsu-knife.md) — Common weapon; an As Seen On TV display unit, single-use, one devastating cut.
 - [Mood Ring](mood-ring.md) — Common ring; a Spencer Gifts spinner-rack find, single-use, forces one honest answer.
+- [Aether Crystal Shard](aether-crystal-shard.md) — Uncommon wondrous item; red aether-battery salvage, single-use, adds 2d6 Force to your next hit.
+- [Arcade Continue Token](arcade-continue-token.md) — Uncommon wondrous item; an Aladdin's Castle token, single-use, drops you to 1 HP instead of 0.
+- [Tymora's Last Copper](tymoras-last-copper.md) — Uncommon wondrous item; a Shrine Row luck token, single-use, rerolls one failed roll.
+- [Cultist's Chromatic Ampoule](cultists-chromatic-ampoule.md) — Uncommon potion; Cult of Tiamat field-issue, single-use thrown acid burst.
 
 ---
 

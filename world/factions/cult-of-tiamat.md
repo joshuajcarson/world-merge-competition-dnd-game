@@ -41,3 +41,7 @@ standing on purpose, and were moving upriver on
 are elsewhere on the merged world — or nowhere; that is the DM's call. What certainly
 arrives near Briarwood are the cells that had already infiltrated Scornubel's refugee
 tent city. They do not yet know what the merge did to their god.
+
+Field-issue gear is standardized enough to loot predictably — see
+[Cultist's Chromatic Ampoule](../../items/cultists-chromatic-ampoule.md) for a
+plausible drop off any patrol or cache.
