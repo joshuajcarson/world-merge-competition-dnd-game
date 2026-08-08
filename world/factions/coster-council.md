@@ -29,6 +29,7 @@ hiring every sellsword who will come.
 ## Notable Members
 
 - [Miriel Ashgrove](../npcs/miriel-ashgrove.md) — half-elf Deputy Registrar keeping the refugee rolls, and increasingly the only person checking the Council's mercenary contracts against what's actually happening in the tent city.
+- Ostrander Vale — senior factor of the Hallowspring Coster, one of the trading houses under the Council's banner. Sent [Hallowspring's Thanks](../../items/hallowsprings-thanks.md) ahead as a diplomatic gift to "the mall people" after his people fell for Briarwood's plumbing. Whether that's genuine goodwill or the Council gathering intelligence through a friendlier face is open.
 
 ## What the Party Knows
 
