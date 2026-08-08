@@ -8,12 +8,22 @@ tags: [chase, session-zero, world-merge, briarwood-mall, tutorial]
 party_tier: "level 1 (freshly created at the merge)"
 party_size: "3-4"
 created: 2026-08-02
-updated: 2026-08-02
+updated: 2026-08-08
 source: encounter-weaver
-player_known: false
+player_known: true
 ---
 
 # Chase Through the Grand Opening
+
+## The Hook
+
+Session 0. Thursday, November 5th, 1992 — the grand opening of the "As Seen On
+TV" store at Briarwood Mall, Suzanne Somers live on a riser by the fountain, a
+line four hundred deep, and every folding chair in Bellcross apparently rented
+for the occasion. An ordinary night, played out in full, right up until it
+isn't.
+
+## DM Only
 
 ## Premise
 

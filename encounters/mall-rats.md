@@ -8,12 +8,19 @@ tags: [dungeon, combat, briarwood-mall, administration, ratkin, hostage, timed, 
 party_tier: "level 2"
 party_size: "3-4"
 created: 2026-08-02
-updated: 2026-08-02
+updated: 2026-08-08
 source: encounter-weaver
-player_known: false
+player_known: true
 ---
 
 # Mall Rats
+
+## The Hook
+
+Somewhere in post-merge Briarwood, there's a door that doesn't work like a
+door should.
+
+## DM Only
 
 ## Premise
 

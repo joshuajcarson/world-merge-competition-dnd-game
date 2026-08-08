@@ -34,6 +34,6 @@ Matches the shared core used by other note types in this repo (`items/README.md`
 | `created` | date | `YYYY-MM-DD`. |
 | `updated` | date | Bump on every edit. |
 | `source` | string | `encounter-weaver`. |
-| `player_known` | bool | Always `false`. Encounter files are prep material in their entirety — there's no player-facing half to publish, so this flag just keeps the whole thing off the players' site. It isn't meant to flip `true` later the way an NPC or lore entry's might. |
+| `player_known` | bool | `false` by default at creation — encounter files are prep material in their entirety, with no player-facing section built in. It *can* flip `true` later, but only after a deliberate restructure: add a short `## The Hook` section right after the title (a few non-spoiling, mood-setting sentences — no triggers, stats, or endings), then insert a `## DM Only` heading directly before the existing `## Premise` section. The site hides everything from the first `## DM ...` heading onward, so this pushes the entire node graph, triggers, and endings out of player view while leaving the hook visible. Never flip this flag without doing that restructure first — publishing the raw file spoils the whole encounter. |
 
 If `party_tier` is `null` because the user hasn't answered yet, say so plainly in your response — don't ship combat-node content that depends on it.

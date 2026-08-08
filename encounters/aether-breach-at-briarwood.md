@@ -8,12 +8,19 @@ tags: [combat, monster, briarwood-mall, aether, world-merge-competition, adminis
 party_tier: "level 1"
 party_size: "3-4"
 created: 2026-08-02
-updated: 2026-08-02
+updated: 2026-08-08
 source: encounter-weaver
-player_known: false
+player_known: true
 ---
 
 # Aether Breach at Briarwood
+
+## The Hook
+
+Some ordinary evening, weeks after the world changed everything else. A
+scream that doesn't stop when the next one starts. Then glass.
+
+## DM Only
 
 ## Premise
 

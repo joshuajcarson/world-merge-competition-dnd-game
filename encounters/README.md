@@ -21,8 +21,13 @@ site can index encounters without per-file special-casing.
 ## Conventions
 
 - Encounter files are prep material through and through — the whole document
-  is DM-facing, so `player_known` stays `false` permanently rather than being
-  a flag that later flips `true` the way an NPC or lore entry's might.
+  is DM-facing by default, so `player_known` stays `false` at creation. It can
+  be flipped to `true` later, but only after adding a short, non-spoiling
+  `## The Hook` section and moving everything else (Premise onward) behind a
+  `## DM Only` heading — see the frontmatter contract in
+  `.claude/skills/encounter-weaver/references/dc-guide.md` for the exact
+  pattern. Never publish the raw file as-is; it has no built-in player-facing
+  half.
 - DCs follow this campaign's fixed ladder (5/10/15/20), not default 5e
   difficulty numbers. See the DC guide above.
 - No enemy statting or fight-difficulty calls happen until the party's tier
