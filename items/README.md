@@ -15,6 +15,7 @@ Generated magic items, one file per item, named `<slug>.md`. Written by the `mag
 - [Arcade Continue Token](arcade-continue-token.md) — Uncommon wondrous item; an Aladdin's Castle token, single-use, drops you to 1 HP instead of 0.
 - [Tymora's Last Copper](tymoras-last-copper.md) — Uncommon wondrous item; a Shrine Row luck token, single-use, rerolls one failed roll.
 - [Cultist's Chromatic Ampoule](cultists-chromatic-ampoule.md) — Uncommon potion; Cult of Tiamat field-issue, single-use thrown acid burst.
+- [Hallowspring's Thanks](hallowsprings-thanks.md) — Rare wondrous item (Requires Attunement); a Scornubel coster's diplomatic gift, 4 charges, purifies water/food and cures disease or poison.
 
 ---
 
