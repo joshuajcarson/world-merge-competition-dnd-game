@@ -8,7 +8,7 @@ tags: [faerun, scornubel, elf, first-contact, diplomacy]
 created: 2026-08-27
 updated: 2026-08-27
 source: campaign-chronicle
-player_known: false
+player_known: true
 needs_detail: true
 species: elf
 role: "Envoy from Scornubel; the Faerun side's actual first-contact figure"

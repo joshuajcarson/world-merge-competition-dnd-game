@@ -11,7 +11,7 @@ tags: [session-zero, briarwood-mall, world-merge]
 created: 2026-08-27
 updated: 2026-08-27
 source: campaign-chronicle
-player_known: false
+player_known: true
 ---
 
 # Session 0 — Welcome to the World Merge Competition

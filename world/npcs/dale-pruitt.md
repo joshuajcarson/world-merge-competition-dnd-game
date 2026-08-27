@@ -8,7 +8,7 @@ tags: [earth, session-zero, briarwood-mall, maintenance, world-merge]
 created: 2026-08-02
 updated: 2026-08-02
 source: campaign-chronicle
-player_known: false
+player_known: true
 needs_detail: true
 species: human
 role: "Fired mall maintenance hand; post-merge, a 'Wizard's Guard' — talked down, disarmed, and let go"
@@ -36,7 +36,10 @@ mood to say yes to Renee's idea in the first place.
 He's running out of the [Sears auto center](../places/briarwood-mall.md) with a
 stolen tool bag, Renee at his side, and a mechanic behind him yelling "thief." See
 [Chase Through the Grand Opening](../../encounters/chase-through-the-grand-opening.md)
-for how the party first meets him.
+for how the party first meets him. In [Session 1](../../sessions/01-mall-rats-and-the-grasslands-city.md),
+after the merge turned him into a weapon-armed "Wizard's Guard," the party
+talked him down rather than fighting — Phil Bernard confiscated Renee's
+transformed drill and let both of them go.
 
 ## DM Only
 

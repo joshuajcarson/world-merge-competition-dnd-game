@@ -8,7 +8,7 @@ tags: [administration, ratkin, mall-rats, cohort-15, briarwood-mall, ally]
 created: 2026-08-27
 updated: 2026-08-27
 source: campaign-chronicle
-player_known: false
+player_known: true
 species: "ratkin (Cohort 15 castoff)"
 role: "Ratkin Knight; swore fealty to the party in exchange for his people's freedom — now a Briarwood resident and militia figure"
 faction: null

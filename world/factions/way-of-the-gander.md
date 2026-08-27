@@ -8,7 +8,7 @@ tags: [merged, briarwood-mall, religion, refugees, emergent]
 created: 2026-08-27
 updated: 2026-08-27
 source: campaign-chronicle
-player_known: false
+player_known: true
 needs_detail: true
 scope: local
 disposition: ally

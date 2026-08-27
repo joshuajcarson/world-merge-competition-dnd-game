@@ -8,7 +8,7 @@ tags: [earth, session-zero, briarwood-mall, sears, world-merge]
 created: 2026-08-02
 updated: 2026-08-02
 source: campaign-chronicle
-player_known: false
+player_known: true
 needs_detail: true
 species: human
 role: "Dale Pruitt's girlfriend; post-merge, a 'Gunslinging Wizard' — disarmed and let go"
@@ -31,7 +31,10 @@ scared than she's letting Dale see once mall security actually starts shouting.
 She's the girlfriend running alongside Dale as he bolts from the
 [Sears auto center](../places/briarwood-mall.md) with a stolen tool bag. See
 [Chase Through the Grand Opening](../../encounters/chase-through-the-grand-opening.md)
-for the scene.
+for the scene. In [Session 1](../../sessions/01-mall-rats-and-the-grasslands-city.md),
+after the merge turned her drill into a bolt-firing focus, the party talked
+her and Dale down rather than fighting — Phil Bernard confiscated the drill
+and let both of them go.
 
 ## DM Only
 

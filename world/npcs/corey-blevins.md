@@ -8,7 +8,7 @@ tags: [earth, briarwood-mall, mall-rats, hostage, world-merge]
 created: 2026-08-02
 updated: 2026-08-02
 source: encounter-weaver
-player_known: false
+player_known: true
 needs_detail: true
 species: human
 role: "Skater kid locked in a janitor's closet at Westfield Mall the night of the merge; rescued from Sector 7, now living at Briarwood Mall"

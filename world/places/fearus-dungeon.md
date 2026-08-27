@@ -8,7 +8,7 @@ tags: [faerun, dungeon, duergar, gem-corruption, portal]
 created: 2026-08-27
 updated: 2026-08-27
 source: campaign-chronicle
-player_known: false
+player_known: true
 needs_detail: true
 region: "Reached via a portal Jack Mercer found in Chess World, Briarwood Mall"
 settlement_type: wilderness

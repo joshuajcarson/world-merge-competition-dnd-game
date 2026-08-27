@@ -8,7 +8,7 @@ tags: [administration, broadcast, ai, cohort-23, world-merge, recurring, dm-only
 created: 2026-08-02
 updated: 2026-08-02
 source: campaign-chronicle
-player_known: false
+player_known: true
 species: "announcer intelligence (Administration-built)"
 role: "The voice that runs Cohort 23 — announcer, timekeeper, and the thing that decided Briarwood should land next to Scornubel"
 faction: null
@@ -30,9 +30,9 @@ enthusiasm whether the thing being scored is a joke or a death.
 
 ## What the Party Knows
 
-The name, confirmed, since [Session 0](../../sessions/00-welcome-to-the-world-merge-competition.md):
-Agent announced itself by name the moment the merge triggered ("Welcome to
-the World Merge Competition"), then again mid-fight in
+An unnamed voice announced the merge itself in [Session 0](../../sessions/00-welcome-to-the-world-merge-competition.md)
+("Welcome to the World Merge Competition"). The name came later: Agent
+announced itself by name mid-fight in
 [Session 1](../../sessions/01-mall-rats-and-the-grasslands-city.md) ("Agent
 here! Look at these heroes fight to protect their shitty mall"), then again
 opening [Mall Rats](../../encounters/mall-rats.md) ("it's Mall Rats time"),

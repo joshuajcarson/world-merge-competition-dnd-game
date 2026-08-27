@@ -11,7 +11,7 @@ tags: [world-merge, briarwood-mall, scornubel, coster-council, blood-bowl]
 created: 2026-08-27
 updated: 2026-08-27
 source: campaign-chronicle
-player_known: false
+player_known: true
 ---
 
 # Session 2 — The Mall King
