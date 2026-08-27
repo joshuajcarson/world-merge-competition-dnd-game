@@ -11,10 +11,10 @@ source: campaign-chronicle
 player_known: false
 needs_detail: true
 species: human
-role: "Fired mall maintenance hand; post-merge, a 'Wizard's Guard'"
+role: "Fired mall maintenance hand; post-merge, a 'Wizard's Guard' — talked down, disarmed, and let go"
 faction: null
 status: alive
-first_seen: null
+first_seen: 1
 ---
 
 # Dale Pruitt
@@ -53,6 +53,8 @@ statblock (CR 1/8), sturdier than Renee, melee-focused, with one usable
 ward/shield-adjacent feature tied to standing near her. See the encounter's Combat
 Notes for sizing against a level 1 party.
 
-Unresolved: whether he and Renee survive the encounter as one-off Session 0 color or
-come back as recurring, reluctant-rival NPCs on the Earth side of the merge line. If
-the party lets them go, they're a cheap, ready-made hook for later.
+**Resolved in [Session 1](../../sessions/01-mall-rats-and-the-grasslands-city.md):**
+the party talked Dale and Renee down without a fight. Phil Bernard confiscated
+Renee's transformed drill (see her file) and let them both go rather than
+detain them. Both are alive, unconfined, and a ready-made hook for later —
+whether they've stayed near Briarwood or scattered isn't established yet.

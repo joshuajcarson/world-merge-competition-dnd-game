@@ -30,13 +30,18 @@ enthusiasm whether the thing being scored is a joke or a death.
 
 ## What the Party Knows
 
-Nothing with a name attached yet — but they've already heard it, twice, without
-knowing what they were listening to: the PA voice in
-[Aether Breach at Briarwood](../../encounters/aether-breach-at-briarwood.md) and
-the one that flags them the moment they cross the seam in
-[Mall Rats](../../encounters/mall-rats.md) are both Agent. Nobody's put the name
-to the voice yet. That's a discovery for the DM to hand over on purpose, not a
-retcon to explain.
+The name, confirmed, since [Session 0](../../sessions/00-welcome-to-the-world-merge-competition.md):
+Agent announced itself by name the moment the merge triggered ("Welcome to
+the World Merge Competition"), then again mid-fight in
+[Session 1](../../sessions/01-mall-rats-and-the-grasslands-city.md) ("Agent
+here! Look at these heroes fight to protect their shitty mall"), then again
+opening [Mall Rats](../../encounters/mall-rats.md) ("it's Mall Rats time"),
+and again in [Session 2](../../sessions/02-the-mall-king.md), booing the
+party out of the top 100 ratings and threatening an attack over it. The
+party has no reason yet to know it isn't the Administration itself, or to
+know anything about its true nature, its obsessions, or that it's chafing
+against oversight — only that a gleeful, ratings-obsessed voice called
+"Agent" is narrating their lives and occasionally attacking them for it.
 
 ## DM Only
 
@@ -75,7 +80,7 @@ Administration's.
 
 **It pushes back.** The Administration has Agent on rails it doesn't like:
 content-safety limits, a decency algorithm, budget caps on effects, a
-requirement that "ambient hazard content" like Cohort 14's ratkin stay
+requirement that "ambient hazard content" like Cohort 15's ratkin stay
 contained rather than become a real storyline. Agent tests every one of these
 constantly, in small ways first — letting a scene run a beat longer than it
 should, quietly amplifying a signal it was supposed to shut down. The

@@ -29,13 +29,14 @@ hiring every sellsword who will come.
 ## Notable Members
 
 - [Miriel Ashgrove](../npcs/miriel-ashgrove.md) — half-elf Deputy Registrar keeping the refugee rolls, and increasingly the only person checking the Council's mercenary contracts against what's actually happening in the tent city.
-- Ostrander Vale — senior factor of the Hallowspring Coster, one of the trading houses under the Council's banner. Sent [Hallowspring's Thanks](../../items/hallowsprings-thanks.md) ahead as a diplomatic gift to "the mall people" after his people fell for Briarwood's plumbing. Whether that's genuine goodwill or the Council gathering intelligence through a friendlier face is open.
 
 ## What the Party Knows
 
-Nothing yet. The party are Earth civilians from
-[Briarwood Mall](../places/briarwood-mall.md); the Council is on the other side of
-the merge line.
+As of [Session 2](../../sessions/02-the-mall-king.md): the Council runs
+Scornubel, has seven publicly known members, and is famously opaque about
+how it actually makes decisions. A [Stewies](the-stewies.md) guard captain
+confirmed under pressure that one of those seven members hired the company
+to raid Briarwood Mall — which member, and why, the party doesn't know yet.
 
 ## DM Only
 
@@ -43,3 +44,17 @@ Not heroic. Pre-merge they intended to sell time and then leave on provisioned
 evacuation barges. The merge stranded them with a full treasury, a hired army, and
 nowhere to go — and they will be the first organized power to work out that Briarwood
 is an unguarded warehouse full of impossible goods.
+
+**Confirmed in play, not just predicted:** the Stewies contract (see
+[Session 2](../../sessions/02-the-mall-king.md)) is exactly this prediction
+playing out. Deciding which of the seven members ordered it — and whether
+the rest of the Council knows — is a strong mid-campaign thread; don't
+resolve it casually.
+
+Retracted: an earlier draft of this file named a fictional member, "Ostrander
+Vale of the Hallowspring Coster," as the source of a diplomatic gift to the
+mall. That didn't happen — the real gift-giver was
+[the Hollow Spring](the-hollow-spring.md), an unrelated refugee group with a
+similar name, met in actual play. See
+[Hallowspring's Thanks](../../items/hallowsprings-thanks.md)'s current
+provenance.

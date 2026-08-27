@@ -8,7 +8,7 @@ tags: [combat, monster, briarwood-mall, aether, world-merge-competition, adminis
 party_tier: "level 1"
 party_size: "3-4"
 created: 2026-08-02
-updated: 2026-08-08
+updated: 2026-08-27
 source: encounter-weaver
 player_known: true
 ---
@@ -17,10 +17,26 @@ player_known: true
 
 ## The Hook
 
-Some ordinary evening, weeks after the world changed everything else. A
+The evening everything already changed, changing again within minutes: a
 scream that doesn't stop when the next one starts. Then glass.
 
 ## DM Only
+
+> **What actually happened at this table:** this incident landed inside
+> [Session 1](../sessions/01-mall-rats-and-the-grasslands-city.md), not
+> "some ordinary evening weeks after Session 0" — moments after the merge
+> transformation itself, before the mall's first teleport. The creature was
+> reskinned as a large, purple, wolf-shaped predator (no wings) that burst
+> through the JCPenney windows rather than appearing at the fountain court,
+> and it died attempting to flee rather than fully escaping — closest to
+> **Ending: Cornered and Killed** below, arrived at organically rather than
+> through a deliberate trap. No
+> [Cindercrest Commendation Fang](../items/cindercrest-commendation-fang.md)
+> was actually claimed at the table; treat it as unclaimed rather than
+> assume the party has it. The design below remains valid, reusable prep for
+> the reptilian "Cindercrest" version described throughout — apply the
+> reskin above if running this specific table's continuity forward, or run
+> it as written for a fresh table.
 
 ## Premise
 

@@ -47,3 +47,13 @@ Not built out beyond what Grinder's file needs. If this company becomes a
 recurring presence — likely, once Agent teleports it to the surface — flesh out
 leadership, size, and duergar-specific goals then, against whatever the table
 actually does with the encounter.
+
+**Possible connection, unconfirmed:** actual play produced a separate duergar
+operation at [Fearus Dungeon](../places/fearus-dungeon.md) — forcing captive
+humanoids to consume corrupting gems — and the party also defeated an
+unrelated "duergar queen" alongside Suzanne Somers in
+[Session 2](../../sessions/02-the-mall-king.md). Neither has been tied to
+this company yet. See Fearus Dungeon's DM notes for the open question of
+whether either one *is* Ashvein Company running a second operation, or
+genuinely separate duergar power. Decide once, not differently each time it
+comes up.

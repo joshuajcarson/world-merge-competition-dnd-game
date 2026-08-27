@@ -93,7 +93,7 @@ them yet.
 - **Running it as a full crawl.** See [Swan Song](../../encounters/swan-song.md)
   for the full node graph, triggers, and combat-by-combat breakdown — built
   the same way [Mall Rats](../../encounters/mall-rats.md) covers
-  [Sector 7](cohort-14-holding-sector.md), but with a rising-water
+  [Sector 7](cohort-15-holding-sector.md), but with a rising-water
   environmental pressure instead of a countdown clock.
 - **Open question:** what's actually in the Nesting Undercroft. Left
   unseeded on purpose — decide it against whatever the party's tier and the

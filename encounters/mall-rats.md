@@ -4,7 +4,7 @@ title: "Mall Rats"
 slug: mall-rats
 type: encounter
 origin: administration
-tags: [dungeon, combat, briarwood-mall, administration, ratkin, hostage, timed, cohort-14]
+tags: [dungeon, combat, briarwood-mall, administration, ratkin, hostage, timed, cohort-15]
 party_tier: "level 2"
 party_size: "3-4"
 created: 2026-08-02
@@ -28,8 +28,8 @@ Somewhere in post-merge [Briarwood Mall](../world/places/briarwood-mall.md), a d
 that shouldn't work like a door does. Default staging: the extra janitor's closet
 that came through the merge with [Steven McDouglas](../items/mall-security-keyring.md)'s
 keys still in its lock — see that item's file. Behind it isn't a closet anymore. It's
-the seam into [Sector 7](../world/places/cohort-14-holding-sector.md), an
-Administration storage sector for a ratkin population cancelled nine cohorts ago and
+the seam into [Sector 7](../world/places/cohort-15-holding-sector.md), an
+Administration storage sector for a ratkin population cancelled eight cohorts ago and
 never actually disposed of.
 
 This is a dungeon, not a chase — a string of rooms the party pushes through, mostly
@@ -146,7 +146,7 @@ scent, a sound) can just as easily go the other way, back into Briarwood.
 **Situation:** This node fires the instant the party is a few steps past the
 threshold — not rolled. The space opens into a cramped concrete backstage: exposed
 conduit, dead monitors, and one wall of Administration signage that flickers on as
-they pass it. Cold, bureaucratic text scrolls past: **"COHORT 14 · VERMINFOLK ·
+they pass it. Cold, bureaucratic text scrolls past: **"COHORT 15 · VERMINFOLK ·
 CONTESTANT STATUS REVOKED · RECLASSIFIED: AMBIENT HAZARD CONTENT."** That part's
 the Administration — flat, soulless, exactly as interested in the ratkin as a
 filing cabinet. Then a PA crackles to life mid-sentence, and this part has a
@@ -165,7 +165,7 @@ from here on can go loud without further warning, and the Administration Clock
 - *Move fast, worry about intel later* — no check, straight to Node C, but the
   party arrives with no information.
 - *Read what else the signage says* — DC 10 (Investigation or History). Success:
-  the party learns the shape of Cohort 14's story — a whole race axed mid-season
+  the party learns the shape of Cohort 15's story — a whole race axed mid-season
   and warehoused rather than sent home, kept as reusable hazard content for later
   cohorts — and picks up that something *else* is going on: a second alert is
   scrolling underneath about "unauthorized signal bleed, Sector 7, unresolved,"
@@ -226,7 +226,7 @@ cornered.
   already shown mercy this scene). Success: Pinch talks. He's been sneaking food to
   "the furless pup" for weeks — he's been feeding Corey — but Gnashwhisker found
   out today and took him to the broadcast chamber to use as proof of "relevance"
-  for [Agent](../world/npcs/agent.md) — the Administration already closed Cohort 14's
+  for [Agent](../world/npcs/agent.md) — the Administration already closed Cohort 15's
   file, but Agent is the one who decides what's worth airing, and Gnashwhisker
   still believes that's a door worth begging at. Pinch gives a real bearing on Node F and, DM's call,
   knowledge that shaves the checkpoint fight down (see Node E).
@@ -258,7 +258,7 @@ Skulkers, alerted since Node B.
 - *Fight* — combat resolution. Ironquill is a genuinely tougher single target; the
   Skulkers still fight per their usual pattern (see Combat Notes).
 - *Use what Pinch gave you* — if the party got Node D's information, DC 10
-  (whatever's plausible — a known blind spot, a distraction, a bit of Cohort 14
+  (whatever's plausible — a known blind spot, a distraction, a bit of Cohort 15
   history used to rattle him) instead of the normal fight setup, or skip straight
   past the Skulkers to Ironquill alone.
 - *Bluff as Administration inspectors* — DC 15 (Deception), higher risk/reward:
@@ -296,7 +296,7 @@ be here.
   can't actually follow through on or a genuine threat, DM's call based on how the
   scene's gone.
 - *Talk him down* — DC 15 (Persuasion), appealing to the plain fact that this
-  stunt won't get Cohort 14 reinstated. Success: Gnashwhisker breaks — grief and
+  stunt won't get Cohort 15 reinstated. Success: Gnashwhisker breaks — grief and
   rage, not surrender exactly, but he stops fighting for the broadcast and the
   scene can resolve toward **Ending: An Uneasy Truce** if the party follows up
   with any decency at all. Failure: it enrages him instead; treat the fight that
@@ -366,6 +366,18 @@ take a risk on someone else's behalf.
 ---
 
 ## Endings
+
+> **What actually happened at this table:** the party's outcome ran past
+> every ending below — Ironquill surrendered and swore personal fealty at
+> Node E rather than fighting or withdrawing, and the offer extended to his
+> entire garrison, not just himself. Corey was freed, Gnashwhisker was
+> defeated, and twenty ratkin (not "a handful") left Sector 7 with the party
+> and now live at Briarwood Mall. Treat this as **An Uneasy Truce, scaled
+> up** rather than a new named ending — see
+> [Session 1](../sessions/01-mall-rats-and-the-grasslands-city.md) and
+> [Ironquill's NPC file](../world/npcs/ironquill.md) for the canonical
+> result. The endings below remain useful as-written for any other table
+> running this dungeon fresh.
 
 - **Ending: Clean Sweep, Bonus Round.** Corey's out, the sector's sealed behind
   them, and they beat the clock doing it. [Agent](../world/npcs/agent.md) comes on

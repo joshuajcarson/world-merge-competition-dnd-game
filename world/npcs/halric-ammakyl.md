@@ -37,7 +37,15 @@ of the merge line, and likely the first one who talks instead of drawing.
 
 ## DM Only
 
-Intended as the Faerun side's first-contact figure once Scornubel lands near
-Briarwood — the man who can be reasoned with, and the reason hour one is a
-conversation rather than a massacre. His reason for funding a doomed city's defense is
-unwritten on purpose; pick one that survives contact with the merge.
+**Not used — superseded in play.** This file was drafted before any session
+happened, intending Halric as the Faerun side's first-contact figure. The
+actual table used [Lazare](lazare.md), an elf out of Scornubel, for that
+role instead — see [Session 1](../../sessions/01-mall-rats-and-the-grasslands-city.md).
+Halric has not met the party and this file's premise ("Faerun-side first
+contact") is no longer accurate to continuity.
+
+Left in place rather than deleted: still a usable name and role (muster-table
+administrator, Coster Council-adjacent) if a second Scornubel contact is
+ever needed — just don't reintroduce him as though the first-contact scene
+already happened to him. His reason for funding a doomed city's defense is
+still unwritten on purpose.
