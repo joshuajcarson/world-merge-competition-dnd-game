@@ -8,10 +8,11 @@ item_type: wondrous
 attunement: "Requires Attunement"
 origin: faerun
 theme: "a diplomatic gift, plumbing-obsessed"
-tags: [faerun, scornubel, coster-council, hygiene, diplomacy, charges]
+tags: [faerun, scornubel, hollow-spring, hygiene, diplomacy, charges]
 charges: 4
 cursed: false
 created: 2026-08-08
+updated: 2026-08-27
 source: magic-item-forge
 player_known: false
 ---
@@ -38,38 +39,36 @@ that creature resistance to that damage.
 
 A small, unpolished brass hoop, plain enough that most people assume it's
 cheap — until they notice it never tarnishes and always feels faintly damp,
-like it just came out of a basin. Ostrander Vale, senior factor of
-Scornubel's Hallowspring Coster, commissioned a dozen of these the week his
-people got their first real look at Briarwood's plumbing — hot water from a
-tap, a privy that simply flushed itself away, a fountain that ran clean and
-kept running — and decided, with the fervor of a man who has spent thirty
-years hauling water uphill from the Chionthar, that whoever controlled that
-miracle deserved friends, not customers. This one is the first made, sent
-ahead as a gift rather than sold as a good, which the rest of the Coster
-Council finds either touchingly earnest or worth quietly investigating,
-depending who's asked.
+like it just came out of a basin. Given by an elder of
+[the Hollow Spring](../world/factions/the-hollow-spring.md) — refugee
+matriarchs camped at a geyser outside Scornubel, water-devout since their
+own gods went silent — to Sesug Tsirch, in thanks for washing her feet
+without being asked to. She didn't explain what it does. She didn't seem to
+think it needed explaining.
 
 ## DM Notes
 
-- **Why it's here:** a diplomatic overture from the Hallowspring Coster, one
-  of the trading houses under the [Coster Council](../world/factions/coster-council.md)'s
-  banner — handed over in person if Ostrander Vale or an agent of his makes
-  first contact with the party, found among a caravan's trade goods if that
-  shipment is looted or intercepted, or given as thanks after the party helps
-  a coster in some smaller way first. Whether it was actually crafted for
-  this purpose or found in the merge's wreckage and repurposed as a gift is
-  deliberately left open — either fits.
+- **Why it's here:** a genuine, personal gift from an elder of
+  [the Hollow Spring](../world/factions/the-hollow-spring.md), given at their
+  geyser camp near [Scornubel](../world/places/scornubel.md) — see
+  [Session 2](../sessions/02-the-mall-king.md) for the scene. Not a
+  merchant transaction and not part of any larger diplomatic strategy that
+  the party has uncovered; if that turns out to be false, it's a discovery,
+  not a retcon.
 - **Hooks:** Scornubel's tent city has "a fever going through it that nobody
   has named yet" (see [Scornubel](../world/places/scornubel.md)'s Notable
   Locations) — this earring's disease-cure property is a natural, ready-made
   thread into that if a DM wants to pull on it, without committing this file
-  to resolving it outright. Separately, whether Ostrander's gift is genuine
-  goodwill or the Coster Council quietly gathering intelligence on "the mall
-  people" through a friendlier face is worth leaving unresolved — consistent
-  with that faction's own DM notes on not being straightforwardly heroic.
+  to resolving it outright.
 - **Balance note:** no numeric bonus anywhere on this item — its Rare-tier
   weight comes entirely from Purify and Ward Against Filth, both capped at
   roughly 1st–2nd-level spell equivalence, plus one narrow passive property
   (advantage on disease saves). Four charges is the low end of the Rare
   range on purpose, matching a level 3 recipient rather than a higher-level
   one.
+- **Retconned provenance:** originally drafted around an invented merchant,
+  "Ostrander Vale of the Hallowspring Coster," before any session existed.
+  Actual play produced a real, unrelated group with a similar name — the
+  Hollow Spring — and this file has been updated to match what actually
+  happened rather than keep two confusingly similar entities in continuity.
+  Ostrander Vale no longer exists in this campaign.

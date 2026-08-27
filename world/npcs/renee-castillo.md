@@ -11,10 +11,10 @@ source: campaign-chronicle
 player_known: false
 needs_detail: true
 species: human
-role: "Dale Pruitt's girlfriend; post-merge, a 'Gunslinging Wizard'"
+role: "Dale Pruitt's girlfriend; post-merge, a 'Gunslinging Wizard' — disarmed and let go"
 faction: null
 status: alive
-first_seen: null
+first_seen: 1
 ---
 
 # Renee Castillo
@@ -42,15 +42,15 @@ actually happening is good material for her panicking rather than escalating on
 purpose.
 
 Post-merge she becomes what the encounter calls a **"Gunslinging Wizard"** — the
-transformation reads whatever powered tool she was gripping (cordless drill,
-pneumatic wrench — DM's pick, should be the one item explicitly in her hands, not
-Dale's) as a spellcasting focus, and now it fires visible bolts of force/frost/fire
-when she pulls the trigger. Mechanically: reskin a low-CR spellcasting statblock
-(e.g. a **Guard** or **Bandit** base swapped to sling *Fire Bolt*/*Ray of Frost* as
-"shots," CR 1/8–1/4) — ranged, more fragile than Dale, and the one actually deciding
-whether this stays a chase or becomes a fight. See the encounter's Combat Notes for
-sizing against a level 1 party.
+transformation read the **drill** in her hands (confirmed in play) as a
+spellcasting focus, firing visible bolts when she pulls the trigger. Mechanically:
+reskin a low-CR spellcasting statblock (e.g. a **Guard** or **Bandit** base swapped
+to sling *Fire Bolt*/*Ray of Frost* as "shots," CR 1/8–1/4) — ranged, more fragile
+than Dale, and the one actually deciding whether this stays a chase or becomes a
+fight. See the encounter's Combat Notes for sizing against a level 1 party.
 
-Unresolved: same open question as Dale's file — one-off color or recurring rival.
-If she survives with the tools, "the Claire's clerk who accidentally became a war
-wizard" is a strong seed for a later session.
+**Resolved in [Session 1](../../sessions/01-mall-rats-and-the-grasslands-city.md):**
+the party talked Renee and Dale down without a fight. Phil Bernard confiscated her
+transformed drill and let both of them go. "The Claire's clerk who accidentally
+became a war wizard" is loose out there without her focus — a strong seed for a
+later session, per the original hook.

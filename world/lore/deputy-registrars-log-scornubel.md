@@ -135,7 +135,7 @@ slightly-wrong door or structure that predates the main event and reads as
 inexplicable rather than magical to the people who find it.
 
 **What's behind the locked door.** Undecided on purpose, same as the open question
-left in [Sector 7 (Cohort 14 Holding)](../places/cohort-14-holding-sector.md).
+left in [Sector 7 (Cohort 15 Holding)](../places/cohort-15-holding-sector.md).
 Plausible options: a second entrance into that same Administration storage
 sector, giving a Faerun-side route into the space [Corey Blevins](../npcs/corey-blevins.md)
 is trapped in; a wholly separate backstage cell; or nothing more than locked

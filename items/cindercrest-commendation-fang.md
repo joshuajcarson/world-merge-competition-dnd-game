@@ -67,5 +67,11 @@ something nearby is about to make the same mistake the Cindercrest's prey did.
   seen flee while hurt — it isn't a general tracking spell, and it shouldn't be
   reflavored into one. Early Warning is a reactive, once-per-trigger read on danger,
   not a passive detect-threats effect; it needs a Perception check to fire.
+- **Status at this table:** not actually claimed. The Aether Breach played out
+  inside [Session 1](../sessions/01-mall-rats-and-the-grasslands-city.md) as a
+  reskinned wolf-shaped creature that died fleeing rather than escaping wounded
+  — see that encounter's updated DM notes. No fang changed hands at the table;
+  don't assume the party has this item unless it's introduced later as a
+  belated, out-of-continuity Agent gesture.
 
 [← Back to items](README.md)
