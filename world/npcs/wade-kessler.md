@@ -8,7 +8,7 @@ tags: [earth, session-zero, briarwood-mall, dea, drug-trade, the-circuit, world-
 created: 2026-08-02
 updated: 2026-08-02
 source: campaign-chronicle
-player_known: false
+player_known: true
 species: human
 role: "DEA Special Agent, Fort Worth Resident Office; leader of The Circuit"
 faction: the-circuit
@@ -31,9 +31,12 @@ court.
 
 ## What the Party Knows
 
-Nothing yet. He's a face in the grand-opening crowd at
-[Briarwood Mall](../places/briarwood-mall.md) — nobody has a reason to notice him
-over the ThighMaster line.
+As of [Session 1](../../sessions/01-mall-rats-and-the-grasslands-city.md):
+introduced himself as Wade, a DEA agent, and has been visibly helpful — asked
+Phil for aid clearing the mall during the aether-wolf attack, and introduced
+[Lazare](lazare.md) to Phil during the Grasslands City/Scornubel contact. The
+party has no reason yet to suspect anything beyond a helpful federal agent
+working the mall's chaos alongside them.
 
 ## DM Only
 

@@ -8,7 +8,7 @@ tags: [administration, agent, cohort-23, tournament, upcoming]
 created: 2026-08-27
 updated: 2026-08-27
 source: campaign-chronicle
-player_known: false
+player_known: true
 needs_detail: true
 ---
 
@@ -16,10 +16,10 @@ needs_detail: true
 
 ## Overview
 
-Announced by [Agent](../npcs/agent.md), mid-Session 3, with a fixed
-countdown: four days out as of that announcement, with "cross fragment
-violence... encouraged" in the meantime. No further mechanical or narrative
-detail has been established yet.
+Announced by [Agent](../npcs/agent.md), mid-[Session 2](../../sessions/02-the-mall-king.md),
+with a fixed countdown: four days out as of that announcement, with "cross
+fragment violence... encouraged" in the meantime. No further mechanical or
+narrative detail has been established yet.
 
 ## What the Party Knows
 

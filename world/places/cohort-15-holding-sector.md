@@ -8,7 +8,7 @@ tags: [administration, mall-rats, ratkin, cohort-15, briarwood-mall, dungeon]
 created: 2026-08-02
 updated: 2026-08-27
 source: encounter-weaver
-player_known: false
+player_known: true
 needs_detail: true
 region: "Administration backstage — accessed via a merge-displaced closet at Briarwood Mall"
 settlement_type: structure

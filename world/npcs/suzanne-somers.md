@@ -8,7 +8,7 @@ tags: [earth, celebrity, session-zero, mall-queen, briarwood-mall]
 created: 2026-08-01
 updated: 2026-08-27
 source: campaign-chronicle
-player_known: false
+player_known: true
 species: human
 role: "Television actress and ThighMaster spokeswoman; briefly Mall Queen, now abdicated"
 faction: null

@@ -14,7 +14,7 @@ cursed: false
 created: 2026-08-08
 updated: 2026-08-27
 source: magic-item-forge
-player_known: false
+player_known: true
 ---
 
 # Hallowspring's Thanks

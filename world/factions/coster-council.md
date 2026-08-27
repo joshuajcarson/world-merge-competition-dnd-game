@@ -8,7 +8,7 @@ tags: [faerun, scornubel, merchants, costers, patrons]
 created: 2026-08-01
 updated: 2026-08-03
 source: campaign-chronicle
-player_known: false
+player_known: true
 needs_detail: true
 scope: local
 disposition: unknown
