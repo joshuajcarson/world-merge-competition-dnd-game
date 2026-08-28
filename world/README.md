@@ -36,6 +36,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [The Pit Boss](npcs/the-pit-boss.md) — a Warrenwright scout gone feral inside an Earth casino's wiring. *(stub)*
 - [Rosalind Voss](npcs/rosalind-voss.md) — Bellcross parks-department worker turned Swanfolk; first-contact figure for the Drowned Chantry. *(stub)*
 - [Sister Maerwyn](npcs/sister-maerwyn.md) — swanmay novice caught mid-shift, guardian of the Drowned Chantry's reflecting pool. *(stub)*
+- [Helena Marsh](npcs/helena-marsh.md) — self-styled "Sovereign" of Meridian Peak, a rival Earth fragment; declared her title the instant Agent's royalty decree gave her the opening. *(stub)*
 
 ## Places
 
@@ -55,6 +56,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [The Stewies](factions/the-stewies.md) — a Scornubel mercenary company hired by an unnamed Coster Council member to raid Briarwood Mall. *(stub)*
 - [The Hollow Spring](factions/the-hollow-spring.md) — water-worshipping refugee matriarchs outside Scornubel; gave Sesug Tsirch the earring now known as Hallowspring's Thanks. *(stub)*
 - [The Way of the Gander](factions/way-of-the-gander.md) — the party's own homegrown religion, founded around "Geezus"; actively converting refugees at Briarwood. *(stub)*
+- [Meridian Peak](factions/meridian-peak.md) — a rival Earth fragment, a Colorado wellness-and-survival compound now hoarding real medicine and triaging arrivals by "viability." *(stub)*
 
 ## Lore
 
