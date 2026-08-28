@@ -24,13 +24,14 @@ store's grand opening, [Suzanne Somers](../world/npcs/suzanne-somers.md)
 signing autographs and demonstrating the ThighMaster to a line four hundred
 deep.
 
-The party were still their pre-merge selves: **Phil Bernard** (Rob), a
-fresh-out-of-high-school mall cop living his literal dream job; **Jack
-Mercer** (Morgan), the mall's married, middle-aged maintenance man who
-tinkers with everything he touches; **Mitch Saddlerash** (Nathan), a mall
-performer working the crowd as "Mr. Mime, Jr."; and **Sesug Tsirch** (David),
-visiting with a community group, off his medication, and having a rough
-night of it.
+The party were still their pre-merge selves: **[Phil Bernard](../world/people/phil-bernard.md)**
+(Rob), a fresh-out-of-high-school mall cop living his literal dream job;
+**[Jack Mercer](../world/people/jack-mercer.md)** (Morgan), the mall's
+married, middle-aged maintenance man who tinkers with everything he
+touches; **[Mitch Saddlerash](../world/people/mitch-saddlerash.md)**
+(Nathan), a mall performer working the crowd as "Mr. Mime, Jr."; and
+**[Sesug Tsirch](../world/people/sesug-tsirch.md)** (David), visiting with a
+community group, off his medication, and having a rough night of it.
 
 Trying to calm Sesug down near the signing table, Phil "accidentally"
 tackled him off the second-story balcony onto the floor below — and neither

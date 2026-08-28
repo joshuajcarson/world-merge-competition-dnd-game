@@ -19,9 +19,12 @@ player_known: true
 ## Recap
 
 Time unfroze, and everyone caught in it changed. Some people just — stopped
-being there. Phil Bernard became a half-dwarf. Jack Mercer became a Goliath.
-Sesug Tsirch became a humanoid goose the table immediately started calling
-"Geezus." Mitch Saddlerash became an aasimar. [Dale and Renee](../world/npcs/dale-pruitt.md)
+being there. [Phil Bernard](../world/people/phil-bernard.md) became a
+half-dwarf. [Jack Mercer](../world/people/jack-mercer.md) became a Goliath.
+[Sesug Tsirch](../world/people/sesug-tsirch.md) became a humanoid goose the
+table immediately started calling "Geezus."
+[Mitch Saddlerash](../world/people/mitch-saddlerash.md) became an aasimar.
+[Dale and Renee](../world/npcs/dale-pruitt.md)
 were caught in the same instant, still holding the tools they'd stolen —
 Phil ran them down, the party talked them down without a fight, and Phil
 confiscated the drill in Renee's hands, which hadn't been an ordinary drill
