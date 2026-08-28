@@ -34,9 +34,11 @@ it the whole point.
 
 ## Goals
 
-- Win a Color Game seat — specifically the one contested against
-  Briarwood — and use its Hazard Nomination to put the party in the worst
-  slot the Blood Bowl offers.
+- Win the Gamma token at [the Color Game](../../encounters/the-color-game.md)
+  — the only token that lets its holder force an additional Blood Bowl
+  punishment on any fragment — and nominate Briarwood for it. Left alone,
+  this is exactly what happens; Meridian Peak doesn't need to be clever to
+  get there, just uncontested.
 - Establish Meridian Peak as the merged world's second real seat of power,
   with Sovereign Marsh's claim treated as legitimate rather than
   self-appointed.
@@ -68,8 +70,13 @@ instead. Don't state this contrast to the players — let the manifest and
 Briarwood's own actual-play history do that work if a player draws the line
 themselves.
 
-**Open thread.** Whether Meridian Peak's medicine has anything to do with
-whatever's actually making people sick post-merge is deliberately unresolved
-— see [The Blood Bowl](../lore/the-blood-bowl.md) and Agent's own comment at
-the top of [the Color Game](../../encounters/the-color-game.md). Decide only
-if the party goes looking for the connection.
+**Why they actually aren't "getting sick."** They aren't — nobody's
+population is. See [The Aether Hunger](../lore/the-aether-hunger.md) for the
+real, campaign-secret mechanism: this cohort's expected die-off simply
+isn't happening, for reasons nobody present understands yet. Meridian Peak
+has no idea that's the reason. They credit their own medical stockpile and,
+more sincerely, their belief in their own "divine right" — proof, as far as
+they're concerned, that the merge selected them. Play that conviction
+completely straight, with no wink to the audience; that's what makes them
+insufferable rather than cartoonish. They are not lying when they say they
+deserve this.

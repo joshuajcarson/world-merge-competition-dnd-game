@@ -26,35 +26,45 @@ actually somewhere else by tonight.
 Mid-morning, mid-[Blood Bowl](../world/lore/the-blood-bowl.md) countdown,
 time freezes and [Agent](../world/npcs/agent.md) opens with something
 closer to a complaint than an announcement: disappointing how many people
-are still surviving, more disappointing that almost none of the *interesting*
-ones — the higher-profile, higher-level ones — are getting sick along with
-everyone else. Then, brighter: every fragment should have royalty by now,
-and the fastest way to a crown is regicide. Real prize talk follows — a
-game, for a leadership seat, tonight.
+are still surviving, more disappointing that almost none of the
+*interesting* ones — the higher-profile, higher-level ones — are getting
+sick along with everyone else. Agent doesn't know why, and neither does
+anyone else present — see
+[The Aether Hunger](../world/lore/the-aether-hunger.md) for the real,
+campaign-secret mechanism. Play the line as genuine, confused irritation
+from a host whose format isn't behaving the way twenty-two prior cohorts
+trained it to expect, not as a threat with teeth. Then, brighter: every
+fragment should have royalty by now, and the fastest way to a crown is
+regicide.
 
-**The Color Game.** Seven tokens, one for each band of the electromagnetic
-spectrum reskinned as "colors" for the cameras — radio, microwave, infrared,
-visible, ultraviolet, x-ray, gamma. Seven leadership seats going into the
-Blood Bowl. Whichever fragment has one of its own people physically holding
-a color's token when the game ends wins that seat, and the seat carries a
-**Hazard Nomination** — the right to name another fragment for the worst
-threat Agent has queued up for the Bowl itself.
+Real prize talk follows. **The Color Game** — seven tokens, one for each
+band of the electromagnetic spectrum reskinned as "colors" for the cameras
+— radio, microwave, infrared, visible, ultraviolet, x-ray, gamma. Agent
+explains the rules before anyone moves: whichever fragment is physically
+holding a color's token when the game ends gets that seat. Two stakes are
+attached, and Agent makes sure everyone hears both — see **Stakes &
+Punishments**, below the node graph, for the full mechanic and the explicit
+default if the party sits this out.
 
-Agent pulls delegations onto the floor for the reveal — Briarwood's own,
-plus [Scornubel](../world/places/scornubel.md)'s (represented, to her own
-visible unhappiness, by [Miriel Ashgrove](../world/npcs/miriel-ashgrove.md),
-who the Coster Council could spare on an hour's notice and nobody else
-could), plus a delegation nobody's met: **[Meridian Peak](../world/factions/meridian-peak.md)**,
-a private Colorado wellness-and-survival compound merged in as its own
-Earth fragment, led by a woman who introduces herself as **Sovereign
-[Helena Marsh](../world/npcs/helena-marsh.md)** before Agent's even
-finished talking.
+Then the seeding, and it's deliberately unkind. Agent names
+**[Meridian Peak](../world/factions/meridian-peak.md)** — a private
+Colorado wellness-and-survival compound merged in as its own Earth
+fragment, led by a woman already calling herself **Sovereign
+[Helena Marsh](../world/npcs/helena-marsh.md)** — as the **first seed**.
+**The Gander** (Agent's own broadcast branding for Phil Bernard's people,
+lifted from the mall's homegrown religion rather than the mall's own name)
+is the **second seed**. Nobody else gets named — not Scornubel, not
+[Miriel Ashgrove](../world/npcs/miriel-ashgrove.md), representing the
+Coster Council on an hour's notice and visibly unhappy about it, not
+anyone. Agent simply doesn't bother, on air, in front of everyone.
 
-What none of this mentions out loud: something is already rising through
-Briarwood's fragile, merge-stitched geography underneath the game floor.
-See **The Aether Tide**, below the node graph — it isn't a clock the party
-gets told about, and when it finally swallows the floor, the game ends
-whether anyone's ready or not.
+**Five minutes.** That's the window Agent gives before the game starts —
+long enough for one beat of preparation, not long enough for a plan. Then
+time freezes again, harder: only the crowned and whoever's standing close
+enough to count as their entourage get pulled through, not full
+delegations. They land already ankle-to-knee deep in fast-rising water —
+the Aether Tide (see below) didn't wait for the game to start politely, and
+nobody announced that part.
 
 ## Escalation Trigger(s)
 
@@ -121,29 +131,43 @@ point in the party's own plan, and doesn't wait for them to be ready.
 
 ### Node A — Agent's Decree & the Color Game
 
-**Situation:** Time freezes. Agent's voice, casual and a little bored,
-opens with the "disappointing survival numbers" line, pivots to the
-royalty-and-regicide announcement, then brightens into the Color Game
-reveal — rules, stakes, and the delegations pulled onto the floor in real
-time: Scornubel's Miriel, visibly unhappy about being volunteered; Meridian
-Peak's Marsh, already using the word "Sovereign" like she's rehearsed it.
+**Situation:** Time freezes. Agent runs through the whole announcement in
+one breath — the "disappointing survival numbers" complaint, the
+royalty-and-regicide line, then the Color Game's rules and stakes (see
+Stakes & Punishments, below) — before naming the seeds: **Meridian Peak
+first, the Gander second, no one else.** Miriel Ashgrove is visible behind
+Scornubel's delegation and doesn't get a mention.
 
-No roll — this is Agent's scripted opening. Give the party one beat to
-react (react to the decree, size up Marsh, check on Phil) before Node B
-starts moving.
+Agent gives everyone **five minutes** before the game starts — play it out
+in real time if the table wants it, or narrate it as one beat if they'd
+rather skip to the drop. Then time freezes again, harder: only the crowned
+and whoever's standing close enough to count as their entourage get pulled
+through. (If the party isn't physically near Phil when the five minutes are
+up, decide whether that costs them — being late to your own team's
+teleport is a fair, ordinary consequence, not a punishment the game itself
+hands out.)
+
+They land already ankle-to-knee deep in fast-rising water. No roll for any
+of this — it's Agent's scripted opening, start to finish. Give the party
+one beat to get their bearings before Node B starts moving.
 
 ---
 
 ### Node B — The Game Floor
 
 **Situation:** The fountain court and promenade, restyled overnight into
-seven stations spread across both levels. Other delegations are visibly
-working the floor — Briarwood residents pitching in informally, Scornubel
-guards flanking Miriel, and Meridian Peak's security detail: armed,
-disciplined, and unnervingly calm, physically moving weaker searching
-contestants — refugees, a couple of kids — out of their way without
-acknowledging them as people. Distant water-sound is already audible,
-more curiosity than threat yet (Aether Tide, Tier 1).
+seven stations spread across both levels, water already moving across the
+lower level's tile. This isn't the whole mall's crowd — just royal
+entourages and whoever else Agent decided was worth pulling in. Meridian
+Peak's security detail works the floor like a unit: armed, disciplined,
+unnervingly calm, physically moving weaker searching contestants out of
+their way without acknowledging them as people. Scornubel's guards keep
+close to Miriel, who looks like she'd rather be anywhere else.
+
+Scattered around the edges: smaller, visibly overwhelmed groups nobody
+bothered to seed or name — see **Lesser Factions**, under Wandering
+Threats, for two the party might actually talk to. They're not playing to
+win. They're just trying not to drown.
 
 **Approaches:**
 - *Read the floor before committing* — DC 10 (Investigation or
@@ -153,9 +177,10 @@ more curiosity than threat yet (Aether Tide, Tier 1).
   area — a seed for Node D's manifest.
 - *Talk to another delegation* — DC 5 (Persuasion or Insight, target
   varies). Success against Miriel: she admits, quietly, she didn't ask for
-  this and would rather it be over than won. Success against a Meridian
-  Peak guard (DC 10 Insight instead): the party catches the specific,
-  professional unease of being sized up like livestock, not like a threat.
+  this and would rather it be over than won — and that nobody expected her
+  to actually win anything. Success against a Meridian Peak guard (DC 10
+  Insight instead): the party catches the specific, professional unease of
+  being sized up like livestock, not like a threat.
 - *Just start working a station* — no roll. Heads straight to Node C or,
   if the party wants to commit early, Node D.
 
@@ -191,6 +216,8 @@ party has runway for before the tide or their own choices end the scene.
   Success: token secured cleanly. Failure or success either way: triggers
   one complication elsewhere on the floor (a Regicide Attempt roll, a
   Wandering Threat, or an Aether Tide tier — DM's pick, see below).
+- *Gift a secured token to a lesser faction* — no roll. See **Gifting
+  Tokens**, under Stakes & Punishments, below.
 
 **Complications available here:** the bank, plus the per-token flavor notes
 above.
@@ -202,10 +229,13 @@ above.
 **Situation:** A separate, guarded alcove — a former Sears service bay,
 repurposed overnight — holds Gamma's token: a smoke detector's
 americium-241 capsule, in a lead-lined display case, ringed by Meridian
-Peak's own security. They already treat this seat as theirs. Half-hidden
-nearby, if anyone looks: a clipboard manifest and a fenced-off holding area
-where a handful of arrivals Meridian Peak judged "non-viable" have been cut
-loose from care — the hard evidence of what their medicine is actually for.
+Peak's own security. They already treat this seat as theirs — winning it is
+what lets its holder force an extra punishment on any fragment (see Stakes
+& Punishments), and Marsh has no intention of leaving that power on the
+table. Half-hidden nearby, if anyone looks: a clipboard manifest and a
+fenced-off holding area where a handful of arrivals Meridian Peak judged
+"non-viable" have been cut loose from care — the hard evidence of what
+their medicine is actually for.
 
 **Approaches:**
 - *Talk or bluff past the guards* — DC 15 (Persuasion or Deception). They're
@@ -250,23 +280,75 @@ into an ending.
 - **Ending: Crowned Above the Waterline.** The party (or Briarwood, via the
   party's work) holds the Gamma seat plus a real haul of minor tokens, no
   royal was lost, and the evacuation was clean. Briarwood gets genuine
-  leadership standing going into the Blood Bowl; the manifest, if found,
-  exposes Meridian Peak publicly. The strongest outcome, and it should feel
-  earned rather than default.
+  leadership standing going into the Blood Bowl, the manifest (if found)
+  exposes Meridian Peak publicly, and holding Gamma means Briarwood — not
+  Marsh — gets to nominate the extra punishment, if the table wants to use
+  it on Meridian Peak rather than let the power go unused. The strongest
+  outcome, and it should feel earned rather than default.
 - **Ending: A Wet Victory.** The party wins the Gamma seat or most of the
   minor tokens, but it cost something — a regicide attempt landed, a Titan
   redirect backfired, or the evacuation was chaotic rather than clean. Still
   a win Briarwood can use, just an expensive one.
-- **Ending: The Sovereign's Seat.** Meridian Peak secures Gamma. Marsh's
-  Hazard Nomination is now a real, hanging threat over the next Blood Bowl
-  session — the party got out, but ceded real ground, and Meridian Peak is
-  now a returning antagonist with actual standing.
+- **Ending: The Sovereign's Seat.** Meridian Peak secures Gamma uncontested
+  and nominates Briarwood for the Blood Bowl's worst punishment — exactly
+  the default outcome Agent set up from Node A. The party got out, but
+  ceded real ground, and Meridian Peak is now a returning antagonist with
+  actual standing and a grudge already paid forward.
 - **Ending: Drowned Chaos.** The Aether Tide reaches Submerged before much
   of anything got resolved. Agent calls the game early — great television,
   bad for everyone's actual standing. Tokens end up scattered or unclaimed,
   a regicide attempt may have landed unnoticed in the confusion, and someone
   might still be unaccounted for below the waterline. A genuine cliffhanger,
   not a failure state — pick up the loose ends next session.
+
+Any of the above can also carry a quieter thread: which lesser factions got
+a gifted token and avoided automatic punishment, and which didn't. Track it
+loosely — it's a strong seed for who owes the party a favor, or resents
+them for not sparing one, next session.
+
+## Stakes & Punishments
+
+Two rules, explained by Agent before the game starts (see Node A), that
+make this more than a scavenger hunt:
+
+1. **Zero tokens at the end = automatic punishment.** Any fragment holding
+   none of the seven tokens when Node E fires gets punished in the Blood
+   Bowl itself — no nomination needed, it just happens.
+2. **Gamma's holder gets to nominate one more.** Whoever is holding the
+   Gamma token when the game ends, and is still alive, gets to force one
+   *additional* punishment on any fragment of their choosing — including
+   one that already has tokens.
+
+**The default, if the party does nothing.** Meridian Peak wins Gamma
+uncontested and nominates Briarwood. This isn't a possible outcome the DM
+rolls for — it's what happens on its own, offscreen, if the party never
+engages with Node D. Make sure the table understands the stakes are live
+from Node A, not something that only matters if they go looking for
+trouble.
+
+**What a punishment actually is.** Pick or roll when it matters — these are
+starting points, not an exhaustive list:
+- The punished fragment is assigned the worst matchup or hazard the Blood
+  Bowl has queued (see [The Blood Bowl](../world/lore/the-blood-bowl.md)).
+- A resource the fragment can't easily replace is stripped or spent against
+  them (a defensible position lost, a stockpile seized, a favorable rule
+  voided).
+- A public broadcast segment airs framing them as the Bowl's designated
+  underdog or villain — reputational, but Agent-amplified reputational
+  damage is a real cost in this world.
+- Something narrower and crueler, tied to whatever the punished fragment
+  actually cares about — decide per-group rather than reusing the same
+  effect twice.
+
+**Gifting Tokens.** A fragment that secures more than the one token it
+needs can hand a spare to a group that would otherwise end with zero — see
+**Lesser Factions**, under Wandering Threats. This costs the giving
+fragment nothing mechanically beyond the time spent finding and delivering
+it — a token isn't consumed by holding it, only claimed at the end by
+whoever's hand it's in — and it's the single best way for the party to
+build goodwill with groups too overwhelmed to compete for themselves. Play
+the receiving faction's gratitude as real and specific, not generic; this
+is how a Wandering Threat becomes a future ally.
 
 ## The Aether Tide
 
@@ -277,9 +359,11 @@ their own conclusions about how much runway remains. This is also the
 clock the whole encounter runs on: it decides how many stations are
 reachable, when Tide-Titans first appear, and when the game ends outright.
 
-1. **Ankle-deep.** Distant water-sound, no mechanical effect. Baseline,
-   present from Node A onward.
-2. **Knee-deep, lower level.** Lower-level stations (DM assigns roughly
+1. **Ankle-to-knee deep on arrival.** The tide didn't wait for the game to
+   start — the party lands already in it at Node A's teleport. No
+   mechanical effect yet beyond the obvious hurry-up. Baseline from Node A
+   onward.
+2. **Knee-to-waist deep, lower level.** Lower-level stations (DM assigns roughly
    half of the six minor stations here) become difficult terrain. **First
    Tide-Titan sighting**, at a distance — see below; the avoid-or-redirect
    subsystem goes live from here on.
@@ -326,10 +410,12 @@ manifest.
 
 ## Wandering Threats
 
-Generic, actually-fightable monsters for pacing — separate from the
-Tide-Titans, and separate from the Meridian Peak confrontation. Drop one in
-whenever a Wandering Threat consideration comes up (see The Aether Tide) and
-the DM wants a fight rather than another complication.
+Pacing content for when a Wandering Threat consideration comes up (see The
+Aether Tide) — some are fights, some are people the party can actually
+help. Both are separate from the Tide-Titans and from the Meridian Peak
+confrontation.
+
+### Actually-Fightable Threats
 
 - **Faerun option — Kobold Raiders.** Reuse [Closing Time](closing-time.md)'s
   3-4 **Kobolds** (CR 1/8) plus one **Kobold packleader** (reskin **Goblin
@@ -344,6 +430,42 @@ the DM wants a fight rather than another complication.
   bloodied in a fight, it releases a burst of raw energy in a 5-foot radius;
   each creature in range must succeed on a DC 13 Constitution save or be
   knocked prone. Otherwise fights exactly like a base Panther.
+
+### Lesser Factions
+
+Smaller Earth and Faerun groups scattered across the game floor, present
+but never seeded or named by Agent — nobody thinks they can win, including
+them. Not hostile by nature; their danger is panic and desperation, not
+malice, and they're the intended targets for **Gifting Tokens** (see Stakes
+& Punishments). None of them read as put-together the way Briarwood or
+Meridian Peak do — play every one of them as overwhelmed, improvising, and
+one bad moment from a real accident.
+
+- **The Route 12 Survivors** (Earth). A Greyhound bus's worth of strangers
+  — passengers and driver — swallowed whole off a stretch of Missouri
+  interstate, pulled in by Agent purely as background color. No plan, no
+  weapons beyond what a bus first-aid kit and a tire iron can offer, mostly
+  organized around whichever passenger has stopped panicking longest. As a
+  Wandering Threat: not an attack, a stampede — DC 10 (Athletics or
+  Acrobatics) to avoid getting swept up if they bolt for high ground near
+  the party. As a gifting target: profoundly, permanently grateful for a
+  spare token or a guided route to safety — a good seed for new Briarwood
+  residents down the line.
+- **The Shrine Row Pilgrims** (Faerun). Devotees from
+  [Scornubel](../world/places/scornubel.md)'s Shrine Row, mid-pilgrimage to
+  a shrine that doesn't exist anymore, still carrying devotional relics and
+  praying through the rising water rather than acting on it. As a Wandering
+  Threat: not hostile, but their prayer circle blocks a corridor or
+  stairwell right when the party needs it — DC 10 (Persuasion) to move
+  them, or DC 15 if the party tries to do it by force without hurting
+  anyone's feelings. As a gifting target: a token handed to them reads as
+  an omen, not a prize — a strong hook into Faerun's fractured religious
+  landscape if the table wants to pull on it later.
+
+Both groups can also simply be **helped** rather than encountered as a
+threat at all — leading them to high ground, or handing over a spare token,
+costs the party a beat of time and nothing else, and is the cleanest way
+into the Gifting Tokens mechanic above.
 
 ## Regicide Attempts
 
@@ -406,8 +528,12 @@ choose to make, not a fight she survives on her own.
   bite attack that deals lethal damage to a level 3 character on a hit.
   This number exists so the DM has something to adjudicate if a table
   ignores "avoid," not as an invitation to run a real fight here.
-- **Wandering Threats** — see above; all sized to be winnable, unlike the
-  Titans.
+- **Wandering Threats (fightable)** — see above; all sized to be winnable,
+  unlike the Titans.
+- **Lesser Factions** — not a combat statblock. If violence somehow breaks
+  out against the Route 12 Survivors or the Shrine Row Pilgrims, treat any
+  individual as a **Commoner** (AC 10, a handful of HP) who flees rather
+  than fights. They are not meant to be a fight, under any circumstances.
 - **Party disadvantage factors:** by the time the party reaches Node D, they
   may already have spent resources on a Regicide Attempt, a Titan evasion,
   or a Wandering Threat. Size Node D's fight as attrition, not a fresh

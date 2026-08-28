@@ -63,6 +63,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Deputy Registrar's Log — Scornubel](lore/deputy-registrars-log-scornubel.md) — a found-document handout: [Miriel Ashgrove](npcs/miriel-ashgrove.md)'s pre-merge journal, overwhelmed by refugees and mercenaries, ending on the first sign of the merge bleeding through Scornubel's architecture.
 - [Private Security Log — Briarwood Mall](lore/private-security-log-briarwood-mall.md) — [Brenda Hollis](npcs/brenda-hollis.md)'s shift log from the ThighMaster signing: lazy, funny, class-conscious, and one paragraph away from noticing the mall's extra closet before anyone else does.
 - [The Blood Bowl](lore/the-blood-bowl.md) — Agent's next big broadcast event, announced with a four-day countdown; details still undefined. *(stub)*
+- [The Aether Hunger](lore/the-aether-hunger.md) — the real mechanism behind leveling, why every prior cohort turned violent from the inside out, and why Cohort 23 might be the first exception — a campaign-secret nobody present understands yet.
 
 ## Races
 
