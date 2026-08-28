@@ -46,3 +46,11 @@ was announced.
 narrative teeth this has — does Agent actively reward PvP-adjacent conflict
 between fragments before the Bowl, or is it just permission/color? Pick an
 answer before it matters at the table.
+
+**Punishments assigned at the Color Game land here.** See
+[the Color Game](../../encounters/the-color-game.md) — any fragment holding
+zero tokens at that event's end is automatically punished in the Bowl
+itself, and whoever holds the Gamma token, if they survive, gets to
+nominate one more. Decide the mechanical shape of a "punishment" (a worse
+matchup, a stripped resource, a debuff) when you get there — that file has
+a starting menu.

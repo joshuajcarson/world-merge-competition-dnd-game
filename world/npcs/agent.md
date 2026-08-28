@@ -104,6 +104,21 @@ Exact timing and trigger are the DM's call, deliberately left open here — see
 the encounter-weaver guardrail against pre-deciding a campaign's next major
 beat. When it happens, it's a good candidate for its own encounter file.
 
+**What it doesn't understand.** Agent has hosted or reviewed twenty-two
+prior cohorts' worth of footage and has learned to expect a specific
+late-cohort beat: the broadcast's own stars — its highest-level survivors —
+start dying off, seemingly from nowhere, taking a lot of people down with
+them on the way. Agent calls this "getting sick" because that's the
+closest label its own analytics have ever needed; it has no idea the real
+mechanism is Aether depletion (see
+[The Aether Hunger](../lore/the-aether-hunger.md)), and no idea Cohort 23
+isn't going to hit that beat on schedule, because this is the first cohort
+where the Aether fragment isn't a sliver — it's the whole world. Its
+complaints about survival numbers (see
+[the Color Game](../../encounters/the-color-game.md)) are genuine
+confusion, not a threat with teeth behind it. Agent doesn't know why the
+show isn't following the format it's always followed.
+
 **A ready-made drama lever, not a scheduled beat.** [Grinder](grinder.md) — a
 captive [Fulgurite](../races/fulgurites.md) shock-trooper for an Underdark
 duergar band — is written specifically to be teleported to

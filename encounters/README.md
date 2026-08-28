@@ -11,6 +11,7 @@ the `encounter-weaver` skill.
 - [Mall Rats](mall-rats.md) — a merge-displaced closet opens onto an Administration storage sector for a cancelled ratkin race; the level 2 party has to clear it, rescue a hostage, and beat the reseal clock.
 - [Swan Song](swan-song.md) — a flooded shrine between Scornubel and Briarwood, guarded by the Swanfolk; the level 2 party pushes through a territorial flock and a tragic boss while the chantry itself floods behind them.
 - [Closing Time](closing-time.md) — the level 2 party fortifies Briarwood Mall's real weak points before whatever's outside — an Aether scavenger or a Faerun kobold raid, DM's choice — tests whichever one they left undone.
+- [The Color Game](the-color-game.md) — the level 3 party competes for a Blood Bowl leadership seat against a rival Earth fragment while a rising Aether tide (and the Titans riding it) forces everyone toward high ground before time runs out.
 
 ---
 
