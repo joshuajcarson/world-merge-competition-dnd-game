@@ -9,7 +9,7 @@ All notes share a common frontmatter core, matching the contract in `items/READM
 | `name` | string | Display name / session title. |
 | `title` | string | Same string as `name`. Jekyll reserves `name` for the filename, so the site reads `title`. |
 | `slug` | string | Matches the filename (without `NN-` prefix for sessions). |
-| `type` | enum | `session`, `npc`, `place`, `faction`, `lore`, `handout`, `race`. Required — the site's index pages filter on it, so an entry without it renders nowhere. |
+| `type` | enum | `session`, `npc`, `pc`, `place`, `faction`, `lore`, `handout`, `race`. Required — the site's index pages filter on it, so an entry without it renders nowhere. |
 | `origin` | enum | `faerun`, `tiamat`, `aether`, `earth`, `administration`, `unknown`, `merged`. Use `merged` for anything native to the combined world. |
 | `tags` | list | Free-form, for filtering. |
 | `created` | date | `YYYY-MM-DD`. |
@@ -59,6 +59,18 @@ Extra fields: `species` (string), `role` (string), `faction` (slug or `null`), `
 Sections: `## Description` (what the players can observe — appearance, manner, one memorable detail), `## What the Party Knows`, `## DM Only` (true motives, secrets, statblock notes, what they'd do under pressure).
 
 An NPC's `## Description` should give the DM enough to play them in one line of voice. Three adjectives is not a character; one specific habit is.
+
+---
+
+## PC (Player Character)
+
+Path: `world/people/slug.md`
+
+Extra fields: `player` (string — the real person at the table), `species` (string — usually the pre-merge self, e.g. `human`; note the post-merge form in `## Description` since that's the more interesting fact), `role` (string, one-line hook), `status` (`alive`, `dead`, `unknown`, `missing`), `first_seen` (session number the character debuted in, almost always `0`).
+
+Sections: `## Description` (pre-merge self and the post-merge transformation — a PC's post-merge form is usually their single most interesting fact in this setting), `## Story So Far` (the arc in play, drawn from session Recaps and updated as sessions happen — link every session it draws from), `## DM Only` (table dynamics, mechanical notes, threads the DM is tracking for this character — optional; a thin or empty section is fine, unlike NPCs there's no default assumption there's a secret here).
+
+A PC entry differs from an NPC entry in one structural way: there is no `## What the Party Knows` section, because the party already knows everything about their own characters — `## Story So Far` does that section's job without the fiction of incomplete information. Keep the file `player_known: false` on creation like any other note; flipping it to `true` is still the user's call, same as everything else.
 
 ---
 

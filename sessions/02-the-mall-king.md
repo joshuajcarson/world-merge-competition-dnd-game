@@ -19,10 +19,13 @@ player_known: true
 ## Recap
 
 The party spent the morning investigating the ninja attack and shoring up
-Briarwood's defenses. Mitch got a volunteer militia off the ground. Geezus
-tried recruiting more of the mall into the [Way of the Gander](../world/factions/way-of-the-gander.md) —
-poorly, this time. Phil started actually training the militia. Jack kept
-building — splint mail this round.
+Briarwood's defenses. [Mitch](../world/people/mitch-saddlerash.md) got a
+volunteer militia off the ground. [Geezus](../world/people/sesug-tsirch.md)
+tried recruiting more of the mall into the
+[Way of the Gander](../world/factions/way-of-the-gander.md) — poorly, this
+time. [Phil](../world/people/phil-bernard.md) started actually training the
+militia. [Jack](../world/people/jack-mercer.md) kept building — splint mail
+this round.
 
 Then [Agent](../world/npcs/agent.md) sent word: the **Blood Bowl** is four
 days out, and cross-fragment violence is encouraged until then. See

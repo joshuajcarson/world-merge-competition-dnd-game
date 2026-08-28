@@ -13,6 +13,7 @@ Turn raw session recall and worldbuilding ideas into structured, cross-linked no
 |---|---|---|
 | Session note | `sessions/NN-slug.md` | Yes, zero-padded to 2 |
 | NPC | `world/npcs/slug.md` | No |
+| PC | `world/people/slug.md` | No |
 | Place | `world/places/slug.md` | No |
 | Faction | `world/factions/slug.md` | No |
 | Lore | `world/lore/slug.md` | No |

@@ -9,7 +9,7 @@ Administration hasn't revealed — are smashed together for the entertainment of
 
 ## Index
 
-- [The World](world/README.md) — the Session 0 primer, NPCs, places, factions, and lore.
+- [The World](world/README.md) — the Session 0 primer, the party, NPCs, places, factions, and lore.
 - [Sessions](sessions/README.md) — session notes and recaps.
 - [Items](items/README.md) — magic items and the frontmatter contract they follow.
 - [Encounters](encounters/README.md) — extended encounters blending skill challenges and combat.

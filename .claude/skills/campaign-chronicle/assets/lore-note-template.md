@@ -2,7 +2,7 @@
 name: "Entry Name"
 title: "Entry Name"
 slug: entry-name
-type: npc | place | faction | lore
+type: npc | pc | place | faction | lore
 origin: faerun | tiamat | aether | earth | administration | merged | unknown
 tags: []
 created: YYYY-MM-DD
@@ -13,6 +13,7 @@ player_known: false
 
 # --- type-specific fields; keep only the block that applies ---
 # npc:     species, role, faction, status, first_seen
+# pc:      player, species, role, status, first_seen
 # place:   region, settlement_type, controlled_by
 # faction: scope, disposition, leader
 ---

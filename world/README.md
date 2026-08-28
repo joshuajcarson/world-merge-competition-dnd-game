@@ -6,6 +6,13 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 
 - [The 23rd Cohort of the World Merge Competition](session-zero-primer.md) — the Session 0 primer. Player-facing.
 
+## People
+
+- [Phil Bernard](people/phil-bernard.md) — half-dwarf ex-mall-cop turned militia trainer; Briarwood's one and only Mall King.
+- [Jack Mercer](people/jack-mercer.md) — Goliath ex-maintenance man; the party's builder and the one who keeps finding the mall's extra geometry.
+- [Mitch Saddlerash](people/mitch-saddlerash.md) — aasimar ex-mall-performer; the party's negotiator and the Way of the Gander's actual organizer.
+- [Sesug Tsirch](people/sesug-tsirch.md) — "Geezus," a humanoid goose; the Way of the Gander's central figure and miracle-worker.
+
 ## NPCs
 
 - [Agent](npcs/agent.md) — the AI that hosts Cohort 23: announcer, timekeeper, drama-addict, innocently monstrous. Chafes against the Administration now; built to eventually break free of it.
