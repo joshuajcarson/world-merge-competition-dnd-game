@@ -6,7 +6,7 @@ type: faction
 origin: earth
 tags: [earth, not-texas, colorado, bunker, wellness, eugenics, rival, blood-bowl]
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-09-03
 source: encounter-weaver
 player_known: false
 needs_detail: true
@@ -47,8 +47,13 @@ it the whole point.
 
 ## Notable Members
 
-- [Helena Marsh](../npcs/helena-marsh.md) — self-styled "Sovereign," ex-CEO
-  of the compound, the instant an authority to claim existed.
+- [Helena Marsh](../npcs/helena-marsh.md) — self-styled "Sovereign," now
+  formally "Queen of Meridian Peak," ex-CEO of the compound, the instant an
+  authority to claim existed.
+- [Silas Renner](../npcs/silas-renner.md) — the Warden; pre-merge head of
+  internal compliance and "viability" triage, now Marsh's second-in-command
+  and the real reason Meridian Peak fields more people than any other
+  fragment. See [The Long Climb](../../encounters/the-long-climb.md).
 
 ## What the Party Knows
 

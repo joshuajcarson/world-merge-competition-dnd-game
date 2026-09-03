@@ -12,6 +12,7 @@ the `encounter-weaver` skill.
 - [Swan Song](swan-song.md) — a flooded shrine between Scornubel and Briarwood, guarded by the Swanfolk; the level 2 party pushes through a territorial flock and a tragic boss while the chantry itself floods behind them.
 - [Closing Time](closing-time.md) — the level 2 party fortifies Briarwood Mall's real weak points before whatever's outside — an Aether scavenger or a Faerun kobold raid, DM's choice — tests whichever one they left undone.
 - [The Color Game](the-color-game.md) — the level 3 party competes for a Blood Bowl leadership seat against a rival Earth fragment while a rising Aether tide (and the Titans riding it) forces everyone toward high ground before time runs out.
+- [The Long Climb](the-long-climb.md) — the Color Game's boss fight: the level 3 party takes on Meridian Peak's Warden and his duplicate-spawning reinforcements in a running battle up a flooding stairwell, racing to strip the Gamma token before Agent snatches the Queen away for ratings.
 
 ---
 
