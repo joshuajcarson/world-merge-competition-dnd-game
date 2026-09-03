@@ -6,14 +6,14 @@ type: npc
 origin: faerun
 tags: [faerun, scornubel, half-elf, coster-council, refugees, mercenaries, pre-merge]
 created: 2026-08-03
-updated: 2026-08-03
+updated: 2026-09-03
 source: campaign-chronicle
 player_known: false
 species: half-elf
-role: "Deputy Registrar of Scornubel's refugee rolls; the one person trying to hold the Coster Council's mercenary companies to their own contracts"
+role: "Deputy Registrar of Scornubel's refugee rolls; pressed into standing as Scornubel's 'Queen' at the Color Game, against her own wishes"
 faction: coster-council
 status: alive
-first_seen: null
+first_seen: 3
 ---
 
 # Miriel Ashgrove
@@ -32,13 +32,12 @@ once she's learned it, and she learns it fast.
 
 ## What the Party Knows
 
-Nothing yet directly — the party are Earth civilians from
-[Briarwood Mall](../places/briarwood-mall.md), and Miriel is a stranger on the
-other side of the merge line, same as everyone else in [Scornubel](../places/scornubel.md).
-The likelier first contact is her [own log entry](../lore/deputy-registrars-log-scornubel.md),
-recovered as a found document, which paints her as sympathetic, overworked, and
-already distrustful of the mercenary companies she has to work alongside — before
-the party ever meets her in person.
+Met in person in [Session 3](../../sessions/03-the-flooded-crown.md), at
+[the Color Game](../../encounters/the-color-game.md) — the Coster Council
+pressed her into standing as Scornubel's "Queen" on an hour's notice, and
+she made no secret of resenting it. The party's read on her so far is
+positive: overworked, unhappy about the crown, and genuine in a way that's
+already earned some goodwill.
 
 ## DM Only
 
@@ -96,3 +95,14 @@ grievances stop having anywhere to go. This is the intended lever for a
 destabilization playthrough — she isn't a boss fight, she's a linchpin, and
 removing a linchpin quietly is supposed to be more effective than a fight would
 be.
+
+**"Queen of Scornubel," confirmed in play (Session 3).** Agent's
+royalty-and-regicide decree at the top of
+[the Color Game](../../encounters/the-color-game.md) forced the Coster
+Council to name someone fast, and Miriel was who they could spare. She
+never wanted this and says so. The party's first direct contact with her
+happened here rather than through her log — they like her already, which is
+a strong asset if the table wants a genuine Scornubel ally rather than a
+purely transactional one. Nothing above about her leverage, her ledger, or
+what she'd do under pressure changes; the crown is a new complication
+layered on top of the same person, not a rewrite of her.

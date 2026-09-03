@@ -6,7 +6,7 @@ type: pc
 origin: earth
 tags: [earth, session-zero, briarwood-mall, goose, geezus, way-of-the-gander]
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-09-03
 source: campaign-chronicle
 player_known: true
 player: David
@@ -25,7 +25,9 @@ medication, and having a rough night of it when the merge hit. Came through
 as a humanoid goose — the table immediately started calling him "Geezus,"
 and it stuck hard enough that it's now the name of a religion. Earnest and
 strange in a way that reads as sincere rather than a bit, which is most of
-why people keep believing him.
+why people keep believing him. Like an ordinary goose, he can see into the
+ultraviolet — confirmed at the table during
+[the Color Game](../../encounters/the-color-game.md).
 
 ## Story So Far
 
@@ -50,6 +52,14 @@ mall. As the cult around him kept growing, went with the party into the
 flooding arcade dungeon and showed the giant swan guarding it the Gander's
 love instead of a fight — it fled rather than die for the fight. See
 [Session 2](../../sessions/02-the-mall-king.md).
+
+Session 3: preached alongside [Mitch Saddlerash](mitch-saddlerash.md) that
+Phil's kingship carries divine right. During
+[the Color Game](../../encounters/the-color-game.md), healed the corrupted
+puma attacking the party at the Toys "R" Us through the Gander's power
+rather than let the fight kill it, and confirmed at the table that his
+goose-eyes see into the ultraviolet, same as an ordinary goose's would. See
+[Session 3](../../sessions/03-the-flooded-crown.md).
 
 ## DM Only
 

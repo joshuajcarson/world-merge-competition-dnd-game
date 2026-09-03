@@ -6,7 +6,7 @@ type: pc
 origin: earth
 tags: [earth, session-zero, briarwood-mall, aasimar, way-of-the-gander, diplomacy]
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-09-03
 source: campaign-chronicle
 player_known: true
 player: Nathan
@@ -48,6 +48,11 @@ itself — the deal that's driving the mall's growing outer commune. One of
 liking to him. Later granted [Suzanne Somers](../npcs/suzanne-somers.md) her
 annulment through the Gander in exchange for her formally abdicating the
 Mall Queen title. See [Session 2](../../sessions/02-the-mall-king.md).
+
+Session 3: preached alongside [Geezus](sesug-tsirch.md) that Phil's
+kingship carries divine right, and helped the party settle Briarwood on a
+first real set of mall norms and customs. See
+[Session 3](../../sessions/03-the-flooded-crown.md).
 
 ## DM Only
 

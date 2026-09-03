@@ -16,6 +16,8 @@ Generated magic items, one file per item, named `<slug>.md`. Written by the `mag
 - [Tymora's Last Copper](tymoras-last-copper.md) — Uncommon wondrous item; a Shrine Row luck token, single-use, rerolls one failed roll.
 - [Cultist's Chromatic Ampoule](cultists-chromatic-ampoule.md) — Uncommon potion; Cult of Tiamat field-issue, single-use thrown acid burst.
 - [Hallowspring's Thanks](hallowsprings-thanks.md) — Rare wondrous item (Requires Attunement); a Scornubel coster's diplomatic gift, 4 charges, purifies water/food and cures disease or poison.
+- [Jack's Spectrometer](jacks-spectrometer.md) — Uncommon wondrous item; a long-term-project build, automatically detects non-visible-spectrum radiation within 30 feet.
+- [The R2 Rig](r2-rig.md) — Uncommon armor (splint); a long-term-project build, +2 to Investigation checks while worn.
 
 ---
 

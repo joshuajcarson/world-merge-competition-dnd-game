@@ -8,7 +8,7 @@ tags: [blood-bowl, briarwood-mall, agent, regicide, survival, flood, multi-threa
 party_tier: "level 3"
 party_size: "4"
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-09-03
 source: encounter-weaver
 player_known: false
 ---
@@ -20,6 +20,54 @@ play. Session 1's recap logs two explicit level-ups (after Gnashwhisker,
 then again after the Fearus Dungeon); Session 2's recap logs none. Built for
 **level 3, party of 4** on that basis. Rescale Combat Notes if the table is
 actually somewhere else by tonight.
+
+**Confirmed in play (Session 3).** This was run, and several things landed
+differently from the design below — see
+[Session 3](../sessions/03-the-flooded-crown.md) for the full recap. Left
+here for the next DM who reads this file cold:
+
+- **The venue sprawled, rather than staying inside the fountain
+  court.** The actual game spanned multiple standalone buildings —
+  a Wells Fargo, a Toys "R" Us, a medical supply factory, a multi-story
+  dance studio, an apartment building lit up in neon — grouped into four
+  tiers by flood vulnerability. As the Aether Tide rose, one whole tier of
+  buildings went fully underwater at a time rather than the water simply
+  deepening in one space. It rose twice over the session; roughly half the
+  buildings were still dry by the end. Use whichever structure — continuous
+  depth-tiers as designed, or discrete building-tiers as actually run —
+  fits your table better; both work.
+- **Tokens found:** Microwave (a garage door opener) at the Wells Fargo;
+  Infrared (an RC car, not the designed fever thermometer) at the
+  Toys "R" Us; Ultraviolet (a bug zapper, as designed) after the party
+  fell back to the dance studio. All three found almost on sight using
+  [Jack's Spectrometer](../items/jacks-spectrometer.md), a new item built
+  as a long-term project — expect it to trivialize the Deduce checks in
+  Node C going forward whenever Jack has it on him.
+- **The Corrupted Puma was healed, not killed.** It attacked at the
+  Toys "R" Us as designed, but [Sesug Tsirch](../world/people/sesug-tsirch.md)
+  used the Gander's power to cure its corruption mid-fight rather than let
+  the party finish it off. It's alive and presumably no longer corrupted —
+  decide what that means for it going forward if it comes up again.
+- **The Visible station played out as a real regicide attempt, not a
+  false alarm.** Rather than a laser pointer mistaken for a sniper, an
+  actual unidentified sniper fired on Phil from the medical supply factory
+  right after the puma went down. The shooter's identity is genuinely
+  undecided — see [Session 3](../sessions/03-the-flooded-crown.md)'s Loose
+  Threads — don't retcon an answer under pressure.
+- **The Shrine Row Pilgrims were played as "the Bahamut hippies"** —
+  devotees of Bahamut specifically, which is a good, usable specificity to
+  keep. They ended up stranded on the Toys "R" Us roof as the flood rose;
+  as of Session 3's end, still unrescued.
+- **Miriel Ashgrove's crowning and the token-immunity rule both landed
+  exactly as designed.** She was pressed into standing as "Queen of
+  Scornubel" and made her unhappiness known; the party's first real
+  contact with her went well. Confirmed: holding any token grants immunity
+  to automatic punishment, and the Gamma holder can still override that
+  immunity regardless — run it that way from here on, it isn't a house
+  rule under discussion anymore.
+- **Sesug's ultraviolet sight is now canon**, not a one-off ruling — see
+  his file. Geese can (in this world) see into the ultraviolet, and so can
+  he.
 
 ## Premise
 
