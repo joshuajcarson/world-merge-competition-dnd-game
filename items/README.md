@@ -18,6 +18,12 @@ Generated magic items, one file per item, named `<slug>.md`. Written by the `mag
 - [Hallowspring's Thanks](hallowsprings-thanks.md) — Rare wondrous item (Requires Attunement); a Scornubel coster's diplomatic gift, 4 charges, purifies water/food and cures disease or poison.
 - [Jack's Spectrometer](jacks-spectrometer.md) — Uncommon wondrous item; a long-term-project build, automatically detects non-visible-spectrum radiation within 30 feet.
 - [The R2 Rig](r2-rig.md) — Uncommon armor (splint); a long-term-project build, +2 to Investigation checks while worn.
+- [Bug Spray](bug-spray.md) — Common wondrous item; single-use, 2d6 poison plus disadvantage to vermin/swarms/parasites in a 15-ft cone.
+- [Fire Extinguisher](fire-extinguisher.md) — Uncommon wondrous item; single-use, 3d6 cold in a 15-ft cone and extinguishes nonmagical fire.
+- [Meridian Peak Field Stimulant](meridian-peak-field-stimulant.md) — Rare potion; single-use, stolen Meridian Peak medicine, heals 8d4+8 and revives from 0 HP.
+- [Helm's Steady Hand](helms-steady-hand.md) — Common wondrous item; single-use reaction, reduces damage from one attack by 1d10.
+- [Stewie's Parting Shot](stewies-parting-shot.md) — Uncommon thrown weapon; single-use, scavenged incendiary flask, 3d6 fire in a 10-ft radius.
+- [Council Evacuation Flare](council-evacuation-flare.md) — Rare wondrous item; single-use, teleports you and up to three allies 60 feet.
 
 ---
 
