@@ -313,9 +313,13 @@ making for.
   independent of the token grab itself. This is how the party gets hard,
   portable evidence of the culling, whether or not they walk out with the
   token.
-- *Force it* — combat resolution. See Combat Notes. A guard drawing a
-  weapon without yet attacking is its own beat — DC 10 to talk it back down
-  before anyone swings.
+- *Force it* — combat resolution. A guard drawing a weapon without yet
+  attacking is its own beat — DC 10 to talk it back down before anyone
+  swings. If it goes all the way to a real fight, this is where
+  [The Long Climb](the-long-climb.md) picks up — Meridian Peak brought far
+  more people than this node alone suggests, and the confrontation
+  escalates into a running battle up through Neon Lights Apartment's
+  stairwell as the Factory floods out from under both sides.
 - *Let them run, then intercept* — no roll to set up, just positioning.
   Beating Meridian Peak to Wells Fargo or Neon Lights Apartment, or
   catching them mid-relocation between buildings (in the open water, where

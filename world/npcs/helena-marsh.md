@@ -6,12 +6,12 @@ type: npc
 origin: earth
 tags: [earth, not-texas, meridian-peak, rival, blood-bowl, self-appointed]
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-09-03
 source: encounter-weaver
 player_known: false
 needs_detail: true
 species: human
-role: "Ex-CEO of a Colorado wellness-and-survival compound; declared herself 'Sovereign' the instant Agent's royalty decree gave her the opening"
+role: "Ex-CEO of a Colorado wellness-and-survival compound; declared herself 'Sovereign' the instant Agent's royalty decree gave her the opening, now formally 'Queen of Meridian Peak' by the same convention that made Phil King and Miriel Queen"
 faction: meridian-peak
 status: alive
 first_seen: null
@@ -48,11 +48,24 @@ Order her guards to fall back before she'd order them to die for one token.
 combatant. Reskin a **Noble** or **Spy** (CR 1) with a persuasive or
 command-flavored feature layered on — she directs the fight, she doesn't
 join it. See [the Color Game](../../encounters/the-color-game.md)'s Combat
-Notes for her security detail.
+Notes for her rank-and-file security detail, and
+[The Long Climb](../../encounters/the-long-climb.md) for the fully-statted
+fight her Warden actually runs on her behalf.
+
+**How she brought so many people.** [Silas Renner](silas-renner.md), her
+Warden, is the mechanism — his merge-warped replication tech is why
+Meridian Peak's numbers hold up under attrition in a way no other
+fragment's do. See his file and
+[The Long Climb](../../encounters/the-long-climb.md). Marsh didn't build
+that advantage herself; she just never asks how it works, the same way she
+never asks who ends up in the holding pen.
 
 **Playing her long-term.** If Meridian Peak wins their Color Game seat, she
-is a real, returning antagonist with the standing to make her Hazard
-Nomination stick. If the party takes the seat and the manifest from her
-instead, she loses the title before she's had it a full day — worth playing
-that loss as humiliating and motivating, not fatal; she survives to resent
-it.
+is a real, returning antagonist with the standing to make her nomination
+stick. If the party takes the seat and the manifest from her instead, she
+loses the title before she's had it a full day — worth playing that loss
+as humiliating and motivating, not fatal; she survives to resent it. Her
+own established behavior under pressure (retreat, not fight) is exactly
+what plays out in [The Long Climb](../../encounters/the-long-climb.md) —
+she never engages the party directly, and escaping there is authored, not
+a coin flip.

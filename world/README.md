@@ -36,7 +36,8 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [The Pit Boss](npcs/the-pit-boss.md) — a Warrenwright scout gone feral inside an Earth casino's wiring. *(stub)*
 - [Rosalind Voss](npcs/rosalind-voss.md) — Bellcross parks-department worker turned Swanfolk; first-contact figure for the Drowned Chantry. *(stub)*
 - [Sister Maerwyn](npcs/sister-maerwyn.md) — swanmay novice caught mid-shift, guardian of the Drowned Chantry's reflecting pool. *(stub)*
-- [Helena Marsh](npcs/helena-marsh.md) — self-styled "Sovereign" of Meridian Peak, a rival Earth fragment; declared her title the instant Agent's royalty decree gave her the opening. *(stub)*
+- [Helena Marsh](npcs/helena-marsh.md) — self-styled "Sovereign," now formally "Queen of Meridian Peak," a rival Earth fragment; declared her title the instant Agent's royalty decree gave her the opening. *(stub)*
+- [Silas Renner](npcs/silas-renner.md) — Meridian Peak's Warden and Marsh's second-in-command; his merge-warped compliance and replication tech is the real reason the compound fields more people than anyone else. *(stub)*
 
 ## Places
 
