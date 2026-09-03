@@ -28,20 +28,15 @@ here for the next DM who reads this file cold:
 
 - **The venue wasn't Briarwood at all — Agent built a separate arena and
   teleported everyone into it.** See
-  [The Flood Stage](../world/places/the-flood-stage.md): a purpose-built
-  set, not a real district, assembled from what's presumably the same
-  Administration backstage material Sector 7 draws on and dressed as a
-  small commercial strip — a Wells Fargo, a Toys "R" Us, a medical supply
-  factory, a multi-story dance studio, a neon-lit apartment building.
-  Contestants were pulled directly out of
-  [Briarwood Mall](../world/places/briarwood-mall.md), the same "time
-  freezes" teleportation Agent's used since Session 0. The buildings were
-  grouped into four tiers by flood vulnerability, and as the Aether Tide
-  rose, one whole tier went fully underwater at a time rather than the
-  water simply deepening in one space. It rose twice over the session;
-  roughly half the buildings were still dry by the end. Use whichever
-  structure — continuous depth-tiers as designed, or discrete
-  building-tiers as actually run — fits your table better; both work.
+  [The Flood Stage](../world/places/the-flood-stage.md) for the confirmed
+  map: a purpose-built set, not a real district, sorted into four height
+  tiers (Shortest/Short/Medium/Tall) that determine flood order exactly —
+  Shortest first, Tall never before the event ends. Contestants were
+  pulled directly out of [Briarwood Mall](../world/places/briarwood-mall.md),
+  the same "time freezes" teleportation Agent's used since Session 0. The
+  Aether Tide section below and Node D have both been rewritten to match
+  this map exactly rather than the original generic depth-tier design —
+  read them fresh rather than assuming the old version still applies.
 - **Tokens found:** Microwave (a garage door opener) at the Wells Fargo;
   Infrared (an RC car, not the designed fever thermometer) at the
   Toys "R" Us; Ultraviolet (a bug zapper, as designed) after the party
@@ -286,16 +281,28 @@ above.
 
 ### Node D — The Gamma Vault
 
-**Situation:** A separate, guarded alcove — a former Sears service bay,
-repurposed overnight — holds Gamma's token: a smoke detector's
-americium-241 capsule, in a lead-lined display case, ringed by Meridian
-Peak's own security. They already treat this seat as theirs — winning it is
-what lets its holder force an extra punishment on any fragment (see Stakes
-& Punishments), and Marsh has no intention of leaving that power on the
+**Situation:** Confirmed location, per the DM's map of
+[The Flood Stage](../world/places/the-flood-stage.md): the
+**Medical Supplies Factory**, a Medium-tier building — safe for now, but it
+floods before the event ends. Meridian Peak's security rings Gamma's
+token: a smoke detector's americium-241 capsule, in a lead-lined display
+case. They already treat this seat as theirs — winning it is what lets its
+holder force an extra punishment on any fragment (see Stakes &
+Punishments), and Marsh has no intention of leaving that power on the
 table. Half-hidden nearby, if anyone looks: a clipboard manifest and a
 fenced-off holding area where a handful of arrivals Meridian Peak judged
 "non-viable" have been cut loose from care — the hard evidence of what
 their medicine is actually for.
+
+**The clock inside the clock.** The Factory's Medium tier means Meridian
+Peak has to abandon it and relocate to a Tall building — Wells Fargo
+Regional Office or Neon Lights Apartment, the arena's only two guaranteed
+safe points — before it floods, or drown holding Gamma uncontested. Per
+the DM's own read on them, they hold out and make the call late rather
+than early. A party that reaches the Factory before that relocation finds
+them still dug in; a party that waits or gets delayed may instead have to
+run down their evacuation, or beat them to whichever Tall building they're
+making for.
 
 **Approaches:**
 - *Talk or bluff past the guards* — DC 15 (Persuasion or Deception). They're
@@ -309,6 +316,11 @@ their medicine is actually for.
 - *Force it* — combat resolution. See Combat Notes. A guard drawing a
   weapon without yet attacking is its own beat — DC 10 to talk it back down
   before anyone swings.
+- *Let them run, then intercept* — no roll to set up, just positioning.
+  Beating Meridian Peak to Wells Fargo or Neon Lights Apartment, or
+  catching them mid-relocation between buildings (in the open water, where
+  the Tide-Titans also roam), is a legitimate alternate approach to this
+  whole node — treat it as its own encounter, not a shortcut.
 
 **What ends this without a kill:** Sovereign Marsh calls a retreat the
 instant the optics turn against her on camera — she's performing for the
@@ -413,43 +425,58 @@ is how a Wandering Threat becomes a future ally.
 ## The Aether Tide
 
 Not a countdown stated to the players — narrate it the way Swan Song
-narrates its own rising water ("it's past your knees on the lower level
-now," "the escalator's the only dry way up left"), and let the party draw
+narrates its own rising water ("the water's over the Toy Store's windows
+now," "the Factory won't stay dry much longer"), and let the party draw
 their own conclusions about how much runway remains. This is also the
-clock the whole encounter runs on: it decides how many stations are
-reachable, when Tide-Titans first appear, and when the game ends outright.
+clock the whole encounter runs on: it decides which buildings are
+reachable, when Tide-Titans are a direct risk, and when the game ends
+outright.
 
-1. **Ankle-to-knee deep on arrival.** The tide didn't wait for the game to
-   start — the party lands already in it at Node A's teleport. No
-   mechanical effect yet beyond the obvious hurry-up. Baseline from Node A
-   onward.
-2. **Knee-to-waist deep, lower level.** Lower-level stations (DM assigns roughly
-   half of the six minor stations here) become difficult terrain. **First
-   Tide-Titan sighting**, at a distance — see below; the avoid-or-redirect
-   subsystem goes live from here on.
-3. **Waist-to-chest deep, lower level; upper level flooding at its edges.**
-   Most remaining lower-level stations need DC 15 instead of their listed
-   DC just to reach. Titans are now close enough to be a direct risk if
-   noticed, not just a distant shape.
-4. **Submerged.** Fires Node E immediately, wherever the party is.
+**Confirmed, per the DM's own map of
+[The Flood Stage](../world/places/the-flood-stage.md) — use this instead
+of a generic depth-tier guess.** Every building is sorted into one of four
+height tiers, and flood order follows height exactly:
 
-**The state rises one tier whenever:** the party fails an approach roll at
-Node C or D; a fight at Node D runs more than a couple of rounds; the party
-is noticed by a Tide-Titan and doesn't successfully evade or redirect it; or
+1. **Shortest floods first.** Fallen Tower, Caravan of Junkyard Vans,
+   McDonald's. No mechanical effect on the party yet beyond losing those
+   buildings as options — baseline from Node A's teleport onward.
+2. **Short floods second.** Toy Store, Strip Mall, Industrial Chicken
+   Coop. **First Tide-Titan sighting**, at a distance — see below; the
+   avoid-or-redirect subsystem goes live from here on.
+3. **Medium floods third.** Multi-story Dance Studio, Medical Supplies
+   Factory (Node D — see that node for what this means for Meridian
+   Peak specifically), Younkers. Titans are now close enough to be a
+   direct risk if noticed, not just a distant shape.
+4. **Tall never floods before the event ends.** Wells Fargo Regional
+   Office and Neon Lights Apartment (27 Dance Studios Stacked too, though
+   it's not otherwise in play) are the arena's two guaranteed safe points
+   — the destination once Medium starts going under, for the party and
+   for Meridian Peak alike.
+
+**The tier rises whenever:** the party fails an approach roll at Node C or
+D; a fight at Node D runs more than a couple of rounds; the party is
+noticed by a Tide-Titan and doesn't successfully evade or redirect it; or
 the DM's pacing calls for it after a quiet stretch. **Roll one Regicide
-Attempt and consider one Wandering Threat every time the tier rises** — this
-is the encounter's actual pacing engine, replacing a hard scene-by-scene
-script with "the water decides when something happens next."
+Attempt and consider one Wandering Threat every time the tier rises** —
+this is the encounter's actual pacing engine, replacing a hard
+scene-by-scene script with "the water decides when something happens
+next." Node E fires the instant Tier 3 (Medium) goes under — the event
+ends before Tall ever floods, so don't push past that point looking for a
+fourth flood tier that isn't coming.
 
 ### Tide-Titans
 
-Two or more towering, amphibious Aether predators, dragged in with the tide
-itself rather than arriving on their own — the same "leviathans in the
-ocean" register the primer establishes for the Aether world, just close
-enough now to be a table problem. Dumb, food-and-noise-and-panic driven, not
-tactical. **Not a fair fight at this tier — CR 8+, explicitly meant to be
-avoided, not fought.** See Combat Notes for what happens if the party
-forces the issue anyway.
+Two confirmed, per the DM's map: one prowling the western channel (between
+27 Dance Studios/Strip Mall and the rest of the arena), one in the central
+channel (between the Multi-story Dance Studio/Fallen Tower cluster and the
+McDonald's/Medical Supplies Factory cluster) — see
+[The Flood Stage](../world/places/the-flood-stage.md) for the map. Dragged
+in with the tide itself rather than arriving on their own, the same
+"leviathans in the ocean" register the primer establishes for the Aether
+world, just close enough now to be a table problem. Dumb,
+food-and-noise-and-panic driven, not tactical. **Not a fair fight at this
+tier — CR 8+, explicitly meant to be avoided, not fought.** See Combat
+Notes for what happens if the party forces the issue anyway.
 
 **Approaches, once a Titan is nearby (Tier 2+):**
 - *Stay unnoticed* — DC 15 (Stealth).
