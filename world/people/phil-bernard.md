@@ -82,5 +82,8 @@ specifically or was a one-off tied to the merge's timing.
 Phil during the Color Game either. Fired from the medical supply factory;
 see [Session 3](../../sessions/03-the-flooded-crown.md)'s Loose Threads.
 Worth deciding deliberately rather than retconning an answer under
-pressure — a Circuit assassin, a Meridian Peak play, or something
-unconnected to any established faction are all still open.
+pressure. Note that Meridian Peak wasn't physically present at the event —
+Agent only named them on air to needle the two fragments into resenting
+each other — so a Meridian Peak assassin is a weaker read than it first
+seemed; a Circuit assassin or something unconnected to any established
+faction are still both live.

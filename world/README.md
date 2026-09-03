@@ -46,6 +46,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Sector 7 (Cohort 15 Holding)](places/cohort-15-holding-sector.md) — Administration storage space behind a merge-displaced Briarwood closet; setting of [Mall Rats](../encounters/mall-rats.md). *(stub)*
 - [The Drowned Chantry](places/drowned-chantry.md) — a Faerun shrine to Eldath fused with a Bellcross park lake, in the unclaimed ground between Scornubel and Briarwood; home to the Swanfolk. *(stub)*
 - [Fearus Dungeon](places/fearus-dungeon.md) — a gem-choked jungle beyond a Chess World portal, duergar forcing captives to consume corrupting red gems. *(stub)*
+- [The Flood Stage](places/the-flood-stage.md) — a purpose-built arena Agent assembled for the Color Game, flooded on cue; contestants pulled straight out of Briarwood Mall to fill it. *(stub)*
 
 ## Factions
 

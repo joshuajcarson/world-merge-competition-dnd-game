@@ -26,16 +26,22 @@ differently from the design below — see
 [Session 3](../sessions/03-the-flooded-crown.md) for the full recap. Left
 here for the next DM who reads this file cold:
 
-- **The venue sprawled, rather than staying inside the fountain
-  court.** The actual game spanned multiple standalone buildings —
-  a Wells Fargo, a Toys "R" Us, a medical supply factory, a multi-story
-  dance studio, an apartment building lit up in neon — grouped into four
-  tiers by flood vulnerability. As the Aether Tide rose, one whole tier of
-  buildings went fully underwater at a time rather than the water simply
-  deepening in one space. It rose twice over the session; roughly half the
-  buildings were still dry by the end. Use whichever structure — continuous
-  depth-tiers as designed, or discrete building-tiers as actually run —
-  fits your table better; both work.
+- **The venue wasn't Briarwood at all — Agent built a separate arena and
+  teleported everyone into it.** See
+  [The Flood Stage](../world/places/the-flood-stage.md): a purpose-built
+  set, not a real district, assembled from what's presumably the same
+  Administration backstage material Sector 7 draws on and dressed as a
+  small commercial strip — a Wells Fargo, a Toys "R" Us, a medical supply
+  factory, a multi-story dance studio, a neon-lit apartment building.
+  Contestants were pulled directly out of
+  [Briarwood Mall](../world/places/briarwood-mall.md), the same "time
+  freezes" teleportation Agent's used since Session 0. The buildings were
+  grouped into four tiers by flood vulnerability, and as the Aether Tide
+  rose, one whole tier went fully underwater at a time rather than the
+  water simply deepening in one space. It rose twice over the session;
+  roughly half the buildings were still dry by the end. Use whichever
+  structure — continuous depth-tiers as designed, or discrete
+  building-tiers as actually run — fits your table better; both work.
 - **Tokens found:** Microwave (a garage door opener) at the Wells Fargo;
   Infrared (an RC car, not the designed fever thermometer) at the
   Toys "R" Us; Ultraviolet (a bug zapper, as designed) after the party
@@ -43,11 +49,12 @@ here for the next DM who reads this file cold:
   [Jack's Spectrometer](../items/jacks-spectrometer.md), a new item built
   as a long-term project — expect it to trivialize the Deduce checks in
   Node C going forward whenever Jack has it on him.
-- **The Corrupted Puma was healed, not killed.** It attacked at the
-  Toys "R" Us as designed, but [Sesug Tsirch](../world/people/sesug-tsirch.md)
-  used the Gander's power to cure its corruption mid-fight rather than let
-  the party finish it off. It's alive and presumably no longer corrupted —
-  decide what that means for it going forward if it comes up again.
+- **The Corrupted Puma was killed, not healed** — the earlier note here
+  was wrong, corrected after the DM clarified. It was infested with
+  parasitic worms rather than generically "corrupted"; the worms lashed
+  out and hit a party member as the puma went down, dealing real damage
+  that was healed afterward. Reflavor the Wandering Threats entry below to
+  match: **Wormburst**, not a generic energy release.
 - **The Visible station played out as a real regicide attempt, not a
   false alarm.** Rather than a laser pointer mistaken for a sniper, an
   actual unidentified sniper fired on Phil from the medical supply factory
@@ -68,6 +75,11 @@ here for the next DM who reads this file cold:
 - **Sesug's ultraviolet sight is now canon**, not a one-off ruling — see
   his file. Geese can (in this world) see into the ultraviolet, and so can
   he.
+- **Meridian Peak wasn't physically present** — Agent named them on air,
+  specifically to needle the two fragments into resenting each other, but
+  no Meridian Peak delegate actually showed up at the Flood Stage. Don't
+  write them into this session's aftermath as if they were there; the
+  rivalry is real, the appearance isn't.
 
 ## Premise
 
@@ -472,12 +484,15 @@ confrontation.
 - **Aether option — Aether Scavenger.** Reuse [Closing Time](closing-time.md)'s
   reskinned **Giant Vulture/Weasel** (CR 1/4-1/2), Drawn to Light — now
   drawn to the game floor's noise and lights instead.
-- **Earth option — Corrupted Puma.** New: a Bellcross-area cougar that
-  wandered too close to one of the mall's merge seams. Reskin a **Panther**
-  (CR 1/4) with one added trait — **Aether Bleed**: the first time it's
-  bloodied in a fight, it releases a burst of raw energy in a 5-foot radius;
-  each creature in range must succeed on a DC 13 Constitution save or be
-  knocked prone. Otherwise fights exactly like a base Panther.
+- **Earth option — Corrupted Puma.** A Bellcross-area cougar that wandered
+  too close to one of the mall's merge seams, its corruption visible as
+  something crawling under its skin. Reskin a **Panther** (CR 1/4) with one
+  added trait — **Wormburst**: the first time it's bloodied in a fight,
+  parasitic worms erupt from its hide and lash out in a 5-foot radius; each
+  creature in range must succeed on a DC 13 Constitution save or take 1d4
+  piercing damage. Otherwise fights exactly like a base Panther. Confirmed
+  in play (Session 3): killed, not tamed or cured — treat that as the
+  default outcome unless a table specifically plays for a rescue.
 
 ### Lesser Factions
 

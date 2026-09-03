@@ -55,10 +55,11 @@ love instead of a fight — it fled rather than die for the fight. See
 
 Session 3: preached alongside [Mitch Saddlerash](mitch-saddlerash.md) that
 Phil's kingship carries divine right. During
-[the Color Game](../../encounters/the-color-game.md), healed the corrupted
-puma attacking the party at the Toys "R" Us through the Gander's power
-rather than let the fight kill it, and confirmed at the table that his
-goose-eyes see into the ultraviolet, same as an ordinary goose's would. See
+[the Color Game](../../encounters/the-color-game.md), used the Gander's
+power to heal a party member hurt by the worms that burst from the
+corrupted puma at the Toys "R" Us as the party killed it, and confirmed at
+the table that his goose-eyes see into the ultraviolet, same as an
+ordinary goose's would. See
 [Session 3](../../sessions/03-the-flooded-crown.md).
 
 ## DM Only
