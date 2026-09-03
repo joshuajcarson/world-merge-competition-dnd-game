@@ -6,7 +6,7 @@ type: pc
 origin: earth
 tags: [earth, session-zero, briarwood-mall, half-dwarf, mall-king, militia]
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-09-03
 source: campaign-chronicle
 player_known: true
 player: Rob
@@ -56,6 +56,13 @@ was still married to Alan Hamel back on Earth, but the title stuck: Phil
 Bernard is Briarwood's one and only Mall King. See
 [Session 2](../../sessions/02-the-mall-king.md).
 
+Session 3: worked at actually being a good king rather than just holding
+the title, and started winning over skeptical Briarwood residents one at a
+time. During [the Color Game](../../encounters/the-color-game.md), took a
+sniper shot from an assailant still unidentified — walked away from it, but
+the shooter's identity is an open thread. See
+[Session 3](../../sessions/03-the-flooded-crown.md).
+
 ## DM Only
 
 **Mall King, structurally undefined.** What the title actually carries in
@@ -70,3 +77,13 @@ rather than anything Phil himself did on purpose. See
 [Session 0](../../sessions/00-welcome-to-the-world-merge-competition.md)'s
 DM notes. Worth deciding whether this kind of thing recurs around him
 specifically or was a one-off tied to the merge's timing.
+
+**The sniper.** Genuinely unresolved — the DM hasn't decided who fired on
+Phil during the Color Game either. Fired from the medical supply factory;
+see [Session 3](../../sessions/03-the-flooded-crown.md)'s Loose Threads.
+Worth deciding deliberately rather than retconning an answer under
+pressure. Note that Meridian Peak wasn't physically present at the event —
+Agent only named them on air to needle the two fragments into resenting
+each other — so a Meridian Peak assassin is a weaker read than it first
+seemed; a Circuit assassin or something unconnected to any established
+faction are still both live.

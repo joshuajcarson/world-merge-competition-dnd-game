@@ -6,7 +6,7 @@ type: pc
 origin: earth
 tags: [earth, session-zero, briarwood-mall, goliath, maintenance, builder]
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-09-03
 source: campaign-chronicle
 player_known: true
 player: Morgan
@@ -48,6 +48,15 @@ up Briarwood's defenses and the militia got off the ground. Noticed the
 arcade was leaking water, which led the party into the dungeon underneath
 it and a confrontation with a giant swan that didn't care for geese. See
 [Session 2](../../sessions/02-the-mall-king.md).
+
+Session 3: finished two long-term projects — [The R2 Rig](../../items/r2-rig.md),
+splint armor built up with enough salvaged instruments to make him look
+like a very large astromech droid, and [Jack's Spectrometer](../../items/jacks-spectrometer.md),
+which let him locate [the Color Game](../../encounters/the-color-game.md)'s
+non-visible-spectrum tokens almost on sight — found the Microwave token at
+the Wells Fargo, the Infrared token (an RC car) at the Toys "R" Us, and the
+Ultraviolet token (a bug zapper) after the flood forced the party up to the
+dance studio. See [Session 3](../../sessions/03-the-flooded-crown.md).
 
 ## DM Only
 
