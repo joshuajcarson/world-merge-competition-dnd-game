@@ -78,12 +78,12 @@ rather than anything Phil himself did on purpose. See
 DM notes. Worth deciding whether this kind of thing recurs around him
 specifically or was a one-off tied to the merge's timing.
 
-**The sniper.** Genuinely unresolved — the DM hasn't decided who fired on
-Phil during the Color Game either. Fired from the medical supply factory;
-see [Session 3](../../sessions/03-the-flooded-crown.md)'s Loose Threads.
-Worth deciding deliberately rather than retconning an answer under
-pressure. Note that Meridian Peak wasn't physically present at the event —
-Agent only named them on air to needle the two fragments into resenting
-each other — so a Meridian Peak assassin is a weaker read than it first
-seemed; a Circuit assassin or something unconnected to any established
-faction are still both live.
+**The sniper, resolved.** [Nadia Grier](../npcs/nadia-grier.md), Meridian
+Peak's forward scout — see her file. She was already posted near the
+Medical Supplies Factory as security for [the Gamma Vault](../../encounters/the-color-game.md)
+before the party ever pushed that node into a fight, which is consistent
+with Marsh and Renner themselves still not being physically present at the
+Game Floor for Session 3 — an embedded scout isn't the same as Meridian
+Peak's leadership showing up. **Her identity stays unresolved in the
+fiction** until the party actually identifies her at the table; this note
+is DM-only.

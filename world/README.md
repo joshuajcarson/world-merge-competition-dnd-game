@@ -38,6 +38,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Sister Maerwyn](npcs/sister-maerwyn.md) — swanmay novice caught mid-shift, guardian of the Drowned Chantry's reflecting pool. *(stub)*
 - [Helena Marsh](npcs/helena-marsh.md) — self-styled "Sovereign," now formally "Queen of Meridian Peak," a rival Earth fragment; declared her title the instant Agent's royalty decree gave her the opening. *(stub)*
 - [Silas Renner](npcs/silas-renner.md) — Meridian Peak's Warden and Marsh's second-in-command; his merge-warped compliance and replication tech is the real reason the compound fields more people than anyone else. *(stub)*
+- [Nadia Grier](npcs/nadia-grier.md) — Meridian Peak's forward scout and sniper; fired the still-unidentified shot at Phil Bernard during Session 3. *(stub)*
 
 ## Places
 

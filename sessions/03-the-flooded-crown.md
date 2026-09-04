@@ -81,9 +81,10 @@ well.
 
 ## Loose Threads
 
-- **The sniper who fired on Phil is unidentified** — not just to the
-  party, to the table. Fired from the medical supply factory during the
-  puma fight; no leads yet.
+- **The sniper who fired on Phil is unidentified to the party** — the DM
+  now knows: [Nadia Grier](../world/npcs/nadia-grier.md), Meridian Peak's
+  forward scout, posted near the Medical Supplies Factory. Still an open
+  thread in the fiction until the party actually identifies her.
 - **The Bahamut hippies are still stranded** on the Toys "R" Us roof as
   the flood keeps rising. Whether the party goes back for them is open.
 - The Color Game itself hadn't resolved as of the session's end — meeting
