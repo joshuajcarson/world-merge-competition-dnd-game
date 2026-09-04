@@ -52,10 +52,11 @@ here for the next DM who reads this file cold:
   match: **Wormburst**, not a generic energy release.
 - **The Visible station played out as a real regicide attempt, not a
   false alarm.** Rather than a laser pointer mistaken for a sniper, an
-  actual unidentified sniper fired on Phil from the medical supply factory
-  right after the puma went down. The shooter's identity is genuinely
-  undecided — see [Session 3](../sessions/03-the-flooded-crown.md)'s Loose
-  Threads — don't retcon an answer under pressure.
+  actual sniper fired on Phil from the medical supply factory right after
+  the puma went down — resolved, DM-side only, as
+  [Nadia Grier](../world/npcs/nadia-grier.md), Meridian Peak's forward
+  scout, already posted there guarding the Gamma Vault. Her identity stays
+  unresolved in the fiction until the party identifies her.
 - **The Shrine Row Pilgrims were played as "the Bahamut hippies"** —
   devotees of Bahamut specifically, which is a good, usable specificity to
   keep. They ended up stranded on the Toys "R" Us roof as the flood rose;
@@ -577,7 +578,11 @@ at the moment (DM's call, or roll a d3).
    [Wade Kessler](../world/npcs/wade-kessler.md)'s simmering Act 1 threat,
    not a confirmed hit.
 4. One of Meridian Peak's own security detail tests whether Marsh's crown is
-   actually defended, gauging the party's response as much as hers.
+   actually defended, gauging the party's response as much as hers. This is
+   what actually happened in Session 3 —
+   [Nadia Grier](../world/npcs/nadia-grier.md) took the shot at Phil
+   unprompted; reuse her stat block (see her file) for this entry going
+   forward.
 5. A panicked contestant grabs a station prop as an improvised weapon rather
    than attacking anyone directly — chaos, not malice.
 6. Someone shouts "regicide" as a joke and three other people take it

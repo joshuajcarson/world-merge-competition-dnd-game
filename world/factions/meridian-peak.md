@@ -54,6 +54,9 @@ it the whole point.
   internal compliance and "viability" triage, now Marsh's second-in-command
   and the real reason Meridian Peak fields more people than any other
   fragment. See [The Long Climb](../../encounters/the-long-climb.md).
+- [Nadia Grier](../npcs/nadia-grier.md) — forward scout and sniper,
+  subordinate to Renner; fired the still-unidentified shot at Phil Bernard
+  during Session 3, unprompted and on her own initiative.
 
 ## What the Party Knows
 

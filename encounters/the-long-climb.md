@@ -281,6 +281,13 @@ appears, or immediately at 0 hit points.
 - **Meridian Peak elites** (2, held in reserve unless the party pushes
   hard early): reskin **Veteran** (CR 3) from the core rules, unchanged —
   see [the Color Game](the-color-game.md)'s original Combat Notes.
+- **Nadia Grier** (optional): Renner's forward scout — see
+  [her file](../world/npcs/nadia-grier.md) for the full CR 2 stat block —
+  is a natural addition to Node A if she's still posted at the Factory
+  when the party arrives, providing ranged support from a mezzanine or
+  loading door rather than engaging directly. Weaker than Renner by
+  design; her Grapple Retreat keeps her out of melee the same way in this
+  fight as it did during Session 3.
 - **Sovereign Marsh:** does not fight in this encounter, per her
   established characterization — see her file. She climbs, she directs,
   she doesn't swing.
