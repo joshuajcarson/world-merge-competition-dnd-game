@@ -54,3 +54,20 @@ larger, closer pile of gold appears anywhere in sight — a thrown coin
 purse is a legitimate way to end this fight without anyone landing a
 killing blow. It does not have pride to wound; it has priorities, and gold
 always outranks a grudge.
+
+**Token Prompt.** Campaign default art style is Glitch-Corrupted Render —
+see `.claude/skills/campaign-chronicle/references/monster-art-style.md`.
+The Doombow stays as a combat mechanic above, but leave it out of the art;
+the sack reads better visually and still sells Gold Hunger.
+
+```
+A 3D-rendered creature deliberately corrupted like a damaged digital file —
+datamoshing artifacts, torn and smeared polygon edges, color-channel
+splitting, streaks of pixel-sorted noise bleeding across parts of the
+image, set against a flat dark void. A small, wiry humanoid creature,
+bigger than most of its kind, skin reading sickly mold-green, an
+unsettlingly confident posture for something this size, dragging a
+bulging, overstuffed old sack behind it with one clawed hand, geometry
+fraying into glitch noise at the sack's seams. The overall effect should
+feel like watching something try to render correctly and fail.
+```

@@ -92,3 +92,19 @@ people with a grievance.
 Aether-touched fragments, or whether this specific Luck is a one-off for
 [the Preening Grounds](../places/the-preening-grounds.md), is undecided —
 reuse them freely if a table likes the fight.
+
+**Token Prompt.** Campaign default art style is Glitch-Corrupted Render —
+see `.claude/skills/campaign-chronicle/references/monster-art-style.md`.
+Note the sack, not the Doombow, is what should appear in the art.
+
+```
+A 3D-rendered creature deliberately corrupted like a damaged digital file —
+datamoshing artifacts, torn and smeared polygon edges, color-channel
+splitting, streaks of pixel-sorted noise bleeding across parts of the
+image, set against a flat dark void. A small, wiry humanoid creature, skin
+reading sickly mold-green, too many crooked teeth in a too-wide mouth,
+clutching an old, filthy sack in one clawed hand, geometry fraying into
+glitch noise at the sack's edges and the tips of its claws. The overall
+effect should feel like watching something try to render correctly and
+fail.
+```

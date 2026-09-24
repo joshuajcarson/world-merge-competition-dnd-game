@@ -120,6 +120,17 @@ An NPC that belongs to one of these races still lives at `world/npcs/slug.md` un
 
 ---
 
+## Monster/NPC Token Art
+
+When a race or NPC file needs an image-generator prompt for a token, add a
+**Token Prompt** entry under `## DM Only` — see
+`monster-art-style.md` for the campaign's locked default style
+(Glitch-Corrupted Render), the per-origin-world color palettes, and worked
+examples. Don't pre-generate this for every stub; add it once a table
+actually needs the token.
+
+---
+
 ## Stubs
 
 A stub is a real file with complete frontmatter, `needs_detail: true`, and a short `## Description` of one or two sentences drawn from whatever context produced it. It has the same sections as a full entry, left empty rather than omitted, so filling it in later is additive.

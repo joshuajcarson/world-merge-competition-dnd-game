@@ -201,3 +201,19 @@ a while before the first Warrenwright ever shows itself.
 gets used is unset on purpose — pick whichever the party's next Aether-
 adjacent location calls for, the same way challenge tier gets fixed only
 once a real encounter needs it.
+
+**Token Prompt.** Campaign default art style is Glitch-Corrupted Render —
+see `.claude/skills/campaign-chronicle/references/monster-art-style.md`.
+
+```
+A 3D-rendered creature deliberately corrupted like a damaged digital file —
+datamoshing artifacts, torn and smeared polygon edges, color-channel
+splitting, streaks of pixel-sorted noise bleeding across parts of the
+image, set against a flat dark void. A stocky, thick-clawed burrowing
+beast the size of a large dog, pelt reading part fur, part bark,
+chisel-teeth visible past a closed mouth, one paw braced against the
+ground as if frozen mid-dig. Sickly mold-green color-channel bleed streaks
+across its flank and haunches, geometry fraying into glitch noise at the
+edges of its claws and the tip of its tail. The overall effect should feel
+like watching something try to render correctly and fail.
+```
