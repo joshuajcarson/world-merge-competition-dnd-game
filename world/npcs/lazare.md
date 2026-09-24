@@ -6,7 +6,7 @@ type: npc
 origin: faerun
 tags: [faerun, scornubel, elf, first-contact, diplomacy]
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-09-24
 source: campaign-chronicle
 player_known: true
 needs_detail: true
@@ -36,6 +36,13 @@ plumbing — running water, a self-flushing privy — and the party struck a dea
 letting Scornubel's people use it for a silver piece a head. He later led the
 party to the mercenary district to investigate the ninja attack, and from
 there to a refugee camp at a geyser: [the Hollow Spring](../factions/the-hollow-spring.md).
+
+**Price renegotiated in Session 5:** as part of a separate deal between
+Jack Mercer and [Miriel Ashgrove](miriel-ashgrove.md), the price went up
+from the original silver piece a head — see
+[Session 5](../../sessions/05-the-vassals-bargain.md) and Miriel's own
+file. Lazare wasn't party to that negotiation; whether he has an opinion
+about someone else renegotiating a deal he brokered is open.
 
 ## DM Only
 

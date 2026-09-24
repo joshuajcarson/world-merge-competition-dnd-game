@@ -6,7 +6,7 @@ type: npc
 origin: administration
 tags: [administration, broadcast, ai, cohort-23, world-merge, recurring, dm-only]
 created: 2026-08-02
-updated: 2026-08-02
+updated: 2026-09-24
 source: campaign-chronicle
 player_known: true
 species: "announcer intelligence (Administration-built)"
@@ -118,6 +118,24 @@ complaints about survival numbers (see
 [the Color Game](../../encounters/the-color-game.md)) are genuine
 confusion, not a threat with teeth behind it. Agent doesn't know why the
 show isn't following the format it's always followed.
+
+**Does it favor Meridian Peak? Open question, raised in play (Session
+6).** When [Helena Marsh](helena-marsh.md) called out to Agent mid-fight,
+right as Renner was about to be defeated, Agent didn't just intervene —
+it ended the Color Game outright and declared Meridian Peak the winners,
+in front of the party. That reads as favoritism, and the table noticed.
+Two honest readings, both legitimate, deliberately left open here: (1) it
+isn't favoritism at all, just Agent's addiction to a good last-second
+save — the drama of "the villain gets rescued right before the killing
+blow" is exactly the kind of unfinished-story beat it can't resist,
+independent of who's asking; or (2) Marsh has some real standing with
+Agent, or leverage over it, that hasn't surfaced yet — sponsorship, a
+prior cohort connection, something about Meridian Peak's own relationship
+to the broadcast. Don't resolve this until the party pushes on it
+directly; a DM who wants a longer arc should lean toward (2), a DM who
+wants Agent to stay a chaotic-neutral force of nature should lean toward
+(1). Either way, this is now live table knowledge, not just a DM's private
+read — see [Session 6](../../sessions/06-the-fixed-game.md).
 
 **A ready-made drama lever, not a scheduled beat.** [Grinder](grinder.md) — a
 captive [Fulgurite](../races/fulgurites.md) shock-trooper for an Underdark

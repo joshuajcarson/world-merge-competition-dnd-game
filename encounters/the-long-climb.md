@@ -5,15 +5,62 @@ slug: the-long-climb
 type: encounter
 origin: earth
 tags: [meridian-peak, color-game, blood-bowl, boss-fight, stairwell, chase, combat]
-party_tier: "level 3"
+party_tier: "level 3 (level 4 as of the end of this fight)"
 party_size: "4"
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-24
 source: encounter-weaver
 player_known: false
 ---
 
 # The Long Climb
+
+**Confirmed in play (Sessions 5-6).** This ran, across two sessions, and
+diverged substantially from the design below — see
+[Session 5](../sessions/05-the-vassals-bargain.md) and
+[Session 6](../sessions/06-the-fixed-game.md) for the full recaps. Left
+here for the next DM who reads this file cold:
+
+- **The destination building was Wells Fargo Regional Office, not Neon
+  Lights Apartment.** Everything below about "the stairwell inside Neon
+  Lights Apartment" happened instead at Wells Fargo — swap the name
+  mentally when reading Node C, or edit it directly if this file gets
+  reused. The rest of the stairwell mechanic (narrow chokepoints, landings,
+  the water rising below) held up fine as designed.
+- **The escape wasn't clean or immediate — it spanned a session break.**
+  Renner and Grier fled the Factory floor toward its roof rather than
+  straight into a stairwell chase; by the time the party reached the roof,
+  they'd already vanished and the water had risen again, ending Session 5
+  on a cold trail. Session 6 opened with the party finding their own way
+  across (a grappling hook) and tracking them to Wells Fargo via
+  spectrometer before the stairwell fight actually happened. Don't expect
+  Nodes A through C to resolve in one sitting if a table plays it the same
+  unhurried way.
+- **The final fight went considerably bigger than designed.** Rather than
+  Renner, a handful of guards, and optional Duplicates, the actual Wells
+  Fargo confrontation combined Renner, Grier, Duplicate Guards, Kobold
+  Raiders, and at least one more Corrupted Puma into one simultaneous
+  fight. If reusing this file, decide deliberately whether to stage
+  threats separately (as designed) or let a table that wants bigger chaos
+  have it — both are legitimate, but the combined version is markedly more
+  dangerous and ran hot even for a leveled-up party.
+- **Node D didn't fire as "Agent's Snatch."** Marsh personally called out
+  to Agent for help — an in-fiction, on-purpose appeal, not a quiet
+  extraction — right as Jack was about to take Renner down for good.
+  Agent appeared, publicly ended the game, and declared Meridian Peak the
+  winners in front of the party. This reads as far more openly biased than
+  a secret teleport-out would have, and is worth keeping as the actual
+  canon version of this beat: Agent didn't sneak its favorites out, it
+  ruled in their favor on camera. See [Agent](../world/npcs/agent.md)'s
+  file for the new favoritism thread this opens.
+- **Result: Ending: They Got Away Clean**, but louder and more
+  consequential than the name suggests — Meridian Peak kept Gamma (the
+  party's own notes call it "Omega," same token) and Marsh used it to
+  demerit Briarwood immediately. The party leveled up for surviving
+  regardless. Renner survived, badly hurt — a real grudge and a plausible
+  rematch, not a clean win for either side.
+- **Party is level 4 as of the end of this fight.** Any future reuse of
+  this file's Combat Notes should be rescaled up from level 3.
 
 ## Premise
 
@@ -181,7 +228,10 @@ resolving into an ending.
 - **Ending: They Got Away Clean.** Gamma leaves with Marsh. Feeds directly
   into [the Color Game](the-color-game.md)'s **Ending: The Sovereign's
   Seat** — Meridian Peak nominates Briarwood for the Blood Bowl's worst
-  punishment, and now has a face-to-face grudge to go with it.
+  punishment, and now has a face-to-face grudge to go with it. **This is
+  what happened, in Session 6** — though Renner nearly went down first,
+  and Marsh had to call on Agent directly to secure it rather than slip
+  away unnoticed. See the "Confirmed in play" note above.
 - **Ending: A Costly Chase.** The party fought hard and it cost them —
   someone got Dominated, the party is bloodied, or they lost a round to a
   Duplicate swarm — but they're still standing and still in the game

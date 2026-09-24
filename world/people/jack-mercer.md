@@ -6,7 +6,7 @@ type: pc
 origin: earth
 tags: [earth, session-zero, briarwood-mall, goliath, maintenance, builder]
 created: 2026-08-28
-updated: 2026-09-03
+updated: 2026-09-24
 source: campaign-chronicle
 player_known: true
 player: Morgan
@@ -57,6 +57,21 @@ non-visible-spectrum tokens almost on sight — found the Microwave token at
 the Wells Fargo, the Infrared token (an RC car) at the Toys "R" Us, and the
 Ultraviolet token (a bug zapper) after the flood forced the party up to the
 dance studio. See [Session 3](../../sessions/03-the-flooded-crown.md).
+
+Session 5: negotiated the terms of the Infrared token's handoff to
+[Miriel Ashgrove](../npcs/miriel-ashgrove.md) — a plumbing price hike and
+Scornubel's submission as a vassal state — after reminding the party the
+Coster Council was the same one that sent the Stewies after them. Found
+the Gamma token via spectrometer at the Medical Supplies Factory and took
+a sniper round to the hip for it. Chased "Silar" and the sniper through the
+factory before they vanished off the roof. See
+[Session 5](../../sessions/05-the-vassals-bargain.md).
+
+Session 6: built [a grappling hook](../../items/jacks-grappling-hook.md)
+on the spot to cross to the Wells Fargo Regional Office. Nearly took Silar
+down for good in the fight that followed, right before Helena called Agent
+in to end it. Leveled up. Started a long-term project on a permanent fix
+for the mall's skylights. See [Session 6](../../sessions/06-the-fixed-game.md).
 
 ## DM Only
 

@@ -6,7 +6,7 @@ type: npc
 origin: earth
 tags: [earth, not-texas, meridian-peak, rival, blood-bowl, self-appointed]
 created: 2026-08-28
-updated: 2026-09-03
+updated: 2026-09-24
 source: encounter-weaver
 player_known: false
 needs_detail: true
@@ -14,7 +14,7 @@ species: human
 role: "Ex-CEO of a Colorado wellness-and-survival compound; declared herself 'Sovereign' the instant Agent's royalty decree gave her the opening, now formally 'Queen of Meridian Peak' by the same convention that made Phil King and Miriel Queen"
 faction: meridian-peak
 status: alive
-first_seen: null
+first_seen: 6
 ---
 
 # Helena Marsh
@@ -29,7 +29,14 @@ her mind about anything; it just gave her a title to say out loud.
 
 ## What the Party Knows
 
-Nothing yet — first contact is [the Color Game](../../encounters/the-color-game.md).
+First seen in person in [Session 6](../../sessions/06-the-fixed-game.md),
+at the Wells Fargo Regional Office — dressed sharply, calling out to
+Agent the instant Renner ("Silar," to the party) was about to go down for
+good. Agent answered, ended the Color Game on the spot, and declared
+Meridian Peak the winners. She used the seat's power to hand Briarwood a
+demerit before leaving. The party has her first name — **Helena** — from
+the scene itself; they don't have her surname, her title, or anything
+about the compound she leads.
 
 ## DM Only
 
@@ -69,3 +76,13 @@ own established behavior under pressure (retreat, not fight) is exactly
 what plays out in [The Long Climb](../../encounters/the-long-climb.md) —
 she never engages the party directly, and escaping there is authored, not
 a coin flip.
+
+**Confirmed in play (Session 6): she called Agent, and it worked.** Rather
+than retreat quietly, she made a direct, public appeal to Agent to end the
+fight right as Renner was about to lose — and Agent obliged, declaring
+Meridian Peak the winners in front of the party. Whether that's Agent
+simply loving the drama of a last-second save, or Marsh having some real
+leverage or standing with Agent nobody's identified yet, is a genuinely
+open and valuable question — see [Agent](agent.md)'s file. Don't resolve
+it casually; "why did Agent listen to her" is a strong mid-campaign thread
+now that the party has reason to ask it.

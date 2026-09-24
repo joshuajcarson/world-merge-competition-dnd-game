@@ -2,6 +2,8 @@
 
 Session notes, newest first. Each note has a player-facing recap and a DM-only section.
 
+- **06** · 2026-09-17 — [The Fixed Game](06-the-fixed-game.md)
+- **05** · 2026-09-03 — [The Vassal's Bargain](05-the-vassals-bargain.md)
 - **03** · 2026-08-27 — [The Flooded Crown](03-the-flooded-crown.md)
 - **02** · 2026-08-08 — [The Mall King](02-the-mall-king.md)
 - **01** · 2026-08-07 — [Mall Rats and the Grasslands City](01-mall-rats-and-the-grasslands-city.md)

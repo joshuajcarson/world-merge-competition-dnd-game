@@ -24,6 +24,7 @@ Generated magic items, one file per item, named `<slug>.md`. Written by the `mag
 - [Helm's Steady Hand](helms-steady-hand.md) — Common wondrous item; single-use reaction, reduces damage from one attack by 1d10.
 - [Stewie's Parting Shot](stewies-parting-shot.md) — Uncommon thrown weapon; single-use, scavenged incendiary flask, 3d6 fire in a 10-ft radius.
 - [Council Evacuation Flare](council-evacuation-flare.md) — Rare wondrous item; single-use, teleports you and up to three allies 60 feet.
+- [Jack's Grappling Hook](jacks-grappling-hook.md) — Common wondrous item; reusable field-built grapple and cable for crossing gaps.
 
 ---
 

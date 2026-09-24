@@ -6,7 +6,7 @@ type: npc
 origin: earth
 tags: [earth, not-texas, meridian-peak, warden, blood-bowl, boss]
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-24
 source: encounter-weaver
 player_known: false
 needs_detail: true
@@ -14,7 +14,7 @@ species: human
 role: "Meridian Peak's Warden — pre-merge head of internal compliance and \"viability\" triage; now Sovereign Marsh's second-in-command and her personal guarantee of an escape route"
 faction: meridian-peak
 status: alive
-first_seen: null
+first_seen: 5
 ---
 
 # Silas Renner
@@ -35,8 +35,15 @@ was designed to do anymore.
 
 ## What the Party Knows
 
-Nothing yet — first contact is
-[The Long Climb](../../encounters/the-long-climb.md).
+Met across [Session 5](../../sessions/05-the-vassals-bargain.md) and
+[Session 6](../../sessions/06-the-fixed-game.md), at the Medical Supplies
+Factory and then the Wells Fargo Regional Office — see
+[The Long Climb](../../encounters/the-long-climb.md). The party knows him
+only as **"Silar"** — a mishearing of Silas, never corrected in play — the
+man making the "goop guys" and running with the sniper who shot Phil and
+then Jack. They nearly took him down for good in Session 6 before Helena
+called Agent in to end the fight. His real surname, his title, and his
+relationship to Marsh are all still unknown to them.
 
 ## DM Only
 
@@ -80,3 +87,12 @@ file's escalation trigger. A genuine returning threat if the campaign wants
 one: competent, patient, and not remotely finished being useful to Marsh.
 Unlike her, he has no interest in being liked, which makes him harder to
 negotiate with and easier to respect.
+
+**Confirmed in play (Session 6): nearly defeated, saved at the last
+second.** Jack hit him hard enough to put him on the edge of going down
+before Marsh called Agent in to end the fight outright. Play the aftermath
+as a real, personal mark against him — not defeated, but not composed
+about it either, at least not where it might show. This is his first
+actual loss since the merge, even if the scoreboard says Meridian Peak
+won. A grudge against Jack specifically is a natural, earned thread if the
+table wants a rematch.

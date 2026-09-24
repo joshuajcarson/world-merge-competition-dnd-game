@@ -6,7 +6,7 @@ type: npc
 origin: faerun
 tags: [faerun, scornubel, half-elf, coster-council, refugees, mercenaries, pre-merge]
 created: 2026-08-03
-updated: 2026-09-03
+updated: 2026-09-24
 source: campaign-chronicle
 player_known: false
 species: half-elf
@@ -38,6 +38,13 @@ pressed her into standing as Scornubel's "Queen" on an hour's notice, and
 she made no secret of resenting it. The party's read on her so far is
 positive: overworked, unhappy about the crown, and genuine in a way that's
 already earned some goodwill.
+
+In [Session 5](../../sessions/05-the-vassals-bargain.md), she asked the
+party for one of their tokens to spare Scornubel a demerit, and offered to
+petition the Coster Council for a boon in return. Jack Mercer negotiated
+harder than she expected — she agreed to raise the price of Briarwood's
+plumbing deal and to submit Scornubel as a vassal state of the mall, in
+exchange for the party's Infrared token.
 
 ## DM Only
 
@@ -106,3 +113,22 @@ a strong asset if the table wants a genuine Scornubel ally rather than a
 purely transactional one. Nothing above about her leverage, her ledger, or
 what she'd do under pressure changes; the crown is a new complication
 layered on top of the same person, not a rewrite of her.
+
+**The vassal-state promise (Session 5) is a real problem, not a done
+deal.** A ceremonial "Queen" title, handed to her by Agent's decree, does
+not actually give Miriel the standing to bind Scornubel as anyone's vassal
+state — that authority sits with the Coster Council, and she knows it even
+if the party doesn't. Play her as having agreed sincerely, under real
+pressure, without being at all sure she can deliver it. Whether the
+Council backs her, disavows her, or uses this as an excuse to sideline her
+is a genuinely open, table-shaping thread — see
+[The Coster Council](../factions/coster-council.md). This doesn't make her
+dishonest; it makes the deal fragile, which is more interesting than
+either outcome alone.
+
+**The plumbing price hike.** She also agreed to raise the price of the
+Session 1 plumbing deal (see [Lazare](lazare.md)) as part of the same
+negotiation — a small, concrete thing she can actually deliver on her own
+authority, unlike the vassal-state promise. Worth playing that contrast
+if the party ever notices it: she's good for the things inside her actual
+job, and overextended on everything else.
