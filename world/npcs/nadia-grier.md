@@ -6,7 +6,7 @@ type: npc
 origin: earth
 tags: [earth, not-texas, meridian-peak, sniper, blood-bowl, regicide]
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-24
 source: encounter-weaver
 player_known: false
 needs_detail: true
@@ -31,10 +31,13 @@ tech gone strange" register as Renner's own gear.
 
 ## What the Party Knows
 
-The party has been shot at, once, from a distance, by someone they never
-saw. **Her identity is not resolved in the fiction** — this file exists
-for the DM's use; nothing here should reach the players until they
-actually identify her at the table.
+The party has been shot at, twice now — once at Phil in Session 3, once at
+Jack in Session 5, both from a distance, by someone they've only ever seen
+as "the sniper." She fled on sight both times she was actually spotted up
+close (the Medical Supplies Factory in Session 5, then again as part of
+the larger Wells Fargo fight in Session 6). **Her identity is not resolved
+in the fiction** — this file exists for the DM's use; nothing here should
+reach the players until they actually identify her at the table.
 
 ## DM Only
 
@@ -103,3 +106,10 @@ crosses Meridian Peak again — competent enough to be dangerous, junior
 enough to Renner that she's not the face of the faction, which makes her a
 good "the danger isn't over just because we beat the boss" beat for a
 later session.
+
+**Confirmed in play (Sessions 5-6).** Sniped Jack at the Medical Supplies
+Factory in Session 5, fled on sight both times the party actually closed
+on her, and was part of the much larger combined fight at Wells Fargo in
+Session 6 (see [The Long Climb](../../encounters/the-long-climb.md)'s
+"Confirmed in play" note). Survived both encounters — she was never the
+target the party was trying hardest to stop, and used that to stay alive.

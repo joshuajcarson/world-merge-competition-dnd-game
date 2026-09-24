@@ -6,7 +6,7 @@ type: pc
 origin: earth
 tags: [earth, session-zero, briarwood-mall, aasimar, way-of-the-gander, diplomacy]
 created: 2026-08-28
-updated: 2026-09-03
+updated: 2026-09-24
 source: campaign-chronicle
 player_known: true
 player: Nathan
@@ -53,6 +53,18 @@ Session 3: preached alongside [Geezus](sesug-tsirch.md) that Phil's
 kingship carries divine right, and helped the party settle Briarwood on a
 first real set of mall norms and customs. See
 [Session 3](../../sessions/03-the-flooded-crown.md).
+
+Session 5: had his clothes ruined by a knot of "goop guys" during the
+Medical Supplies Factory fight. See
+[Session 5](../../sessions/05-the-vassals-bargain.md).
+
+Session 6: converted a band of Bahamut pilgrims to the Way of the Gander
+outright, with the pitch that dragons had evolved into the Gander — his
+biggest single conversion yet, and the first from an existing organized
+faith rather than a desperate refugee band. Received
+[Bug Spray](../../items/bug-spray.md) from them in thanks. Leveled up.
+Began helping Geezus's indoor garden project, with what the table can only
+describe as broken glass. See [Session 6](../../sessions/06-the-fixed-game.md).
 
 ## DM Only
 

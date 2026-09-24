@@ -6,7 +6,7 @@ type: pc
 origin: earth
 tags: [earth, session-zero, briarwood-mall, half-dwarf, mall-king, militia]
 created: 2026-08-28
-updated: 2026-09-03
+updated: 2026-09-24
 source: campaign-chronicle
 player_known: true
 player: Rob
@@ -62,6 +62,10 @@ time. During [the Color Game](../../encounters/the-color-game.md), took a
 sniper shot from an assailant still unidentified — walked away from it, but
 the shooter's identity is an open thread. See
 [Session 3](../../sessions/03-the-flooded-crown.md).
+
+Session 6: leveled up surviving the Wells Fargo fight. Kept practicing
+being kingly — fell flat on his ass doing it. See
+[Session 6](../../sessions/06-the-fixed-game.md).
 
 ## DM Only
 

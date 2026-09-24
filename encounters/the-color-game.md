@@ -5,10 +5,10 @@ slug: the-color-game
 type: encounter
 origin: merged
 tags: [blood-bowl, briarwood-mall, agent, regicide, survival, flood, multi-threat, meridian-peak]
-party_tier: "level 3"
+party_tier: "level 3 (level 4 as of Session 6)"
 party_size: "4"
 created: 2026-08-28
-updated: 2026-09-03
+updated: 2026-09-24
 source: encounter-weaver
 player_known: false
 ---
@@ -76,6 +76,35 @@ here for the next DM who reads this file cold:
   no Meridian Peak delegate actually showed up at the Flood Stage. Don't
   write them into this session's aftermath as if they were there; the
   rivalry is real, the appearance isn't.
+
+**Confirmed in play (Sessions 5-6).** The game actually concluded across
+two more sessions — see
+[Session 5](../sessions/05-the-vassals-bargain.md) and
+[Session 6](../sessions/06-the-fixed-game.md) for the full recaps, and
+[The Long Climb](the-long-climb.md)'s own "Confirmed in play" note for how
+drastically that file's fight diverged from its design. Summary:
+
+- **Miriel gave the party a real political opening.** She asked for a
+  token to spare Scornubel a demerit; the party countered with terms —
+  the Infrared token in exchange for a price hike on the Session 1
+  plumbing deal and Scornubel's submission as a vassal state of the mall.
+  She agreed. Whether the Coster Council honors that is a live thread —
+  see [Miriel Ashgrove](../world/npcs/miriel-ashgrove.md) and
+  [The Coster Council](../world/factions/coster-council.md).
+- **The Bahamut Pilgrims (the Shrine Row Pilgrims, played as Bahamut
+  devotees) got resolved, not just gifted a token.** Mitch converted them
+  to the Way of the Gander outright — "dragons evolved into the Gander" —
+  and they're now Briarwood residents, not just a Wandering Threat. See
+  [The Way of the Gander](../world/factions/way-of-the-gander.md).
+- **Meridian Peak won.** Ending: The Sovereign's Seat happened, but not
+  quietly — Marsh personally called out to Agent mid-fight, right as
+  Renner was about to go down, and Agent ended the game on the spot and
+  declared Meridian Peak the winners in front of everyone. That's a more
+  overt, more obviously biased-looking version of the ending than
+  designed; see [Agent](../world/npcs/agent.md)'s file for the new
+  favoritism thread this opened.
+- **Party is now level 4** — confirmed level-up for surviving Session 6.
+  Rescale any reused Combat Notes accordingly; they're written for level 3.
 
 ## Premise
 
@@ -366,11 +395,14 @@ into an ending.
   minor tokens, but it cost something — a regicide attempt landed, a Titan
   redirect backfired, or the evacuation was chaotic rather than clean. Still
   a win Briarwood can use, just an expensive one.
-- **Ending: The Sovereign's Seat.** Meridian Peak secures Gamma uncontested
-  and nominates Briarwood for the Blood Bowl's worst punishment — exactly
-  the default outcome Agent set up from Node A. The party got out, but
-  ceded real ground, and Meridian Peak is now a returning antagonist with
-  actual standing and a grudge already paid forward.
+- **Ending: The Sovereign's Seat.** Meridian Peak secures Gamma and
+  nominates Briarwood for the Blood Bowl's worst punishment — this is
+  exactly what happened, in Session 6, though not uncontested: the party
+  fought hard enough to nearly take Renner down before Marsh called on
+  Agent directly to end the game and hand Meridian Peak the win. The
+  party got out and leveled up, but ceded real ground, took a public
+  demerit, and now has a real question hanging over the game's fairness on
+  top of a returning antagonist with a grudge.
 - **Ending: Drowned Chaos.** The Aether Tide reaches Submerged before much
   of anything got resolved. Agent calls the game early — great television,
   bad for everyone's actual standing. Tokens end up scattered or unclaimed,
@@ -555,7 +587,12 @@ one bad moment from a real accident.
   them, or DC 15 if the party tries to do it by force without hurting
   anyone's feelings. As a gifting target: a token handed to them reads as
   an omen, not a prize — a strong hook into Faerun's fractured religious
-  landscape if the table wants to pull on it later.
+  landscape if the table wants to pull on it later. **Resolved in Session
+  6:** played specifically as Bahamut devotees, found at the Wells Fargo
+  Regional Office having failed to find a token of their own — Mitch
+  converted them to the Way of the Gander outright and the party gifted
+  them a token. They're Briarwood residents now; see
+  [The Way of the Gander](../world/factions/way-of-the-gander.md).
 
 Both groups can also simply be **helped** rather than encountered as a
 threat at all — leading them to high ground, or handing over a spare token,
@@ -582,7 +619,10 @@ at the moment (DM's call, or roll a d3).
    what actually happened in Session 3 —
    [Nadia Grier](../world/npcs/nadia-grier.md) took the shot at Phil
    unprompted; reuse her stat block (see her file) for this entry going
-   forward.
+   forward. She struck again in Session 5, this time sniping Jack while he
+   worked the spectrometer — not every target has to be a royal in
+   practice; whoever's exposed and useful to hit is fair game for this
+   entry.
 5. A panicked contestant grabs a station prop as an improvised weapon rather
    than attacking anyone directly — chaos, not malice.
 6. Someone shouts "regicide" as a joke and three other people take it

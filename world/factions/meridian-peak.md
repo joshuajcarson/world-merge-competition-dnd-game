@@ -34,11 +34,13 @@ it the whole point.
 
 ## Goals
 
-- Win the Gamma token at [the Color Game](../../encounters/the-color-game.md)
-  — the only token that lets its holder force an additional Blood Bowl
-  punishment on any fragment — and nominate Briarwood for it. Left alone,
-  this is exactly what happens; Meridian Peak doesn't need to be clever to
-  get there, just uncontested.
+- ~~Win the Gamma token at [the Color Game](../../encounters/the-color-game.md)
+  and nominate Briarwood for the extra punishment.~~ **Achieved, in
+  Session 6** — see [The Long Climb](../../encounters/the-long-climb.md).
+  Not uncontested: the party nearly took Renner down before Marsh called
+  Agent in directly to secure the win. Briarwood has already taken the
+  demerit; what it actually costs plays out when the Blood Bowl itself
+  happens.
 - Establish Meridian Peak as the merged world's second real seat of power,
   with Sovereign Marsh's claim treated as legitimate rather than
   self-appointed.
@@ -60,7 +62,16 @@ it the whole point.
 
 ## What the Party Knows
 
-Nothing yet — first contact is [the Color Game](../../encounters/the-color-game.md).
+The name since Session 3, when Agent announced them on air as the Color
+Game's first seed. Extensive direct contact followed across
+[Session 5](../../sessions/05-the-vassals-bargain.md) and
+[Session 6](../../sessions/06-the-fixed-game.md) — a running fight through
+the Medical Supplies Factory and the Wells Fargo Regional Office against
+their people, including a man the party knows only as "Silar," an
+unidentified sniper, and a woman they know only as "Helena" (first name
+only, from the fight itself). They still don't have her surname, her
+title, or any real sense of the compound behind the name — only that
+Meridian Peak won the Color Game, publicly, with Agent's direct help.
 
 ## DM Only
 

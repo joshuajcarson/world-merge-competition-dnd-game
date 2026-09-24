@@ -6,7 +6,7 @@ type: pc
 origin: earth
 tags: [earth, session-zero, briarwood-mall, goose, geezus, way-of-the-gander]
 created: 2026-08-28
-updated: 2026-09-03
+updated: 2026-09-24
 source: campaign-chronicle
 player_known: true
 player: David
@@ -27,7 +27,8 @@ and it stuck hard enough that it's now the name of a religion. Earnest and
 strange in a way that reads as sincere rather than a bit, which is most of
 why people keep believing him. Like an ordinary goose, he can see into the
 ultraviolet — confirmed at the table during
-[the Color Game](../../encounters/the-color-game.md).
+[the Color Game](../../encounters/the-color-game.md) — and can fly or
+glide well enough to cross open water, confirmed the same event.
 
 ## Story So Far
 
@@ -61,6 +62,15 @@ corrupted puma at the Toys "R" Us as the party killed it, and confirmed at
 the table that his goose-eyes see into the ultraviolet, same as an
 ordinary goose's would. See
 [Session 3](../../sessions/03-the-flooded-crown.md).
+
+Session 5: glided across open water to anchor a rope at the Industrial
+Chicken Coop, letting the rest of the party cross behind him — confirmed
+at the table that he can fly or glide, goose-typical. See
+[Session 5](../../sessions/05-the-vassals-bargain.md).
+
+Session 6: leveled up surviving the Wells Fargo fight. Started a
+long-term project on an indoor garden at Briarwood, using tools pulled
+from Sears. See [Session 6](../../sessions/06-the-fixed-game.md).
 
 ## DM Only
 

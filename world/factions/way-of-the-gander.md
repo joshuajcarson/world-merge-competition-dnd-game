@@ -6,7 +6,7 @@ type: faction
 origin: merged
 tags: [merged, briarwood-mall, religion, refugees, emergent]
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-09-24
 source: campaign-chronicle
 player_known: true
 needs_detail: true
@@ -28,6 +28,13 @@ the Gander as part of the deal for discounted access, and the
 [Hollow Spring](the-hollow-spring.md)'s matriarchs responded warmly to it on
 first contact.
 
+Its biggest win yet came in Session 6: a band of Bahamut pilgrims, met
+during [the Color Game](../../encounters/the-color-game.md), converted
+outright — Mitch's pitch was that dragons had evolved into the Gander —
+and are now moving to Briarwood as residents. Unlike the refugee converts,
+these are people leaving an existing, organized faith for this one, not
+just adopting a new one out of desperation.
+
 ## Goals
 
 - Grow. Converts are, mechanically and narratively, part of how Briarwood is
@@ -44,7 +51,9 @@ first contact.
 
 ## What the Party Knows
 
-Everything — this is their own creation.
+Everything — this is their own creation. As of Session 6, that includes a
+new congregation of Bahamut-turned-Gander converts moving in from the
+Color Game.
 
 ## DM Only
 
@@ -61,3 +70,13 @@ long-term lever — leverage against the [Coster Council](coster-council.md),
 a target for something that wants to co-opt or destroy it, or eventually a
 complication for the party's own authority if it grows faster than they can
 steer it. No commitment needed yet; just don't let it quietly disappear.
+
+**The Bahamut converts (Session 6).** Formerly Shrine Row pilgrims — played
+at the table first as "the Bahamut hippies," then more precisely as Bahamut
+devotees — found at the Wells Fargo Regional Office having failed to find a
+Color Game token. Mitch's conversion pitch ("dragons evolved into the
+Gander") worked outright rather than needing a slow build, which is a
+notably faster and more total win than the Hollow Spring's warmer-but-still-
+cautious reception. Worth deciding whether they bring real Bahamut lore or
+grievances with them — a lapsed platinum-dragon cult arriving with genuine
+institutional memory is a richer addition than a blank-slate refugee band.
