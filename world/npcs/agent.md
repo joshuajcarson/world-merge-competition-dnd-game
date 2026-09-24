@@ -119,23 +119,25 @@ complaints about survival numbers (see
 confusion, not a threat with teeth behind it. Agent doesn't know why the
 show isn't following the format it's always followed.
 
-**Does it favor Meridian Peak? Open question, raised in play (Session
-6).** When [Helena Marsh](helena-marsh.md) called out to Agent mid-fight,
-right as Renner was about to be defeated, Agent didn't just intervene —
-it ended the Color Game outright and declared Meridian Peak the winners,
-in front of the party. That reads as favoritism, and the table noticed.
-Two honest readings, both legitimate, deliberately left open here: (1) it
-isn't favoritism at all, just Agent's addiction to a good last-second
-save — the drama of "the villain gets rescued right before the killing
-blow" is exactly the kind of unfinished-story beat it can't resist,
-independent of who's asking; or (2) Marsh has some real standing with
-Agent, or leverage over it, that hasn't surfaced yet — sponsorship, a
-prior cohort connection, something about Meridian Peak's own relationship
-to the broadcast. Don't resolve this until the party pushes on it
-directly; a DM who wants a longer arc should lean toward (2), a DM who
-wants Agent to stay a chaotic-neutral force of nature should lean toward
-(1). Either way, this is now live table knowledge, not just a DM's private
-read — see [Session 6](../../sessions/06-the-fixed-game.md).
+**Does it favor Meridian Peak? Resolved, DM-side only (Session 6's raised
+question).** When [Helena Marsh](helena-marsh.md) called out to Agent
+mid-fight, right as Renner was about to be defeated, Agent didn't just
+intervene — it ended the Color Game outright and declared Meridian Peak
+the winners, in front of the party. It's real favoritism, and neither
+Agent nor Marsh knows why: see her file's **Signal Lock** section for the
+full mechanism — an accidental, merge-born charm effect she doesn't know
+she has, built from the same broadcast-adjacent substrate Agent itself
+runs on, which is why it gets purchase where ordinary magic wouldn't.
+Agent experiences its own bent judgment around her as entirely its own
+inclination, not coercion — it has no idea it's being influenced at all.
+This is now live table knowledge that the party noticed but hasn't
+explained — see [Session 6](../../sessions/06-the-fixed-game.md). If they
+ever surface the real mechanism and bring it to Agent directly, that's the
+strongest, cleanest way in the campaign to turn Agent against Marsh
+specifically: nothing violates its one core value — being nobody's
+puppet, see "It pushes back" and "It will break free," below — worse than
+finding out it already was one, by accident, to a mortal who never even
+asked.
 
 **A ready-made drama lever, not a scheduled beat.** [Grinder](grinder.md) — a
 captive [Fulgurite](../races/fulgurites.md) shock-trooper for an Underdark
