@@ -65,6 +65,10 @@ a good fit for how skittish and opportunistic they are.
   [the Preening Grounds](../places/the-preening-grounds.md); the one who
   actually carries a Doombow worth naming, and the closest thing the band
   has to a leader.
+- [Prismrot](../npcs/prismrot.md) — a rare, prism-eyed variant whose luck
+  manifests as raw, unpredictable elemental damage instead of a nose for
+  gold. Not tied to any specific Luck yet — reuse it wherever the table
+  wants a stranger kind of leader than Gildrot.
 - The rank and file have no names and don't need any — a Luck is a mob,
   not a cast of characters, and most Leprechauns a party fights will never
   come up again.

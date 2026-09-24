@@ -40,6 +40,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Silas Renner](npcs/silas-renner.md) — Meridian Peak's Warden and Marsh's second-in-command; his merge-warped compliance and replication tech is the real reason the compound fields more people than anyone else. *(stub)*
 - [Nadia Grier](npcs/nadia-grier.md) — Meridian Peak's forward scout and sniper; fired the still-unidentified shot at Phil Bernard during Session 3. *(stub)*
 - [Gildrot](npcs/gildrot.md) — the Doombow-carrying leader of the Luck of Leprechauns raiding the Preening Grounds. *(stub)*
+- [Prismrot](npcs/prismrot.md) — a rare, rainbow-eyed Leprechaun leader whose luck bleeds out as raw, unpredictable elemental damage. *(stub)*
 - [Vainhusk](npcs/vainhusk.md) — Chief of the Cult of the Swan; leads by having the most feathers, not the most cunning. *(stub)*
 - [Carol](npcs/carol.md) — an Earth woman whose merge transformation went sideways at the character-select screen; furious about it, hiding on the Preening Grounds. *(stub)*
 
