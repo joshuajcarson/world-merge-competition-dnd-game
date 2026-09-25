@@ -39,6 +39,10 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Helena Marsh](npcs/helena-marsh.md) — self-styled "Sovereign," now formally "Queen of Meridian Peak," a rival Earth fragment; declared her title the instant Agent's royalty decree gave her the opening. *(stub)*
 - [Silas Renner](npcs/silas-renner.md) — Meridian Peak's Warden and Marsh's second-in-command; his merge-warped compliance and replication tech is the real reason the compound fields more people than anyone else. *(stub)*
 - [Nadia Grier](npcs/nadia-grier.md) — Meridian Peak's forward scout and sniper; fired the still-unidentified shot at Phil Bernard during Session 3. *(stub)*
+- [Gildrot](npcs/gildrot.md) — the Doombow-carrying leader of the Luck of Leprechauns raiding the Preening Grounds. *(stub)*
+- [Prismrot](npcs/prismrot.md) — a rare, rainbow-eyed Leprechaun leader whose luck bleeds out as raw, unpredictable elemental damage. *(stub)*
+- [Vainhusk](npcs/vainhusk.md) — Chief of the Cult of the Swan; leads by having the most feathers, not the most cunning. *(stub)*
+- [Carol](npcs/carol.md) — an Earth woman whose merge transformation went sideways at the character-select screen; furious about it, hiding on the Preening Grounds. *(stub)*
 
 ## Places
 
@@ -49,6 +53,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [The Drowned Chantry](places/drowned-chantry.md) — a Faerun shrine to Eldath fused with a Bellcross park lake, in the unclaimed ground between Scornubel and Briarwood; home to the Swanfolk. *(stub)*
 - [Fearus Dungeon](places/fearus-dungeon.md) — a gem-choked jungle beyond a Chess World portal, duergar forcing captives to consume corrupting red gems. *(stub)*
 - [The Flood Stage](places/the-flood-stage.md) — a purpose-built arena Agent assembled for the Color Game, flooded on cue; contestants pulled straight out of Briarwood Mall to fill it. *(stub)*
+- [The Preening Grounds](places/the-preening-grounds.md) — a Faerun wetland fragment claimed by the Cult of the Swan, now raided by Aether Leprechauns and cracking apart under a rising quake. *(stub)*
 
 ## Factions
 
@@ -60,6 +65,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [The Hollow Spring](factions/the-hollow-spring.md) — water-worshipping refugee matriarchs outside Scornubel; gave Sesug Tsirch the earring now known as Hallowspring's Thanks. *(stub)*
 - [The Way of the Gander](factions/way-of-the-gander.md) — the party's own homegrown religion, founded around "Geezus"; actively converting refugees at Briarwood. *(stub)*
 - [Meridian Peak](factions/meridian-peak.md) — a rival Earth fragment, a Colorado wellness-and-survival compound now hoarding real medicine and triaging arrivals by "viability." *(stub)*
+- [The Cult of the Swan](factions/cult-of-the-swan.md) — an orc tribe that broke from Gruumsh to devote itself to beauty (mostly feathers) and can't reliably tell a swan from anything else with wings. *(stub)*
 
 ## Lore
 
@@ -73,6 +79,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Fulgurites](races/fulgurites.md) — a separate Earth fragment merged into Faerun's Underdark; ordinary people fried by faerzress exposure into a feral, involuntarily-dangerous population.
 - [Warrenwrights](races/warrenwrights.md) — Aether-native beaver/prairie-dog colony builders that ground ambient energy through terraforming, wherever the merge drops them.
 - [Swanfolk](races/swanfolk.md) — Faerun swanmays fused mid-transformation with a Bellcross park's ordinary swans; territorial guardians of the Drowned Chantry.
+- [Aether Leprechauns](races/aether-leprechauns.md) — a small, wiry, gold-obsessed Aether-native population raiding merge fragments in loose bands called "Lucks." *(stub)*
 
 ---
 

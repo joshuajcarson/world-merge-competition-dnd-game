@@ -133,3 +133,22 @@ another predator.
 decide it against whatever party level actually needs a Fulgurite encounter,
 the same way [Mall Rats](../../encounters/mall-rats.md) fixed the Ratkin's tier
 only once a level 2 party was the confirmed audience.
+
+**Token Prompt.** Campaign default art style is Glitch-Corrupted Render —
+see `.claude/skills/campaign-chronicle/references/monster-art-style.md`.
+The Earth palette's electric-blue corruption has a natural in-fiction
+justification here — let it originate visibly from the fused skin patches.
+
+```
+A 3D-rendered creature deliberately corrupted like a damaged digital file —
+datamoshing artifacts, torn and smeared polygon edges, color-channel
+splitting, streaks of pixel-sorted noise bleeding across parts of the
+image, set against a flat dark void. An ordinary-looking person a few days
+past a transformation they didn't ask for, dressed in scavenged gear,
+expression somewhere between exhaustion and animal wariness. Patches of
+skin along one arm and the jaw render as glassy and fused, throwing off
+harsh electric-blue and arc-white color-channel splitting exactly at those
+patches, like the corruption is originating from the fused skin itself and
+spreading outward into the render. The overall effect should feel like
+watching something try to render correctly and fail.
+```

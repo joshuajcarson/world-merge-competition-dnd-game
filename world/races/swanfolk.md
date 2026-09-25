@@ -120,3 +120,21 @@ the reflecting pool, or nothing at all — is deliberately unresolved. It's a
 strong long-game reward for a party that deals with
 [Sister Maerwyn](../npcs/sister-maerwyn.md) gently instead of just killing
 her.
+
+**Token Prompt.** Campaign default art style is Glitch-Corrupted Render —
+see `.claude/skills/campaign-chronicle/references/monster-art-style.md`.
+Filed under the Faerun palette despite the Earth-swan half of its origin,
+since the swanmay side visually dominates.
+
+```
+A 3D-rendered creature deliberately corrupted like a damaged digital file —
+datamoshing artifacts, torn and smeared polygon edges, color-channel
+splitting, streaks of pixel-sorted noise bleeding across parts of the
+image, set against a flat dark void. A humanoid figure, feathered enough
+that "person" is the wrong word, elongated neck, wings held half-open, a
+fixed sorrowful expression rather than an aggressive one. Cool, pale
+sage-green and moon-grey color-channel bleed rippling across the feathers
+like water damage on a file, the wingtips and trailing edge of one wing
+dissolving into streaking pixel-sorted static. The overall effect should
+feel like watching something try to render correctly and fail.
+```
