@@ -6,7 +6,7 @@ type: faction
 origin: merged
 tags: [merged, briarwood-mall, religion, refugees, emergent]
 created: 2026-08-27
-updated: 2026-09-24
+updated: 2026-09-30
 source: campaign-chronicle
 player_known: true
 needs_detail: true
@@ -35,6 +35,16 @@ and are now moving to Briarwood as residents. Unlike the refugee converts,
 these are people leaving an existing, organized faith for this one, not
 just adopting a new one out of desperation.
 
+The table describes it as a holy trinity of Goose, loosely modeled on medieval
+Christianity. "The Gander" is God, the goose version, and Geezus claims the Gander is his
+father. Geezus is the Holy Goose (modeled on Jesus), Mitch is the first prophet (modeled on
+Paul), and Phil Bernard, the Mall King, stands roughly where the king stands in the Church
+of England.
+
+Keeping the mall clean is a focal point of the faith. In Session 7 the people of Briarwood
+were not keeping it clean, and Mitch, Jack and Geezus worked together to get them to be
+less dirty, very successfully.
+
 ## Goals
 
 - Grow. Converts are, mechanically and narratively, part of how Briarwood is
@@ -48,6 +58,7 @@ just adopting a new one out of desperation.
 
 - Sesug Tsirch ("Geezus") — party PC, the Gander's central figure.
 - Mitch Saddlerash — party PC, does the actual organizing and persuading.
+- Phil Bernard — party PC and Mall King, the faith's crowned head.
 
 ## What the Party Knows
 

@@ -42,7 +42,8 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Gildrot](npcs/gildrot.md) — the Doombow-carrying leader of the Luck of Leprechauns raiding the Preening Grounds. *(stub)*
 - [Prismrot](npcs/prismrot.md) — a rare, rainbow-eyed Leprechaun leader whose luck bleeds out as raw, unpredictable elemental damage. *(stub)*
 - [Vainhusk](npcs/vainhusk.md) — Chief of the Cult of the Swan; leads by having the most feathers, not the most cunning. *(stub)*
-- [Carol](npcs/carol.md) — an Earth woman whose merge transformation went sideways at the character-select screen; furious about it, hiding on the Preening Grounds. *(stub)*
+- [Carol](npcs/carol.md) — an Earth woman whose merge transformation went sideways at the character-select screen; found in Session 7 and now living at the mall; the party owes her the fountain, a goose toilet, and an introduction to Steve. *(stub)*
+- [Steve](npcs/steve.md) — Dallas Tiffany's salesman, notorious for cheating on his wife; the introduction Carol wants. *(stub)*
 
 ## Places
 

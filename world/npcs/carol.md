@@ -6,7 +6,7 @@ type: npc
 origin: earth
 tags: [earth, goose, golden-egg, the-preening-grounds, misclick]
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-30
 source: encounter-weaver
 player_known: false
 needs_detail: true
@@ -14,7 +14,7 @@ species: "human, merge-transformed into a goose that lays golden eggs"
 role: "An Earth woman whose merge transformation went sideways at the character-select screen; furious about it, hiding from an orc tribe that wants her feathers and a fragment about to fall apart"
 faction: null
 status: alive
-first_seen: null
+first_seen: 7
 ---
 
 # Carol
@@ -31,10 +31,19 @@ feels like her whole new life.
 
 ## What the Party Knows
 
-Nothing yet — first contact is
-[The Golden Goose Chase](../../encounters/the-golden-goose-chase.md).
+The party found her in [Session 7](../../sessions/07-the-golden-goose.md) (run from
+[The Golden Goose Chase](../../encounters/the-golden-goose-chase.md)), after a shared
+dream sent them looking and a captured Cult of the Swan cultist led them to her. She used
+to work at a Tiffany's in New York. She came back to the mall, and the party took her deal: she gets access
+to the mall fountain, a custom-made goose toilet, and an introduction to
+[Steve](steve.md), a Dallas Tiffany's salesman notorious for cheating on his wife.
 
 ## DM Only
+
+**Session 7 canon.** Her Tiffany's past, her three conditions, and Steve are all new from
+the table. The party accepted the deal and she is living at the mall, so the party now owes
+her the fountain access, the goose toilet, and the introduction to Steve. The "someone to explain Gilder vs. Glider" hook below still stands;
+Steve is a second, stranger one.
 
 **What actually happened to her.** Same merge moment as every other Earth
 transformation in this campaign — she just didn't get a race, she got

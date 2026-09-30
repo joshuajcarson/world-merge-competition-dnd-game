@@ -6,7 +6,7 @@ type: race
 origin: aether
 tags: [aether, merged, monster-race, raiders, gold, doombow]
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-30
 source: encounter-weaver
 player_known: false
 origin_species: "Aether native — evolved this way, no transformation event"
@@ -75,8 +75,10 @@ a good fit for how skittish and opportunistic they are.
 
 ## What the Party Knows
 
-Nothing yet — first contact is
-[The Golden Goose Chase](../../encounters/the-golden-goose-chase.md).
+Met in [Session 7](../../sessions/07-the-golden-goose.md), run from
+[The Golden Goose Chase](../../encounters/the-golden-goose-chase.md). They carried bags
+of parts from the birds they had been killing, and fought the Cult of the Swan and the
+party over them.
 
 ## DM Only
 

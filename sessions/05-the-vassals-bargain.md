@@ -11,7 +11,7 @@ tags: [world-merge, color-game, scornubel, meridian-peak, blood-bowl]
 created: 2026-09-24
 updated: 2026-09-24
 source: campaign-chronicle
-player_known: false
+player_known: true
 ---
 
 # Session 5 — The Vassal's Bargain

@@ -66,6 +66,11 @@ faith rather than a desperate refugee band. Received
 Began helping Geezus's indoor garden project, with what the table can only
 describe as broken glass. See [Session 6](../../sessions/06-the-fixed-game.md).
 
+Session 7: dreamed of the golden goose alongside Geezus. Spent his
+downtime teaching sanitation and, with Jack and Geezus, successfully got
+the mall's people to be less dirty. See
+[Session 7](../../sessions/07-the-golden-goose.md).
+
 ## DM Only
 
 **Does most of the Way of the Gander's actual organizing.**

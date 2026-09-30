@@ -73,6 +73,11 @@ down for good in the fight that followed, right before Helena called Agent
 in to end it. Leveled up. Started a long-term project on a permanent fix
 for the mall's skylights. See [Session 6](../../sessions/06-the-fixed-game.md).
 
+Session 7: pointed out that people keep making a mess of the mall. Spent
+his downtime building a trash compactor and, with Mitch and Geezus,
+successfully got the mall's people to be less dirty. See
+[Session 7](../../sessions/07-the-golden-goose.md).
+
 ## DM Only
 
 **The mall's extra geometry is mostly Jack's thread.** He's the one who
