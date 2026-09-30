@@ -11,7 +11,7 @@ tags: [world-merge, color-game, meridian-peak, blood-bowl, agent, way-of-the-gan
 created: 2026-09-24
 updated: 2026-09-24
 source: campaign-chronicle
-player_known: false
+player_known: true
 ---
 
 # Session 6 — The Fixed Game

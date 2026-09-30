@@ -8,12 +8,27 @@ tags: [faerun, aether, earth, quake, escort, cult-of-the-swan, leprechauns, the-
 party_tier: "level 4"
 party_size: "4"
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-30
 source: encounter-weaver
 player_known: false
 ---
 
 # The Golden Goose Chase
+
+**Confirmed in play (Session 7).** This ran as the base for
+[Session 7](../sessions/07-the-golden-goose.md), with the hook changed: a shared
+dream across the mall, rather than a rumor. The Cult of the Swan scene and the
+Aether Leprechauns ran, and the party reached [Carol](../world/npcs/carol.md),
+who asked for the mall fountain, a custom goose toilet, and an introduction to
+[Steve](../world/npcs/steve.md) in return for coming back with them. The party took
+the deal and she now lives at the mall, along with one surviving cultist. It
+ran much smaller than designed: the party went to the first area to watch the
+Leprechauns attack the cultists, [Phil](../world/people/phil-bernard.md) attacked the
+cultists anyway, and the party ended up fighting everyone. The quake, Chief
+[Vainhusk](../world/npcs/vainhusk.md), [Gildrot](../world/npcs/gildrot.md) and the
+Escape node did not happen, and the named Leprechauns
+([Gildrot](../world/npcs/gildrot.md), [Prismrot](../world/npcs/prismrot.md)) are
+still available for later.
 
 **Note on scope.** Built to fit inside a single session. Only two things in
 this file are load-bearing — reaching [Carol](../world/npcs/carol.md) (Node

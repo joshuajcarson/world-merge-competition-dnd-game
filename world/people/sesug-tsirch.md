@@ -72,6 +72,11 @@ Session 6: leveled up surviving the Wells Fargo fight. Started a
 long-term project on an indoor garden at Briarwood, using tools pulled
 from Sears. See [Session 6](../../sessions/06-the-fixed-game.md).
 
+Session 7: dreamed of the golden goose alongside Mitch. Spent his downtime
+advocating for vaccines and universal healthcare and, with Mitch and Jack,
+successfully got the mall's people to be less dirty. See
+[Session 7](../../sessions/07-the-golden-goose.md).
+
 ## DM Only
 
 **The Way of the Gander's actual miracle-worker.** Sesug is the one

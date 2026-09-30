@@ -67,6 +67,11 @@ Session 6: leveled up surviving the Wells Fargo fight. Kept practicing
 being kingly — fell flat on his ass doing it. See
 [Session 6](../../sessions/06-the-fixed-game.md).
 
+Session 7: went out with the party after the golden goose. Spent his
+downtime working on his salute and failed his check to learn how to act
+like a king, again, making hardly any progress. See
+[Session 7](../../sessions/07-the-golden-goose.md).
+
 ## DM Only
 
 **Mall King, structurally undefined.** What the title actually carries in

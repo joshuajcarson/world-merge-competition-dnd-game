@@ -11,7 +11,7 @@ tags: [world-merge, briarwood-mall, blood-bowl, color-game, long-term-projects]
 created: 2026-09-03
 updated: 2026-09-03
 source: campaign-chronicle
-player_known: false
+player_known: true
 ---
 
 # Session 3 — The Flooded Crown

@@ -6,7 +6,7 @@ type: faction
 origin: faerun
 tags: [faerun, orc, breakaway, beauty, feathers, the-preening-grounds]
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-30
 source: encounter-weaver
 player_known: false
 needs_detail: true
@@ -46,8 +46,10 @@ down.
 
 ## What the Party Knows
 
-Nothing yet — first contact is
-[The Golden Goose Chase](../../encounters/the-golden-goose-chase.md).
+Met in [Session 7](../../sessions/07-the-golden-goose.md), run from
+[The Golden Goose Chase](../../encounters/the-golden-goose-chase.md): cultists dancing
+around a fire, one of whom summoned the top of a small mountain peak to attack the party.
+The party attacked them, and one cultist survived and led the party to Carol. He now lives at the mall.
 
 ## DM Only
 
