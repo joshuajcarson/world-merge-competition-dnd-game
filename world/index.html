@@ -14,25 +14,49 @@ permalink: /world/
 
   The player_known filter lives in _includes/entry-list.html now, so that
   withheld entries can still surface in the ?dm=1 view.
+
+  Sections are driven by each file's `type`, so a new entry shows up here with
+  no index to edit. The search box and chips come from assets/js/list-filter.js
+  and work off data attributes on each card (see entry-list.html).
 {%- endcomment -%}
 {%- assign entries = site.pages -%}
 
-<h2>Handouts</h2>
+<form id="filter-bar" class="filter-bar" role="search" hidden>
+  <label class="sr-only" for="filter-q">Search the world</label>
+  <input id="filter-q" type="search" placeholder="Search names, roles, tags…  ( / )" autocomplete="off">
+  <div class="chip-row" data-chips="type" aria-label="Filter by kind"></div>
+  <div class="chip-row" data-chips="origin" aria-label="Filter by origin"></div>
+  <div class="filter-actions">
+    <label class="check"><input type="checkbox" id="filter-hide-stubs"> Hide fragmentary entries</label>
+    <button type="button" id="filter-toggle-all">Collapse all</button>
+    <button type="button" id="filter-clear" hidden>Clear filters</button>
+  </div>
+  <p id="filter-status" class="filter-status" aria-live="polite"></p>
+</form>
+
+<div data-filterable>
 {%- assign handouts = entries | where: "type", "handout" -%}
-{% include entry-list.html pages=handouts empty="No handouts released." %}
+{% include type-group.html id="handout" label="Handouts" pages=handouts empty="No handouts released." %}
 
-<h2>People</h2>
+{%- assign pcs = entries | where: "type", "pc" | sort: "title" -%}
+{% include type-group.html id="pc" label="The Party" pages=pcs empty="No contestants registered." %}
+
 {%- assign npcs = entries | where: "type", "npc" | sort: "title" -%}
-{% include entry-list.html pages=npcs empty="You haven't met anyone worth writing down. Yet." %}
+{% include type-group.html id="npc" label="NPCs" pages=npcs empty="You haven't met anyone worth writing down. Yet." %}
 
-<h2>Places</h2>
 {%- assign places = entries | where: "type", "place" | sort: "title" -%}
-{% include entry-list.html pages=places empty="Nowhere charted." %}
+{% include type-group.html id="place" label="Places" pages=places empty="Nowhere charted." %}
 
-<h2>Factions</h2>
 {%- assign factions = entries | where: "type", "faction" | sort: "title" -%}
-{% include entry-list.html pages=factions empty="No powers identified." %}
+{% include type-group.html id="faction" label="Factions" pages=factions empty="No powers identified." %}
 
-<h2>Lore</h2>
+{%- assign races = entries | where: "type", "race" | sort: "title" -%}
+{% include type-group.html id="race" label="Races" pages=races empty="No peoples catalogued." %}
+
 {%- assign lore = entries | where: "type", "lore" | sort: "title" -%}
-{% include entry-list.html pages=lore empty="Nothing understood well enough to write down." %}
+{% include type-group.html id="lore" label="Lore" pages=lore empty="Nothing understood well enough to write down." %}
+
+<p id="filter-empty" class="empty" hidden>Nothing matches. Try fewer words or clear the filters.</p>
+</div>
+
+<script src="{{ '/assets/js/list-filter.js' | relative_url }}" defer></script>

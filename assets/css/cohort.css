@@ -247,3 +247,50 @@ th, td { text-align: left; padding: .5rem .7rem; border-bottom: 1px solid var(--
   color: var(--ink-soft);
 }
 .card.dm-only { border-style: dashed; }
+
+/* ---------- index search, chips, collapsible groups ---------- */
+/* Driven by assets/js/list-filter.js; the page is a plain list without it. */
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+.filtered-out { display: none !important; }
+
+.filter-bar { margin: 0 0 1.5rem; display: grid; gap: .6rem; }
+.filter-bar[hidden] { display: none; }
+.filter-bar input[type="search"] {
+  width: 100%; padding: .6rem .8rem; font: inherit;
+  color: var(--ink); background: var(--bg-raised);
+  border: 1px solid var(--line); border-radius: var(--radius);
+}
+.chip-row { display: flex; flex-wrap: wrap; gap: .35rem; }
+.chip-row[hidden] { display: none; }
+.chip, .filter-actions button {
+  font: inherit; font-size: .8rem; cursor: pointer;
+  color: var(--ink); background: var(--bg-raised);
+  border: 1px solid var(--line); border-radius: 999px;
+  padding: .25rem .7rem;
+}
+.chip:hover, .filter-actions button:hover { border-color: var(--accent); }
+.chip[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.filter-actions { display: flex; flex-wrap: wrap; gap: .5rem 1rem; align-items: center; font-size: .85rem; color: var(--ink-soft); }
+.filter-actions button[hidden] { display: none; }
+.check { display: inline-flex; gap: .4rem; align-items: center; cursor: pointer; }
+.filter-status { margin: 0; font-size: .85rem; color: var(--ink-soft); min-height: 1.2em; }
+
+.type-group { margin: 0 0 1.25rem; }
+.type-group > summary {
+  cursor: pointer; list-style: none;
+  display: flex; align-items: baseline; gap: .6rem;
+}
+.type-group > summary::-webkit-details-marker { display: none; }
+.type-group > summary::before { content: "\25B8"; color: var(--ink-soft); font-size: .9em; width: 1em; }
+.type-group[open] > summary::before { content: "\25BE"; }
+.type-group > summary h2 { display: inline; margin: 0; }
+.type-group .count {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: .8rem; color: var(--ink-soft);
+}
+.type-group .cards { margin-top: .75rem; }
+.card .tag { white-space: normal; border-radius: 12px; }

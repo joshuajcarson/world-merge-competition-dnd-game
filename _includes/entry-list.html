@@ -14,7 +14,11 @@ the set is cleared, the empty message is marked .public-only so a DM isn't told
 {%- if include.pages and include.pages.size > 0 -%}
 <ul class="cards">
   {%- for p in include.pages -%}
-  <li class="card{% unless p.player_known == true %} dm-only{% endunless %}">
+  {%- assign hay = p.title | append: ' ' | append: p.role | append: ' ' | append: p.species | append: ' ' | append: p.origin | append: ' ' | append: p.type -%}
+  {%- assign tagtext = p.tags | join: ' ' -%}
+  <li class="card{% unless p.player_known == true %} dm-only{% endunless %}"
+      data-text="{{ hay | append: ' ' | append: tagtext | downcase | xml_escape }}"
+      data-origin="{{ p.origin | default: 'unknown' }}"{% if p.needs_detail %} data-stub="1"{% endif %}>
     <a href="{{ p.url | relative_url }}">
       <h3>
         {%- if p.session_number %}<span class="num">{{ p.session_number }}</span> {% endif -%}

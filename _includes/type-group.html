@@ -1,0 +1,16 @@
+{%- comment -%}
+One collapsible section of the world index.
+  include.id     — slug for the section, used by the type chips in list-filter.js
+  include.label  — heading text
+  include.pages  — the set of pages (cleared or not; entry-list.html sorts that out)
+  include.empty  — message when nothing is cleared
+
+Open by default so the page is complete without JavaScript. The count is the
+player-visible count, which list-filter.js recomputes for the DM view and for
+active filters.
+{%- endcomment -%}
+{%- assign cleared_count = include.pages | where: "player_known", true | size -%}
+<details class="type-group" id="{{ include.id }}" data-type="{{ include.id }}" data-label="{{ include.label }}" open>
+  <summary><h2>{{ include.label }}</h2> <span class="count">{{ cleared_count }}</span></summary>
+  {% include entry-list.html pages=include.pages empty=include.empty %}
+</details>
