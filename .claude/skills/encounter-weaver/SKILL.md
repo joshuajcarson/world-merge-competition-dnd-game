@@ -63,7 +63,16 @@ Save to `encounters/<slug>.md`. Frontmatter follows the shared core contract (se
 
 Then add a line to the **Entries** list in `encounters/README.md` (create that index file from `assets/encounter-template.md`'s README pattern if this is the first encounter in the repo) so it's reachable from the repo root, and confirm `README.md` at the repo root links to `encounters/README.md` — add it to the root index if it's missing.
 
-### 9. Report
+### 9. Battlemap art (optional)
+
+Only if the user wants a map for a specific node — don't do this by
+default for every node of every encounter. Read
+`references/battlemap-style.md` and add a **Battlemap Prompt** entry
+under that node. If the user has Forge running locally (see
+`tools/image-gen/README.md`), offer to actually generate it:
+`python tools/image-gen/generate_battlemap.py <slug> --node "<node>"`.
+
+### 10. Report
 
 Show the node graph in your response (a compact outline is enough — the file has the full detail), state the escalation trigger(s) clearly, and confirm the path you traced to make it reachable from the repo index. If you blocked on party tier for the combat nodes, say what you built without it and what's still pending.
 

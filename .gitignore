@@ -5,3 +5,8 @@ _site/
 vendor/
 .bundle/
 Gemfile.lock
+
+# Local image-gen tooling (tools/image-gen)
+__pycache__/
+*.pyc
+.venv/

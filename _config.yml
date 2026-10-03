@@ -19,6 +19,7 @@ kramdown:
 # DM-side material and repo-browser navigation never build into the public site.
 exclude:
   - .claude/
+  - tools/
   - LICENSE
   - README.md
   - items/README.md

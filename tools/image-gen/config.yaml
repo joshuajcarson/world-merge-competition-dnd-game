@@ -1,0 +1,43 @@
+# Local Forge connection + generation defaults. Edit this file directly —
+# nothing in here is secret, it's all local-machine settings. See
+# tools/image-gen/README.md for the full setup walkthrough.
+
+forge:
+  # Default Forge/A1111 API address when running on the same machine.
+  base_url: "http://127.0.0.1:7860"
+
+# Used by generate_npc_portrait.py — NPC/race token portraits.
+# No LoRA by default; the "Glitch-Corrupted Render" style (see
+# .claude/skills/campaign-chronicle/references/monster-art-style.md) is
+# carried entirely by the prompt text already written into each file's
+# Token Prompt block.
+portrait:
+  checkpoint: "REPLACE_WITH_YOUR_SDXL_CHECKPOINT_FILENAME"  # e.g. sd_xl_base_1.0.safetensors
+  lora: null   # or: {name: "some_character_lora", weight: 0.8}
+  width: 1024
+  height: 1024
+  steps: 30
+  cfg_scale: 7
+  sampler_name: "DPM++ 2M Karras"
+  negative_prompt: "blurry, low quality, extra limbs, deformed hands, watermark, text, signature, photo border, frame"
+
+# Used by generate_battlemap.py — encounter battlemaps.
+# Fill in `lora.name` once you've downloaded a battlemap LoRA for SDXL and
+# dropped it into Forge's models/Lora folder; set trigger_words from that
+# LoRA's model card (civitai page, usually).
+battlemap:
+  checkpoint: "REPLACE_WITH_YOUR_SDXL_CHECKPOINT_FILENAME"
+  lora:
+    name: "REPLACE_WITH_YOUR_BATTLEMAP_LORA_FILENAME"
+    weight: 0.8
+    trigger_words: "top-down battlemap, dnd map"  # fill in from the LoRA's own documentation
+  generate_width: 1216
+  generate_height: 832
+  steps: 30
+  cfg_scale: 7
+  sampler_name: "DPM++ 2M Karras"
+  negative_prompt: "blurry, low quality, watermark, text, signature, characters, miniatures, UI, grid labels"
+  # Upscale pass, to land near Roll20-friendly sizes.
+  upscaler: "4x-UltraSharp"
+  target_width: 1400
+  target_height: 1050
