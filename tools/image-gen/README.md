@@ -116,6 +116,14 @@ Battlemaps work the same way (`--count 4`, then `--pick <seed>`, with the same
 `--node` / `--label`), except candidates are saved un-upscaled and only the one
 you pick gets the upscale pass, which keeps batches fast.
 
+Battlemaps: `--pick` also embeds the chosen map in the encounter file, as a
+relative image link right under that node's Battlemap Prompt (`--no-embed` to skip),
+so it shows on the site's encounter page. Portraits are shown on the entry page from
+the `image:` frontmatter field. `battlemap.extra_detail` in `config.yaml` is added to
+every battlemap prompt to keep maps from being bland, and `--lora-weight 0.7`
+overrides the LoRA strength for one run (0.8 is the default; much lower and the maps
+turn into parchment world maps).
+
 Without `--count`, a run still makes one image and saves it straight into
 `assets/`, as before.
 

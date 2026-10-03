@@ -53,6 +53,43 @@ Scan the note for named NPCs, places, factions, items, and lore concepts.
 
 Stubs are cheap and broken links are not. But don't stub incidental nouns — a thing gets a file when it has a name and could plausibly come up again.
 
+### 4a. Token art (optional)
+
+Only when the DM wants a portrait or token for a specific NPC or race — never by
+default, and never as a batch over every stub. Write the **Token Prompt** per
+`references/monster-art-style.md` first. If the DM wants the image itself, Forge
+generates it locally with:
+`python tools/image-gen/generate_npc_portrait.py <slug> --count 4`, then
+`--pick <seed>` for the DM's choice.
+
+**Generating it (when the DM wants real art, not just the prompt).** Local generation
+runs through Forge on the DM's GPU; full setup and every flag are in
+`tools/image-gen/README.md`. The loop is human-in-the-loop — Claude generates
+candidates, the DM picks:
+
+1. **Check Forge is up with the API on:** `GET http://127.0.0.1:7860/sdapi/v1/options`
+   should return JSON (a 404 means it was launched without `--api`; don't use
+   `/sdapi/v1/sd-models`, which errors on SDXL). If it's down, say so and give the
+   launch command — on the DM's machine that is `C:\bench\image-gen\run.bat` — rather
+   than starting a multi-minute launch silently.
+2. **Generate a batch**, never a single image: `--count 4`. Candidates land in the
+   gitignored `tools/image-gen/candidates/<slug>/` named by seed; nothing touches
+   `assets/` or the note yet. Takes about 1.5-2 minutes.
+3. **Show the DM what happened:** the exact prompt the script printed (including any
+   style/LoRA text it added) and the four images — open each PNG with the Read tool so
+   the DM can see them, with one honest line per image and a recommendation. Say
+   plainly when the output misses the prompt; don't oversell.
+4. **Only the DM picks.** Run `--pick <seed>` for the image they choose. If none are
+   good, run `--count 4` again (new candidates are added alongside the old), adjusting
+   one thing at a time — prompt wording, or `--lora-weight` — and say what changed.
+5. **Report what landed:** the file in `assets/images/...`, and where it's referenced.
+
+Specific to portraits: `--pick` copies the chosen image to
+`assets/images/npcs/<slug>.png` (or `races/`) and writes `image:` into that
+file's frontmatter, bumping `updated`. The site renders `image:` at the top of the
+entry page automatically, so no markdown embed is needed. Portraits are 1024x1024 and
+about 1-1.5 MB.
+
 ### 5. Verify reachability — do not skip
 
 Follow `references/navigation.md`. Trace an actual path from `README.md` to every file you created or modified this turn, and update indexes as needed so the path exists.

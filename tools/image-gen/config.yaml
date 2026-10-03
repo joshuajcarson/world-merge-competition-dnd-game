@@ -31,12 +31,22 @@ battlemap:
     name: "dnd_battlemap_sdxl"
     weight: 0.8
     trigger_words: "top-down battlemap, dnd map"  # fill in from the LoRA's own documentation
+  # Appended to every battlemap prompt, after the node's own Battlemap Prompt. Keeps
+  # maps from coming out bland without hard-coding what appears in them: it asks for
+  # variety and points of interest, and the model picks the specifics each time.
+  # Set to "" to turn it off.
+  extra_detail: >-
+    Visually rich and varied rather than sparse or empty: several distinct points of
+    interest scattered across the map, each different from the others - flowering or
+    blooming trees, unusual and interestingly shaped rocks, fallen timber with moss,
+    fungus or climbing plants growing on it, small clusters of plants and wildflowers,
+    varied ground textures.
   generate_width: 1216
   generate_height: 832
   steps: 30
   cfg_scale: 7
   sampler_name: "DPM++ 2M Karras"
-  negative_prompt: "blurry, low quality, watermark, text, signature, characters, miniatures, UI, grid labels"
+  negative_prompt: "blurry, low quality, watermark, text, signature, characters, miniatures, UI, grid labels, perspective view, angled view, isometric, horizon, sky, aerial photograph, 3d render, photo, parchment, scroll, border, frame, legend, compass, world map, text labels"
   # Upscale pass, to land near Roll20-friendly sizes.
   upscaler: "4x-UltraSharp"
   # Upscale is not cropped: the result matches target_height and the width follows

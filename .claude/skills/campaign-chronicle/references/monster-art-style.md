@@ -90,8 +90,14 @@ copy-pasting into an external tool. See `tools/image-gen/README.md` for
 one-time setup, then:
 
 ```
-python tools/image-gen/generate_npc_portrait.py <slug>
+python tools/image-gen/generate_npc_portrait.py <slug> --count 4   # candidates
+python tools/image-gen/generate_npc_portrait.py <slug> --pick <seed>   # keep one
 ```
+
+Always generate a batch of four and let the DM choose — plain SDXL follows a long
+prompt loosely (the first Gildrot batch matched the glitch/polygon style and the
+mold-green skin in every image but dropped the sack in all four). See the workflow
+in `campaign-chronicle/SKILL.md` step 4a.
 
 This pulls the Token Prompt straight out of the file, generates a
 1024×1024 portrait, saves it to `assets/images/npcs/<slug>.png` (or

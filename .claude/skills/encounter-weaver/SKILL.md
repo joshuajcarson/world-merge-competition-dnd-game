@@ -68,9 +68,45 @@ Then add a line to the **Entries** list in `encounters/README.md` (create that i
 Only if the user wants a map for a specific node — don't do this by
 default for every node of every encounter. Read
 `references/battlemap-style.md` and add a **Battlemap Prompt** entry
-under that node. If the user has Forge running locally (see
+under that node. If the user has Forge available locally (see
 `tools/image-gen/README.md`), offer to actually generate it:
-`python tools/image-gen/generate_battlemap.py <slug> --node "<node>"`.
+`python tools/image-gen/generate_battlemap.py <slug> --node "<node>" --count 4`
+(then `--pick <seed>` for the DM's choice).
+
+**Generating it (when the DM wants real art, not just the prompt).** Local generation
+runs through Forge on the DM's GPU; full setup and every flag are in
+`tools/image-gen/README.md`. The loop is human-in-the-loop — Claude generates
+candidates, the DM picks:
+
+1. **Check Forge is up with the API on:** `GET http://127.0.0.1:7860/sdapi/v1/options`
+   should return JSON (a 404 means it was launched without `--api`; don't use
+   `/sdapi/v1/sd-models`, which errors on SDXL). If it's down, say so and give the
+   launch command — on the DM's machine that is `C:\bench\image-gen\run.bat` — rather
+   than starting a multi-minute launch silently.
+2. **Generate a batch**, never a single image: `--count 4`. Candidates land in the
+   gitignored `tools/image-gen/candidates/<slug>/` named by seed; nothing touches
+   `assets/` or the note yet. Takes about 1.5-2 minutes.
+3. **Show the DM what happened:** the exact prompt the script printed (including any
+   style/LoRA text it added) and the four images — open each PNG with the Read tool so
+   the DM can see them, with one honest line per image and a recommendation. Say
+   plainly when the output misses the prompt; don't oversell.
+4. **Only the DM picks.** Run `--pick <seed>` for the image they choose. If none are
+   good, run `--count 4` again (new candidates are added alongside the old), adjusting
+   one thing at a time — prompt wording, or `--lora-weight` — and say what changed.
+5. **Report what landed:** the file in `assets/images/...`, and where it's referenced.
+
+Specific to battlemaps:
+
+- `--pick` upscales only the chosen map (4x-UltraSharp, no cropping, about 1528x1048)
+  and **embeds it in the encounter file** under that node's Battlemap Prompt as a
+  relative image link, so it shows in the GitHub view and on the site's encounter
+  page. Pass `--no-embed` to skip that. Don't hand-write the link.
+- `battlemap.extra_detail` in `tools/image-gen/config.yaml` is appended to every
+  prompt to keep maps from coming out bland; it asks for variety without naming
+  objects. Edit it there, not in each Battlemap Prompt.
+- The battlemap LoRA is applied at 0.8 and that is the sweet spot: at 0.55 the model
+  drifts into parchment world maps with legends and borders; 0.7 is workable if a map
+  needs more of the base model's own detail (`--lora-weight 0.7`).
 
 ### 10. Report
 

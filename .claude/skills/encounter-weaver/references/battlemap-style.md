@@ -76,6 +76,16 @@ Don't pre-generate one for every node in every encounter — add it once a
 table's actually about to need the map, the same discipline
 `monster-art-style.md` uses for Token Prompts.
 
+## Generating from the prompt
+
+`tools/image-gen/generate_battlemap.py` prepends the LoRA's trigger words, appends
+`battlemap.extra_detail` from `tools/image-gen/config.yaml` (a generic "rich, varied,
+several distinct points of interest" line), and adds the LoRA tag. So a Battlemap
+Prompt should stay about **terrain and the node's specific hazards**; don't spend words
+asking for "interesting details" in each one. The negative prompt already rejects
+angled views, parchment, borders, legends and text. See `encounter-weaver/SKILL.md`
+step 9 for the batch-and-pick workflow.
+
 ## Worked example
 
 **[The Preening Grounds](../../../../world/places/the-preening-grounds.md)**,

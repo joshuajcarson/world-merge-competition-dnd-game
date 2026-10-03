@@ -68,6 +68,32 @@ def extract_battlemap_prompt(text, node_label=None):
     return match.group(1).strip()
 
 
+def embed_battlemap(encounter_path, node_label, slug, label):
+    """Put the chosen map into the encounter file, right under its Battlemap Prompt.
+
+    The link is relative to encounters/ so it resolves both in the GitHub repo browser
+    and on the Jekyll site. Idempotent: does nothing if that image is already linked.
+    Returns True if the file was changed.
+    """
+    text = encounter_path.read_text(encoding="utf-8")
+    rel = f"../assets/images/encounters/{slug}/{label}.png"
+    if f"]({rel})" in text:
+        return False
+    start, end = 0, len(text)
+    if node_label:
+        section = section_for_node(text, node_label)
+        start = text.index(section)
+        end = start + len(section)
+    match = BATTLEMAP_PROMPT_RE.search(text, start, end)
+    if not match:
+        return False
+    alt = f"Battlemap: {node_label}" if node_label else "Battlemap"
+    embed = "\n\n" + f"![{alt}]({rel})" + "\n"
+    text = text[: match.end()] + embed + text[match.end():]
+    encounter_path.write_text(text, encoding="utf-8")
+    return True
+
+
 def upscale(client, bcfg, image_bytes):
     return client.upscale(
         image_bytes,
@@ -85,8 +111,10 @@ def main():
     parser.add_argument("--seed", type=int, default=-1)
     parser.add_argument("--count", type=int, default=1, help="Generate N un-upscaled candidates into tools/image-gen/candidates/ to choose from (default 1: save straight into assets/)")
     parser.add_argument("--pick", type=int, default=None, metavar="SEED", help="Upscale and promote the candidate with this seed into assets/; no generation")
+    parser.add_argument("--lora-weight", type=float, default=None, help="Override battlemap.lora.weight from config.yaml for this run (lower = less of the LoRA's clean map look, more of the base model's own detail)")
     parser.add_argument("--config", default=None)
     parser.add_argument("--no-upscale", action="store_true", help="Skip the upscale pass and save the raw generation size")
+    parser.add_argument("--no-embed", action="store_true", help="Don't add the image to the encounter file under its Battlemap Prompt")
     args = parser.parse_args()
 
     cfg = load_config(args.config)
@@ -104,6 +132,7 @@ def main():
             print("Upscaling the chosen candidate ...")
             image_bytes = upscale(client, bcfg, image_bytes)
         save_final(out_path, image_bytes)
+        finish_embed(args, label)
         return
 
     encounter_path = find_encounter_file(args.slug)
@@ -114,7 +143,13 @@ def main():
 
     trigger_words = bcfg["lora"].get("trigger_words", "")
     full_prompt = f"{trigger_words}, {prompt}" if trigger_words else prompt
-    full_prompt += build_lora_tag(bcfg.get("lora"))
+    extra_detail = (bcfg.get("extra_detail") or "").strip()
+    if extra_detail:
+        full_prompt += " " + extra_detail
+    lora_cfg = dict(bcfg.get("lora") or {})
+    if args.lora_weight is not None:
+        lora_cfg["weight"] = args.lora_weight
+    full_prompt += build_lora_tag(lora_cfg)
 
     print(f"Generating {args.count} battlemap(s) for '{args.slug}'" + (f" ({args.node})" if args.node else "") + " ...")
     images = client.txt2img(
@@ -148,6 +183,17 @@ def main():
         print("Upscaling ...")
         image_bytes = upscale(client, bcfg, image_bytes)
     save_final(out_path, image_bytes)
+    finish_embed(args, label)
+
+
+def finish_embed(args, label):
+    if args.no_embed:
+        return
+    path = find_encounter_file(args.slug)
+    if embed_battlemap(path, args.node, args.slug, label):
+        print(f"Embedded the map in {path.relative_to(REPO_ROOT)} under its Battlemap Prompt.")
+    else:
+        print("Encounter file already links this image (or has no Battlemap Prompt to attach it to); left unchanged.")
 
 
 def save_final(out_path, image_bytes):
