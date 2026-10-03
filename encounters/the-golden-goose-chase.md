@@ -123,6 +123,24 @@ of this; narrate the first tremor as it happens; give the party one beat to
 get their bearings before Node B starts moving. This is the encounter's only
 hard trigger and it fires on arrival, full stop.
 
+**Battlemap Prompt.**
+
+```
+Top-down tabletop battlemap, straight overhead angle, evenly lit with no
+hard directional shadows obscuring terrain, clean enough to drop a grid
+over without losing readability. No characters, miniatures, or tokens in
+the scene — terrain and set dressing only. Natural fantasy wetland
+terrain — reed beds, black standing water, packed mud hummocks, weathered
+stone ruins half-submerged at one edge — lit like an ordinary overcast
+day, nothing about the lighting itself reading as wrong. Several jagged
+cracks run through the mud and shallow water, one already a dry-edged
+fissure wide enough to be a hazard, water visibly draining into it at one
+corner of the map.
+```
+
+![Battlemap: Node A](../assets/images/encounters/the-golden-goose-chase/node-a.png)
+
+
 ---
 
 ### Node B — Reading the Fragment

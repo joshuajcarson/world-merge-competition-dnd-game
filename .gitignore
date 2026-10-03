@@ -5,3 +5,11 @@ _site/
 vendor/
 .bundle/
 Gemfile.lock
+
+# Local image-gen tooling (tools/image-gen)
+__pycache__/
+*.pyc
+.venv/
+
+# Unpicked image candidates from --count batches
+tools/image-gen/candidates/

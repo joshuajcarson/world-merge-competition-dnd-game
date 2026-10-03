@@ -294,3 +294,10 @@ th, td { text-align: left; padding: .5rem .7rem; border-bottom: 1px solid var(--
 }
 .type-group .cards { margin-top: .75rem; }
 .card .tag { white-space: normal; border-radius: 12px; }
+
+/* ---------- generated art on entry pages ---------- */
+.entry-art {
+  display: block; max-width: 24rem; margin: 0 0 1.5rem;
+  border: 1px solid var(--line); border-radius: var(--radius);
+}
+.entry img { border-radius: var(--radius); }

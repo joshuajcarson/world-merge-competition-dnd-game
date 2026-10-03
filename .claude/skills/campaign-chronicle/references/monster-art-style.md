@@ -57,22 +57,22 @@ something that already means something in the creature's own fiction).
 - **Aether Leprechaun (rank-and-file):** small, wiry, green-skinned
   humanoid, too many crooked teeth, clutching an old filthy sack (not a
   visible Doombow — see note below). See
-  [Aether Leprechauns](../../../world/races/aether-leprechauns.md).
+  [Aether Leprechauns](../../../../world/races/aether-leprechauns.md).
 - **Warrenwright:** stocky, thick-clawed burrower, pelt part fur/part bark,
   corruption bleeding across the flank and tail-tip. See
-  [Warrenwrights](../../../world/races/warrenwrights.md).
+  [Warrenwrights](../../../../world/races/warrenwrights.md).
 - **Swanfolk:** humanoid enough to stand upright, feathered enough that
   "person" is the wrong word, corruption rippling across the feathers like
-  water damage. See [Swanfolk](../../../world/races/swanfolk.md).
+  water damage. See [Swanfolk](../../../../world/races/swanfolk.md).
 - **Fulgurite:** an ordinary person a few days post-transformation, harsh
   blue-white corruption originating from the glassy fused patches of skin.
-  See [Fulgurites](../../../world/races/fulgurites.md).
+  See [Fulgurites](../../../../world/races/fulgurites.md).
 
 **Note on the Doombow.** The DM asked for the Doombow specifically left out
 of Leprechaun token art — an old, filthy sack reads better visually and
 still fits Gold Hunger. This is a token-art decision only; it does not
 change the Doombow as a combat mechanic in
-[Gildrot](../../../world/npcs/gildrot.md)'s statblock.
+[Gildrot](../../../../world/npcs/gildrot.md)'s statblock.
 
 ## When writing a new race or NPC file
 
@@ -82,3 +82,26 @@ three-layer prompt already assembled, ready to copy-paste. Don't
 pre-generate these for every stub; add them when a table's about to need a
 real token, the same way statblocks get filled in only once a tier is
 known.
+
+## Actually generating the image
+
+As of 2026-10-03, generation runs locally via Forge instead of
+copy-pasting into an external tool. See `tools/image-gen/README.md` for
+one-time setup, then:
+
+```
+python tools/image-gen/generate_npc_portrait.py <slug> --count 4   # candidates
+python tools/image-gen/generate_npc_portrait.py <slug> --pick <seed>   # keep one
+```
+
+Always generate a batch of four and let the DM choose — plain SDXL follows a long
+prompt loosely (the first Gildrot batch matched the glitch/polygon style and the
+mold-green skin in every image but dropped the sack in all four). See the workflow
+in `campaign-chronicle/SKILL.md` step 4a.
+
+This pulls the Token Prompt straight out of the file, generates a
+1024×1024 portrait, saves it to `assets/images/npcs/<slug>.png` (or
+`assets/images/races/<slug>.png`), and writes an `image:` field into that
+file's frontmatter pointing at it. The copy-paste-into-an-external-tool
+workflow described above still works if Forge isn't running — the prompt
+text itself doesn't change either way.

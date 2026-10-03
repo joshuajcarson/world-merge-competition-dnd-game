@@ -17,6 +17,7 @@ All notes share a common frontmatter core, matching the contract in `items/READM
 | `source` | string | `campaign-chronicle` or `manual`. |
 | `player_known` | bool | Publication gate. `false` on creation, always. |
 | `needs_detail` | bool | `true` on stubs. Omit or `false` on full entries. |
+| `image` | string, optional | Repo-relative path to a generated token portrait (e.g. `assets/images/npcs/gildrot.png`). Set automatically by `tools/image-gen/generate_npc_portrait.py`; omit until art actually exists. |
 
 ---
 
@@ -128,6 +129,12 @@ When a race or NPC file needs an image-generator prompt for a token, add a
 (Glitch-Corrupted Render), the per-origin-world color palettes, and worked
 examples. Don't pre-generate this for every stub; add it once a table
 actually needs the token.
+
+If the user has Forge running locally (see `tools/image-gen/README.md`),
+offer to actually generate the portrait once the Token Prompt is written,
+rather than leaving it as a copy-paste block for them to run elsewhere —
+`python tools/image-gen/generate_npc_portrait.py <slug>` does the rest,
+including writing the `image` field above.
 
 ---
 
