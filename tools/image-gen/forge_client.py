@@ -1,8 +1,7 @@
 """Thin wrapper over Forge's Automatic1111-compatible REST API.
 
-Forge must be running locally with the API enabled (its default install
-already serves this API on port 7860 — no extra flags needed on recent
-Forge builds; see README.md if yours needs `--api`).
+Forge must be running locally with the API enabled: launch it with `--api`
+(see README.md). Without that flag every /sdapi route returns 404.
 """
 import base64
 import json
@@ -15,8 +14,13 @@ class ForgeClient:
         self.base_url = base_url.rstrip("/")
 
     def health_check(self):
-        """Raises if Forge isn't reachable. Returns the list of loaded checkpoints."""
-        r = requests.get(f"{self.base_url}/sdapi/v1/sd-models", timeout=5)
+        """Raises if Forge isn't reachable with the API enabled. Returns Forge's current options.
+
+        Deliberately not /sdapi/v1/sd-models: on current Forge builds that endpoint
+        returns HTTP 500 whenever an SDXL checkpoint is present (a response-validation
+        bug in Forge itself), even though generation works fine.
+        """
+        r = requests.get(f"{self.base_url}/sdapi/v1/options", timeout=5)
         r.raise_for_status()
         return r.json()
 
@@ -85,6 +89,7 @@ class ForgeClient:
             "resize_mode": 1,
             "upscaling_resize_w": target_width,
             "upscaling_resize_h": target_height,
+            "upscaling_crop": False,
         }
         r = requests.post(f"{self.base_url}/sdapi/v1/extra-single-image", json=payload, timeout=300)
         r.raise_for_status()

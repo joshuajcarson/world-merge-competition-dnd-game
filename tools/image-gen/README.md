@@ -16,16 +16,19 @@ session — there's no GPU there. It's meant to run on your own machine.
    battlemap" — several exist) and drop the `.safetensors` file into
    Forge's `models/Lora` folder. Note its filename and whatever trigger
    words its model card lists.
-3. **Launch Forge** normally (`webui-user.bat` / `./webui.sh`). Recent
-   Forge builds serve the Automatic1111-compatible API by default on
-   `http://127.0.0.1:7860` with no extra flags. If yours doesn't respond,
-   add `--api` to the launch command line (`COMMANDLINE_ARGS` in
-   `webui-user.bat`/`.sh`) and relaunch.
-4. **Install an upscaler** if you don't already have one — 4x-UltraSharp
-   is what the battlemap config defaults to. Forge ships with several
-   built in; check Settings → Upscaler in its web UI if `4x-UltraSharp`
-   isn't listed, and change `battlemap.upscaler` in `config.yaml` to match
-   whatever you actually have installed.
+3. **Launch Forge with the API on.** The API is *not* served by default —
+   without it every `/sdapi/...` call returns 404. Set
+   `set COMMANDLINE_ARGS=--api` in `webui/webui-user.bat` (or
+   `COMMANDLINE_ARGS="--api"` in `webui-user.sh`), then launch with
+   `run.bat` (the one-click package) or `webui-user.bat`. Forge serves on
+   `http://127.0.0.1:7860`. The first launch installs some extension
+   packages and takes a few minutes.
+4. **Install an upscaler.** 4x-UltraSharp is what the battlemap config
+   defaults to, and it is *not* built in. Download `4x-UltraSharp.pth`
+   (about 67 MB) from <https://huggingface.co/Kim2091/UltraSharp> into
+   `models/ESRGAN`, then restart Forge — it only lists upscalers at startup.
+   Or change `battlemap.upscaler` in `config.yaml` to a built-in one (e.g.
+   `R-ESRGAN 4x+`).
 5. **Python deps**, in this folder:
    ```
    pip install -r requirements.txt
@@ -79,7 +82,8 @@ python generate_battlemap.py the-golden-goose-chase --node "Node A"
 
 This finds the `### Node A — ...` section in `encounters/the-golden-goose-chase.md`,
 pulls its Battlemap Prompt, generates at 1216×832 with the battlemap LoRA
-applied, upscales to 1400×1050 (Roll20-friendly), and saves to
+applied, upscales (4x-UltraSharp, no cropping — the result is about 1528×1048,
+height-matched to `target_height`, width following the map's own proportions), and saves to
 `assets/images/encounters/the-golden-goose-chase/node-a.png`.
 
 Omit `--node` for an encounter with just one overall map (it uses the
@@ -130,8 +134,11 @@ reroll.
 
 ## Troubleshooting
 
-- **Connection refused** — Forge isn't running, or isn't serving the API.
-  Confirm `http://127.0.0.1:7860/sdapi/v1/sd-models` loads in a browser.
+- **Connection refused / 404 on `/sdapi/...`** — Forge isn't running, or was
+  launched without `--api`. Confirm `http://127.0.0.1:7860/sdapi/v1/options`
+  returns JSON. (Don't use `/sdapi/v1/sd-models` to check: on current Forge
+  it returns HTTP 500 whenever an SDXL checkpoint is present, even though
+  generation works.)
 - **"No checkpoint configured" / "No LoRA configured"** — you haven't
   edited `config.yaml` yet; it ships with placeholder values on purpose.
 - **Upscaler name not found** — check Forge's web UI (Extras tab) for the

@@ -12,7 +12,7 @@ forge:
 # carried entirely by the prompt text already written into each file's
 # Token Prompt block.
 portrait:
-  checkpoint: "REPLACE_WITH_YOUR_SDXL_CHECKPOINT_FILENAME"  # e.g. sd_xl_base_1.0.safetensors
+  checkpoint: "sd_xl_base_1.0.safetensors"
   lora: null   # or: {name: "some_character_lora", weight: 0.8}
   width: 1024
   height: 1024
@@ -26,9 +26,9 @@ portrait:
 # dropped it into Forge's models/Lora folder; set trigger_words from that
 # LoRA's model card (civitai page, usually).
 battlemap:
-  checkpoint: "REPLACE_WITH_YOUR_SDXL_CHECKPOINT_FILENAME"
+  checkpoint: "sd_xl_base_1.0.safetensors"
   lora:
-    name: "REPLACE_WITH_YOUR_BATTLEMAP_LORA_FILENAME"
+    name: "dnd_battlemap_sdxl"
     weight: 0.8
     trigger_words: "top-down battlemap, dnd map"  # fill in from the LoRA's own documentation
   generate_width: 1216
@@ -39,5 +39,7 @@ battlemap:
   negative_prompt: "blurry, low quality, watermark, text, signature, characters, miniatures, UI, grid labels"
   # Upscale pass, to land near Roll20-friendly sizes.
   upscaler: "4x-UltraSharp"
+  # Upscale is not cropped: the result matches target_height and the width follows
+  # the generated aspect ratio (about 1528x1048 from a 1216x832 generation).
   target_width: 1400
   target_height: 1050
