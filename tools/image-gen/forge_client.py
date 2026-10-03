@@ -5,6 +5,7 @@ already serves this API on port 7860 — no extra flags needed on recent
 Forge builds; see README.md if yours needs `--api`).
 """
 import base64
+import json
 
 import requests
 
@@ -42,8 +43,14 @@ class ForgeClient:
         cfg_scale=7,
         sampler_name="DPM++ 2M Karras",
         seed=-1,
+        count=1,
     ):
-        """Returns a list of raw PNG bytes, one per generated image (batch size 1 by default)."""
+        """Returns [(png_bytes, seed), ...], one per image.
+
+        count > 1 runs that many sequential generations (n_iter, batch_size 1) so an
+        8GB card never has to hold several images in memory at once. Each image gets
+        its own seed, reported by Forge, so any one of them can be reproduced.
+        """
         payload = {
             "prompt": prompt,
             "negative_prompt": negative_prompt,
@@ -53,11 +60,21 @@ class ForgeClient:
             "cfg_scale": cfg_scale,
             "sampler_name": sampler_name,
             "seed": seed,
+            "n_iter": count,
+            "batch_size": 1,
         }
         r = requests.post(f"{self.base_url}/sdapi/v1/txt2img", json=payload, timeout=300)
         r.raise_for_status()
         data = r.json()
-        return [base64.b64decode(img) for img in data["images"]]
+        images = [base64.b64decode(img) for img in data["images"]]
+        try:
+            seeds = json.loads(data["info"])["all_seeds"]
+        except (KeyError, ValueError, TypeError):
+            seeds = []
+        if len(seeds) < len(images):  # Forge didn't report them; fall back to base+offset
+            base = seed if seed >= 0 else 0
+            seeds = [base + i for i in range(len(images))]
+        return list(zip(images, seeds))
 
     def upscale(self, image_bytes, upscaler_1="4x-UltraSharp", target_width=1400, target_height=1050):
         """Runs an image through Forge's extras upscaler. Returns raw PNG bytes."""

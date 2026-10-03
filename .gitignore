@@ -10,3 +10,6 @@ Gemfile.lock
 __pycache__/
 *.pyc
 .venv/
+
+# Unpicked image candidates from --count batches
+tools/image-gen/candidates/

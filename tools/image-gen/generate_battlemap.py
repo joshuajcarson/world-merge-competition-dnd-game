@@ -10,6 +10,13 @@ assets/images/encounters/<slug>/.
 Usage:
     python generate_battlemap.py the-golden-goose-chase
     python generate_battlemap.py the-golden-goose-chase --node "Node A"
+
+Pick from a batch instead of taking the first result:
+    python generate_battlemap.py the-golden-goose-chase --node "Node A" --count 4
+    python generate_battlemap.py the-golden-goose-chase --node "Node A" --pick 123456
+Candidates are saved un-upscaled in tools/image-gen/candidates/ (not committed).
+--pick upscales only the chosen one and saves it into assets/. Re-run --count to
+add more candidates if none are good.
 """
 import argparse
 import re
@@ -17,6 +24,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
+from candidates import candidate_dir, load_candidate, save_candidates
 from config import load_config
 from forge_client import ForgeClient, build_lora_tag
 
@@ -60,30 +68,55 @@ def extract_battlemap_prompt(text, node_label=None):
     return match.group(1).strip()
 
 
+def upscale(client, bcfg, image_bytes):
+    return client.upscale(
+        image_bytes,
+        upscaler_1=bcfg.get("upscaler", "4x-UltraSharp"),
+        target_width=bcfg.get("target_width", 1400),
+        target_height=bcfg.get("target_height", 1050),
+    )
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("slug", help="Encounter file slug, e.g. 'the-golden-goose-chase'")
     parser.add_argument("--node", default=None, help="Node heading text to search within, e.g. 'Node A'. Omit to use the first Battlemap Prompt found anywhere in the file.")
     parser.add_argument("--label", default=None, help="Output filename (without extension). Defaults to the --node text, or 'map'.")
     parser.add_argument("--seed", type=int, default=-1)
+    parser.add_argument("--count", type=int, default=1, help="Generate N un-upscaled candidates into tools/image-gen/candidates/ to choose from (default 1: save straight into assets/)")
+    parser.add_argument("--pick", type=int, default=None, metavar="SEED", help="Upscale and promote the candidate with this seed into assets/; no generation")
     parser.add_argument("--config", default=None)
     parser.add_argument("--no-upscale", action="store_true", help="Skip the upscale pass and save the raw generation size")
     args = parser.parse_args()
 
     cfg = load_config(args.config)
-    encounter_path = find_encounter_file(args.slug)
-    text = encounter_path.read_text()
-    prompt = extract_battlemap_prompt(text, args.node)
-
     bcfg = cfg["battlemap"]
     client = ForgeClient(cfg["forge"]["base_url"])
+
+    label = args.label or (args.node.lower().replace(" ", "-") if args.node else "map")
+    label = re.sub(r"[^a-z0-9-]", "", label)
+    out_path = REPO_ROOT / "assets" / "images" / "encounters" / args.slug / f"{label}.png"
+    cdir = candidate_dir(args.slug, label)
+
+    if args.pick is not None:
+        image_bytes = load_candidate(cdir, args.pick)
+        if not args.no_upscale:
+            print("Upscaling the chosen candidate ...")
+            image_bytes = upscale(client, bcfg, image_bytes)
+        save_final(out_path, image_bytes)
+        return
+
+    encounter_path = find_encounter_file(args.slug)
+    text = encounter_path.read_text(encoding="utf-8")
+    prompt = extract_battlemap_prompt(text, args.node)
+
     client.set_checkpoint(bcfg["checkpoint"])
 
     trigger_words = bcfg["lora"].get("trigger_words", "")
     full_prompt = f"{trigger_words}, {prompt}" if trigger_words else prompt
     full_prompt += build_lora_tag(bcfg.get("lora"))
 
-    print(f"Generating battlemap for '{args.slug}'" + (f" ({args.node})" if args.node else "") + " ...")
+    print(f"Generating {args.count} battlemap(s) for '{args.slug}'" + (f" ({args.node})" if args.node else "") + " ...")
     images = client.txt2img(
         prompt=full_prompt,
         negative_prompt=bcfg.get("negative_prompt", ""),
@@ -93,21 +126,31 @@ def main():
         cfg_scale=bcfg.get("cfg_scale", 7),
         sampler_name=bcfg.get("sampler_name", "DPM++ 2M Karras"),
         seed=args.seed,
+        count=args.count,
     )
-    image_bytes = images[0]
 
+    if args.count > 1:
+        print("Prompt sent to Forge:")
+        print(full_prompt)
+        print()
+        for seed, path in save_candidates(cdir, images):
+            print(f"  seed {seed}: {path}")
+        print()
+        node_arg = f' --node "{args.node}"' if args.node else ""
+        label_arg = f" --label {args.label}" if args.label else ""
+        print("Open those, then keep one with:")
+        print(f"  python generate_battlemap.py {args.slug}{node_arg}{label_arg} --pick <seed>")
+        print(f"or run --count {args.count} again for a fresh batch. Nothing has been written to assets/.")
+        return
+
+    image_bytes = images[0][0]
     if not args.no_upscale:
         print("Upscaling ...")
-        image_bytes = client.upscale(
-            image_bytes,
-            upscaler_1=bcfg.get("upscaler", "4x-UltraSharp"),
-            target_width=bcfg.get("target_width", 1400),
-            target_height=bcfg.get("target_height", 1050),
-        )
+        image_bytes = upscale(client, bcfg, image_bytes)
+    save_final(out_path, image_bytes)
 
-    label = args.label or (args.node.lower().replace(" ", "-") if args.node else "map")
-    label = re.sub(r"[^a-z0-9-]", "", label)
-    out_path = REPO_ROOT / "assets" / "images" / "encounters" / args.slug / f"{label}.png"
+
+def save_final(out_path, image_bytes):
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_bytes(image_bytes)
     print(f"Saved battlemap to {out_path.relative_to(REPO_ROOT)}")

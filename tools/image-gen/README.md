@@ -87,6 +87,34 @@ first Battlemap Prompt block found anywhere in the file). Flags:
 `--label <name>` to control the output filename, `--no-upscale` to skip
 the upscale pass, `--seed N` as above.
 
+## Picking from a batch
+
+SDXL output needs the occasional reroll, so both scripts can generate several
+candidates and let you choose. Add `--count N` to either command:
+
+```
+python generate_npc_portrait.py gildrot --count 4
+```
+
+This saves four images to `tools/image-gen/candidates/gildrot/<seed>.png`
+(gitignored — nothing is written to `assets/` or the note yet) and prints the
+exact prompt it sent plus each image's seed. Open them, then keep one:
+
+```
+python generate_npc_portrait.py gildrot --pick 123456
+```
+
+That copies the chosen image to `assets/images/npcs/gildrot.png` and writes the
+`image:` frontmatter field. If none are good, run `--count 4` again — new
+candidates are added alongside the old ones, so you can pick across batches.
+
+Battlemaps work the same way (`--count 4`, then `--pick <seed>`, with the same
+`--node` / `--label`), except candidates are saved un-upscaled and only the one
+you pick gets the upscale pass, which keeps batches fast.
+
+Without `--count`, a run still makes one image and saves it straight into
+`assets/`, as before.
+
 ## Where images end up
 
 ```
