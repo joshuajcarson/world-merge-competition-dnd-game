@@ -82,11 +82,9 @@ three.
 A 3D-rendered creature deliberately corrupted like a damaged digital file —
 datamoshing artifacts, torn and smeared polygon edges, color-channel
 splitting, streaks of pixel-sorted noise bleeding across parts of the
-image, set against a flat dark void. A very old, tiny gnome priest in long pale
-robes, hovering a hand's breadth above the ground, the hem of the robes
-rippling upward as if in a wind that touches nothing else, a brass-and-hide
-bellows pack on his back, a lace handkerchief raised in one hand, a gentle,
-apologetic expression, pale sage-green and moon-grey color-channel
-splitting and pixel-sorted streaks spiraling up from the hovering robe
-hem, damp and still-water rather than toxic. The overall effect should feel like watching something try to render correctly and fail.
+image, set against a flat dark void. A tiny, elderly gnome with a long white beard and a big
+nose, in pale robes, floating a foot above the ground with his feet dangling,
+the robe hem blowing upward, a small brass pack on his back, holding up a
+white lace handkerchief, kindly and apologetic, pale sage-green and moon-grey
+glitch streaks rising from the floating hem. The overall effect should feel like watching something try to render correctly and fail.
 ```
