@@ -11,6 +11,7 @@ source: campaign-chronicle
 player_known: false
 origin_species: "Aether World megafauna"
 challenge_band: "CR 1-6, a hazard and a clock more than a threat"
+image: assets/images/races/sextonbacks.png
 ---
 
 # Sextonbacks
