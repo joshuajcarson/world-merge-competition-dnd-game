@@ -11,6 +11,7 @@ source: campaign-chronicle
 player_known: false
 origin_species: "Faerûn gnome (from an alternate Faerûn conquered by the Elemental Prince of Evil Air)"
 challenge_band: "CR 1/2-4, goblin/bandit-captain tier with a spellcaster leader"
+image: assets/images/races/hushbound-gnomes.png
 ---
 
 # Hushbound Gnomes

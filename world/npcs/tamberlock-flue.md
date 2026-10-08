@@ -14,6 +14,7 @@ role: "The Hush Concord's tinker; builds and crews the Gale Organ"
 faction: the-hush-concord
 status: alive
 first_seen: null
+image: assets/images/npcs/tamberlock-flue.png
 ---
 
 # Tamberlock "Flue" Gearwhistle
