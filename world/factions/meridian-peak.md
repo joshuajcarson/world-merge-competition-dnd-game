@@ -39,8 +39,9 @@ it the whole point.
   Session 6** — see [The Long Climb](../../encounters/the-long-climb.md).
   Not uncontested: the party nearly took Renner down before Marsh called
   Agent in directly to secure the win. Briarwood has already taken the
-  demerit; what it actually costs plays out when the Blood Bowl itself
-  happens.
+  demerit; what it actually costs is decided: Briarwood is Phase One's
+  designated underdog, with an exposed Pylon and the [Hush Concord](the-hush-concord.md)
+  arriving first. See [The Demerit Comes Due](../../encounters/the-demerit-comes-due.md).
 - Establish Meridian Peak as the merged world's second real seat of power,
   with Sovereign Marsh's claim treated as legitimate rather than
   self-appointed.
