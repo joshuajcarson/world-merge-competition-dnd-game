@@ -103,9 +103,8 @@ bodies gone.
 A 3D-rendered creature deliberately corrupted like a damaged digital file —
 datamoshing artifacts, torn and smeared polygon edges, color-channel
 splitting, streaks of pixel-sorted noise bleeding across parts of the
-image, set against a flat dark void. A huge, slow, gentle giant sloth-like beast with a long
-drooping blunt-toothed face, tree-trunk forelegs and a heavy armored back,
-a ridge of tall bone plates down its spine hung with hollow bone-chimes,
-head lowered mournfully, sickly mold-green color-channel bleed and datamosh
-streaks pouring off the swaying bone-chimes. The overall effect should feel like watching something try to render correctly and fail.
+image, set against a flat dark void. A huge, gentle, mournful sloth-like beast with a soft blunt
+snout and no fangs, shaggy mossy fur, long curved claws, a row of tall bone
+plates along its back hung with hollow bone chimes, head hanging low,
+sickly mold-green glitch streaks bleeding off the swaying chimes. The overall effect should feel like watching something try to render correctly and fail.
 ```

@@ -14,6 +14,7 @@ role: "A fully grown adult Sextonback; the Blood Bowl's unofficial mascot, \"the
 faction: null
 status: alive
 first_seen: null
+image: assets/images/npcs/deacon.png
 ---
 
 # Deacon
