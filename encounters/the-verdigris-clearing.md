@@ -97,6 +97,9 @@ across one side, root walls, giant leaves, and bright flowers. The map's
 edges are solid dense jungle canopy.
 ```
 
+![Battlemap: Node B](../assets/images/encounters/the-verdigris-clearing/node-b.png)
+
+
 **Approaches:**
 - *Ask the rules* — DC 5. The Queen scores all 10-point performances. 8+ wins
   the Pylon, 5-7 is a polite no, under 5 is war.

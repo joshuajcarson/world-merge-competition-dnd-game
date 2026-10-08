@@ -186,6 +186,9 @@ organ-like machine, and poles with windsocks. At the bottom edge, the concrete
 front of a mall with glass doors.
 ```
 
+![Battlemap: Node D](../assets/images/encounters/the-demerit-comes-due/node-d.png)
+
+
 **Approaches:**
 - *Break the lane* — DC 10 (Athletics) to drag or flip a car into the Organ's
   line: the discharge hits it instead, and it is wrecked. One or two cars

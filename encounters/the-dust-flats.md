@@ -100,6 +100,9 @@ broken-down barbed-wire fence with leaning and fallen posts, a dry creek bed,
 a collapsed wooden windmill and a rusted wagon wheel near the middle.
 ```
 
+![Battlemap: Node B](../assets/images/encounters/the-dust-flats/node-b.png)
+
+
 **Approaches:**
 - *Parley* — DC 10 (Persuasion). Success: Ada Mae offers the derby (Node C).
   The Kin respect plain talk and manners (advantage with Geezus's calm).
