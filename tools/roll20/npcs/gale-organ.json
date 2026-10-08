@@ -1,0 +1,29 @@
+{
+  "name": "Gale Organ",
+  "size": "Large",
+  "type": "object",
+  "alignment": "Unaligned",
+  "ac": 15,
+  "hp": {
+    "average": 45,
+    "formula": "object"
+  },
+  "speed": "0 ft.",
+  "abilities": {
+    "str": 10,
+    "dex": 1,
+    "con": 10,
+    "int": 1,
+    "wis": 1,
+    "cha": 1
+  },
+  "damage_immunities": "poison, psychic",
+  "cr": "2",
+  "bio": "Hush Concord siege rig, crewed by Flue or a skirmisher. Gains 1 Pressure at the end of each round; at Pressure 3 it discharges. While Pressure is 2+, sound within 30 ft is dampened. Track Pressure by hand.",
+  "actions": [
+    {
+      "name": "Discharge (Pressure 3)",
+      "desc": "60-foot line, 10 feet wide. DC 13 Dexterity saving throw: 3d8 force damage (half on a success); a failed save is also pushed 15 feet and knocked prone. Pressure resets to 0. If destroyed at Pressure 2+, it vents in a 10-foot burst (DC 13 Dex, 2d8 force)."
+    }
+  ]
+}
