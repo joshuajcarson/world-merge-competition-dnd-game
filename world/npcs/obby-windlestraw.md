@@ -14,6 +14,7 @@ role: "Priest of the Prince of Air and leader of the Hush Concord"
 faction: the-hush-concord
 status: alive
 first_seen: null
+image: assets/images/npcs/obby-windlestraw.png
 ---
 
 # Prelate Obby Windlestraw
