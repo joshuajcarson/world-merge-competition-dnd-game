@@ -14,6 +14,7 @@ role: "A skittish juvenile Sextonback, Deacon's shadow"
 faction: null
 status: alive
 first_seen: null
+image: assets/images/npcs/verger.png
 ---
 
 # Verger
