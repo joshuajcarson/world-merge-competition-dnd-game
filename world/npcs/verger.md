@@ -42,3 +42,16 @@ corpses one size category faster than an adult can, not slower: a calf is
 rushes toward a body in the middle of a fight, or hides under a vehicle, or
 follows a party member who fed it. It is not a threat unless somebody hits it,
 and then it brings Deacon.
+
+**Token Prompt.** Verger. Glitch-Corrupted Render, Aether palette (mold-green) — see `.claude/skills/campaign-chronicle/references/monster-art-style.md`. Small, scared, oversized feet.
+
+```
+A 3D-rendered creature deliberately corrupted like a damaged digital file —
+datamoshing artifacts, torn and smeared polygon edges, color-channel
+splitting, streaks of pixel-sorted noise bleeding across parts of the
+image, set against a flat dark void. A young, clumsy sloth-like calf with oversized feet,
+a big blunt face and wide frightened eyes, a short ridge of small bone plates
+down its back hung with a few tiny bone-chimes, sickly mold-green
+color-channel bleed and datamosh streaks around its paws and the tiny
+chimes. The overall effect should feel like watching something try to render correctly and fail.
+```
