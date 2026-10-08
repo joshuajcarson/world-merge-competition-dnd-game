@@ -86,6 +86,55 @@ asking for "interesting details" in each one. The negative prompt already reject
 angled views, parchment, borders, legends and text. See `encounter-weaver/SKILL.md`
 step 9 for the batch-and-pick workflow.
 
+## Keep the prompt short — long prompts stop producing battlemaps
+
+Learned 2026-10-07 on three maps. Long Layer 3 paragraphs (60-120 words, a dozen
+objects, edge-by-edge layout, lighting talk) made SDXL abandon the top-down
+battlemap and draw an **angled landscape photo** or a **city-block plan** instead:
+in the first batches only 0-1 of 4 images were usable battlemaps, and several carried
+legend text. Rewriting the same scenes shorter fixed it.
+
+Rules for the per-node paragraph:
+
+- **One sentence of terrain, one or two of dressing, about 45-70 words in total.**
+  Name the place, then 4-6 concrete things. Cut everything else.
+- **Say "seen from directly above" once, right after the place noun** ("a ruined
+  parking lot seen from directly above, ..."). Don't rely on Layer 1 alone.
+- **Drop words that imply a viewpoint or a scene rather than a surface:** facade,
+  tower, canopy, sky, horizon, daylight, dappled, sunlight, shadows, "camp", "wagon
+  carrying", and anything that only makes sense from the side. Say "windmill
+  ruin", not "windmill tower".
+- **Don't lay out edges** ("along the top edge... along the bottom edge...").
+  SDXL ignores it. Put the camp, doors or Pylon on the map in Roll20, or
+  describe them once as "at one end".
+- **Prefer ground-level surfaces to landmarks:** cracked asphalt, hardpan, moss,
+  pool, rubble. Landmarks the node needs can be tokens.
+- **Expect about 1-2 usable maps in 4 even with a short prompt.** That's normal at `--count 4`; if none is
+  top-down, shorten again rather than adding more detail.
+
+**Verified 2026-10-07:** a deliberately new scene written to these rules (a space
+station deck over Jupiter, about 45 words) produced 4 of 4 top-down battlemaps. The
+one thing it dropped was the "outside the map" backdrop: Jupiter showed up only as
+orange accents. Backdrops seen *through* a window, over an edge or beyond the map
+don't survive; add them in the VTT.
+
+Before and after (mall parking lot):
+
+```
+BEFORE (1 of 4 usable; the rest were a street-level garage photo and two city plans):
+...a large, broken-down shopping-mall parking lot seen from directly above,
+cracked grey asphalt with weeds, dandelions and grass pushing up through every
+seam, faded white parking-space lines, oil stains, a few rusted abandoned
+sedans and a station wagon with flat tires parked at angles, a toppled light
+pole..., Along one short edge of the map, the beige concrete facade of the mall...
+
+AFTER (1 of 4 usable, and it was a clean, table-ready map):
+...a ruined shopping-mall parking lot seen from directly above, cracked grey
+asphalt with weeds growing through the cracks, faded white parking-space lines,
+many rusted abandoned cars parked at angles, a toppled light pole, overturned
+shopping carts.
+```
+
 ## Worked example
 
 **[The Preening Grounds](../../../../world/places/the-preening-grounds.md)**,
