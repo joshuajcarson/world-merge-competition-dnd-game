@@ -96,3 +96,16 @@ bodies gone.
   half on a success.
 - **Reaction — Mournful Bellow.** When it first takes damage, every creature within
   30 feet makes a DC 14 Wisdom save or is frightened until the end of its next turn.
+
+**Token Prompt.** Adult Sextonback. Glitch-Corrupted Render, Aether palette (mold-green) — see `.claude/skills/campaign-chronicle/references/monster-art-style.md`.
+
+```
+A 3D-rendered creature deliberately corrupted like a damaged digital file —
+datamoshing artifacts, torn and smeared polygon edges, color-channel
+splitting, streaks of pixel-sorted noise bleeding across parts of the
+image, set against a flat dark void. A huge, slow, gentle giant sloth-like beast with a long
+drooping blunt-toothed face, tree-trunk forelegs and a heavy armored back,
+a ridge of tall bone plates down its spine hung with hollow bone-chimes,
+head lowered mournfully, sickly mold-green color-channel bleed and datamosh
+streaks pouring off the swaying bone-chimes. The overall effect should feel like watching something try to render correctly and fail.
+```
