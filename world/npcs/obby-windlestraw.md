@@ -76,6 +76,17 @@ courteously, for a "mutually agreeable intermission".
 turned on him, a fair offer of terms, or an applauding audience. Any of the
 three.
 
-**Token Prompt.** None yet; write one when needed. Visual hook: a hovering,
-robed old gnome with a lung-pack, a flicked handkerchief, and stillness around
-him where nothing else is still.
+**Token Prompt.** Prelate Obby. Glitch-Corrupted Render, Faerun palette. Hover and the lone rippling hem are the hooks.
+
+```
+A 3D-rendered creature deliberately corrupted like a damaged digital file —
+datamoshing artifacts, torn and smeared polygon edges, color-channel
+splitting, streaks of pixel-sorted noise bleeding across parts of the
+image, set against a flat dark void. A very old, tiny gnome priest in long pale
+robes, hovering a hand's breadth above the ground, the hem of the robes
+rippling upward as if in a wind that touches nothing else, a brass-and-hide
+bellows pack on his back, a lace handkerchief raised in one hand, a gentle,
+apologetic expression, pale sage-green and moon-grey color-channel
+splitting and pixel-sorted streaks spiraling up from the hovering robe
+hem, damp and still-water rather than toxic. The overall effect should feel like watching something try to render correctly and fail.
+```

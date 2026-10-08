@@ -102,8 +102,18 @@ Aether, which is almost certainly why they outlasted the last cohort that
 should have eaten them. See [The Aether Hunger](../lore/the-aether-hunger.md).
 Nobody involved, including the gnomes, knows that. Do not say it at the table.
 
-**Token Prompt.** None yet. Faerûn palette (cool sage-green and moon-grey
-bleed) in the Glitch-Corrupted Render, per
-`.claude/skills/campaign-chronicle/references/monster-art-style.md`; write one
-when a table needs a token. The visual hook is the brass lung on the gnome's back
-and a stiff, unmoving scarf.
+**Token Prompt.** Rank-and-file Hushbound skirmisher. Campaign default art style is Glitch-Corrupted Render with the Faerun palette — see `.claude/skills/campaign-chronicle/references/monster-art-style.md`. The brass lung and the stiff scarf are the visual hooks.
+
+```
+A 3D-rendered creature deliberately corrupted like a damaged digital file —
+datamoshing artifacts, torn and smeared polygon edges, color-channel
+splitting, streaks of pixel-sorted noise bleeding across parts of the
+image, set against a flat dark void. A small gnome soldier, stocky and thick-nosed, in
+stitched leather and brass buckles, a heavy brass-and-hide bellows pack
+strapped to its back like a second ribcage with a round pressure gauge and
+a pipe running over one shoulder to a short brass lance, a long scarf hanging
+perfectly stiff and still, cheeks pinched and slightly breathless, pale
+sage-green and moon-grey color-channel bleed and datamosh streaks pouring
+off the pipe's nozzle and the edges of the scarf, damp and still-water
+rather than toxic. The overall effect should feel like watching something try to render correctly and fail.
+```
