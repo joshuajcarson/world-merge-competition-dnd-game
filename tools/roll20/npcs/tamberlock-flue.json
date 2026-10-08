@@ -1,0 +1,73 @@
+{
+  "name": "Tamberlock \"Flue\" Gearwhistle",
+  "size": "Small",
+  "type": "humanoid (gnome)",
+  "alignment": "Lawful Neutral",
+  "ac": 14,
+  "hp": {
+    "average": 38,
+    "formula": "7d6+14"
+  },
+  "speed": "25 ft.",
+  "abilities": {
+    "str": 9,
+    "dex": 14,
+    "con": 14,
+    "int": 16,
+    "wis": 11,
+    "cha": 9
+  },
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "Common, Gnomish",
+  "cr": "2",
+  "init_tiebreaker": "@{dexterity}/100",
+  "bio": "The Hush Concord's tinker. Builds and crews the Gale Organ. Wants it to sing at full pressure at least once on camera; can be flattered or hired by someone who respects the machine.",
+  "traits": [
+    {
+      "name": "Gnome Cunning",
+      "desc": "Advantage on Intelligence, Wisdom and Charisma saving throws against magic."
+    },
+    {
+      "name": "Machine Sense",
+      "desc": "Flue knows the Gale Organ's exact Pressure at all times and notices tampering automatically."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Spanner",
+      "attack": {
+        "type": "Melee",
+        "tohit": "+4",
+        "distance": "5 ft.",
+        "target": "one target",
+        "dmg1": "1d6+2",
+        "type1": "bludgeoning"
+      },
+      "desc": "Hit: 5 (1d6 + 2) bludgeoning damage."
+    },
+    {
+      "name": "Valve Pistol",
+      "attack": {
+        "type": "Ranged",
+        "tohit": "+4",
+        "distance": "30/90 ft.",
+        "target": "one target",
+        "dmg1": "1d8+2",
+        "type1": "bludgeoning"
+      },
+      "desc": "Hit: 7 (1d8 + 2) bludgeoning damage, and the target is pushed 5 feet."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Crank",
+      "desc": "Adds 1 Pressure to the Gale Organ while Flue is within 5 feet of it."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Reroute",
+      "desc": "When the Gale Organ would discharge, Flue redirects its line by up to 45 degrees."
+    }
+  ]
+}

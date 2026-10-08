@@ -1,0 +1,56 @@
+{
+  "name": "Verger (Sextonback calf)",
+  "size": "Large",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": 13,
+  "hp": {
+    "average": 45,
+    "formula": "6d10+12"
+  },
+  "speed": "30 ft.",
+  "abilities": {
+    "str": 16,
+    "dex": 8,
+    "con": 14,
+    "int": 2,
+    "wis": 11,
+    "cha": 5
+  },
+  "senses": "blindsight 30 ft., passive Perception 10",
+  "languages": "-",
+  "cr": "1",
+  "bio": "A skittish Sextonback calf, Deacon's shadow. Not a threat unless somebody hits it, and then it brings Deacon. Ability scores other than Strength are estimates.",
+  "traits": [
+    {
+      "name": "Last Rites",
+      "desc": "Always knows the location of any dead creature within a mile. On its turn, if within 5 feet of a corpse, it uses its action to eat it: the body is destroyed and anything carried is swallowed. Takes 1 round for a Medium or smaller body, 2 for Large, 4 for Huge. An eaten body cannot be raised or revived short of a wish. Swallowed items can be recovered only from the beast's remains."
+    },
+    {
+      "name": "Docile",
+      "desc": "Does not attack unless it takes damage, or something is taken out of its mouth or from under its muzzle. Calms again once the provocation is gone and there is a corpse to eat."
+    },
+    {
+      "name": "Toll",
+      "desc": "While it feeds or is startled, its bone-chimes ring, audible out to 300 feet (DC 10 Perception to hear it coming)."
+    },
+    {
+      "name": "Eager Eater",
+      "desc": "Eats corpses one size category faster than an adult."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Slam",
+      "attack": {
+        "type": "Melee",
+        "tohit": "+5",
+        "distance": "5 ft.",
+        "target": "one target",
+        "dmg1": "1d12+3",
+        "type1": "bludgeoning"
+      },
+      "desc": "Hit: 9 (1d12 + 3) bludgeoning damage. If hit, it Dashes away in a panic instead of fighting a second round."
+    }
+  ]
+}

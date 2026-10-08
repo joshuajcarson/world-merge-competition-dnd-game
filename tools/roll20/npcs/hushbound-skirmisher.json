@@ -1,0 +1,53 @@
+{
+  "name": "Hushbound Skirmisher",
+  "size": "Small",
+  "type": "humanoid (gnome)",
+  "alignment": "Lawful Evil",
+  "ac": 14,
+  "hp": {
+    "average": 22,
+    "formula": "5d6+5"
+  },
+  "speed": "25 ft.",
+  "abilities": {
+    "str": 8,
+    "dex": 14,
+    "con": 12,
+    "int": 13,
+    "wis": 10,
+    "cha": 8
+  },
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "Common, Gnomish",
+  "cr": "1/2",
+  "init_tiebreaker": "@{dexterity}/100",
+  "bio": "Rank-and-file soldier of the Hush Concord, wearing a brass lung-pack of the Prince of Air's breath.",
+  "traits": [
+    {
+      "name": "Gnome Cunning",
+      "desc": "Advantage on Intelligence, Wisdom and Charisma saving throws against magic."
+    },
+    {
+      "name": "Borrowed Breath",
+      "desc": "Once per short rest, as a bonus action: Gale Shove (DC 12 Str, push 15 ft and prone, 15 ft range), Stolen Breath (DC 12 Con, no speech or verbal spells until end of its next turn, 20 ft range), or Pocket Calm (10-ft-radius silence within 30 ft until the start of its next turn). Afterwards it has disadvantage on Strength checks and can't Dash until a short rest."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bellows-Lance",
+      "attack": {
+        "type": "Ranged",
+        "tohit": "+4",
+        "distance": "30/90 ft.",
+        "target": "one target",
+        "dmg1": "1d8+2",
+        "type1": "bludgeoning"
+      },
+      "desc": "Hit: 7 (1d8 + 2) bludgeoning damage, and the target is pushed 5 feet."
+    },
+    {
+      "name": "Breathless Puff (Recharge 5-6)",
+      "desc": "15-foot cone. DC 12 Constitution saving throw. Fail: 7 (2d6) bludgeoning damage and no speech or verbal spells until the end of its next turn. Success: half damage, no silence."
+    }
+  ]
+}

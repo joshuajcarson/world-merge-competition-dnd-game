@@ -1,0 +1,77 @@
+{
+  "name": "Deacon (adult Sextonback)",
+  "size": "Huge",
+  "type": "beast",
+  "alignment": "Unaligned",
+  "ac": {
+    "value": 16,
+    "notes": "natural armor, bone plates"
+  },
+  "hp": {
+    "average": 168,
+    "formula": "16d12+64"
+  },
+  "speed": "20 ft.",
+  "abilities": {
+    "str": 22,
+    "dex": 6,
+    "con": 18,
+    "int": 2,
+    "wis": 11,
+    "cha": 5
+  },
+  "senses": "blindsight 30 ft., passive Perception 10",
+  "languages": "-",
+  "cr": "6",
+  "bio": "The Blood Bowl's mascot, the Cleanup Crew. One cracked chime that rings flat. Agent protects it: harming it costs ratings.",
+  "traits": [
+    {
+      "name": "Last Rites",
+      "desc": "Always knows the location of any dead creature within a mile. On its turn, if within 5 feet of a corpse, it uses its action to eat it: the body is destroyed and anything carried is swallowed. Takes 1 round for a Medium or smaller body, 2 for Large, 4 for Huge. An eaten body cannot be raised or revived short of a wish. Swallowed items can be recovered only from the beast's remains."
+    },
+    {
+      "name": "Docile",
+      "desc": "Does not attack unless it takes damage, or something is taken out of its mouth or from under its muzzle. Calms again once the provocation is gone and there is a corpse to eat."
+    },
+    {
+      "name": "Toll",
+      "desc": "While it feeds or is startled, its bone-chimes ring, audible out to 300 feet (DC 10 Perception to hear it coming)."
+    },
+    {
+      "name": "Bulwark",
+      "desc": "Its flank provides total cover to creatures behind it."
+    },
+    {
+      "name": "Slow Mass",
+      "desc": "Moves through other creatures' spaces as if they were difficult terrain, but cannot end its move in one."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack (provoked only)",
+      "desc": "One Slam and one Trample."
+    },
+    {
+      "name": "Slam",
+      "attack": {
+        "type": "Melee",
+        "tohit": "+9",
+        "distance": "10 ft.",
+        "target": "one target",
+        "dmg1": "2d10+6",
+        "type1": "bludgeoning"
+      },
+      "desc": "Hit: 17 (2d10 + 6) bludgeoning damage. Provoked only."
+    },
+    {
+      "name": "Trample",
+      "desc": "One Large or smaller prone creature in its reach makes a DC 16 Strength saving throw, taking 19 (3d8 + 6) bludgeoning damage on a failure, half on a success."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Mournful Bellow",
+      "desc": "When it first takes damage, every creature within 30 feet makes a DC 14 Wisdom saving throw or is frightened until the end of its next turn."
+    }
+  ]
+}
