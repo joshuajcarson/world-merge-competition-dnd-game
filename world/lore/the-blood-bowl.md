@@ -4,12 +4,12 @@ title: "The Blood Bowl"
 slug: the-blood-bowl
 type: lore
 origin: administration
-tags: [administration, agent, cohort-23, tournament, upcoming]
+tags: [administration, agent, cohort-23, tournament, act-two, territories, session-8]
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-10-07
 source: campaign-chronicle
 player_known: true
-needs_detail: true
+needs_detail: false
 ---
 
 # The Blood Bowl
@@ -54,3 +54,55 @@ itself, and whoever holds the Gamma token, if they survive, gets to
 nominate one more. Decide the mechanical shape of a "punishment" (a worse
 matchup, a stripped resource, a debuff) when you get there — that file has
 a starting menu.
+
+## Act Two: The Territory Battle
+
+*Defined 2026-10-07 for Session 8. Everything below is a proposal built on what
+you asked for; change any of it.*
+
+**The shape.** The Blood Bowl opens the campaign's second act. Agent partitions the
+merged world into **Holdings**, each marked by an Agent-branded **Pylon** (a humming,
+serial-numbered block). Every faction has a home Pylon (Briarwood's is in the
+fountain court of the mall) and must secure **enough other Holdings each phase**
+or be **eliminated**. Eliminated factions are "retired": their home Pylon goes dark,
+their people are "returned to the studio," and Agent does not elaborate.
+
+| Phase | Holdings needed (incl. home) | Notes |
+|---|---|---|
+| One | 2 | Everyone must take one more. Briarwood starts exposed (below). |
+| Two | 3 | New crowd favorites arrive; roughly a third of factions can't hold. |
+| Three | 5 | The map thins; adjacent factions are forced into each other. |
+| Four+ | decided by Agent | Ratings decide. |
+
+**Claiming a Holding.** Touch the Pylon (DC 10 Arcana or Tinker's Tools: it is a
+handshake with Agent's tech), then **hold it for three consecutive rounds** with no
+enemy within 30 feet. Agent announces it on air. A Holding can be taken by
+force, by bargain, or by winning whatever contest its current holder prefers.
+
+**Leveling.** Dungeons are **turned off**: Agent calls them "closed for the season"
+(see [Fearus Dungeon](../places/fearus-dungeon.md)). The party now
+**levels each time it claims a new Holding**: one level per new territory. This is
+how Agent meters Aether now; see [The Aether Hunger](the-aether-hunger.md) before
+revealing why.
+
+**Crowd favorites.** Agent fills the board with returning survivors of earlier
+cohorts: see [Crowd Favorites](crowd-favorites.md).
+
+**Briarwood's demerit, decided.** The [Meridian Peak](../factions/meridian-peak.md)
+demerit makes Briarwood **Phase One's designated underdog**: its Pylon is flagged
+"exposed", and the first new faction arrives at its door. In Session 8 that is the
+[Hush Concord](../factions/the-hush-concord.md). See
+[The Demerit Comes Due](../../encounters/the-demerit-comes-due.md). This is the
+worst-matchup punishment from [the Color Game](../../encounters/the-color-game.md)'s
+starter menu, and it will not be the last demerit-flavored beat.
+
+**Session 8 run order.** (1) Agent's opening broadcast and the Phase One quotas,
+(2) the demerit lands and the gnome camp appears,
+[The Demerit Comes Due](../../encounters/the-demerit-comes-due.md),
+(3) the first territory, [The Dust Flats](../../encounters/the-dust-flats.md)
+(party to level 5), (4) if time allows, [The Verdigris Clearing](../../encounters/the-verdigris-clearing.md)
+(party to level 6). Party is currently level 4. Hazard across all three:
+[Deacon](../npcs/deacon.md), the Sextonback that eats the dead.
+
+**Open questions.** How many factions start? What does elimination really do? Does
+Agent cheat for favorites again? Pick before Phase Two.

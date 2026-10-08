@@ -43,6 +43,12 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Prismrot](npcs/prismrot.md) — a rare, rainbow-eyed Leprechaun leader whose luck bleeds out as raw, unpredictable elemental damage. *(stub)*
 - [Vainhusk](npcs/vainhusk.md) — Chief of the Cult of the Swan; leads by having the most feathers, not the most cunning. *(stub)*
 - [Carol](npcs/carol.md) — an Earth woman whose merge transformation went sideways at the character-select screen; found in Session 7 and now living at the mall; the party owes her the fountain, a goose toilet, and an introduction to Steve. *(stub)*
+- [Prelate Obby Windlestraw](npcs/obby-windlestraw.md) — leader of the Hush Concord; a courtly, hovering old gnome who spends the Prince of Air's breath.
+- [Tamberlock "Flue" Gearwhistle](npcs/tamberlock-flue.md) — the Hush Concord's tinker; crews the Gale Organ.
+- [Deacon](npcs/deacon.md) — the Blood Bowl's mascot Sextonback, a huge, passive corpse-eater.
+- [Verger](npcs/verger.md) — a skittish Sextonback calf, Deacon's shadow.
+- [Ada Mae Quill](npcs/ada-mae-quill.md) — matriarch of the Black Sunday Kin. *(stub)*
+- [Queen Ximena Goldleg](npcs/queen-ximena-goldleg.md) — ruler of the Dartwood Court. *(stub)*
 - [Steve](npcs/steve.md) — Dallas Tiffany's salesman, notorious for cheating on his wife; the introduction Carol wants. *(stub)*
 
 ## Places
@@ -54,6 +60,8 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [The Drowned Chantry](places/drowned-chantry.md) — a Faerun shrine to Eldath fused with a Bellcross park lake, in the unclaimed ground between Scornubel and Briarwood; home to the Swanfolk. *(stub)*
 - [Fearus Dungeon](places/fearus-dungeon.md) — a gem-choked jungle beyond a Chess World portal, duergar forcing captives to consume corrupting red gems. *(stub)*
 - [The Flood Stage](places/the-flood-stage.md) — a purpose-built arena Agent assembled for the Color Game, flooded on cue; contestants pulled straight out of Briarwood Mall to fill it. *(stub)*
+- [Cimarron Flats](places/cimarron-flats.md) — a Dust Bowl plain from an earlier cohort; the Blood Bowl's first territory. *(stub)*
+- [The Verdigris Clearing](places/verdigris-clearing.md) — a rainforest clearing held by the Dartwood Court; a Blood Bowl territory. *(stub)*
 - [The Preening Grounds](places/the-preening-grounds.md) — a Faerun wetland fragment claimed by the Cult of the Swan, now raided by Aether Leprechauns and cracking apart under a rising quake. *(stub)*
 
 ## Factions
@@ -66,13 +74,17 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [The Hollow Spring](factions/the-hollow-spring.md) — water-worshipping refugee matriarchs outside Scornubel; gave Sesug Tsirch the earring now known as Hallowspring's Thanks. *(stub)*
 - [The Way of the Gander](factions/way-of-the-gander.md) — the party's own homegrown religion, founded around "Geezus"; actively converting refugees at Briarwood. *(stub)*
 - [Meridian Peak](factions/meridian-peak.md) — a rival Earth fragment, a Colorado wellness-and-survival compound now hoarding real medicine and triaging arrivals by "viability." *(stub)*
+- [The Hush Concord](factions/the-hush-concord.md) — gnomes from a Faerûn the Prince of Evil Air conquered; crowd favorites who spend borrowed breath as a weapon; Briarwood's demerit.
+- [The Black Sunday Kin](factions/black-sunday-kin.md) — Dust Bowl jackalope-folk who hold Cimarron Flats. *(stub)*
+- [The Dartwood Court](factions/dartwood-court.md) — poison-frog court of a fantasy rainforest. *(stub)*
 - [The Cult of the Swan](factions/cult-of-the-swan.md) — an orc tribe that broke from Gruumsh to devote itself to beauty (mostly feathers) and can't reliably tell a swan from anything else with wings. *(stub)*
 
 ## Lore
 
 - [Deputy Registrar's Log — Scornubel](lore/deputy-registrars-log-scornubel.md) — a found-document handout: [Miriel Ashgrove](npcs/miriel-ashgrove.md)'s pre-merge journal, overwhelmed by refugees and mercenaries, ending on the first sign of the merge bleeding through Scornubel's architecture.
 - [Private Security Log — Briarwood Mall](lore/private-security-log-briarwood-mall.md) — [Brenda Hollis](npcs/brenda-hollis.md)'s shift log from the ThighMaster signing: lazy, funny, class-conscious, and one paragraph away from noticing the mall's extra closet before anyone else does.
-- [The Blood Bowl](lore/the-blood-bowl.md) — Agent's next big broadcast event, announced with a four-day countdown; details still undefined. *(stub)*
+- [The Blood Bowl](lore/the-blood-bowl.md) — Agent's big broadcast event; Act Two is a territory battle with quotas, elimination and leveling by Holding.
+- [Crowd Favorites](lore/crowd-favorites.md) — survivors of earlier cohorts Agent brings back as new factions and species.
 - [The Aether Hunger](lore/the-aether-hunger.md) — the real mechanism behind leveling, why every prior cohort turned violent from the inside out, and why Cohort 23 might be the first exception — a campaign-secret nobody present understands yet.
 
 ## Races
@@ -80,6 +92,8 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Fulgurites](races/fulgurites.md) — a separate Earth fragment merged into Faerun's Underdark; ordinary people fried by faerzress exposure into a feral, involuntarily-dangerous population.
 - [Warrenwrights](races/warrenwrights.md) — Aether-native beaver/prairie-dog colony builders that ground ambient energy through terraforming, wherever the merge drops them.
 - [Swanfolk](races/swanfolk.md) — Faerun swanmays fused mid-transformation with a Bellcross park's ordinary swans; territorial guardians of the Drowned Chantry.
+- [Hushbound Gnomes](races/hushbound-gnomes.md) — gnomes of the Prince of Evil Air's Faerûn, who tithe breath and spend it as force.
+- [Sextonbacks](races/sextonbacks.md) — huge, docile Aether undertakers that eat the dead.
 - [Aether Leprechauns](races/aether-leprechauns.md) — a small, wiry, gold-obsessed Aether-native population raiding merge fragments in loose bands called "Lucks." *(stub)*
 
 ---
