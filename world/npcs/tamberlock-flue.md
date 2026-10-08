@@ -54,3 +54,18 @@ hired by someone who respects the machine. Jack Mercer is the natural counterpar
 
 **What ends a fight without a kill.** A disabled or destroyed Organ and an
 audience. She will bargain for the wreck.
+
+**Token Prompt.** Tamberlock "Flue" Gearwhistle. Glitch-Corrupted Render, Faerun palette.
+
+```
+A 3D-rendered creature deliberately corrupted like a damaged digital file —
+datamoshing artifacts, torn and smeared polygon edges, color-channel
+splitting, streaks of pixel-sorted noise bleeding across parts of the
+image, set against a flat dark void. A small, soot-streaked gnome tinker with
+brass goggles pushed up on her forehead, a leather apron full of tools, one
+hand tapping a round brass pressure gauge on a bellows pack, the other
+gripping a heavy spanner, a quick, bright, impatient expression, pale
+sage-green and moon-grey color-channel bleed and datamosh streaks
+tearing off the gauge dial and the spanner's head, damp and still-water
+rather than toxic. The overall effect should feel like watching something try to render correctly and fail.
+```
