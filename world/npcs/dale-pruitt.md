@@ -105,3 +105,12 @@ to see forced into the open. See
 
 **What ends a fight without a kill.** Dale does not want to hurt anybody. If Renee is safe
 and someone offers him a way back to Gary, he lowers the wrench.
+
+**Token Prompt.** Dale Pruitt. Glitch-Corrupted Render — see `.claude/skills/campaign-chronicle/references/monster-art-style.md`. Earth palette (electric blue). Hooks: the torque wrench and the hubcap shield.
+
+```
+A 3D-rendered creature deliberately corrupted like a damaged digital file —
+datamoshing artifacts, torn and smeared polygon edges, color-channel
+splitting, streaks of pixel-sorted noise bleeding across parts of the
+image, set against a flat dark void. A wiry young man in his mid-twenties in grease-stained mechanic coveralls, a car hubcap strapped to one forearm as a shield, a heavy torque wrench held low in the other hand, tired and wary, standing protectively in front of someone, harsh electric-blue and arc-white glitch streaks tearing off the hubcap's rim and the wrench head. The overall effect should feel like watching something try to render correctly and fail.
+```

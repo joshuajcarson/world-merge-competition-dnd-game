@@ -67,7 +67,7 @@ class ForgeClient:
             "n_iter": count,
             "batch_size": 1,
         }
-        r = requests.post(f"{self.base_url}/sdapi/v1/txt2img", json=payload, timeout=300)
+        r = requests.post(f"{self.base_url}/sdapi/v1/txt2img", json=payload, timeout=1200)
         r.raise_for_status()
         data = r.json()
         images = [base64.b64decode(img) for img in data["images"]]
@@ -91,7 +91,7 @@ class ForgeClient:
             "upscaling_resize_h": target_height,
             "upscaling_crop": False,
         }
-        r = requests.post(f"{self.base_url}/sdapi/v1/extra-single-image", json=payload, timeout=300)
+        r = requests.post(f"{self.base_url}/sdapi/v1/extra-single-image", json=payload, timeout=1200)
         r.raise_for_status()
         return base64.b64decode(r.json()["image"])
 
