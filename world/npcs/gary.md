@@ -15,6 +15,7 @@ role: "Sears auto center mechanic whose tools Dale and Renee stole; now Dale's f
 faction: null
 status: alive
 first_seen: 0
+image: assets/images/npcs/gary.png
 ---
 
 # Gary

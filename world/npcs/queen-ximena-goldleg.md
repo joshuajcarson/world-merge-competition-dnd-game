@@ -6,7 +6,7 @@ type: npc
 origin: unknown
 tags: [rainforest, frog-folk, queen, theatre, crowd-favorite, act-two]
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-08
 source: campaign-chronicle
 player_known: false
 needs_detail: true
@@ -15,6 +15,7 @@ role: "Ruler of the Dartwood Court and its only critic"
 faction: dartwood-court
 status: alive
 first_seen: null
+image: assets/images/npcs/queen-ximena-goldleg.png
 ---
 
 # Queen Ximena Goldleg

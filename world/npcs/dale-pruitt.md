@@ -15,6 +15,7 @@ role: "Fired mall maintenance hand; a 'Wizard's Guard' since the merge. Lived qu
 faction: null
 status: alive
 first_seen: 1
+image: assets/images/npcs/dale-pruitt.png
 ---
 
 # Dale Pruitt
