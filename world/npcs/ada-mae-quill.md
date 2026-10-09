@@ -6,7 +6,7 @@ type: npc
 origin: earth
 tags: [earth, dust-bowl, jackalope, matriarch, crowd-favorite, act-two]
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-08
 source: campaign-chronicle
 player_known: false
 needs_detail: true
@@ -15,6 +15,7 @@ role: "Matriarch of the Black Sunday Kin"
 faction: black-sunday-kin
 status: alive
 first_seen: null
+image: assets/images/npcs/ada-mae-quill.png
 ---
 
 # Ada Mae Quill

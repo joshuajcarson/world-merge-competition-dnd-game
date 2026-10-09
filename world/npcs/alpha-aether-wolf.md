@@ -15,6 +15,7 @@ role: "Leader of the pack released at the Sweethearts of Sears pregame"
 faction: null
 status: alive
 first_seen: null
+image: assets/images/npcs/alpha-aether-wolf.png
 ---
 
 # The Alpha

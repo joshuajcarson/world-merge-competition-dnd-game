@@ -122,6 +122,9 @@ hydraulic car lifts with a sedan raised on one, stacked tire racks, oil drums,
 steel tool benches, a rolling toolbox, a roll-up door at one end.
 ```
 
+![Battlemap: Node B](../assets/images/encounters/sweethearts-of-sears/node-b.png)
+
+
 **Approaches:**
 - *Count the pack* — DC 5 (Perception). Four wolves and a larger one. No roll needed
   if the party stands in the open for a round.

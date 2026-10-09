@@ -24,7 +24,35 @@ SOURCES = {
     "verger": "assets/images/npcs/verger.png",
     "hushbound-skirmisher": "assets/images/races/hushbound-gnomes.png",
     "sextonback": "assets/images/races/sextonbacks.png",
+    "dale-pruitt": "assets/images/npcs/dale-pruitt.png",
+    "renee-castillo": "assets/images/npcs/renee-castillo.png",
+    "gary": "assets/images/npcs/gary.png",
+    "ada-mae-quill": "assets/images/npcs/ada-mae-quill.png",
+    "queen-ximena-goldleg": "assets/images/npcs/queen-ximena-goldleg.png",
+    "aether-wolf": "assets/images/races/aether-wolves.png",
+    "alpha-aether-wolf": "assets/images/npcs/alpha-aether-wolf.png",
 }
+
+
+# Busy backgrounds defeat GrabCut, so these become round bust tokens instead:
+# name -> (center x, center y, radius) in the 1024 px source.
+CIRCLE = {
+    "dale-pruitt": (260, 300, 290),
+    "renee-castillo": (540, 340, 300),
+    "gary": (512, 480, 470),
+    "ada-mae-quill": (500, 450, 500),
+}
+
+
+def circle_token(img, cx, cy, r):
+    h, w = img.shape[:2]
+    pad = r
+    big = cv2.copyMakeBorder(img, pad, pad, pad, pad, cv2.BORDER_REPLICATE)
+    crop = big[cy:cy + 2 * r, cx:cx + 2 * r]
+    mask = np.zeros(crop.shape[:2], np.uint8)
+    cv2.circle(mask, (r, r), r - 2, 255, -1, cv2.LINE_AA)
+    rgba = np.dstack([crop, cv2.GaussianBlur(mask, (3, 3), 0)])
+    return cv2.resize(rgba, (SIZE, SIZE), interpolation=cv2.INTER_AREA)
 
 
 def cut(img):
@@ -74,6 +102,9 @@ if __name__ == "__main__":
     OUT.mkdir(exist_ok=True)
     for name, rel in SOURCES.items():
         img = cv2.imread(str(ROOT / rel))
-        tok = to_token(img, cut(img))
+        if name in CIRCLE:
+            tok = circle_token(img, *CIRCLE[name])
+        else:
+            tok = to_token(img, cut(img))
         cv2.imwrite(str(OUT / f"{name}.png"), tok)
         print("wrote", name)

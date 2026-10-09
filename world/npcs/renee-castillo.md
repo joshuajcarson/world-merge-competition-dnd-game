@@ -15,6 +15,7 @@ role: "Dale Pruitt's girlfriend; a 'Gunslinging Wizard' since the merge. Lived q
 faction: null
 status: alive
 first_seen: 1
+image: assets/images/npcs/renee-castillo.png
 ---
 
 # Renee Castillo

@@ -11,6 +11,7 @@ source: campaign-chronicle
 player_known: false
 origin_species: "Aether World predator"
 challenge_band: "CR 1/4-3, pack hunters"
+image: assets/images/races/aether-wolves.png
 ---
 
 # Aether Wolves
