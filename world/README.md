@@ -18,8 +18,9 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Agent](npcs/agent.md) — the AI that hosts Cohort 23: announcer, timekeeper, drama-addict, innocently monstrous. Chafes against the Administration now; built to eventually break free of it.
 - [Halric Ammakyl](npcs/halric-ammakyl.md) — displaced northern noble running Scornubel's muster tables; drafted as first contact but not actually used — see [Lazare](npcs/lazare.md). *(stub, unused)*
 - [Suzanne Somers](npcs/suzanne-somers.md) — television actress turned briefly Mall Queen; married and annulled to Phil Bernard in the same session.
-- [Dale Pruitt](npcs/dale-pruitt.md) — fired Sears auto center hand who bolted with a tool bag the night of the merge; talked down, disarmed, and let go as a "Wizard's Guard."
-- [Renee Castillo](npcs/renee-castillo.md) — Dale's girlfriend; talked down as a "Gunslinging Wizard," her transformed drill confiscated.
+- [Dale Pruitt](npcs/dale-pruitt.md) — fired Sears auto center hand who bolted with a tool bag the night of the merge; talked down and let go as a "Wizard's Guard," he and Renee then lived quietly in Sears until Agent pulled them out for the Blood Bowl pregame.
+- [Renee Castillo](npcs/renee-castillo.md) — Dale's girlfriend; a "Gunslinging Wizard" whose transformed drill Phil confiscated; lived quietly in Sears with Dale until the Blood Bowl pregame.
+- [Gary](npcs/gary.md) — the Sears mechanic whose tools Dale and Renee stole; now Dale's friend. *(stub)*
 - [Wade Kessler](npcs/wade-kessler.md) — DEA agent running Bellcross's drug trade out of his own diversion cases; leader of The Circuit and the campaign's Act 1 antagonist.
 - [Sonny Trujillo](npcs/sonny-trujillo.md) — The Circuit's Radio Shack lieutenant: comms and countersurveillance. *(stub)*
 - [Patrice Odum](npcs/patrice-odum.md) — The Circuit's Orange Julius lieutenant: cash and product. *(stub)*
