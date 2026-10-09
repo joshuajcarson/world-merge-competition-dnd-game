@@ -96,7 +96,10 @@ demerit makes Briarwood **Phase One's designated underdog**: its Pylon is flagge
 worst-matchup punishment from [the Color Game](../../encounters/the-color-game.md)'s
 starter menu, and it will not be the last demerit-flavored beat.
 
-**Session 8 run order.** (1) Agent's opening broadcast and the Phase One quotas,
+**Session 8 run order.** (0) The pregame, [Sweethearts of Sears](../../encounters/sweethearts-of-sears.md):
+Agent pulls [Dale](../npcs/dale-pruitt.md) and [Renee](../npcs/renee-castillo.md) out of
+the mall and reintroduces them, surrounded by Aether wolves; the party rescues them (or not),
+(1) Agent's opening broadcast and the Phase One quotas,
 (2) the demerit lands and the gnome camp appears,
 [The Demerit Comes Due](../../encounters/the-demerit-comes-due.md),
 (3) the first territory, [The Dust Flats](../../encounters/the-dust-flats.md)

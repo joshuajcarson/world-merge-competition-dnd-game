@@ -30,6 +30,12 @@ rounds, Briarwood loses its home territory and is under quota for the phase.
 
 Four level 4 PCs, plus whatever the mall's militia and engineering can add.
 
+**Runs second.** The session's opening scene is the pregame,
+[Sweethearts of Sears](sweethearts-of-sears.md), where Agent pulls Dale and Renee out of
+the mall and the party fights a pack of Aether wolves to get them back. When that ends,
+Agent cuts straight to the demerit: Node A below. Whatever the party did with Dale and
+Renee carries over (they can fight with the militia, or watch from the mall doors).
+
 ## Escalation Trigger(s)
 
 - **Hard trigger, Node A:** Agent's broadcast starts the clock. Nothing is

@@ -4,14 +4,14 @@ title: "Renee Castillo"
 slug: renee-castillo
 type: npc
 origin: earth
-tags: [earth, session-zero, briarwood-mall, sears, world-merge]
+tags: [earth, session-zero, briarwood-mall, sears, world-merge, blood-bowl, act-two, gunslinging-wizard]
 created: 2026-08-02
-updated: 2026-08-02
+updated: 2026-10-08
 source: campaign-chronicle
 player_known: true
-needs_detail: true
+needs_detail: false
 species: human
-role: "Dale Pruitt's girlfriend; post-merge, a 'Gunslinging Wizard' — disarmed and let go"
+role: "Dale Pruitt's girlfriend; a 'Gunslinging Wizard' since the merge. Lived quietly in Sears until Agent pulled her and Dale out for the Blood Bowl pregame."
 faction: null
 status: alive
 first_seen: 1
@@ -57,3 +57,43 @@ the party talked Renee and Dale down without a fight. Phil Bernard confiscated h
 transformed drill and let both of them go. "The Claire's clerk who accidentally
 became a war wizard" is loose out there without her focus — a strong seed for a
 later session, per the original hook.
+
+## Where She's Been (Session 8 update)
+
+*Written 2026-10-08, ahead of Session 8. Everything below is DM-side until it is
+played.*
+
+**Quiet on purpose.** She walked away from her Claire's kiosk the day the merge settled
+and has not worked a counter since. She moved into the **Sears auto center** back rooms
+with [Dale](dale-pruitt.md) and became one of the roughly 320 people living in the mall
+without ever asking anyone for a favor. She learned the building's rhythms well enough to
+be where the party wasn't. Her rule, for months: *no one sees us twice.*
+
+**The drill.** [Phil](../people/phil-bernard.md) still has the one he took off her in
+[Session 1](../../sessions/01-mall-rats-and-the-grasslands-city.md). It's the thing she
+has thought about most, and she has never asked for it. For the pregame, Agent hands her
+a replacement it has branded itself: a **Craftsman Pro Series cordless drill** with the
+Administration's serial plate on the grip. Whether she ever wants the original back is a
+live question the table can answer.
+
+**What changed.** Her transformation has settled: she can feel *where* the bolt will go
+before she pulls the trigger. She is still quick, still a little reckless, and more
+frightened than she lets Dale see. She has worked out that being seen is the dangerous
+part.
+
+**Why Agent took her.** See [Dale's file](dale-pruitt.md#where-hes-been-session-8-update).
+Agent has plans for the pair: a sympathetic couple, a recap reel, a rescue. The broadcast
+is called "Sweethearts of Sears," and it makes her skin crawl.
+
+**Updated statblock (Session 8).** Fragile, and a bit past the Session 1 reskin: about
+**CR 1/2 (100 XP)**.
+- **AC** 13 · **HP** 22 (5d8) · **Speed** 30 ft.
+- STR 9 DEX 15 CON 10 INT 12 WIS 10 CHA 11
+- **Drill Bolt.** *Ranged Spell Attack:* +5 to hit, range 60 ft., one target. *Hit:*
+  7 (2d6) fire damage.
+- **Spin-Up (Recharge 6).** A 15-foot line, 5 feet wide. DC 12 Dexterity save: 10 (3d6)
+  force damage on a failure, half on a success.
+- **Quick Feet (Bonus Action).** She Disengages or Hides.
+
+**What ends a fight without a kill.** Dale going down, or someone she believes saying the
+words "you're safe."

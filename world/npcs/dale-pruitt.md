@@ -4,14 +4,14 @@ title: "Dale Pruitt"
 slug: dale-pruitt
 type: npc
 origin: earth
-tags: [earth, session-zero, briarwood-mall, maintenance, world-merge]
+tags: [earth, session-zero, briarwood-mall, maintenance, world-merge, sears, blood-bowl, act-two, wizards-guard]
 created: 2026-08-02
-updated: 2026-08-02
+updated: 2026-10-08
 source: campaign-chronicle
 player_known: true
-needs_detail: true
+needs_detail: false
 species: human
-role: "Fired mall maintenance hand; post-merge, a 'Wizard's Guard' — talked down, disarmed, and let go"
+role: "Fired mall maintenance hand; a 'Wizard's Guard' since the merge. Lived quietly in Sears for months until Agent pulled him and Renee out for the Blood Bowl pregame."
 faction: null
 status: alive
 first_seen: 1
@@ -61,3 +61,47 @@ the party talked Dale and Renee down without a fight. Phil Bernard confiscated
 Renee's transformed drill (see her file) and let them both go rather than
 detain them. Both are alive, unconfined, and a ready-made hook for later —
 whether they've stayed near Briarwood or scattered isn't established yet.
+
+## Where He's Been (Session 8 update)
+
+*Written 2026-10-08, ahead of Session 8. Everything below is DM-side until it is
+played.*
+
+**Quiet on purpose.** Since the party let him go, Dale and [Renee](renee-castillo.md)
+have done everything right to stay unnoticed. They never left the building. They moved
+into the back rooms of the **Sears auto center**, the same bay he robbed, and became two
+of the roughly 320 people living inside [Briarwood Mall](../places/briarwood-mall.md).
+No title, no militia, no Way of the Gander. Dale keeps his head down, fixes things for
+people, and has never mentioned who he used to be.
+
+**He made friends with the man he robbed.** [Gary](gary.md), the Sears mechanic who chased
+him across the mall on the night of the merge, found Dale in his own bay a week later,
+returning the tools one at a time. Gary gave him a cot, and about a month in they were
+splitting a six-pack of whatever the mall's vending machines still had. Gary is the only
+person who knows what Dale did. If Dale is in danger, Gary is who he would ask for help.
+
+**What changed.** Months of repair work, and of the transformation settling in, have left
+him sturdier. He is still wiry, but he stands differently, and the stolen tire iron has
+been replaced by a **torque wrench** he treats like a sidearm. He doesn't drink on the job
+anymore. He wants to be left alone, and he would rather that happened in Briarwood than
+anywhere else.
+
+**Why Agent took him.** The pregame needed a hook. [Agent](agent.md) had pulled the
+footage of the party talking Dale and Renee down in Session 1 and decided the *quiet
+couple who keep dodging the cameras* were exactly the kind of character the audience loves
+to see forced into the open. See
+[Sweethearts of Sears](../../encounters/sweethearts-of-sears.md) for the scene.
+
+**Updated statblock (Session 8).** A touch past the Session 1 Guard reskin: about
+**CR 1/2 (100 XP)**.
+- **AC** 15 (Craftsman hubcap shield) · **HP** 27 (5d8+5) · **Speed** 30 ft.
+- STR 14 DEX 12 CON 13 INT 9 WIS 11 CHA 9
+- **Stand Between (Reaction).** When a creature he can see hits Renee while she is within
+  5 feet of him, the attack is made against Dale instead.
+- **Torque Wrench.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:*
+  7 (1d8+3) bludgeoning damage.
+- **Hubcap Bash (Bonus Action).** One creature within 5 feet makes a DC 12 Strength save
+  or is pushed 5 feet.
+
+**What ends a fight without a kill.** Dale does not want to hurt anybody. If Renee is safe
+and someone offers him a way back to Gary, he lowers the wrench.
