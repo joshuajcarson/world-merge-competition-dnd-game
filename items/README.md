@@ -25,6 +25,10 @@ Generated magic items, one file per item, named `<slug>.md`. Written by the `mag
 - [Stewie's Parting Shot](stewies-parting-shot.md) — Uncommon thrown weapon; single-use, scavenged incendiary flask, 3d6 fire in a 10-ft radius.
 - [Council Evacuation Flare](council-evacuation-flare.md) — Rare wondrous item; single-use, teleports you and up to three allies 60 feet.
 - [Jack's Grappling Hook](jacks-grappling-hook.md) — Common wondrous item; reusable field-built grapple and cable for crossing gaps.
+- [Polaroid One Step, Last Exposure](polaroid-one-step-last-exposure.md) — Uncommon wondrous item; single-use, one photograph that shows a subject's true form and any invisible creatures within 15 feet.
+- [Dessarin Ford Seeker Arrow](dessarin-ford-seeker-arrow.md) — Uncommon arrow; single-use +1 shot that ignores cover and outlines the target so it can't hide.
+- [Leviathan Rib-Barb](leviathan-rib-barb.md) — Uncommon thrown weapon; single-use, 4d6 piercing and restrains a Large or smaller target.
+- [ADMIN Mute Button, Mk. III](admin-mute-button-mk-iii.md) — Uncommon wondrous item; single-use, a 20-foot sphere of silence for 1 minute.
 
 ---
 
