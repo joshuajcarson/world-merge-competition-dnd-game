@@ -37,3 +37,12 @@ Treat her as a social encounter first. If it turns to blows, stat her as a
 CR 2) with Contact Poison: DC 13 Con save or poisoned for 1 minute. Her Court
 adds blowgun darts (+4, 1d4 piercing, poison DC 12). She grades every
 performance out of ten, out loud, and the score is binding.
+
+**Token Prompt.** Queen Ximena Goldleg. Glitch-Corrupted Render — see `.claude/skills/campaign-chronicle/references/monster-art-style.md`. Aether palette (mold-green). Hook: tiny golden frog queen on a lily-pad throne.
+
+```
+A 3D-rendered creature deliberately corrupted like a damaged digital file —
+datamoshing artifacts, torn and smeared polygon edges, color-channel
+splitting, streaks of pixel-sorted noise bleeding across parts of the
+image, set against a flat dark void. A tiny, brilliant golden poison-dart frog queen with huge dark eyes, sitting upright on a throne made of a single lily pad, a crown of glittering dewdrops on her head, regal and unimpressed, sickly mold-green glitch streaks bleeding off the crown and the throne's edges. The overall effect should feel like watching something try to render correctly and fail.
+```

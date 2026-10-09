@@ -40,3 +40,12 @@ embarrassing thing either of them has ever done. Gary is the only mall resident 
 knows Dale and Renee were the thieves, and the only person Dale would ask for help.
 No statblock needed: a **Commoner** with strong opinions about a clean tool rack.
 See [Sweethearts of Sears](../../encounters/sweethearts-of-sears.md).
+
+**Token Prompt.** Gary. Glitch-Corrupted Render — see `.claude/skills/campaign-chronicle/references/monster-art-style.md`. Earth palette (electric blue). Hook: the Sears coveralls and the wrench.
+
+```
+A 3D-rendered creature deliberately corrupted like a damaged digital file —
+datamoshing artifacts, torn and smeared polygon edges, color-channel
+splitting, streaks of pixel-sorted noise bleeding across parts of the
+image, set against a flat dark void. A heavyset middle-aged mechanic in a blue work shirt with a name patch and a ball cap, big forearms, a large adjustable wrench resting on one shoulder, stern but kind, harsh electric-blue and arc-white glitch streaks tearing off the wrench head and the edges of the cap. The overall effect should feel like watching something try to render correctly and fail.
+```

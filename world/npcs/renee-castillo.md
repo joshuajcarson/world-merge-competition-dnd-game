@@ -97,3 +97,12 @@ is called "Sweethearts of Sears," and it makes her skin crawl.
 
 **What ends a fight without a kill.** Dale going down, or someone she believes saying the
 words "you're safe."
+
+**Token Prompt.** Renee Castillo. Glitch-Corrupted Render — see `.claude/skills/campaign-chronicle/references/monster-art-style.md`. Earth palette (electric blue). Hook: the drill held like a pistol.
+
+```
+A 3D-rendered creature deliberately corrupted like a damaged digital file —
+datamoshing artifacts, torn and smeared polygon edges, color-channel
+splitting, streaks of pixel-sorted noise bleeding across parts of the
+image, set against a flat dark void. A young woman in her mid-twenties in a rumpled jacket and sneakers, dark hair tied back, holding a cordless power drill in both hands like a pistol, wary and ready to bolt, harsh electric-blue and arc-white glitch streaks crackling out of the drill's chuck and arcing up her arms. The overall effect should feel like watching something try to render correctly and fail.
+```
