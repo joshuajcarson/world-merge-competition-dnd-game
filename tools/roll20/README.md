@@ -34,3 +34,19 @@ and transfer, paste statblocks into token GM Notes by hand, or enter them in the
 
 A script can only set a token's image to one already in a Roll20 library, so image uploads
 stay manual either way.
+
+## Building a mob by hand in the new sheet (what worked, 2026-10-22)
+
+Session 9's mobs (Aether Hornback, Hornback Bull, Swan Cultist, Vainhusk) were built in the
+journal by hand, with tokens from `tokens/`.
+
+1. In the journal, open an existing finished mob (the Alpha), click the pencil beside its name,
+   and press **Duplicate**. This keeps the sheet layout.
+2. Open the copy's edit dialog. Hover the avatar and the default token and press **Remove** on
+   each (confirm the token deletion), then upload the new avatar (`assets/images/...`) and token
+   (`tools/roll20/tokens/...`). Removing the image re-creates the drop zone.
+3. Rename it, then **Edit Token Properties**: Bar 2 attribute `ac`, Bar 3 attribute `hp`,
+   both bars visible and editable to players, nameplate on. Removing the token resets these.
+4. On the sheet press **Edit** and fill in the stat block (type, size, CR, XP, AC, HP, speed,
+   abilities, traits, actions). Duplicates carry the Alpha's WIS save proficiency, so untick it.
+5. Drag the finished mobs into the journal folder.

@@ -43,6 +43,8 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Gildrot](npcs/gildrot.md) — the Doombow-carrying leader of the Luck of Leprechauns raiding the Preening Grounds. *(stub)*
 - [Prismrot](npcs/prismrot.md) — a rare, rainbow-eyed Leprechaun leader whose luck bleeds out as raw, unpredictable elemental damage. *(stub)*
 - [Vainhusk](npcs/vainhusk.md) — Chief of the Cult of the Swan; leads by having the most feathers, not the most cunning. *(stub)*
+- [Swan Cultist](npcs/swan-cultist.md) — rank-and-file Cult of the Swan orc in a coat of mixed feathers; claims the Pylon in A Glitch.
+- [The Hornback Bull](npcs/hornback-bull.md) — the heavy bull of the herd the Cult is steering in A Glitch.
 - [Carol](npcs/carol.md) — an Earth woman whose merge transformation went sideways at the character-select screen; found in Session 7 and now living at the mall; the party owes her the fountain, a goose toilet, and an introduction to Steve. *(stub)*
 - [Prelate Obby Windlestraw](npcs/obby-windlestraw.md) — leader of the Hush Concord; a courtly, hovering old gnome who spends the Prince of Air's breath.
 - [Tamberlock "Flue" Gearwhistle](npcs/tamberlock-flue.md) — the Hush Concord's tinker; crews the Gale Organ.
@@ -99,6 +101,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Hushbound Gnomes](races/hushbound-gnomes.md) — gnomes of the Prince of Evil Air's Faerûn, who tithe breath and spend it as force.
 - [Sextonbacks](races/sextonbacks.md) — huge, docile Aether undertakers that eat the dead.
 - [Aether Leprechauns](races/aether-leprechauns.md) — a small, wiry, gold-obsessed Aether-native population raiding merge fragments in loose bands called "Lucks." *(stub)*
+- [Aether Hornbacks](races/aether-hornbacks.md) — dinosaur-sized armored Aether grazers that travel in herds, follow the most beautiful bird in sight, and charge. Cult of the Swan steers one in Session 9.
 
 ---
 

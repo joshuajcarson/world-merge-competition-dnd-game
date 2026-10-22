@@ -31,6 +31,10 @@ SOURCES = {
     "queen-ximena-goldleg": "assets/images/npcs/queen-ximena-goldleg.png",
     "aether-wolf": "assets/images/races/aether-wolves.png",
     "alpha-aether-wolf": "assets/images/npcs/alpha-aether-wolf.png",
+    "aether-hornback": "assets/images/races/aether-hornbacks.png",
+    "hornback-bull": "assets/images/npcs/hornback-bull.png",
+    "swan-cultist": "assets/images/npcs/swan-cultist.png",
+    "vainhusk": "assets/images/npcs/vainhusk.png",
 }
 
 
