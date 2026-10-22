@@ -50,6 +50,8 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Verger](npcs/verger.md) — a skittish Sextonback calf, Deacon's shadow.
 - [Ada Mae Quill](npcs/ada-mae-quill.md) — matriarch of the Black Sunday Kin. *(stub)*
 - [Queen Ximena Goldleg](npcs/queen-ximena-goldleg.md) — ruler of the Dartwood Court. *(stub)*
+- [The Giant Sloth](npcs/giant-sloth.md) — 60-foot corpse-eater that arrived with the ewoks in Session 8. *(stub)*
+- [The Mattress King](npcs/mattress-king.md) — whatever Gary ran from when the wolves came. *(stub)*
 - [Steve](npcs/steve.md) — Dallas Tiffany's salesman, notorious for cheating on his wife; the introduction Carol wants. *(stub)*
 
 ## Places
@@ -78,6 +80,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [The Hush Concord](factions/the-hush-concord.md) — gnomes from a Faerûn the Prince of Evil Air conquered; crowd favorites who spend borrowed breath as a weapon; Briarwood's demerit.
 - [The Black Sunday Kin](factions/black-sunday-kin.md) — Dust Bowl jackalope-folk who hold Cimarron Flats. *(stub)*
 - [The Dartwood Court](factions/dartwood-court.md) — poison-frog court of a fantasy rainforest. *(stub)*
+- [The Bar Bar Clan](factions/bar-bar-clan.md) — undefeated winners of an earlier competition; likely the ewoks and giant sloth that raided Briarwood's Pylon. *(stub)*
 - [The Cult of the Swan](factions/cult-of-the-swan.md) — an orc tribe that broke from Gruumsh to devote itself to beauty (mostly feathers) and can't reliably tell a swan from anything else with wings. *(stub)*
 
 ## Lore
@@ -85,6 +88,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Deputy Registrar's Log — Scornubel](lore/deputy-registrars-log-scornubel.md) — a found-document handout: [Miriel Ashgrove](npcs/miriel-ashgrove.md)'s pre-merge journal, overwhelmed by refugees and mercenaries, ending on the first sign of the merge bleeding through Scornubel's architecture.
 - [Private Security Log — Briarwood Mall](lore/private-security-log-briarwood-mall.md) — [Brenda Hollis](npcs/brenda-hollis.md)'s shift log from the ThighMaster signing: lazy, funny, class-conscious, and one paragraph away from noticing the mall's extra closet before anyone else does.
 - [The Blood Bowl](lore/the-blood-bowl.md) — Agent's big broadcast event; Act Two is a territory battle with quotas, elimination and leveling by Holding.
+- [Pylons](lore/pylons.md) — each shard's base Pylon: protect yours, steal the others'. *(stub)*
 - [Crowd Favorites](lore/crowd-favorites.md) — survivors of earlier cohorts Agent brings back as new factions and species.
 - [The Aether Hunger](lore/the-aether-hunger.md) — the real mechanism behind leveling, why every prior cohort turned violent from the inside out, and why Cohort 23 might be the first exception — a campaign-secret nobody present understands yet.
 
