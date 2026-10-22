@@ -18,6 +18,7 @@ the `encounter-weaver` skill.
 - [The Demerit Comes Due](the-demerit-comes-due.md) — Blood Bowl Act Two opens: the level 4 party defends Briarwood's Pylon against the Hush Concord's gnomes and their Gale Organ in a broken-down parking lot, while a Sextonback eats the dead.
 - [The Dust Flats](the-dust-flats.md) — the first territory: a Dust Bowl plain, a jackalope-folk derby, and a black dust wall on a clock.
 - [The Verdigris Clearing](the-verdigris-clearing.md) — the second territory: a rainforest clearing where a poison-frog queen scores a performance out of ten.
+- [A Glitch](a-glitch.md) — Session 9: the level 4 party crosses a Territory Map hex toward Meridian Peak, contests a Pylon against the Cult of the Swan and the Aether Hornback herd it is steering, and then finds a shed where Agent goes silent.
 
 ---
 
