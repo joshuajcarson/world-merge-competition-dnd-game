@@ -50,8 +50,6 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Verger](npcs/verger.md) — a skittish Sextonback calf, Deacon's shadow.
 - [Ada Mae Quill](npcs/ada-mae-quill.md) — matriarch of the Black Sunday Kin. *(stub)*
 - [Queen Ximena Goldleg](npcs/queen-ximena-goldleg.md) — ruler of the Dartwood Court. *(stub)*
-- [The Giant Sloth](npcs/giant-sloth.md) — 60-foot corpse-eater that arrived with the ewoks in Session 8. *(stub)*
-- [The Mattress King](npcs/mattress-king.md) — whatever Gary ran from when the wolves came. *(stub)*
 - [Steve](npcs/steve.md) — Dallas Tiffany's salesman, notorious for cheating on his wife; the introduction Carol wants. *(stub)*
 
 ## Places
@@ -61,6 +59,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Scornubel](places/scornubel.md) — the caravan city mid-muster as Tiamat's cult moves inland; lands near Briarwood when the worlds merge.
 - [Sector 7 (Cohort 15 Holding)](places/cohort-15-holding-sector.md) — Administration storage space behind a merge-displaced Briarwood closet; setting of [Mall Rats](../encounters/mall-rats.md). *(stub)*
 - [The Drowned Chantry](places/drowned-chantry.md) — a Faerun shrine to Eldath fused with a Bellcross park lake, in the unclaimed ground between Scornubel and Briarwood; home to the Swanfolk. *(stub)*
+- [The Mattress King](places/mattress-king.md) — the mall store where the party sleeps. *(stub)*
 - [Fearus Dungeon](places/fearus-dungeon.md) — a gem-choked jungle beyond a Chess World portal, duergar forcing captives to consume corrupting red gems. *(stub)*
 - [The Flood Stage](places/the-flood-stage.md) — a purpose-built arena Agent assembled for the Color Game, flooded on cue; contestants pulled straight out of Briarwood Mall to fill it. *(stub)*
 - [Cimarron Flats](places/cimarron-flats.md) — a Dust Bowl plain from an earlier cohort; the Blood Bowl's first territory. *(stub)*
@@ -80,7 +79,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [The Hush Concord](factions/the-hush-concord.md) — gnomes from a Faerûn the Prince of Evil Air conquered; crowd favorites who spend borrowed breath as a weapon; Briarwood's demerit.
 - [The Black Sunday Kin](factions/black-sunday-kin.md) — Dust Bowl jackalope-folk who hold Cimarron Flats. *(stub)*
 - [The Dartwood Court](factions/dartwood-court.md) — poison-frog court of a fantasy rainforest. *(stub)*
-- [The Bar Bar Clan](factions/bar-bar-clan.md) — undefeated winners of an earlier competition; likely the ewoks and giant sloth that raided Briarwood's Pylon. *(stub)*
+- [The Bar Bar Clan](factions/bar-bar-clan.md) — undefeated winners of an earlier competition, announced by Agent in Session 8 but not yet seen. *(stub)*
 - [The Cult of the Swan](factions/cult-of-the-swan.md) — an orc tribe that broke from Gruumsh to devote itself to beauty (mostly feathers) and can't reliably tell a swan from anything else with wings. *(stub)*
 
 ## Lore

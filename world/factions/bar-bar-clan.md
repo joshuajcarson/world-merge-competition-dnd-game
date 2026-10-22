@@ -4,7 +4,7 @@ title: "The Bar Bar Clan"
 slug: bar-bar-clan
 type: faction
 origin: unknown
-tags: [crowd-favorite, previous-cohort, undefeated, ewoks, sloth, blood-bowl, session-8]
+tags: [crowd-favorite, previous-cohort, undefeated, blood-bowl, session-8]
 created: 2026-10-22
 updated: 2026-10-22
 source: campaign-chronicle
@@ -20,24 +20,22 @@ leader: null
 ## Description
 
 Undefeated winners of an earlier competition, announced by [Agent](../npcs/agent.md) in
-[Session 8](../../sessions/08-pylons-and-moonshine.md) as joining the party's game. Right after
-the announcement, a group of ewoks and a [60-foot giant sloth](../npcs/giant-sloth.md) went after
-Briarwood's [Pylon](../lore/pylons.md). It isn't confirmed that those are the Bar Bar clan.
-See [Crowd Favorites](../lore/crowd-favorites.md).
+[Session 8](../../sessions/08-pylons-and-moonshine.md) as joining the party's game. They haven't appeared yet. The gnomes and sloth that raided
+Briarwood's [Pylon](../lore/pylons.md) right afterward were the [Hush Concord](the-hush-concord.md)
+and [Deacon](../npcs/deacon.md), not the Bar Bar clan. See [Crowd Favorites](../lore/crowd-favorites.md).
 
 ## Goals
 
-- Steal Briarwood's Pylon *(inferred)*.
+- Unknown.
 
 ## Notable Members
 
-- [Giant sloth](../npcs/giant-sloth.md)
+None known.
 
 ## What the Party Knows
 
-The ewoks hate Phil, surrendered when reminded the Pylon was off limits, and some were eaten
-by the sloth.
+Only that Agent announced them as undefeated.
 
 ## DM Only
 
-Unconfirmed link between the Bar Bar clan and the ewoks and sloth; see the Session 8 DM notes.
+Nothing planned in the notes yet.

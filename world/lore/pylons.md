@@ -24,7 +24,7 @@ your own and steal other shards' Pylons. See the encounters
 
 ## What the Party Knows
 
-Protect yours, steal the others'. They defended Briarwood's against the ewoks in Session 8.
+Protect yours, steal the others'. They defended Briarwood's against the Hush Concord gnomes in Session 8.
 
 ## DM Only
 
