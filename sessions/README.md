@@ -2,6 +2,7 @@
 
 Session notes, newest first. Each note has a player-facing recap and a DM-only section.
 
+- **08** · 2026-10-08 — [Pylons and Moonshine](08-pylons-and-moonshine.md)
 - **07** · 2026-09-24 — [The Golden Goose](07-the-golden-goose.md)
 - **06** · 2026-09-17 — [The Fixed Game](06-the-fixed-game.md)
 - **05** · 2026-09-03 — [The Vassal's Bargain](05-the-vassals-bargain.md)
