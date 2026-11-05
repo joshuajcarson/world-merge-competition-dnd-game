@@ -35,6 +35,8 @@ SOURCES = {
     "hornback-bull": "assets/images/npcs/hornback-bull.png",
     "swan-cultist": "assets/images/npcs/swan-cultist.png",
     "vainhusk": "assets/images/npcs/vainhusk.png",
+    "roy-teasdale": "assets/images/npcs/roy-teasdale.png",
+    "zombie-hornback": "assets/images/npcs/zombie-hornback.png",
 }
 
 

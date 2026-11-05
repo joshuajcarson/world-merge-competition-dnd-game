@@ -248,6 +248,9 @@ dam is just visible on the horizon, small and distant, with faint smudges of smo
 or dust suggesting something happening near it.
 ```
 
+![Battlemap](../assets/images/encounters/the-blue-wave/valley.png)
+
+
 ---
 
 [← Back to encounters index](README.md)
