@@ -49,4 +49,11 @@ journal by hand, with tokens from `tokens/`.
    both bars visible and editable to players, nameplate on. Removing the token resets these.
 4. On the sheet press **Edit** and fill in the stat block (type, size, CR, XP, AC, HP, speed,
    abilities, traits, actions). Duplicates carry the Alpha's WIS save proficiency, so untick it.
-5. Drag the finished mobs into the journal folder.
+5. **For any action written as a saving throw** (anything in the markdown phrased "DC X
+   [Ability] save," not a to-hit roll — e.g. Vainhusk's Peak), set that entry's **type** to
+   **Spell Save**, then fill in the saving throw ability and the DC fields to match the text.
+   Corrected on Vainhusk's sheet 2026-11-05: it was entered as a different type and the DC/save
+   had to be set by hand afterward to line up with the description. **Spell Save** is what makes
+   Roll20 auto-roll the save and generate correct chat text for that action — any other type
+   leaves it as inert text the table has to adjudicate manually.
+6. Drag the finished mobs into the journal folder.
