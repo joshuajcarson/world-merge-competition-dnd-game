@@ -6,7 +6,7 @@ type: faction
 origin: faerun
 tags: [faerun, alternate-faerun, gnome, air, yan-c-bin, crowd-favorite, blood-bowl, hostile, act-two]
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-11-05
 source: campaign-chronicle
 player_known: false
 scope: regional
@@ -54,6 +54,10 @@ assigned them.
 
 Nothing before Session 8. After the demerit lands they know the name Agent gives
 them on air, the camp at the end of the lot, and whatever they see of the Organ.
+
+Surrendered to the party in Session 8. In [Session 9](../../sessions/09-a-glitch-in-the-signal.md)
+the party brought them into [Briarwood Mall](../places/briarwood-mall.md) and found them a new,
+unexplained basement prison to hold them in.
 
 ## DM Only
 

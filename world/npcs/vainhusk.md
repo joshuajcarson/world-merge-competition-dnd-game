@@ -6,7 +6,7 @@ type: npc
 origin: faerun
 tags: [faerun, orc, cult-of-the-swan, chief, the-preening-grounds]
 created: 2026-09-24
-updated: 2026-10-22
+updated: 2026-11-05
 source: encounter-weaver
 player_known: false
 needs_detail: true
@@ -30,8 +30,16 @@ killing for first.
 
 ## What the Party Knows
 
-Nothing yet — first contact is
-[The Golden Goose Chase](../../encounters/the-golden-goose-chase.md).
+First met in [Session 7](../../sessions/07-the-golden-goose.md),
+run from [The Golden Goose Chase](../../encounters/the-golden-goose-chase.md): dancing around a fire
+with the rest of the Cult when one cultist summoned a mountain peak to attack the party.
+
+Met again in [Session 9](../../sessions/09-a-glitch-in-the-signal.md), leading a herd of
+[Aether Hornbacks](../races/aether-hornbacks.md) toward a Pylon on
+[Featherline Flats](../places/featherline-flats.md) with the Plume. Lost a pageant — a literal
+dance-off against Mitch and Geezus — and handed over the Pylon rather than fight for it, then asked
+to join the [Way of the Gander](../factions/way-of-the-gander.md) alongside
+[Anthony](anthony.md).
 
 ## DM Only
 

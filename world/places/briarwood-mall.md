@@ -6,7 +6,7 @@ type: place
 origin: earth
 tags: [earth, session-zero, starting-location, 1992, texas, mall]
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-11-05
 source: campaign-chronicle
 player_known: true
 region: "Bellcross, Texas — forty minutes northwest of Fort Worth"
@@ -46,6 +46,9 @@ The line for it starts forming outside Chess King around four. Mall security has
 - **The parking lot** — a broken-down Earth lot kept by the merge: cracked asphalt, weeds in every seam, a few dead 1992 sedans, a fallen light pole, and, in Act Two, a gnome camp at the far end. See [The Demerit Comes Due](../../encounters/the-demerit-comes-due.md).
 - **The rest of the promenade** — Sam Goody, Waldenbooks, Spencer Gifts, Contempo Casuals, Merry-Go-Round, Foot Locker, KB Toys, Suncoast Motion Picture Company, Claire's, Piercing Pagoda, GNC, Radio Shack, Sunglass Hut, Thom McAn, a Payless, a Hallmark, Chess World, Hot Topic, and a photo booth outside the restrooms that eats quarters.
 - **Back-of-house** — the service corridor ringing the building: loading dock, dumpster bay, the security office with its bank of black-and-white monitors, the mechanical room, and the janitor's closets, one per wing.
+- **The basement prison** — appeared in [Session 9](../../sessions/09-a-glitch-in-the-signal.md)
+  with no explanation and no one who remembers building it. Currently holding the surrendered
+  [Hush Concord](../factions/the-hush-concord.md) gnomes.
 
 ## What the Party Knows
 
@@ -66,3 +69,7 @@ It is a mall. It is Thursday. Suzanne Somers is coming at seven.
 - **Current state, as of [Session 2](../../sessions/02-the-mall-king.md):** no longer just four hundred Earth civilians. Twenty ratkin (see [Ironquill](../npcs/ironquill.md)) relocated here after [Mall Rats](../../encounters/mall-rats.md); a growing refugee commune has formed outside, several hundred strong, with roughly 320 people now living inside the mall itself; a homegrown religion, [the Way of the Gander](../factions/way-of-the-gander.md), is actively converting refugees as part of the mall's admission terms; and Phil Bernard holds the title **Mall King** (briefly Mall Queen's co-ruler by marriage to Suzanne Somers, since annulled — see her file). What "Mall King" actually means structurally for the mall's governance hasn't been defined yet; decide deliberately rather than let it stay purely comedic. The mall also now has a functioning militia. Update this file's Description/Notable Locations sections directly once the table settles into a stable post-Session-2 status quo — this bullet is a bridge, not a permanent home for these facts.
 - **The Pylon.** In Act Two of [the Blood Bowl](../lore/the-blood-bowl.md) the mall's home Pylon stands in the fountain court. Lose it to an enemy hold and Briarwood is under quota.
 - **The Blood Bowl.** [Agent](../npcs/agent.md) announced a countdown in Session 2 — see [The Blood Bowl](../lore/the-blood-bowl.md) for what's known. Treat the clock as real.
+- **The basement prison** is the same kind of unexplained extra space as the Session 0 janitor's
+  closet (above) — a second instance of the mall quietly having more room than it should. Worth
+  deciding, eventually, whether that's a pattern (Agent, the Administration, something else) or two
+  unrelated coincidences; don't let it go unaddressed indefinitely.

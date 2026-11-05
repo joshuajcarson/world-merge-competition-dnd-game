@@ -6,7 +6,7 @@ type: lore
 origin: administration
 tags: [administration, agent, cohort-23, tournament, act-two, territories, session-8]
 created: 2026-08-27
-updated: 2026-10-07
+updated: 2026-11-05
 source: campaign-chronicle
 player_known: true
 needs_detail: false
@@ -106,6 +106,13 @@ the mall and reintroduces them, surrounded by Aether wolves; the party rescues t
 (party to level 5), (4) if time allows, [The Verdigris Clearing](../../encounters/the-verdigris-clearing.md)
 (party to level 6). Party is currently level 4. Hazard across all three:
 [Deacon](../npcs/deacon.md), the Sextonback that eats the dead.
+
+**Session 9 — Phase One quota met.** [A Glitch](../../encounters/a-glitch.md): the party won a
+second Holding, [Featherline Flats](../places/featherline-flats.md), from the
+[Cult of the Swan](../factions/cult-of-the-swan.md) — a pageant rather than a fight, per that
+encounter's Ending: The Cult Yields. With the home Pylon plus this one, Briarwood now holds **2**,
+meeting Phase One's quota. See [Session 9](../../sessions/09-a-glitch-in-the-signal.md). Whether
+Agent moves Briarwood into Phase Two immediately or the table gets a breather is an open call.
 
 **Open questions.** How many factions start? What does elimination really do? Does
 Agent cheat for favorites again? Pick before Phase Two.

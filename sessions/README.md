@@ -2,6 +2,7 @@
 
 Session notes, newest first. Each note has a player-facing recap and a DM-only section.
 
+- **09** · 2026-10-22 — [A Glitch in the Signal](09-a-glitch-in-the-signal.md)
 - **08** · 2026-10-08 — [Pylons and Moonshine](08-pylons-and-moonshine.md)
 - **07** · 2026-09-24 — [The Golden Goose](07-the-golden-goose.md)
 - **06** · 2026-09-17 — [The Fixed Game](06-the-fixed-game.md)

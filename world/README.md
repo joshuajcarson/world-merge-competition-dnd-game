@@ -53,6 +53,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Ada Mae Quill](npcs/ada-mae-quill.md) — matriarch of the Black Sunday Kin. *(stub)*
 - [Queen Ximena Goldleg](npcs/queen-ximena-goldleg.md) — ruler of the Dartwood Court. *(stub)*
 - [Steve](npcs/steve.md) — Dallas Tiffany's salesman, notorious for cheating on his wife; the introduction Carol wants. *(stub)*
+- [Anthony](npcs/anthony.md) — a Cult of the Swan cultist who lost a dance-off and asked to join the Way of the Gander alongside Vainhusk. *(stub)*
 
 ## Places
 
@@ -67,6 +68,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Cimarron Flats](places/cimarron-flats.md) — a Dust Bowl plain from an earlier cohort; the Blood Bowl's first territory. *(stub)*
 - [The Verdigris Clearing](places/verdigris-clearing.md) — a rainforest clearing held by the Dartwood Court; a Blood Bowl territory. *(stub)*
 - [The Preening Grounds](places/the-preening-grounds.md) — a Faerun wetland fragment claimed by the Cult of the Swan, now raided by Aether Leprechauns and cracking apart under a rising quake. *(stub)*
+- [Featherline Flats](places/featherline-flats.md) — a Blood Bowl Act Two hex that reuses the Cimarron Flats map for a distinct location; won from the Cult of the Swan in Session 9. *(stub)*
 
 ## Factions
 
