@@ -6,7 +6,7 @@ type: npc
 origin: earth
 tags: [earth, necromancer, undead, election-1992, agent-pet, the-blue-wave]
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-04
 source: encounter-weaver
 player_known: false
 needs_detail: true
@@ -15,6 +15,7 @@ role: "A former insurance adjustor, still furious that Ross Perot beat Bush in '
 faction: null
 status: alive
 first_seen: null
+image: assets/images/npcs/roy-teasdale.png
 ---
 
 # Roy Teasdale
