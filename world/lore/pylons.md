@@ -6,7 +6,7 @@ type: lore
 origin: administration
 tags: [administration, blood-bowl, pylon, aether, session-8]
 created: 2026-10-22
-updated: 2026-10-22
+updated: 2026-11-05
 source: campaign-chronicle
 player_known: false
 needs_detail: true
@@ -24,7 +24,11 @@ your own and steal other shards' Pylons. See the encounters
 
 ## What the Party Knows
 
-Protect yours, steal the others'. They defended Briarwood's against the Hush Concord gnomes in Session 8.
+Protect yours, steal the others'. They defended Briarwood's against the Hush Concord gnomes in
+Session 8, then won a second Pylon from the Cult of the Swan in
+[Session 9](../../sessions/09-a-glitch-in-the-signal.md) — a pageant, not a fight. Two held now:
+Briarwood's home Pylon and the one at
+[Featherline Flats](../places/featherline-flats.md).
 
 ## DM Only
 

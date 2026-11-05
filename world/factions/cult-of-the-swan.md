@@ -6,7 +6,7 @@ type: faction
 origin: faerun
 tags: [faerun, orc, breakaway, beauty, feathers, the-preening-grounds]
 created: 2026-09-24
-updated: 2026-09-30
+updated: 2026-11-05
 source: encounter-weaver
 player_known: false
 needs_detail: true
@@ -51,6 +51,13 @@ Met in [Session 7](../../sessions/07-the-golden-goose.md), run from
 around a fire, one of whom summoned the top of a small mountain peak to attack the party.
 The party attacked them, and one cultist survived and led the party to Carol. He now lives at the mall.
 
+Met again in [Session 9](../../sessions/09-a-glitch-in-the-signal.md), run from
+[A Glitch](../../encounters/a-glitch.md): [Vainhusk](../npcs/vainhusk.md) and
+[Anthony](../npcs/anthony.md) tried to steer a herd of Aether Hornbacks onto a Blood Bowl Pylon the
+party wanted too. Rather than fight for it, the Cult proposed a pageant — a dance-off — and lost to
+Mitch and Geezus. Vainhusk and Anthony yielded the Pylon and asked to join the
+[Way of the Gander](way-of-the-gander.md) instead of risking the Cult's retirement.
+
 ## DM Only
 
 **Play the aesthetic completely straight.** This is funny on paper — an
@@ -78,3 +85,8 @@ break their morale faster than damage will.
 own mad-lib; nothing says the tribe calls itself that. A DM who wants an
 in-fiction name for them can invent one when it matters; don't force it
 before then.
+
+**Refuge request, pending (Session 9).** Vainhusk and Anthony asked to join the Way of the Gander
+rather than see the Cult retired from the Blood Bowl. Resolve this the same way Session 7's lone
+surviving cultist was handled — decide what becomes of the rank and file who didn't ask for
+refuge, and whether "joining the Gander" also means leaving Featherline Flats.

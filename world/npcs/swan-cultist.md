@@ -6,7 +6,7 @@ type: npc
 origin: faerun
 tags: [faerun, orc, cult-of-the-swan, cultist, rank-and-file, session-9]
 created: 2026-10-22
-updated: 2026-10-22
+updated: 2026-11-05
 source: campaign-chronicle
 player_known: false
 needs_detail: false
@@ -29,6 +29,10 @@ could tell you which is which. Holds a stone-headed axe like a feather duster. U
 
 Fought the cult's dancers around the fire in [Session 7](../../sessions/07-the-golden-goose.md); one cultist from that
 fight lives at the mall now.
+
+In [Session 9](../../sessions/09-a-glitch-in-the-signal.md), the Pylon contest this statblock was
+built for never went live — [Vainhusk](vainhusk.md) and [Anthony](anthony.md) settled it with a
+pageant instead. Still the default statblock for any unnamed cultist who does end up fighting.
 
 ## DM Only
 
