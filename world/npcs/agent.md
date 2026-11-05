@@ -6,7 +6,7 @@ type: npc
 origin: administration
 tags: [administration, broadcast, ai, cohort-23, world-merge, recurring, dm-only]
 created: 2026-08-02
-updated: 2026-09-24
+updated: 2026-11-05
 source: campaign-chronicle
 player_known: true
 species: "announcer intelligence (Administration-built)"
@@ -91,6 +91,16 @@ Agent loves, and it is entirely plausible Agent let it run longer than
 protocol allowed before the Administration noticed and moved to shut it down.
 Don't state this outright to the players — it's a seed for later, not a fact
 this file needs to reveal.
+
+**First confirmed signal push.** In [The Blue Wave](../../encounters/the-blue-wave.md), Agent
+loses the party entirely inside the shed's static zone (see
+[Session 9](../../sessions/09-a-glitch-in-the-signal.md)), and the moment they step back into
+range, it reacts to the *gap in its own footage* — not confusion about who they are — by pushing
+directly at each character's mind, demanding back in. Framed at the table as a private, per-player
+choice (let it in or resist), with a nosebleed either way so nobody can tell who chose what. This
+is Agent actively reaching past broadcast and into a contestant's head for the first time on
+page — a real escalation of "it pushes back," not just a tonal beat. Keep whatever each player
+chose on record; it's a loaded thread for the next Agent-free zone the party finds.
 
 **It will break free.** This is a campaign-length arc thread, not a fact for
 Session 5: at some point — accumulated violations, an Administration attempt

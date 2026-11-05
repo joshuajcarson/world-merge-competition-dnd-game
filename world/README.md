@@ -54,6 +54,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Queen Ximena Goldleg](npcs/queen-ximena-goldleg.md) — ruler of the Dartwood Court. *(stub)*
 - [Steve](npcs/steve.md) — Dallas Tiffany's salesman, notorious for cheating on his wife; the introduction Carol wants. *(stub)*
 - [Anthony](npcs/anthony.md) — a Cult of the Swan cultist who lost a dance-off and asked to join the Way of the Gander alongside Vainhusk. *(stub)*
+- [Roy Teasdale](npcs/roy-teasdale.md) — "The Adjustor," a former insurance adjustor still furious about the 1992 election, who raises zombie dinosaurs for Agent. *(stub)*
 
 ## Places
 
@@ -69,6 +70,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [The Verdigris Clearing](places/verdigris-clearing.md) — a rainforest clearing held by the Dartwood Court; a Blood Bowl territory. *(stub)*
 - [The Preening Grounds](places/the-preening-grounds.md) — a Faerun wetland fragment claimed by the Cult of the Swan, now raided by Aether Leprechauns and cracking apart under a rising quake. *(stub)*
 - [Featherline Flats](places/featherline-flats.md) — a Blood Bowl Act Two hex that reuses the Cimarron Flats map for a distinct location; won from the Cult of the Swan in Session 9. *(stub)*
+- [The Spillway Valley](places/the-spillway-valley.md) — a grassland valley west of the shed, with a river and a distant dam; not a Blood Bowl Holding. *(stub)*
 
 ## Factions
 

@@ -19,6 +19,7 @@ the `encounter-weaver` skill.
 - [The Dust Flats](the-dust-flats.md) — the first territory: a Dust Bowl plain, a jackalope-folk derby, and a black dust wall on a clock.
 - [The Verdigris Clearing](the-verdigris-clearing.md) — the second territory: a rainforest clearing where a poison-frog queen scores a performance out of ten.
 - [A Glitch](a-glitch.md) — Session 9: the level 4 party crosses a Territory Map hex toward Meridian Peak, contests a Pylon against the Cult of the Swan and the Aether Hornback herd it is steering, and then finds a shed where Agent goes silent.
+- [The Blue Wave](the-blue-wave.md) — the level 5 party heads west out of the shed's dead zone, gets a hidden per-player visit from Agent demanding back in, crosses a grassland valley, and fights a grudge-holding necromancer's zombie dinosaur herd before a distant dam explodes and sends a very blue wave down the valley.
 
 ---
 
