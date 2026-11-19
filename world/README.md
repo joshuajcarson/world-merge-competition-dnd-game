@@ -71,6 +71,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [The Preening Grounds](places/the-preening-grounds.md) — a Faerun wetland fragment claimed by the Cult of the Swan, now raided by Aether Leprechauns and cracking apart under a rising quake. *(stub)*
 - [Featherline Flats](places/featherline-flats.md) — a Blood Bowl Act Two hex that reuses the Cimarron Flats map for a distinct location; won from the Cult of the Swan in Session 9. *(stub)*
 - [The Spillway Valley](places/the-spillway-valley.md) — a grassland valley west of the shed, with a river and a distant dam; not a Blood Bowl Holding. *(stub)*
+- [The Underspill](places/the-underspill.md) — the Underdark beneath the Spillway Valley, where the Blue Wave drained; gemified, duergar gem-works, and Bar-Bar war drums. *(stub)*
 
 ## Factions
 
@@ -85,7 +86,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [The Hush Concord](factions/the-hush-concord.md) — gnomes from a Faerûn the Prince of Evil Air conquered; crowd favorites who spend borrowed breath as a weapon; Briarwood's demerit.
 - [The Black Sunday Kin](factions/black-sunday-kin.md) — Dust Bowl jackalope-folk who hold Cimarron Flats. *(stub)*
 - [The Dartwood Court](factions/dartwood-court.md) — poison-frog court of a fantasy rainforest. *(stub)*
-- [The Bar Bar Clan](factions/bar-bar-clan.md) — undefeated winners of an earlier competition, announced by Agent in Session 8 but not yet seen. *(stub)*
+- [The Bar Bar Clan](factions/bar-bar-clan.md) — undefeated crowd-favorite bugbears, every one named Bar-Bar: huge reach, won't stay down, volunteer for every Blood Bowl. First seen in The Underspill.
 - [The Cult of the Swan](factions/cult-of-the-swan.md) — an orc tribe that broke from Gruumsh to devote itself to beauty (mostly feathers) and can't reliably tell a swan from anything else with wings. *(stub)*
 
 ## Lore
