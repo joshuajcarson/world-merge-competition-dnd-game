@@ -700,6 +700,9 @@ STR 17 (+3) DEX 14 (+2) CON 15 (+2) INT 8 (−1) WIS 11 (+0) CHA 10 (+0).
 - **Long Glaive.** *Melee Attack:* +5 to hit, reach 15 ft. *Hit:* 8 (1d10 + 3) slashing.
 - **Javelin.** *Ranged Attack:* +5 to hit, range 30/120 ft. *Hit:* 6 (1d6 + 3) piercing.
 
+**Loot.** One Brute carries the [Thorn Belt of the Hollow World](../items/thorn-belt-of-the-hollow-world.md), a clan trophy.
+Give it to the first Brute the party defeats, or to the one that matters most to the story.
+
 ### Big Bar-Bar, War-Chief (CR 6, 2,300 XP)
 
 *Large humanoid (goblinoid, bugbear), chaotic neutral.* **AC** 16 (patchwork plate of
