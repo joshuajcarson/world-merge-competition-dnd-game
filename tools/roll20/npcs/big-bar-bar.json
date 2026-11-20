@@ -1,0 +1,84 @@
+{
+  "name": "Big Bar-Bar, War-Chief",
+  "size": "Large",
+  "type": "humanoid (goblinoid, bugbear)",
+  "alignment": "Chaotic Neutral",
+  "ac": {
+    "value": 16,
+    "notes": "patchwork plate of previous-cohort trophies"
+  },
+  "hp": {
+    "average": 136,
+    "formula": "16d10+48"
+  },
+  "speed": "40 ft., climb 30 ft.",
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 17,
+    "int": 9,
+    "wis": 12,
+    "cha": 14
+  },
+  "saves": {
+    "str": "+8",
+    "con": "+6"
+  },
+  "skills": {
+    "athletics": "+8",
+    "intimidation": "+5",
+    "perception": "+4",
+    "stealth": "+5"
+  },
+  "senses": "darkvision 60 ft., passive Perception 14",
+  "languages": "Common, Goblin",
+  "cr": "6",
+  "init_tiebreaker": "@{dexterity}/100",
+  "bio": "Bar-Bar Clan bugbear, an undefeated crowd favorite dropped in by Agent. Never retreats, but gets bored of targets out of reach or out of sight. Meant to be escaped, out-thought, or dueled, not beaten in a stand-up fight.",
+  "traits": [
+    {
+      "name": "The Long Reach",
+      "desc": "His melee reach is 20 feet. He carries the clan's oldest polearm, an absurd length of black-iron haft and hook that once belonged to the original Bar-Bar."
+    },
+    {
+      "name": "Won't Stay Down (2/Day)",
+      "desc": "When reduced to 0 hit points by anything other than a critical hit or radiant damage, he drops to 1 hit point instead."
+    },
+    {
+      "name": "Legendary Resistance (1/Day)",
+      "desc": "If he fails a saving throw, he can choose to succeed instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Long Reach attacks."
+    },
+    {
+      "name": "Long Reach",
+      "attack": {
+        "type": "Melee",
+        "tohit": "+8",
+        "distance": "20 ft.",
+        "target": "one target",
+        "dmg1": "2d10+5",
+        "type1": "slashing"
+      },
+      "desc": "Hit: 16 (2d10 + 5) slashing damage."
+    },
+    {
+      "name": "Sweep (Recharge 5-6)",
+      "desc": "He swings the Long Reach in a full circle. Each creature of his choice within 20 feet makes a DC 15 Dexterity saving throw. Fail: 22 (4d10) slashing damage and knocked prone. Success: half damage and not prone."
+    },
+    {
+      "name": "BAR! BAR! (Bonus Action, 1/Day)",
+      "desc": "He roars the clan's name. Each Bar-Bar within 60 feet that can hear him gains 10 temporary hit points."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Can't Outrun Me",
+      "desc": "When a creature within 20 feet of him moves, he makes one Long Reach attack against it. On a hit, the target's speed becomes 0 until the end of its turn."
+    }
+  ]
+}

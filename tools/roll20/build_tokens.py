@@ -37,6 +37,10 @@ SOURCES = {
     "vainhusk": "assets/images/npcs/vainhusk.png",
     "roy-teasdale": "assets/images/npcs/roy-teasdale.png",
     "zombie-hornback": "assets/images/npcs/zombie-hornback.png",
+    "gemified-thrall": "assets/images/npcs/gemified-thrall.png",
+    "gem-works-duergar": "assets/images/npcs/gem-works-duergar.png",
+    "bar-bar-brute": "assets/images/npcs/bar-bar-brute.png",
+    "big-bar-bar": "assets/images/npcs/big-bar-bar.png",
 }
 
 
@@ -47,6 +51,10 @@ CIRCLE = {
     "renee-castillo": (540, 340, 300),
     "gary": (512, 480, 470),
     "ada-mae-quill": (500, 450, 500),
+    # floor/shadow defeats GrabCut on these three
+    "gemified-thrall": (540, 330, 310),
+    "gem-works-duergar": (516, 210, 320),
+    "big-bar-bar": (522, 250, 310),
 }
 
 

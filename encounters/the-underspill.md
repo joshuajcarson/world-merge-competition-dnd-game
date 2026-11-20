@@ -154,6 +154,8 @@ session is running long.
 
 ### Node A — The Blue Sump
 
+![Scene: The Blue Sump](../assets/images/encounters/the-underspill/node-a.png)
+
 **Situation:** Cold. Wet. Dark, except for a faint violet shimmer in the rock overhead (faerzress,
 though nobody needs to know the word) and the pool itself, which glows a soft, ridiculous blue. The
 wave water is still pouring in through a crack far overhead, a roaring white column falling into
@@ -220,6 +222,8 @@ Set **Drums to 1**. The party now chooses a tunnel:
 ---
 
 ### Node B — The Rising Water
+
+![Scene: The Rising Water](../assets/images/encounters/the-underspill/node-b.png)
 
 **Situation:** A narrow, steep, natural watercourse climbing alongside the inflow, slick with blue
 water and still rising. Some sections are already flooded to the ceiling. Behind them, the roar of
@@ -338,6 +342,19 @@ purpose (DC 10 to aim a throw or shot at a cluster).
 **Complications available here:** a Bar-Bar hunting pair arrives in round 2 (if Drums 4+) or round
 4 (otherwise, if the fight is loud), reaching over the gemified to hit the party. The Bar-Bar
 don't care who they kill first.
+
+**Battlemap Prompt.** Natural Underdark cavern, Faerun palette (weathered black stone, no Aether saturation); red gem glow is the room's only color. Keep the prompt short; see
+`.claude/skills/encounter-weaver/references/battlemap-style.md`.
+
+```
+Top-down tabletop battlemap, straight overhead angle, evenly lit with no
+hard directional shadows obscuring terrain, clean enough to drop a grid
+over without losing readability. No characters, miniatures, or tokens in
+the scene — terrain and set dressing only. A natural cavern floor seen from directly above, black rock with five dark tunnel mouths leading away at the edges, clusters of glowing red gems growing from the walls and floor, scattered bones and rubble, cracks faintly lit red.
+```
+
+![Battlemap: Node E](../assets/images/encounters/the-underspill/node-e.png)
+
 
 ---
 
@@ -502,6 +519,19 @@ Two ways up and out, both at the back of the hold:
 landing at the party's feet and very much still alive (Won't Stay Down); the pens' half-turned
 captives shouting in English, which is unsettling, because some are Earth people.
 
+**Battlemap Prompt.** Duergar mine terraces, Faerun palette; forge light is the warm accent. Keep the prompt short; see
+`.claude/skills/encounter-weaver/references/battlemap-style.md`.
+
+```
+Top-down tabletop battlemap, straight overhead angle, evenly lit with no
+hard directional shadows obscuring terrain, clean enough to drop a grid
+over without losing readability. No characters, miniatures, or tokens in
+the scene — terrain and set dressing only. A fortified duergar mine seen from directly above, stepped stone terraces cut into a cavern wall, iron rails with ore carts, a gem-crushing floor with round stone mills, barred iron pens, slag heaps, forge grates glowing orange. Dark charcoal-grey and black stone throughout.
+```
+
+![Battlemap: Node I](../assets/images/encounters/the-underspill/node-i.png)
+
+
 ---
 
 ### Node J — Bar-Bar's Reach
@@ -557,6 +587,15 @@ one stage above him.
 - *Reach the surface* — the party escapes when everyone is out and they've put 60 feet or a
   barrier between themselves and the hole. He won't chase far into daylight. Bar-Bar hunts in the
   dark, and he's a showman. He'd rather promise a rematch on camera.
+
+**Scene Backdrop.** Theater of the mind, not a gridded map: the climb is vertical, so this is a
+backdrop for Roll20 looking up the shaft, with several chains Big Bar-Bar can swing between.
+
+```
+epic fantasy concept art matte painting, rich painterly brushwork, dramatic moody lighting, symmetrical wide composition, completely empty and uninhabited, low angle in the dark stone floor of a vast mine shaft, two or three enormous rusted iron chains hanging side by side rise to the exact center of the picture and climb out of sight toward a tiny circle of light far above, spotlit by that light, plain dark rock walls all around, bare empty rubble floor
+```
+
+![Scene: Bar-Bar's Reach](../assets/images/encounters/the-underspill/node-j.png)
 
 ---
 

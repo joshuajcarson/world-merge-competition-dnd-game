@@ -1,0 +1,63 @@
+{
+  "name": "Gemified Thrall",
+  "size": "Medium",
+  "type": "humanoid",
+  "alignment": "Chaotic Neutral",
+  "ac": {
+    "value": 13,
+    "notes": "gem plating"
+  },
+  "hp": {
+    "average": 33,
+    "formula": "6d8+6"
+  },
+  "speed": "30 ft.",
+  "abilities": {
+    "str": 14,
+    "dex": 13,
+    "con": 13,
+    "int": 6,
+    "wis": 10,
+    "cha": 6
+  },
+  "damage_resistances": "piercing",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "understands whatever it spoke before; speaks only in fragments",
+  "cr": "1",
+  "init_tiebreaker": "@{dexterity}/100",
+  "bio": "Captive turned gem-studded servant of the Underdark. Drawn to anything with gems in it.",
+  "traits": [
+    {
+      "name": "Gemlight",
+      "desc": "Sheds dim red light in a 10-foot radius. It can't hide in darkness."
+    },
+    {
+      "name": "Hates the Unstudded",
+      "desc": "Has advantage on attack rolls against a creature with no gems embedded in it if another gemified is within 5 feet of that creature."
+    },
+    {
+      "name": "Shatterburst",
+      "desc": "When reduced to 0 hit points, it bursts. Each creature within 5 feet makes a DC 12 Dexterity save, taking 7 (2d6) piercing on a failure or half on a success. A wall cluster within 5 feet goes off too."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Gem-Studded Fist attacks."
+    },
+    {
+      "name": "Gem-Studded Fist",
+      "attack": {
+        "type": "Melee",
+        "tohit": "+4",
+        "distance": "5 ft.",
+        "target": "one target",
+        "dmg1": "1d6+2",
+        "type1": "bludgeoning",
+        "dmg2": "1d4",
+        "type2": "piercing"
+      },
+      "desc": "Hit: 5 (1d6 + 2) bludgeoning damage plus 2 (1d4) piercing damage."
+    }
+  ]
+}

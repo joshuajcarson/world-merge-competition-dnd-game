@@ -1,0 +1,77 @@
+{
+  "name": "Bar-Bar Brute",
+  "size": "Medium",
+  "type": "humanoid (goblinoid, bugbear)",
+  "alignment": "Chaotic Neutral",
+  "ac": {
+    "value": 14,
+    "notes": "hide armor"
+  },
+  "hp": {
+    "average": 52,
+    "formula": "8d8+16"
+  },
+  "speed": "30 ft.",
+  "abilities": {
+    "str": 17,
+    "dex": 14,
+    "con": 15,
+    "int": 8,
+    "wis": 11,
+    "cha": 10
+  },
+  "skills": {
+    "athletics": "+5",
+    "stealth": "+6",
+    "survival": "+2"
+  },
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "Common, Goblin",
+  "cr": "2",
+  "init_tiebreaker": "@{dexterity}/100",
+  "bio": "Bar-Bar Clan bugbear, an undefeated crowd favorite dropped in by Agent. Never retreats, but gets bored of targets out of reach or out of sight.",
+  "traits": [
+    {
+      "name": "Long-Limbed",
+      "desc": "Its melee reach is 15 feet with the glaive (5 feet longer than normal), and 10 feet unarmed."
+    },
+    {
+      "name": "Won't Stay Down (1/Day)",
+      "desc": "When reduced to 0 hit points by anything other than a critical hit, it drops to 1 hit point instead."
+    },
+    {
+      "name": "Surprise Attack",
+      "desc": "If it hits a creature that is surprised or hasn't acted yet this combat, the target takes an extra 7 (2d6) damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Long Glaive attacks, or two Javelin attacks."
+    },
+    {
+      "name": "Long Glaive",
+      "attack": {
+        "type": "Melee",
+        "tohit": "+5",
+        "distance": "15 ft.",
+        "target": "one target",
+        "dmg1": "1d10+3",
+        "type1": "slashing"
+      },
+      "desc": "Hit: 8 (1d10 + 3) slashing damage."
+    },
+    {
+      "name": "Javelin",
+      "attack": {
+        "type": "Ranged",
+        "tohit": "+5",
+        "distance": "30/120 ft.",
+        "target": "one target",
+        "dmg1": "1d6+3",
+        "type1": "piercing"
+      },
+      "desc": "Hit: 6 (1d6 + 3) piercing damage."
+    }
+  ]
+}
