@@ -88,6 +88,7 @@ def main():
     parser.add_argument("--seed", type=int, default=-1)
     parser.add_argument("--count", type=int, default=1, help="Generate N candidates into tools/image-gen/candidates/ to choose from (default 1: save straight into assets/)")
     parser.add_argument("--pick", type=int, default=None, metavar="SEED", help="Promote the candidate with this seed into assets/ and update frontmatter; no generation")
+    parser.add_argument("--extra-negative", default=None, help="Append to the negative prompt for this run, e.g. 'horns, minotaur'")
     parser.add_argument("--config", default=None, help="Path to an alternate config.yaml")
     parser.add_argument("--out", default=None, help="Override output path (default: assets/images/<npcs|races>/<slug>.png)")
     parser.add_argument("--no-frontmatter", action="store_true", help="Don't write the image path back into the markdown file")
@@ -115,7 +116,7 @@ def main():
     print(f"Generating portrait for '{args.slug}' from {note_path.relative_to(REPO_ROOT)} ...")
     images = client.txt2img(
         prompt=full_prompt,
-        negative_prompt=pcfg.get("negative_prompt", ""),
+        negative_prompt=pcfg.get("negative_prompt", "") + (", " + args.extra_negative if args.extra_negative else ""),
         width=pcfg.get("width", 1024),
         height=pcfg.get("height", 1024),
         steps=pcfg.get("steps", 30),

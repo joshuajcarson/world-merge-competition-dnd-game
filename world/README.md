@@ -55,6 +55,10 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Steve](npcs/steve.md) — Dallas Tiffany's salesman, notorious for cheating on his wife; the introduction Carol wants. *(stub)*
 - [Anthony](npcs/anthony.md) — a Cult of the Swan cultist who lost a dance-off and asked to join the Way of the Gander alongside Vainhusk. *(stub)*
 - [Roy Teasdale](npcs/roy-teasdale.md) — "The Adjustor," a former insurance adjustor still furious about the 1992 election, who raises zombie dinosaurs for Agent. *(stub)*
+- [Gemified Thrall](npcs/gemified-thrall.md) — gem-studded locals of the Underdark, hostile to the ungemified.
+- [Bar-Bar Brute](npcs/bar-bar-brute.md) — rank-and-file bugbear of the Bar Bar Clan.
+- [Big Bar-Bar](npcs/big-bar-bar.md) — the clan's undefeated war-chief, 20 feet of reach.
+- [Gem Works Duergar](npcs/gem-works-duergar.md) — the duergar running the Gem Works under siege.
 
 ## Places
 

@@ -1,0 +1,73 @@
+{
+  "name": "Gem Works Duergar",
+  "size": "Medium",
+  "type": "humanoid (dwarf)",
+  "alignment": "Lawful Evil",
+  "ac": {
+    "value": 16,
+    "notes": "scale mail, shield"
+  },
+  "hp": {
+    "average": 26,
+    "formula": "4d8+8"
+  },
+  "speed": "25 ft.",
+  "abilities": {
+    "str": 14,
+    "dex": 11,
+    "con": 14,
+    "int": 11,
+    "wis": 10,
+    "cha": 9
+  },
+  "damage_resistances": "poison",
+  "senses": "darkvision 120 ft., passive Perception 10",
+  "languages": "Dwarvish, Undercommon",
+  "cr": "1",
+  "init_tiebreaker": "@{dexterity}/100",
+  "bio": "Rank-and-file duergar of the Gem Works, under siege by the Bar-Bar. Officers carry a few loose red gems to throw as gem bombs.",
+  "traits": [
+    {
+      "name": "Duergar Resilience",
+      "desc": "Advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "desc": "Disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight while in direct sunlight."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Enlarge (Recharges after a Short or Long Rest)",
+      "desc": "For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, it is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and saving throws with advantage. If it lacks room to become Large, it attains the maximum size possible in the space available."
+    },
+    {
+      "name": "War Pick",
+      "attack": {
+        "type": "Melee",
+        "tohit": "+4",
+        "distance": "5 ft.",
+        "target": "one target",
+        "dmg1": "1d8+2",
+        "type1": "piercing"
+      },
+      "desc": "Hit: 6 (1d8 + 2) piercing damage, or 11 (2d8 + 2) while enlarged."
+    },
+    {
+      "name": "Javelin",
+      "attack": {
+        "type": "Melee or Ranged",
+        "tohit": "+4",
+        "distance": "5 ft. or 30/120 ft.",
+        "target": "one target",
+        "dmg1": "1d6+2",
+        "type1": "piercing"
+      },
+      "desc": "Hit: 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) while enlarged."
+    },
+    {
+      "name": "Invisibility (Recharges after a Short or Long Rest)",
+      "desc": "The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment it wears or carries is invisible with it."
+    }
+  ]
+}

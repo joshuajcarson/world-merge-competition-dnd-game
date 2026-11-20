@@ -112,6 +112,8 @@ def main():
     parser.add_argument("--count", type=int, default=1, help="Generate N un-upscaled candidates into tools/image-gen/candidates/ to choose from (default 1: save straight into assets/)")
     parser.add_argument("--pick", type=int, default=None, metavar="SEED", help="Upscale and promote the candidate with this seed into assets/; no generation")
     parser.add_argument("--lora-weight", type=float, default=None, help="Override battlemap.lora.weight from config.yaml for this run (lower = less of the LoRA's clean map look, more of the base model's own detail)")
+    parser.add_argument("--extra-detail", default=None, help="Replace battlemap.extra_detail for this run (the default asks for trees and wildflowers, wrong for caves); pass \"\" to turn it off")
+    parser.add_argument("--extra-negative", default=None, help="Append to the negative prompt for this run, e.g. 'grass, trees, plants, sky'")
     parser.add_argument("--config", default=None)
     parser.add_argument("--no-upscale", action="store_true", help="Skip the upscale pass and save the raw generation size")
     parser.add_argument("--no-embed", action="store_true", help="Don't add the image to the encounter file under its Battlemap Prompt")
@@ -143,7 +145,8 @@ def main():
 
     trigger_words = bcfg["lora"].get("trigger_words", "")
     full_prompt = f"{trigger_words}, {prompt}" if trigger_words else prompt
-    extra_detail = (bcfg.get("extra_detail") or "").strip()
+    extra_detail = (bcfg.get("extra_detail") if args.extra_detail is None else args.extra_detail) or ""
+    extra_detail = extra_detail.strip()
     if extra_detail:
         full_prompt += " " + extra_detail
     lora_cfg = dict(bcfg.get("lora") or {})
@@ -154,7 +157,7 @@ def main():
     print(f"Generating {args.count} battlemap(s) for '{args.slug}'" + (f" ({args.node})" if args.node else "") + " ...")
     images = client.txt2img(
         prompt=full_prompt,
-        negative_prompt=bcfg.get("negative_prompt", ""),
+        negative_prompt=bcfg.get("negative_prompt", "") + (", " + args.extra_negative if args.extra_negative else ""),
         width=bcfg.get("generate_width", 1216),
         height=bcfg.get("generate_height", 832),
         steps=bcfg.get("steps", 30),
