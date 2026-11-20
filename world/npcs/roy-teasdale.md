@@ -6,7 +6,7 @@ type: npc
 origin: earth
 tags: [earth, necromancer, undead, election-1992, agent-pet, the-blue-wave]
 created: 2026-11-05
-updated: 2026-11-04
+updated: 2026-11-19
 source: encounter-weaver
 player_known: false
 needs_detail: true
@@ -14,7 +14,7 @@ species: "human, merge-displaced"
 role: "A former insurance adjustor, still furious that Ross Perot beat Bush in '92, who found necromancy on the other side of the merge and now raises zombie dinosaurs for Agent"
 faction: null
 status: alive
-first_seen: null
+first_seen: 10
 image: assets/images/npcs/roy-teasdale.png
 ---
 
@@ -29,7 +29,7 @@ answers to it now, which tells you everything about how that went for him.
 
 ## What the Party Knows
 
-Nothing yet — first contact is [The Blue Wave](../../encounters/the-blue-wave.md).
+Met in [Session 10](../../sessions/10-the-wall-of-water.md), on a spillway in the Spillway Valley: a huge George H. W. Bush fan, furious that Perot won the election, and confused to learn Bush's middle name was Herbert Walker. He can bring dinosaurs back to life, and he called Agent for help when Geezus showed him the holy power of the Geezus.
 
 ## DM Only
 

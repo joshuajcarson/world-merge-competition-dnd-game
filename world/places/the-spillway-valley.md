@@ -6,7 +6,7 @@ type: place
 origin: merged
 tags: [earth, faerun, grassland, river, dam, the-blue-wave, session-10]
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-19
 source: encounter-weaver
 player_known: false
 needs_detail: true
@@ -35,8 +35,7 @@ local mill dam.
 
 ## What the Party Knows
 
-Nothing yet — first visit is [The Blue Wave](../../encounters/the-blue-wave.md), heading west from
-the shed in search of another Agent-free zone.
+Visited in [Session 10](../../sessions/10-the-wall-of-water.md), heading west from the shed. They saw a massive dam to the north in a mountain range, crossed a series of spillways (Mitch guessed graveyard, Jack explained what they really are and noticed the area looked on the verge of collapse), met Roy Teasdale, and were hit by a wall of water after an explosion at the dam.
 
 ## DM Only
 
