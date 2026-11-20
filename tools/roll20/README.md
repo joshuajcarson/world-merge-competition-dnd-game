@@ -166,3 +166,19 @@ with `Campaign.pages.models.find(...).save({showgrid:false})`). The E/I grid siz
 in Page Settings. The old blank `(MAP PENDING)` pages are now redundant; delete them.
 The aria-label tag must be re-applied for each dialog (`.pop()` the newest `uvtt` input), and the Create Page
 menu refs (`ref_120`, `ref_2896`) stayed stable within a session.
+
+### Avatars and tokens by script (worked 2026-11-20)
+
+`build_tokens.py` now includes the four Underspill creatures. GrabCut kept the floor/shadow on the Thrall,
+Duergar and Big Bar-Bar, so those three are round bust tokens (`CIRCLE`); the Brute is a clean full-body cutout.
+Per character: journal > name > click the avatar (pencil) to open Edit. In the dialog tag the file inputs
+(`input[type=file]` inside the dialog, label them `UPLOAD0/1`), `file_upload` the avatar to the first one and wait
+~6 s (the dialog re-renders), re-tag, then upload the token to the single remaining input. Save Changes.
+Bars, nameplate and size can be written straight into the default-token blob, much faster than the Token Settings
+dialog (`c.save()` does NOT persist it; `c.updateBlobs()` does, and it survives a reload):
+`t=JSON.parse(c._blobcache.defaulttoken); Object.assign(t,{width:70*n,height:70*n,showname:true,bar2_link:'ac',
+bar3_link:'hp',bar2_value:AC,bar3_value:HP,bar3_max:HP,showplayers_bar2:true,showplayers_bar3:true,
+playersedit_bar2:true,playersedit_bar3:true}); c.updateBlobs({defaulttoken:JSON.stringify(t)})`.
+The new sheet exposes `ac`/`hp` only to the token dialog, not `c.attribs`, so pass the numbers in yourself.
+Set: Thrall, Duergar, Brute 70x70 (1x1); Big Bar-Bar 140x140 (2x2). Not verified: how the tokens look when dragged
+onto a page (bar values for a freshly dropped token), and the Big Bar-Bar bust has a 2x2 footprint.
