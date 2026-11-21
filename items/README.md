@@ -61,6 +61,6 @@ Every file carries the frontmatter contract below so the GitHub Pages site can i
 - Filenames are stable. Renaming an item means a new file plus a deliberate decision about the old one — the skill never overwrites an existing slug.
 - Hand-written items are welcome; set `source: manual` and keep the same frontmatter fields.
 - `player_known: true` is a DM action, not a generation-time default.
-- The **Entries** list above is maintained by hand (by the skill on each write) so items stay reachable from the repo index. The Pages build will generate it from frontmatter instead, at which point the hand-maintained list goes away.
+- The **Entries** list above is maintained by hand (by the skill on each write) so items stay reachable when browsing the repo. The Pages site builds its own list from frontmatter (`items/index.html`), showing players only `player_known: true` items (the rest appear in the `?dm=1` view).
 
 [← Back to index](../README.md)

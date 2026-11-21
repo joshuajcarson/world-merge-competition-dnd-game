@@ -68,6 +68,17 @@ something that already means something in the creature's own fiction).
   blue-white corruption originating from the glassy fused patches of skin.
   See [Fulgurites](../../../../world/races/fulgurites.md).
 
+**Name the anatomy, not the species label.** Learned 2026-11-19 on the Underspill
+creatures. SDXL reads "bugbear" as an orc, gorilla or minotaur, and "duergar" as a
+hooded skeleton. What fixed it was spelling out the body in Layer 3 ("a D&D bugbear,
+goblinoid, shaggy orange-brown fur, flat face, long arms") and pushing the wrong
+readings away with
+`generate_npc_portrait.py --extra-negative "gorilla, ape, bear, horns, skeleton, hood"`.
+Look at the whole batch before showing it to the DM, and change one thing at a time
+until at least one candidate is plausibly a keeper. See
+[Bar-Bar Brute](../../../../world/npcs/bar-bar-brute.md) and
+[Big Bar-Bar](../../../../world/npcs/big-bar-bar.md).
+
 **Note on the Doombow.** The DM asked for the Doombow specifically left out
 of Leprechaun token art — an old, filthy sack reads better visually and
 still fits Gold Hunger. This is a token-art decision only; it does not
