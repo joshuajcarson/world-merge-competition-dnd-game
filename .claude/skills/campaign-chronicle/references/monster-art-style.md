@@ -70,8 +70,9 @@ something that already means something in the creature's own fiction).
 
 **Name the anatomy, not the species label.** Learned 2026-11-19 on the Underspill
 creatures. SDXL reads "bugbear" as an orc, gorilla or minotaur, and "duergar" as a
-hooded skeleton. What fixed it was spelling out the body in Layer 3 ("a D&D bugbear,
-goblinoid, shaggy orange-brown fur, flat face, long arms") and pushing the wrong
+hooded skeleton. What fixed it was spelling out the body in Layer 3 ("D&D bugbear,
+a tall goblinoid monster with shaggy rust-orange fur, a flat nose, large pointed
+goblin ears, long thin arms reaching past the knees") and pushing the wrong
 readings away with
 `generate_npc_portrait.py --extra-negative "gorilla, ape, bear, horns, skeleton, hood"`.
 Look at the whole batch before showing it to the DM, and change one thing at a time
