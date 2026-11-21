@@ -86,6 +86,34 @@ asking for "interesting details" in each one. The negative prompt already reject
 angled views, parchment, borders, legends and text. See `encounter-weaver/SKILL.md`
 step 9 for the batch-and-pick workflow.
 
+## Underground and indoor maps
+
+`battlemap.extra_detail` asks for trees, moss and wildflowers, so cave maps come out
+as green meadows. Learned 2026-11-19 on The Underspill. For any underground or indoor
+node, run with `--extra-detail "<cave-appropriate dressing>"` (or `""`) and
+`--extra-negative "grass, trees, plants, flowers, sky"`. Name a dark palette in the
+prompt itself ("black stone, dark wet rock").
+
+## Scene backdrops (theater of the mind)
+
+Some nodes don't need a grid: they're narrated, or the action is vertical (The
+Underspill's Node J chain climb). For those, write a **Scene Backdrop** block instead
+of a Battlemap Prompt. It's a painterly, eye-level image the DM shows in Roll20 while
+the scene plays. What worked:
+
+- A concept-art style prefix ("epic fantasy concept art matte painting, painterly
+  brushwork, dramatic moody lighting, completely empty and uninhabited") and no
+  battlemap LoRA.
+- **One focal object,** placed explicitly ("rising from the foreground to the exact
+  center of the picture"). Negate people, figures and silhouettes, or SDXL adds a
+  person.
+- SDXL can't show motion. "Rising water" needs a visible cue, like waterline marks or
+  a half-drowned marker, and even then it reads as mood, not as literal motion.
+
+`generate_battlemap.py` doesn't read Scene Backdrop blocks. See
+`tools/image-gen/README.md` ("Scene backdrops") for how they're generated, and add the
+image to `BACKDROPS` in `tools/roll20/build_maps.py`.
+
 ## Keep the prompt short — long prompts stop producing battlemaps
 
 Learned 2026-10-07 on three maps. Long Layer 3 paragraphs (60-120 words, a dozen

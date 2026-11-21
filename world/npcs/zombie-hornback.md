@@ -6,21 +6,33 @@ type: npc
 origin: merged
 tags: [undead, zombie, dinosaur, megafauna, encounter-mob, the-blue-wave]
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-20
 source: campaign-chronicle
 player_known: false
+needs_detail: true
+species: "Aether Hornback (reanimated)"
+role: "Roy Teasdale's raised dinosaur herd in The Blue Wave"
+faction: null
+status: unknown
+first_seen: 10
 image: assets/images/npcs/zombie-hornback.png
 ---
 
 # Zombie Hornback
 
+## Description
+
 Reanimated Aether Hornbacks scavenged by [Roy Teasdale](roy-teasdale.md) from a dead herd.
 Same body — four thick legs, bony frill, forward-curved brow horns, ridge of armor plates —
 but the violet shimmer is gone, the hide is sloughing in grey-green patches, and they move wrong.
 
-See stat block in [The Blue Wave](../../encounters/the-blue-wave.md) (Node C, Combat Notes).
+## What the Party Knows
+
+Roy raised them from the spillway graveyards during [Session 10](../../sessions/10-the-wall-of-water.md).
 
 ## DM Only
+
+Stat block: [The Blue Wave](../../encounters/the-blue-wave.md) (Node C, Combat Notes).
 
 **Token Prompt.** Glitch-Corrupted Render, Earth palette (rot-grey and necrotic green), per
 `.claude/skills/campaign-chronicle/references/monster-art-style.md`.

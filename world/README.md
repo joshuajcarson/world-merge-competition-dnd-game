@@ -24,7 +24,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Wade Kessler](npcs/wade-kessler.md) — DEA agent running Bellcross's drug trade out of his own diversion cases; leader of The Circuit and the campaign's Act 1 antagonist.
 - [Sonny Trujillo](npcs/sonny-trujillo.md) — The Circuit's Radio Shack lieutenant: comms and countersurveillance. *(stub)*
 - [Patrice Odum](npcs/patrice-odum.md) — The Circuit's Orange Julius lieutenant: cash and product. *(stub)*
-- [Corey Blevins](npcs/corey-blevins.md) — Westfield Mall kid locked in a closet the night of the merge; rescued in [Mall Rats](../encounters/mall-rats.md), now living at Briarwood.
+- [Corey Blevins](npcs/corey-blevins.md) — Westfield Mall kid locked in a closet the night of the merge; rescued in [Mall Rats](../encounters/mall-rats.md), now living at Briarwood. *(stub)*
 - [Ironquill](npcs/ironquill.md) — ratkin knight who swore fealty in exchange for his people's freedom; twenty ratkin now live at Briarwood Mall.
 - [Lazare](npcs/lazare.md) — elf envoy from Scornubel; the Faerun side's actual first-contact figure. *(stub)*
 - [Miriel Ashgrove](npcs/miriel-ashgrove.md) — half-elf Deputy Registrar at Scornubel's Council Yard, holding the refugee rolls together against her own Council's mercenaries.
@@ -44,6 +44,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Prismrot](npcs/prismrot.md) — a rare, rainbow-eyed Leprechaun leader whose luck bleeds out as raw, unpredictable elemental damage. *(stub)*
 - [Vainhusk](npcs/vainhusk.md) — Chief of the Cult of the Swan; leads by having the most feathers, not the most cunning. *(stub)*
 - [Swan Cultist](npcs/swan-cultist.md) — rank-and-file Cult of the Swan orc in a coat of mixed feathers; claims the Pylon in A Glitch.
+- [The Alpha](npcs/alpha-aether-wolf.md) — leader of the Aether wolf pack Agent released at the Sweethearts of Sears pregame. *(stub)*
 - [The Hornback Bull](npcs/hornback-bull.md) — the heavy bull of the herd the Cult is steering in A Glitch.
 - [Carol](npcs/carol.md) — an Earth woman whose merge transformation went sideways at the character-select screen; found in Session 7 and now living at the mall; the party owes her the fountain, a goose toilet, and an introduction to Steve. *(stub)*
 - [Prelate Obby Windlestraw](npcs/obby-windlestraw.md) — leader of the Hush Concord; a courtly, hovering old gnome who spends the Prince of Air's breath.
@@ -55,6 +56,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Steve](npcs/steve.md) — Dallas Tiffany's salesman, notorious for cheating on his wife; the introduction Carol wants. *(stub)*
 - [Anthony](npcs/anthony.md) — a Cult of the Swan cultist who lost a dance-off and asked to join the Way of the Gander alongside Vainhusk. *(stub)*
 - [Roy Teasdale](npcs/roy-teasdale.md) — "The Adjustor," a former insurance adjustor still furious about the 1992 election, who raises zombie dinosaurs for Agent. *(stub)*
+- [Zombie Hornback](npcs/zombie-hornback.md) — Aether Hornbacks Roy raised from the spillway graveyards. *(stub)*
 - [Gemified Thrall](npcs/gemified-thrall.md) — gem-studded locals of the Underdark, hostile to the ungemified.
 - [Bar-Bar Brute](npcs/bar-bar-brute.md) — rank-and-file bugbear of the Bar Bar Clan.
 - [Big Bar-Bar](npcs/big-bar-bar.md) — the clan's undefeated war-chief, 20 feet of reach.
@@ -70,8 +72,8 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [The Mattress King](places/mattress-king.md) — the mall store where the party sleeps. *(stub)*
 - [Fearus Dungeon](places/fearus-dungeon.md) — a gem-choked jungle beyond a Chess World portal, duergar forcing captives to consume corrupting red gems. *(stub)*
 - [The Flood Stage](places/the-flood-stage.md) — a purpose-built arena Agent assembled for the Color Game, flooded on cue; contestants pulled straight out of Briarwood Mall to fill it. *(stub)*
-- [Cimarron Flats](places/cimarron-flats.md) — a Dust Bowl plain from an earlier cohort; the Blood Bowl's first territory. *(stub)*
-- [The Verdigris Clearing](places/verdigris-clearing.md) — a rainforest clearing held by the Dartwood Court; a Blood Bowl territory. *(stub)*
+- [Cimarron Flats](places/cimarron-flats.md) — a Dust Bowl plain from an earlier cohort; the Blood Bowl's first territory.
+- [The Verdigris Clearing](places/verdigris-clearing.md) — a rainforest clearing held by the Dartwood Court; a Blood Bowl territory.
 - [The Preening Grounds](places/the-preening-grounds.md) — a Faerun wetland fragment claimed by the Cult of the Swan, now raided by Aether Leprechauns and cracking apart under a rising quake. *(stub)*
 - [Featherline Flats](places/featherline-flats.md) — a Blood Bowl Act Two hex that reuses the Cimarron Flats map for a distinct location; won from the Cult of the Swan in Session 9. *(stub)*
 - [The Spillway Valley](places/the-spillway-valley.md) — a grassland valley west of the shed, with a river and a distant dam; not a Blood Bowl Holding. *(stub)*
@@ -90,7 +92,7 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [The Hush Concord](factions/the-hush-concord.md) — gnomes from a Faerûn the Prince of Evil Air conquered; crowd favorites who spend borrowed breath as a weapon; Briarwood's demerit.
 - [The Black Sunday Kin](factions/black-sunday-kin.md) — Dust Bowl jackalope-folk who hold Cimarron Flats. *(stub)*
 - [The Dartwood Court](factions/dartwood-court.md) — poison-frog court of a fantasy rainforest. *(stub)*
-- [The Bar Bar Clan](factions/bar-bar-clan.md) — undefeated crowd-favorite bugbears, every one named Bar-Bar: huge reach, won't stay down, volunteer for every Blood Bowl. First seen in The Underspill.
+- [The Bar Bar Clan](factions/bar-bar-clan.md) — undefeated crowd-favorite bugbears, every one named Bar-Bar: huge reach, won't stay down, volunteer for every Blood Bowl. First seen in The Underspill. *(stub)*
 - [The Cult of the Swan](factions/cult-of-the-swan.md) — an orc tribe that broke from Gruumsh to devote itself to beauty (mostly feathers) and can't reliably tell a swan from anything else with wings. *(stub)*
 
 ## Lore
@@ -108,8 +110,9 @@ Worldbuilding notes for the 23rd Cohort of the World Merge Competition.
 - [Warrenwrights](races/warrenwrights.md) — Aether-native beaver/prairie-dog colony builders that ground ambient energy through terraforming, wherever the merge drops them.
 - [Swanfolk](races/swanfolk.md) — Faerun swanmays fused mid-transformation with a Bellcross park's ordinary swans; territorial guardians of the Drowned Chantry.
 - [Hushbound Gnomes](races/hushbound-gnomes.md) — gnomes of the Prince of Evil Air's Faerûn, who tithe breath and spend it as force.
+- [Aether Wolves](races/aether-wolves.md) — Aether pack hunters; the pack at the Sweethearts of Sears pregame.
 - [Sextonbacks](races/sextonbacks.md) — huge, docile Aether undertakers that eat the dead.
-- [Aether Leprechauns](races/aether-leprechauns.md) — a small, wiry, gold-obsessed Aether-native population raiding merge fragments in loose bands called "Lucks." *(stub)*
+- [Aether Leprechauns](races/aether-leprechauns.md) — a small, wiry, gold-obsessed Aether-native population raiding merge fragments in loose bands called "Lucks."
 - [Aether Hornbacks](races/aether-hornbacks.md) — dinosaur-sized armored Aether grazers that travel in herds, follow the most beautiful bird in sight, and charge. Cult of the Swan steers one in Session 9.
 
 ---
